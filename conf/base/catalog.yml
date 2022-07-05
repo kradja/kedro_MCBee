@@ -10,3 +10,13 @@ data_processing.gff_files:
 data_processing.fasta_files:
     type: text.TextDataSet
     filepath: data/02_intermediate/fasta_files.csv
+
+data_processing.gff_df:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/prokka_gff.csv
+    layer: raw
+
+data_processing.prokka_bins:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/unique_prokka_bins.csv
+    layer: raw

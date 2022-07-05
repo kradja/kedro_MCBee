@@ -1,31 +1,28 @@
+from Bio import SeqIO
 import os
-import re
+import itertools
 import pdb
+import pandas as pd
+import glob
+import re
+import subprocess
 from typing import Dict, Tuple, List
 from kedro.extras.datasets.biosequence import BioSequenceDataSet
-from kedro.extras.datasets.text import TextDataSet
-import pandas as pd
-#from kedro.extras.datasets.pandas import CSVDataSet
 
-def walkthrough_prokka_bins(prokka_dir: str, gff_dir: str, fasta_dir: str) -> [TextDataSet, TextDataSet]:
+def walkthrough_prokka_bins(prokka_dir: str) -> [List[str], List[str]]:
     gff_files = []
     fasta_files = []
     for root, dirs, files in os.walk(prokka_dir): # Each bin in each experimental type
         for name in files:
             if name.endswith('gff'): # Main file containing annotations
                 gff_files.append(os.path.join(root,name))
-                fasta_files.append(os.path.join(root,name[:name.rfind('.')] +'.faa')) 
-    gffdataset = TextDataSet(filepath = gff_dir)
-    fastadataset = TextDataSet(filepath = fasta_dir)
+                fasta_files.append(os.path.join(root,name[:name.rfind('.')] +'.faa')) # faa file - bin
+    return gff_files, fasta_files
 
-    gffdataset.save(','.join(gff_files))
-    fastadataset.save(','.join(fasta_files))
-    return gffdataset, fastadataset
-
-def parse_gff(gff_files: TextDataSet) -> [pd.DataFrame, pd.DataFrame]: 
+def parse_gff(gff_files: List[str]) -> [List[List[str]], Dict]:
     gff_cont = []
     unique_prokka_id = {}
-    for gff in gff_files.load().split(','):
+    for gff in gff_files:
         with open(gff) as f:
             for line in f:
                 if 'ID=' in line:
@@ -59,18 +56,17 @@ def parse_gff(gff_files: TextDataSet) -> [pd.DataFrame, pd.DataFrame]:
                     break
                 else:
                     continue
-    return pd.DataFrame(gff_cont,columns=['scaffold','gid','annot','ainfo','gene']), pd.DataFrame(unique_prokka_id.items())
+    return gff_cont, unique_prokka_id
 
-def _merge_fasta_files(fasta_files: TextDataSet, inter_data: str) -> str:
+def _merge_fasta_files(fasta_files: List[str], inter_data: str) -> str:
     merged_file = os.path.join(inter_data,'merged_prokka_bins.fasta')
     if not glob.glob(merged_file):
-        tmp = fasta_files.load()
-        cmd = f"cat {tmp.replace(',',' ')} > {merged_file}"
+        cmd = f"cat {' '.join(fasta_files)} > {merged_file}"
         _ = subprocess.run(cmd,shell=True)
         print(cmd)
     return merged_file
 
-def parse_write_unique_fasta(fasta_files: TextDataSet, inter_data: str) -> [BioSequenceDataSet,Dict]:
+def parse_write_unique_fasta(fasta_files: List[str], inter_data: str) -> [BioSequenceDataSet,Dict]:
     merged_file = _merge_fasta_files(fasta_files, inter_data)
     unique_merged = {}
     merged_ids = set()

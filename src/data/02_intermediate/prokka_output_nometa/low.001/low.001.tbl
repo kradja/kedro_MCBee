@@ -1,0 +1,3023 @@
+>Feature scaffold_384
+2683	2880	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00001
+			product	hypothetical protein
+4463	4699	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00002
+			product	hypothetical protein
+5447	5274	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00003
+			product	hypothetical protein
+8409	8594	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00004
+			product	hypothetical protein
+8729	8995	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00005
+			product	hypothetical protein
+9863	10114	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00006
+			product	hypothetical protein
+10683	10904	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00007
+			product	hypothetical protein
+12124	11876	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00008
+			product	hypothetical protein
+>Feature scaffold_625
+2331	2110	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00009
+			product	hypothetical protein
+3505	3858	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00010
+			product	hypothetical protein
+4281	4436	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00011
+			product	hypothetical protein
+5586	6059	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00012
+			product	hypothetical protein
+6064	6288	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00013
+			product	hypothetical protein
+6307	6504	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00014
+			product	hypothetical protein
+6504	6605	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00015
+			product	hypothetical protein
+6605	6811	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00016
+			product	hypothetical protein
+6886	7329	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00017
+			product	hypothetical protein
+8198	8353	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00018
+			product	hypothetical protein
+8353	8541	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00019
+			product	hypothetical protein
+8622	8837	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00020
+			product	hypothetical protein
+>Feature scaffold_720
+1008	1277	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00021
+			product	hypothetical protein
+2001	2108	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00022
+			product	hypothetical protein
+3847	3650	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00023
+			product	hypothetical protein
+4536	4312	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00024
+			product	hypothetical protein
+4720	4992	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00025
+			product	hypothetical protein
+5248	4904	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00026
+			product	hypothetical protein
+5469	5612	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00027
+			product	hypothetical protein
+>Feature scaffold_779
+968	1174	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00028
+			product	hypothetical protein
+1574	1720	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00029
+			product	hypothetical protein
+6743	6117	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00030
+			product	hypothetical protein
+>Feature scaffold_1058
+130	315	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00031
+			product	hypothetical protein
+422	580	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00032
+			product	hypothetical protein
+682	927	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00033
+			product	hypothetical protein
+2503	2237	CDS
+			EC_number	2.4.2.9
+			gene	upp
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P67396
+			locus_tag	HIPDJCPK_00034
+			product	Uracil phosphoribosyltransferase
+3502	3155	CDS
+			EC_number	2.7.1.48
+			gene	udk
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00551
+			locus_tag	HIPDJCPK_00035
+			product	Uridine kinase
+3660	3499	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00036
+			product	hypothetical protein
+4787	4626	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00037
+			product	hypothetical protein
+>Feature scaffold_1324
+837	1016	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00038
+			product	hypothetical protein
+1400	1116	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00039
+			product	hypothetical protein
+1795	1646	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00040
+			product	hypothetical protein
+2740	2417	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00041
+			product	hypothetical protein
+3974	3792	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00042
+			product	hypothetical protein
+4505	4317	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00043
+			product	hypothetical protein
+5515	5865	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00044
+			product	hypothetical protein
+5997	5782	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00045
+			product	hypothetical protein
+>Feature scaffold_1425
+1262	912	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00046
+			product	hypothetical protein
+1589	1452	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00047
+			product	hypothetical protein
+1753	2064	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00048
+			product	hypothetical protein
+3842	3645	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00049
+			product	hypothetical protein
+>Feature scaffold_1442
+2396	2665	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00050
+			product	hypothetical protein
+4618	4403	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00051
+			product	hypothetical protein
+>Feature scaffold_1505
+272	33	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00052
+			product	hypothetical protein
+353	568	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00053
+			product	hypothetical protein
+565	696	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00054
+			product	hypothetical protein
+1020	718	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00055
+			product	hypothetical protein
+1093	1335	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00056
+			product	hypothetical protein
+1749	1339	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00057
+			product	hypothetical protein
+1860	2180	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00058
+			product	hypothetical protein
+2443	2715	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00059
+			product	hypothetical protein
+2957	2622	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00060
+			product	hypothetical protein
+3142	3474	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00061
+			product	hypothetical protein
+3787	3356	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00062
+			product	hypothetical protein
+4392	3760	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00063
+			product	hypothetical protein
+>Feature scaffold_1524
+5054	4920	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00064
+			product	hypothetical protein
+>Feature scaffold_1544
+1988	1707	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00065
+			product	hypothetical protein
+3302	2991	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00066
+			product	hypothetical protein
+4647	4210	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00067
+			product	hypothetical protein
+>Feature scaffold_1667
+105	368	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00068
+			product	hypothetical protein
+554	312	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00069
+			product	hypothetical protein
+3138	3353	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00070
+			product	hypothetical protein
+3780	3547	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00071
+			product	hypothetical protein
+>Feature scaffold_1741
+2618	2424	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00072
+			product	hypothetical protein
+2633	2890	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00073
+			product	hypothetical protein
+3791	4216	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00074
+			product	hypothetical protein
+>Feature scaffold_1750
+51	317	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00075
+			product	hypothetical protein
+560	1150	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00076
+			product	hypothetical protein
+1332	1838	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00077
+			product	hypothetical protein
+2173	2000	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00078
+			product	hypothetical protein
+3148	2903	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00079
+			product	hypothetical protein
+3456	3301	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00080
+			product	hypothetical protein
+3623	3456	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00081
+			product	hypothetical protein
+4203	4006	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00082
+			product	hypothetical protein
+>Feature scaffold_1775
+1623	1369	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00083
+			product	hypothetical protein
+>Feature scaffold_1862
+>Feature scaffold_1897
+67	756	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00084
+			product	hypothetical protein
+833	1738	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00085
+			product	hypothetical protein
+>Feature scaffold_1975
+249	554	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00086
+			product	hypothetical protein
+584	904	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00087
+			product	hypothetical protein
+1032	1208	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00088
+			product	hypothetical protein
+1595	1852	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00089
+			product	hypothetical protein
+1852	2097	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00090
+			product	hypothetical protein
+2297	2638	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00091
+			product	hypothetical protein
+4694	4906	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00092
+			product	hypothetical protein
+>Feature scaffold_2010
+4236	3895	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00093
+			product	hypothetical protein
+5229	5384	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00094
+			product	hypothetical protein
+>Feature scaffold_2065
+1229	1068	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00095
+			product	hypothetical protein
+1313	1633	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00096
+			product	hypothetical protein
+2990	2754	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00097
+			product	hypothetical protein
+>Feature scaffold_2134
+626	360	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00098
+			product	hypothetical protein
+1826	1590	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00099
+			product	hypothetical protein
+3411	3103	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00100
+			product	hypothetical protein
+>Feature scaffold_2352
+>Feature scaffold_2395
+990	1331	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00101
+			product	hypothetical protein
+1334	1750	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00102
+			product	hypothetical protein
+1910	1617	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00103
+			product	hypothetical protein
+1922	2434	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00104
+			product	hypothetical protein
+3348	3103	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00105
+			product	hypothetical protein
+>Feature scaffold_2472
+1108	1839	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00106
+			product	hypothetical protein
+1937	2293	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00107
+			product	hypothetical protein
+2379	2687	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00108
+			product	hypothetical protein
+>Feature scaffold_2511
+466	122	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00109
+			product	hypothetical protein
+2170	1877	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00110
+			product	hypothetical protein
+2512	2838	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00111
+			product	hypothetical protein
+3006	2857	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00112
+			product	hypothetical protein
+3257	3006	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00113
+			product	hypothetical protein
+>Feature scaffold_2560
+208	498	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00114
+			product	hypothetical protein
+2467	1997	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00115
+			product	hypothetical protein
+3019	3321	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00116
+			product	hypothetical protein
+3263	3583	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00117
+			product	hypothetical protein
+5699	5499	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00118
+			product	hypothetical protein
+5782	6261	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00119
+			product	hypothetical protein
+7538	7335	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00120
+			product	hypothetical protein
+>Feature scaffold_2672
+51	275	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00121
+			product	hypothetical protein
+2200	2036	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00122
+			product	hypothetical protein
+2332	2583	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00123
+			product	hypothetical protein
+2620	2916	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00124
+			product	hypothetical protein
+3487	3317	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00125
+			product	hypothetical protein
+3975	3577	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00126
+			product	hypothetical protein
+4121	3954	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00127
+			product	hypothetical protein
+4273	4118	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00128
+			product	hypothetical protein
+>Feature scaffold_2722
+105	371	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00129
+			product	hypothetical protein
+313	750	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00130
+			product	hypothetical protein
+876	1241	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00131
+			product	hypothetical protein
+1381	1127	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00132
+			product	hypothetical protein
+2134	1415	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00133
+			product	hypothetical protein
+2291	2587	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00134
+			product	hypothetical protein
+2548	2856	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00135
+			product	hypothetical protein
+>Feature scaffold_2739
+145	402	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00136
+			product	hypothetical protein
+1158	946	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00137
+			product	hypothetical protein
+1583	1395	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00138
+			product	hypothetical protein
+1827	1958	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00139
+			product	hypothetical protein
+>Feature scaffold_2762
+835	1134	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00140
+			product	hypothetical protein
+1607	1302	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00141
+			product	hypothetical protein
+2711	2878	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00142
+			product	hypothetical protein
+>Feature scaffold_2843
+>Feature scaffold_2851
+837	1157	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00143
+			product	hypothetical protein
+1846	2262	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00144
+			product	hypothetical protein
+2216	2488	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00145
+			product	hypothetical protein
+>Feature scaffold_2865
+98	214	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00146
+			product	hypothetical protein
+>Feature scaffold_2904
+1588	1259	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00147
+			product	hypothetical protein
+1745	1942	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00148
+			product	hypothetical protein
+1920	2060	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00149
+			product	hypothetical protein
+2468	2653	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00150
+			product	hypothetical protein
+3136	3792	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00151
+			product	hypothetical protein
+3942	3754	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00152
+			product	hypothetical protein
+4187	4426	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00153
+			product	hypothetical protein
+4945	4436	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00154
+			product	hypothetical protein
+5268	4993	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00155
+			product	hypothetical protein
+>Feature scaffold_2916
+305	78	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00156
+			product	hypothetical protein
+440	637	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00157
+			product	hypothetical protein
+1213	1440	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00158
+			product	hypothetical protein
+1733	1476	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00159
+			product	hypothetical protein
+2050	1721	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00160
+			product	hypothetical protein
+2491	2709	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00161
+			product	hypothetical protein
+>Feature scaffold_3172
+2214	799	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00162
+			product	hypothetical protein
+>Feature scaffold_3205
+1085	918	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00163
+			product	hypothetical protein
+>Feature scaffold_3206
+1257	940	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00164
+			product	hypothetical protein
+2402	2202	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00165
+			product	hypothetical protein
+>Feature scaffold_3313
+806	1513	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00166
+			product	hypothetical protein
+1799	1608	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00167
+			product	hypothetical protein
+2195	1953	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00168
+			product	hypothetical protein
+>Feature scaffold_3348
+593	72	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00169
+			product	hypothetical protein
+742	596	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00170
+			product	hypothetical protein
+2458	2273	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00171
+			product	hypothetical protein
+3350	3114	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00172
+			product	hypothetical protein
+3619	3350	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00173
+			product	hypothetical protein
+3983	3753	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00174
+			product	hypothetical protein
+>Feature scaffold_3361
+1241	1477	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00175
+			product	hypothetical protein
+>Feature scaffold_3480
+23	658	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00176
+			product	hypothetical protein
+1339	2115	CDS
+			EC_number	3.1.21.-
+			db_xref	COG:COG2356
+			gene	nucM
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37994
+			locus_tag	HIPDJCPK_00177
+			product	Nuclease NucM
+2554	2213	CDS
+			EC_number	3.4.21.-
+			db_xref	COG:COG1974
+			gene	umuD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AG11
+			locus_tag	HIPDJCPK_00178
+			product	Protein UmuD
+>Feature scaffold_3553
+133	390	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00179
+			product	hypothetical protein
+469	600	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00180
+			product	hypothetical protein
+1553	1699	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00181
+			product	hypothetical protein
+1906	1751	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00182
+			product	hypothetical protein
+2336	2503	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00183
+			product	hypothetical protein
+>Feature scaffold_3589
+704	426	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00184
+			product	hypothetical protein
+1063	731	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00185
+			product	hypothetical protein
+1355	1218	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00186
+			product	hypothetical protein
+1731	2045	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00187
+			product	hypothetical protein
+2036	2185	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00188
+			product	hypothetical protein
+2243	2422	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00189
+			product	hypothetical protein
+>Feature scaffold_3648
+2319	2044	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00190
+			product	hypothetical protein
+>Feature scaffold_3653
+226	447	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00191
+			product	hypothetical protein
+1362	1667	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00192
+			product	hypothetical protein
+2545	2102	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00193
+			product	hypothetical protein
+>Feature scaffold_3695
+830	621	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00194
+			product	hypothetical protein
+1250	1387	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00195
+			product	hypothetical protein
+>Feature scaffold_3745
+>Feature scaffold_3760
+189	1	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00196
+			product	hypothetical protein
+617	447	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00197
+			product	hypothetical protein
+1581	1718	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00198
+			product	hypothetical protein
+1892	1653	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00199
+			product	hypothetical protein
+>Feature scaffold_3773
+283	615	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00200
+			product	hypothetical protein
+889	1086	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00201
+			product	hypothetical protein
+1272	1069	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00202
+			product	hypothetical protein
+1807	1346	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00203
+			product	hypothetical protein
+2040	1756	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00204
+			product	hypothetical protein
+2155	2361	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00205
+			product	hypothetical protein
+>Feature scaffold_3774
+2292	2110	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00206
+			product	hypothetical protein
+>Feature scaffold_3806
+>Feature scaffold_3840
+46	363	CDS
+			db_xref	COG:COG2274
+			gene	hlyB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08716
+			locus_tag	HIPDJCPK_00207
+			product	Alpha-hemolysin translocation ATP-binding protein HlyB
+622	549	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	HIPDJCPK_00208
+			product	tRNA-Arg(cct)
+1689	805	CDS
+			gene	gltC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20668
+			locus_tag	HIPDJCPK_00209
+			product	HTH-type transcriptional regulator GltC
+>Feature scaffold_3893
+52	1221	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00210
+			product	hypothetical protein
+>Feature scaffold_3914
+1965	1864	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00211
+			product	hypothetical protein
+2061	2285	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00212
+			product	hypothetical protein
+>Feature scaffold_4022
+662	1159	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00213
+			product	hypothetical protein
+>Feature scaffold_4038
+>Feature scaffold_4073
+696	923	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00214
+			product	hypothetical protein
+>Feature scaffold_4078
+94	300	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00215
+			product	hypothetical protein
+1114	836	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00216
+			product	hypothetical protein
+2126	1968	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00217
+			product	hypothetical protein
+>Feature scaffold_4087
+13	702	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00218
+			product	hypothetical protein
+749	2614	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00219
+			product	hypothetical protein
+2786	2637	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00220
+			product	hypothetical protein
+>Feature scaffold_4101
+2656	2465	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00221
+			product	hypothetical protein
+>Feature scaffold_4134
+931	1191	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00222
+			product	hypothetical protein
+2027	2227	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00223
+			product	hypothetical protein
+>Feature scaffold_4153
+172	333	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00224
+			product	hypothetical protein
+315	494	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00225
+			product	hypothetical protein
+691	975	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00226
+			product	hypothetical protein
+1130	1348	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00227
+			product	hypothetical protein
+1345	1482	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00228
+			product	hypothetical protein
+1838	2167	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00229
+			product	hypothetical protein
+>Feature scaffold_4161
+107	340	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00230
+			product	hypothetical protein
+940	302	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00231
+			product	hypothetical protein
+1241	987	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00232
+			product	hypothetical protein
+1809	1228	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00233
+			product	hypothetical protein
+2141	1851	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00234
+			product	hypothetical protein
+>Feature scaffold_4166
+2095	221	CDS
+			EC_number	3.6.4.12
+			gene	rep
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01920
+			locus_tag	HIPDJCPK_00235
+			product	ATP-dependent DNA helicase Rep
+>Feature scaffold_4195
+414	644	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00236
+			product	hypothetical protein
+1222	1500	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00237
+			product	hypothetical protein
+1784	1590	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00238
+			product	hypothetical protein
+1799	1951	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00239
+			product	hypothetical protein
+2106	2258	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00240
+			product	hypothetical protein
+>Feature scaffold_4218
+824	669	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00241
+			product	hypothetical protein
+1307	969	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00242
+			product	hypothetical protein
+1656	2117	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00243
+			product	hypothetical protein
+>Feature scaffold_4325
+183	4	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00244
+			product	hypothetical protein
+>Feature scaffold_4366
+368	108	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00245
+			product	hypothetical protein
+2090	1860	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00246
+			product	hypothetical protein
+>Feature scaffold_4407
+1785	1612	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00247
+			product	hypothetical protein
+2062	1754	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00248
+			product	hypothetical protein
+>Feature scaffold_4427
+1088	753	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00249
+			product	hypothetical protein
+1244	1519	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00250
+			product	hypothetical protein
+1565	1948	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00251
+			product	hypothetical protein
+1991	2299	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00252
+			product	hypothetical protein
+2450	2205	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00253
+			product	hypothetical protein
+2807	2472	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00254
+			product	hypothetical protein
+>Feature scaffold_4439
+1442	1900	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00255
+			product	hypothetical protein
+2114	1848	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00256
+			product	hypothetical protein
+>Feature scaffold_4510
+>Feature scaffold_4528
+723	448	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00257
+			product	hypothetical protein
+1790	1512	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00258
+			product	hypothetical protein
+2522	2731	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00259
+			product	hypothetical protein
+>Feature scaffold_4529
+939	481	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00260
+			product	hypothetical protein
+1730	1416	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00261
+			product	hypothetical protein
+>Feature scaffold_4548
+703	473	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00262
+			product	hypothetical protein
+2530	2859	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00263
+			product	hypothetical protein
+2817	3023	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00264
+			product	hypothetical protein
+>Feature scaffold_4587
+2045	1359	CDS
+			EC_number	2.1.1.-
+			db_xref	COG:COG1720
+			gene	trmO
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P28634
+			locus_tag	HIPDJCPK_00265
+			product	tRNA (adenine(37)-N6)-methyltransferase
+>Feature scaffold_4602
+493	236	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00266
+			product	hypothetical protein
+1104	913	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00267
+			product	hypothetical protein
+>Feature scaffold_4677
+676	921	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00268
+			product	hypothetical protein
+>Feature scaffold_4751
+1314	1069	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00269
+			product	hypothetical protein
+>Feature scaffold_4760
+42	281	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00270
+			product	hypothetical protein
+766	557	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00271
+			product	hypothetical protein
+1487	891	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00272
+			product	hypothetical protein
+1996	1496	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00273
+			product	hypothetical protein
+>Feature scaffold_4836
+1970	1404	CDS
+			EC_number	4.1.1.20
+			db_xref	COG:COG0019
+			gene	lysA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O67262
+			locus_tag	HIPDJCPK_00274
+			product	Diaminopimelate decarboxylase
+>Feature scaffold_4877
+242	33	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00275
+			product	hypothetical protein
+699	833	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00276
+			product	hypothetical protein
+>Feature scaffold_4898
+568	738	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00277
+			product	hypothetical protein
+1367	1585	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00278
+			product	hypothetical protein
+>Feature scaffold_4956
+268	62	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00279
+			product	hypothetical protein
+808	575	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00280
+			product	hypothetical protein
+>Feature scaffold_4959
+1208	1438	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00281
+			product	hypothetical protein
+>Feature scaffold_5004
+182	385	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00282
+			product	hypothetical protein
+514	293	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00283
+			product	hypothetical protein
+1533	853	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00284
+			product	hypothetical protein
+1906	2187	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00285
+			product	hypothetical protein
+>Feature scaffold_5123
+1895	204	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00286
+			product	hypothetical protein
+>Feature scaffold_5166
+108	311	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00287
+			product	hypothetical protein
+652	852	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00288
+			product	hypothetical protein
+1143	1310	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00289
+			product	hypothetical protein
+1769	1500	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00290
+			product	hypothetical protein
+>Feature scaffold_5275
+>Feature scaffold_5307
+740	309	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00291
+			product	hypothetical protein
+1517	1807	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00292
+			product	hypothetical protein
+>Feature scaffold_5385
+508	134	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00293
+			product	hypothetical protein
+680	1009	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00294
+			product	hypothetical protein
+1018	1335	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00295
+			product	hypothetical protein
+>Feature scaffold_5421
+2	319	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00296
+			product	hypothetical protein
+325	624	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00297
+			product	hypothetical protein
+652	897	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00298
+			product	hypothetical protein
+>Feature scaffold_5440
+>Feature scaffold_5502
+>Feature scaffold_5545
+1776	1675	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00299
+			product	hypothetical protein
+>Feature scaffold_5664
+998	1258	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00300
+			product	hypothetical protein
+1464	1607	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00301
+			product	hypothetical protein
+>Feature scaffold_5730
+510	268	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00302
+			product	hypothetical protein
+1081	896	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00303
+			product	hypothetical protein
+>Feature scaffold_5774
+63	290	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00304
+			product	hypothetical protein
+1319	975	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00305
+			product	hypothetical protein
+1332	1517	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00306
+			product	hypothetical protein
+>Feature scaffold_5811
+29	775	CDS
+			db_xref	COG:COG1186
+			gene	prfB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07012
+			locus_tag	HIPDJCPK_00307
+			product	Peptide chain release factor RF2
+835	1656	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00308
+			product	hypothetical protein
+>Feature scaffold_5897
+128	496	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00309
+			product	hypothetical protein
+1166	924	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00310
+			product	hypothetical protein
+1793	1227	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00311
+			product	hypothetical protein
+>Feature scaffold_5913
+>Feature scaffold_5915
+1281	1048	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00312
+			product	hypothetical protein
+>Feature scaffold_5952
+1373	1107	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00313
+			product	hypothetical protein
+>Feature scaffold_5956
+1185	1373	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00314
+			product	hypothetical protein
+>Feature scaffold_5991
+1120	899	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00315
+			product	hypothetical protein
+>Feature scaffold_6034
+769	560	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00316
+			product	hypothetical protein
+1856	1518	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00317
+			product	hypothetical protein
+2671	2859	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00318
+			product	hypothetical protein
+>Feature scaffold_6050
+245	433	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00319
+			product	hypothetical protein
+1180	1512	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00320
+			product	hypothetical protein
+>Feature scaffold_6089
+976	674	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00321
+			product	hypothetical protein
+>Feature scaffold_6120
+1392	1592	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00322
+			product	hypothetical protein
+>Feature scaffold_6123
+>Feature scaffold_6191
+>Feature scaffold_6229
+1589	429	CDS
+			EC_number	4.2.2.-
+			db_xref	COG:COG0741
+			gene	mltC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0C066
+			locus_tag	HIPDJCPK_00323
+			product	Membrane-bound lytic murein transglycosylase C
+>Feature scaffold_6262
+1109	849	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00324
+			product	hypothetical protein
+>Feature scaffold_6263
+1150	869	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00325
+			product	hypothetical protein
+1557	1150	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00326
+			product	hypothetical protein
+>Feature scaffold_6272
+842	1249	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00327
+			product	hypothetical protein
+>Feature scaffold_6281
+>Feature scaffold_6357
+825	571	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00328
+			product	hypothetical protein
+1715	1440	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00329
+			product	hypothetical protein
+>Feature scaffold_6435
+341	87	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00330
+			product	hypothetical protein
+595	422	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00331
+			product	hypothetical protein
+864	595	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00332
+			product	hypothetical protein
+1377	1012	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00333
+			product	hypothetical protein
+>Feature scaffold_6475
+158	18	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00334
+			product	hypothetical protein
+1041	853	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00335
+			product	hypothetical protein
+>Feature scaffold_6487
+894	1112	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00336
+			product	hypothetical protein
+1444	1632	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00337
+			product	hypothetical protein
+1884	1606	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00338
+			product	hypothetical protein
+>Feature scaffold_6503
+>Feature scaffold_6544
+564	998	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00339
+			product	hypothetical protein
+1573	1256	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00340
+			product	hypothetical protein
+>Feature scaffold_6590
+312	608	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00341
+			product	hypothetical protein
+>Feature scaffold_6611
+816	364	CDS
+			db_xref	COG:COG0735
+			gene	fur
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37736
+			locus_tag	HIPDJCPK_00342
+			product	Ferric uptake regulation protein
+1402	1193	CDS
+			db_xref	COG:COG0716
+			gene	fldA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O07026
+			locus_tag	HIPDJCPK_00343
+			product	Flavodoxin
+>Feature scaffold_6652
+655	443	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00344
+			product	hypothetical protein
+1808	2002	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00345
+			product	hypothetical protein
+>Feature scaffold_6659
+>Feature scaffold_6733
+33	215	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00346
+			product	hypothetical protein
+215	346	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00347
+			product	hypothetical protein
+364	642	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00348
+			product	hypothetical protein
+964	659	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00349
+			product	hypothetical protein
+1403	1062	CDS
+			EC_number	3.1.11.2
+			db_xref	COG:COG0708
+			gene	xthA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P09030
+			locus_tag	HIPDJCPK_00350
+			product	Exodeoxyribonuclease III
+>Feature scaffold_6831
+43	501	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00351
+			product	hypothetical protein
+565	753	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00352
+			product	hypothetical protein
+731	937	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00353
+			product	hypothetical protein
+>Feature scaffold_6861
+34	543	CDS
+			EC_number	2.1.1.199
+			db_xref	COG:COG0275
+			gene	rsmH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45057
+			locus_tag	HIPDJCPK_00354
+			product	Ribosomal RNA small subunit methyltransferase H
+568	840	CDS
+			gene	ftsL
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00910
+			locus_tag	HIPDJCPK_00355
+			product	Cell division protein FtsL
+>Feature scaffold_6871
+>Feature scaffold_6894
+849	1016	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00356
+			product	hypothetical protein
+2439	2242	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00357
+			product	hypothetical protein
+>Feature scaffold_6895
+66	1004	CDS
+			EC_number	2.7.7.7
+			db_xref	COG:COG0389
+			gene	dinB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q47155
+			locus_tag	HIPDJCPK_00358
+			product	DNA polymerase IV
+>Feature scaffold_6942
+455	333	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00359
+			product	hypothetical protein
+709	452	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00360
+			product	hypothetical protein
+>Feature scaffold_6960
+60	617	CDS
+			db_xref	COG:COG0233
+			gene	frr
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8GRF5
+			locus_tag	HIPDJCPK_00361
+			product	Ribosome-recycling factor
+646	1395	CDS
+			EC_number	2.5.1.31
+			db_xref	COG:COG0020
+			gene	ispU
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P60472
+			locus_tag	HIPDJCPK_00362
+			product	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific)
+>Feature scaffold_7001
+577	26	CDS
+			EC_number	3.1.-.-
+			db_xref	COG:COG1949
+			gene	orn
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A784
+			locus_tag	HIPDJCPK_00363
+			product	Oligoribonuclease
+>Feature scaffold_7033
+606	872	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00364
+			product	hypothetical protein
+>Feature scaffold_7074
+1046	777	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00365
+			product	hypothetical protein
+>Feature scaffold_7110
+299	84	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00366
+			product	hypothetical protein
+>Feature scaffold_7124
+310	831	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00367
+			product	hypothetical protein
+>Feature scaffold_7172
+>Feature scaffold_7188
+311	754	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00368
+			product	hypothetical protein
+1128	1574	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00369
+			product	hypothetical protein
+1638	2081	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00370
+			product	hypothetical protein
+>Feature scaffold_7191
+306	37	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00371
+			product	hypothetical protein
+586	278	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00372
+			product	hypothetical protein
+724	593	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00373
+			product	hypothetical protein
+>Feature scaffold_7198
+531	818	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00374
+			product	hypothetical protein
+>Feature scaffold_7218
+>Feature scaffold_7228
+861	1019	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00375
+			product	hypothetical protein
+1047	1517	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00376
+			product	hypothetical protein
+2544	2350	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00377
+			product	hypothetical protein
+>Feature scaffold_7244
+336	551	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00378
+			product	hypothetical protein
+1281	1033	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00379
+			product	hypothetical protein
+>Feature scaffold_7314
+336	551	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00380
+			product	hypothetical protein
+>Feature scaffold_7318
+149	454	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00381
+			product	hypothetical protein
+729	1100	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00382
+			product	hypothetical protein
+>Feature scaffold_7449
+243	479	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00383
+			product	hypothetical protein
+812	519	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00384
+			product	hypothetical protein
+966	1226	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00385
+			product	hypothetical protein
+1242	1391	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00386
+			product	hypothetical protein
+>Feature scaffold_7483
+709	338	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00387
+			product	hypothetical protein
+1317	784	CDS
+			EC_number	1.1.1.301
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8KQL2
+			locus_tag	HIPDJCPK_00388
+			product	D-arabitol-phosphate dehydrogenase
+>Feature scaffold_7507
+1027	1200	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00389
+			product	hypothetical protein
+>Feature scaffold_7517
+>Feature scaffold_7532
+>Feature scaffold_7556
+807	559	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00390
+			product	hypothetical protein
+>Feature scaffold_7646
+>Feature scaffold_7708
+1005	1187	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00391
+			product	hypothetical protein
+2733	2924	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00392
+			product	hypothetical protein
+>Feature scaffold_7735
+504	298	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00393
+			product	hypothetical protein
+849	535	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00394
+			product	hypothetical protein
+>Feature scaffold_7765
+754	521	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00395
+			product	hypothetical protein
+>Feature scaffold_7782
+72	629	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00396
+			product	hypothetical protein
+1165	665	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00397
+			product	hypothetical protein
+>Feature scaffold_7833
+>Feature scaffold_7834
+>Feature scaffold_7844
+72	632	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00398
+			product	hypothetical protein
+1156	668	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00399
+			product	hypothetical protein
+>Feature scaffold_7867
+335	787	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00400
+			product	hypothetical protein
+>Feature scaffold_7877
+>Feature scaffold_7885
+>Feature scaffold_7886
+35	340	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00401
+			product	hypothetical protein
+899	537	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00402
+			product	hypothetical protein
+>Feature scaffold_7887
+>Feature scaffold_7911
+238	510	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00403
+			product	hypothetical protein
+500	631	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00404
+			product	hypothetical protein
+695	847	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00405
+			product	hypothetical protein
+1372	1019	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00406
+			product	hypothetical protein
+>Feature scaffold_7924
+725	300	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00407
+			product	hypothetical protein
+>Feature scaffold_7934
+741	935	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00408
+			product	hypothetical protein
+>Feature scaffold_7944
+359	102	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00409
+			product	hypothetical protein
+1323	1210	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00410
+			product	hypothetical protein
+>Feature scaffold_8047
+412	197	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00411
+			product	hypothetical protein
+>Feature scaffold_8098
+265	8	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00412
+			product	hypothetical protein
+>Feature scaffold_8109
+>Feature scaffold_8123
+435	719	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00413
+			product	hypothetical protein
+1290	988	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00414
+			product	hypothetical protein
+>Feature scaffold_8132
+331	74	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00415
+			product	hypothetical protein
+460	624	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00416
+			product	hypothetical protein
+>Feature scaffold_8166
+400	615	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00417
+			product	hypothetical protein
+>Feature scaffold_8202
+>Feature scaffold_8250
+110	385	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00418
+			product	hypothetical protein
+>Feature scaffold_8268
+640	978	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00419
+			product	hypothetical protein
+>Feature scaffold_8277
+315	121	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00420
+			product	hypothetical protein
+660	917	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00421
+			product	hypothetical protein
+1011	823	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00422
+			product	hypothetical protein
+>Feature scaffold_8311
+117	719	CDS
+			db_xref	COG:COG0598
+			gene	corA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ABI4
+			locus_tag	HIPDJCPK_00423
+			product	Magnesium transport protein CorA
+>Feature scaffold_8329
+747	989	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00424
+			product	hypothetical protein
+>Feature scaffold_8420
+>Feature scaffold_8423
+>Feature scaffold_8461
+562	311	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00425
+			product	hypothetical protein
+724	563	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00426
+			product	hypothetical protein
+>Feature scaffold_8463
+904	1074	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00427
+			product	hypothetical protein
+>Feature scaffold_8516
+666	1025	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00428
+			product	hypothetical protein
+2360	2247	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00429
+			product	hypothetical protein
+2563	2357	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00430
+			product	hypothetical protein
+>Feature scaffold_8558
+443	171	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00431
+			product	hypothetical protein
+473	832	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00432
+			product	hypothetical protein
+1159	860	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00433
+			product	hypothetical protein
+1726	1421	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00434
+			product	hypothetical protein
+1908	1681	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00435
+			product	hypothetical protein
+>Feature scaffold_8659
+40	351	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00436
+			product	hypothetical protein
+>Feature scaffold_8664
+>Feature scaffold_8762
+578	231	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00437
+			product	hypothetical protein
+1167	964	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00438
+			product	hypothetical protein
+>Feature scaffold_8789
+385	146	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00439
+			product	hypothetical protein
+1115	819	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00440
+			product	hypothetical protein
+>Feature scaffold_8841
+>Feature scaffold_8851
+96	260	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00441
+			product	hypothetical protein
+1223	642	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00442
+			product	hypothetical protein
+>Feature scaffold_8877
+>Feature scaffold_8892
+25	231	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00443
+			product	hypothetical protein
+>Feature scaffold_8911
+227	574	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00444
+			product	hypothetical protein
+>Feature scaffold_8953
+1060	323	CDS
+			EC_number	5.3.1.12
+			db_xref	COG:COG1904
+			gene	uxaC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A8G3
+			locus_tag	HIPDJCPK_00445
+			product	Uronate isomerase
+>Feature scaffold_8966
+196	762	CDS
+			db_xref	COG:COG2917
+			gene	yciB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A710
+			locus_tag	HIPDJCPK_00446
+			product	putative intracellular septation protein A
+755	1216	CDS
+			EC_number	3.1.2.-
+			db_xref	COG:COG1607
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P44886
+			locus_tag	HIPDJCPK_00447
+			product	putative acyl-CoA thioester hydrolase
+>Feature scaffold_9009
+213	338	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00448
+			product	hypothetical protein
+>Feature scaffold_9013
+619	921	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00449
+			product	hypothetical protein
+1194	946	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00450
+			product	hypothetical protein
+>Feature scaffold_9021
+63	227	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00451
+			product	hypothetical protein
+>Feature scaffold_9048
+>Feature scaffold_9056
+670	966	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00452
+			product	hypothetical protein
+>Feature scaffold_9082
+>Feature scaffold_9116
+>Feature scaffold_9170
+1062	793	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00453
+			product	hypothetical protein
+>Feature scaffold_9303
+821	516	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00454
+			product	hypothetical protein
+1112	855	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00455
+			product	hypothetical protein
+>Feature scaffold_9359
+2122	1865	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00456
+			product	hypothetical protein
+>Feature scaffold_9377
+19	387	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00457
+			product	hypothetical protein
+638	913	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00458
+			product	hypothetical protein
+>Feature scaffold_9438
+462	728	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00459
+			product	hypothetical protein
+851	672	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00460
+			product	hypothetical protein
+1014	1250	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00461
+			product	hypothetical protein
+1269	1370	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00462
+			product	hypothetical protein
+1370	1474	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00463
+			product	hypothetical protein
+>Feature scaffold_9489
+871	1047	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00464
+			product	hypothetical protein
+>Feature scaffold_9525
+475	687	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00465
+			product	hypothetical protein
+834	1124	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00466
+			product	hypothetical protein
+>Feature scaffold_9544
+746	925	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00467
+			product	hypothetical protein
+1010	1201	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00468
+			product	hypothetical protein
+>Feature scaffold_9553
+162	22	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00469
+			product	hypothetical protein
+588	250	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00470
+			product	hypothetical protein
+>Feature scaffold_9581
+>Feature scaffold_9649
+32	832	CDS
+			EC_number	7.4.2.5
+			db_xref	COG:COG2274
+			gene	ltxB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P23702
+			locus_tag	HIPDJCPK_00471
+			product	Leukotoxin export ATP-binding protein LtxB
+1086	1013	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	HIPDJCPK_00472
+			product	tRNA-Arg(cct)
+>Feature scaffold_9659
+646	963	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00473
+			product	hypothetical protein
+1411	1052	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00474
+			product	hypothetical protein
+>Feature scaffold_9679
+964	728	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00475
+			product	hypothetical protein
+>Feature scaffold_9747
+5	193	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00476
+			product	hypothetical protein
+933	1118	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00477
+			product	hypothetical protein
+>Feature scaffold_9770
+847	1041	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00478
+			product	hypothetical protein
+>Feature scaffold_9782
+27	278	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00479
+			product	hypothetical protein
+694	1107	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00480
+			product	hypothetical protein
+>Feature scaffold_9819
+365	153	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00481
+			product	hypothetical protein
+709	398	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00482
+			product	hypothetical protein
+1228	1701	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00483
+			product	hypothetical protein
+>Feature scaffold_9825
+8	226	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00484
+			product	hypothetical protein
+244	459	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00485
+			product	hypothetical protein
+711	1028	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00486
+			product	hypothetical protein
+>Feature scaffold_9833
+983	753	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00487
+			product	hypothetical protein
+>Feature scaffold_9917
+619	1128	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00488
+			product	hypothetical protein
+>Feature scaffold_9924
+>Feature scaffold_9954
+22	240	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00489
+			product	hypothetical protein
+959	708	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00490
+			product	hypothetical protein
+>Feature scaffold_9965
+307	453	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00491
+			product	hypothetical protein
+>Feature scaffold_10017
+45	296	CDS
+			db_xref	COG:COG0287
+			gene	tyrA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07023
+			locus_tag	HIPDJCPK_00492
+			product	T-protein
+884	309	CDS
+			gene	gntR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ACP5
+			locus_tag	HIPDJCPK_00493
+			product	HTH-type transcriptional regulator GntR
+>Feature scaffold_10086
+11	412	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00494
+			product	hypothetical protein
+>Feature scaffold_10106
+>Feature scaffold_10120
+>Feature scaffold_10122
+670	374	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00495
+			product	hypothetical protein
+1001	747	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00496
+			product	hypothetical protein
+>Feature scaffold_10170
+>Feature scaffold_10183
+>Feature scaffold_10195
+>Feature scaffold_10198
+>Feature scaffold_10212
+364	182	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00497
+			product	hypothetical protein
+482	811	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00498
+			product	hypothetical protein
+1151	864	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00499
+			product	hypothetical protein
+1393	1148	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00500
+			product	hypothetical protein
+>Feature scaffold_10251
+11	403	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00501
+			product	hypothetical protein
+>Feature scaffold_10252
+452	3	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00502
+			product	hypothetical protein
+>Feature scaffold_10272
+20	562	CDS
+			EC_number	3.1.3.45
+			db_xref	COG:COG1778
+			gene	kdsC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P67653
+			locus_tag	HIPDJCPK_00503
+			product	3-deoxy-D-manno-octulosonate 8-phosphate phosphatase KdsC
+758	459	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00504
+			product	hypothetical protein
+>Feature scaffold_10303
+232	375	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00505
+			product	hypothetical protein
+>Feature scaffold_10481
+153	488	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00506
+			product	hypothetical protein
+1045	626	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00507
+			product	hypothetical protein
+>Feature scaffold_10515
+378	46	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00508
+			product	hypothetical protein
+877	623	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00509
+			product	hypothetical protein
+1048	902	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00510
+			product	hypothetical protein
+>Feature scaffold_10517
+>Feature scaffold_10560
+51	647	CDS
+			db_xref	COG:COG2974
+			gene	rdgC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P36767
+			locus_tag	HIPDJCPK_00511
+			product	Recombination-associated protein RdgC
+>Feature scaffold_10564
+942	709	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00512
+			product	hypothetical protein
+>Feature scaffold_10572
+1	372	CDS
+			EC_number	3.1.-.-
+			db_xref	COG:COG0084
+			gene	yjjV
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P39408
+			locus_tag	HIPDJCPK_00513
+			product	putative metal-dependent hydrolase YjjV
+>Feature scaffold_10611
+63	209	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00514
+			product	hypothetical protein
+1043	834	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00515
+			product	hypothetical protein
+>Feature scaffold_10679
+>Feature scaffold_10688
+543	259	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00516
+			product	hypothetical protein
+1551	1354	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00517
+			product	hypothetical protein
+>Feature scaffold_10702
+743	558	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00518
+			product	hypothetical protein
+801	1031	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00519
+			product	hypothetical protein
+>Feature scaffold_10703
+161	883	CDS
+			EC_number	1.3.1.-
+			db_xref	COG:COG0042
+			gene	dusC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P33371
+			locus_tag	HIPDJCPK_00520
+			product	tRNA-dihydrouridine(16) synthase
+>Feature scaffold_10729
+>Feature scaffold_10760
+979	758	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00521
+			product	hypothetical protein
+1570	1367	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00522
+			product	hypothetical protein
+>Feature scaffold_10774
+410	201	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00523
+			product	hypothetical protein
+>Feature scaffold_10790
+>Feature scaffold_10792
+165	494	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00524
+			product	hypothetical protein
+>Feature scaffold_10804
+>Feature scaffold_10810
+323	697	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00525
+			product	hypothetical protein
+687	926	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00526
+			product	hypothetical protein
+>Feature scaffold_10849
+238	369	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00527
+			product	hypothetical protein
+1909	1784	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00528
+			product	hypothetical protein
+>Feature scaffold_10883
+84	326	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00529
+			product	hypothetical protein
+1043	1192	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00530
+			product	hypothetical protein
+>Feature scaffold_10888
+389	180	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00531
+			product	hypothetical protein
+>Feature scaffold_10898
+>Feature scaffold_10901
+>Feature scaffold_10903
+300	124	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00532
+			product	hypothetical protein
+>Feature scaffold_10912
+15	311	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00533
+			product	hypothetical protein
+475	176	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00534
+			product	hypothetical protein
+1002	1208	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00535
+			product	hypothetical protein
+>Feature scaffold_10923
+>Feature scaffold_10926
+727	506	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00536
+			product	hypothetical protein
+>Feature scaffold_10937
+451	203	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00537
+			product	hypothetical protein
+>Feature scaffold_10982
+37	735	CDS
+			db_xref	COG:COG1464
+			gene	metQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P28635
+			locus_tag	HIPDJCPK_00538
+			product	D-methionine-binding lipoprotein MetQ
+1037	825	CDS
+			db_xref	COG:COG0488
+			gene	ybiT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A9U3
+			locus_tag	HIPDJCPK_00539
+			product	putative ABC transporter ATP-binding protein YbiT
+>Feature scaffold_10988
+>Feature scaffold_11022
+>Feature scaffold_11081
+290	484	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00540
+			product	hypothetical protein
+484	660	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00541
+			product	hypothetical protein
+>Feature scaffold_11097
+575	790	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00542
+			product	hypothetical protein
+>Feature scaffold_11105
+>Feature scaffold_11122
+606	325	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00543
+			product	hypothetical protein
+>Feature scaffold_11146
+423	49	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00544
+			product	hypothetical protein
+>Feature scaffold_11159
+134	313	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00545
+			product	hypothetical protein
+>Feature scaffold_11206
+189	356	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00546
+			product	hypothetical protein
+>Feature scaffold_11217
+751	491	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00547
+			product	hypothetical protein
+>Feature scaffold_11263
+301	540	CDS
+			db_xref	COG:COG1925
+			gene	ptsH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O69250
+			locus_tag	HIPDJCPK_00548
+			product	Phosphocarrier protein HPr
+1065	646	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00549
+			product	hypothetical protein
+>Feature scaffold_11264
+1007	606	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00550
+			product	hypothetical protein
+>Feature scaffold_11286
+45	120	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	HIPDJCPK_00551
+			product	tRNA-Gly(gcc)
+159	232	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	HIPDJCPK_00552
+			product	tRNA-Cys(gca)
+1019	588	CDS
+			EC_number	3.2.1.17
+			db_xref	COG:COG3772
+			gene	rrrD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P78285
+			locus_tag	HIPDJCPK_00553
+			product	Lysozyme RrrD
+>Feature scaffold_11295
+634	768	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00554
+			product	hypothetical protein
+>Feature scaffold_11300
+182	433	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00555
+			product	hypothetical protein
+572	757	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00556
+			product	hypothetical protein
+>Feature scaffold_11356
+>Feature scaffold_11376
+678	971	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00557
+			product	hypothetical protein
+>Feature scaffold_11430
+752	985	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00558
+			product	hypothetical protein
+>Feature scaffold_11433
+1139	984	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00559
+			product	hypothetical protein
+>Feature scaffold_11438
+542	808	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00560
+			product	hypothetical protein
+805	1071	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00561
+			product	hypothetical protein
+>Feature scaffold_11439
+776	991	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00562
+			product	hypothetical protein
+>Feature scaffold_11454
+368	571	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00563
+			product	hypothetical protein
+>Feature scaffold_11484
+989	651	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00564
+			product	hypothetical protein
+>Feature scaffold_11525
+29	238	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00565
+			product	hypothetical protein
+>Feature scaffold_11526
+>Feature scaffold_11568
+279	10	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00566
+			product	hypothetical protein
+>Feature scaffold_11600
+723	553	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00567
+			product	hypothetical protein
+1043	813	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00568
+			product	hypothetical protein
+1305	1069	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00569
+			product	hypothetical protein
+>Feature scaffold_11612
+1053	820	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00570
+			product	hypothetical protein
+>Feature scaffold_11633
+213	46	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00571
+			product	hypothetical protein
+537	334	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00572
+			product	hypothetical protein
+>Feature scaffold_11640
+>Feature scaffold_11672
+1217	939	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00573
+			product	hypothetical protein
+1568	1296	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00574
+			product	hypothetical protein
+>Feature scaffold_11693
+>Feature scaffold_11754
+1311	994	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00575
+			product	hypothetical protein
+>Feature scaffold_12004
+23	445	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00576
+			product	hypothetical protein
+756	1103	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00577
+			product	hypothetical protein
+1358	978	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00578
+			product	hypothetical protein
+>Feature scaffold_12224
+>Feature scaffold_12271
+312	554	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00579
+			product	hypothetical protein
+657	520	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00580
+			product	hypothetical protein
+858	1130	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00581
+			product	hypothetical protein
+>Feature scaffold_12313
+903	463	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00582
+			product	hypothetical protein
+1183	959	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00583
+			product	hypothetical protein
+1770	1315	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00584
+			product	hypothetical protein
+>Feature scaffold_12420
+>Feature scaffold_12458
+>Feature scaffold_12595
+281	679	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00585
+			product	hypothetical protein
+1561	1124	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00586
+			product	hypothetical protein
+>Feature scaffold_12996
+432	620	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00587
+			product	hypothetical protein
+>Feature scaffold_13012
+201	515	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00588
+			product	hypothetical protein
+>Feature scaffold_13403
+>Feature scaffold_13593
+>Feature scaffold_13664
+846	490	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00589
+			product	hypothetical protein
+1001	852	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00590
+			product	hypothetical protein
+>Feature scaffold_14069
+933	787	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00591
+			product	hypothetical protein
+>Feature scaffold_14175
+708	974	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00592
+			product	hypothetical protein
+958	1125	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00593
+			product	hypothetical protein
+>Feature scaffold_14210
+284	586	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00594
+			product	hypothetical protein
+>Feature scaffold_14240
+864	526	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00595
+			product	hypothetical protein
+>Feature scaffold_14362
+147	536	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00596
+			product	hypothetical protein
+>Feature scaffold_14673
+234	533	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00597
+			product	hypothetical protein
+815	1117	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00598
+			product	hypothetical protein
+1129	1272	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00599
+			product	hypothetical protein
+1623	1751	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00600
+			product	hypothetical protein
+>Feature scaffold_14684
+106	318	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00601
+			product	hypothetical protein
+1371	1234	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00602
+			product	hypothetical protein
+>Feature scaffold_14998
+636	376	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00603
+			product	hypothetical protein
+>Feature scaffold_15121
+415	567	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00604
+			product	hypothetical protein
+>Feature scaffold_15138
+>Feature scaffold_15174
+261	461	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00605
+			product	hypothetical protein
+>Feature scaffold_15278
+>Feature scaffold_15569
+777	160	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00606
+			product	hypothetical protein
+>Feature scaffold_15602
+958	758	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00607
+			product	hypothetical protein
+>Feature scaffold_15751
+141	647	CDS
+			EC_number	2.7.13.3
+			db_xref	COG:COG3290
+			gene	citA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P52687
+			locus_tag	HIPDJCPK_00608
+			product	Sensor histidine kinase CitA
+>Feature scaffold_16098
+208	5	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00609
+			product	hypothetical protein
+460	248	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00610
+			product	hypothetical protein
+1427	1239	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00611
+			product	hypothetical protein
+>Feature scaffold_16113
+459	614	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00612
+			product	hypothetical protein
+848	606	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00613
+			product	hypothetical protein
+>Feature scaffold_16137
+>Feature scaffold_16159
+254	9	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00614
+			product	hypothetical protein
+>Feature scaffold_16252
+731	474	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00615
+			product	hypothetical protein
+>Feature scaffold_16375
+302	57	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00616
+			product	hypothetical protein
+>Feature scaffold_16391
+>Feature scaffold_17062
+>Feature scaffold_17446
+36	380	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00617
+			product	hypothetical protein
+380	601	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00618
+			product	hypothetical protein
+904	668	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00619
+			product	hypothetical protein
+>Feature scaffold_17497
+449	655	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00620
+			product	hypothetical protein
+786	586	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00621
+			product	hypothetical protein
+>Feature scaffold_17629
+>Feature scaffold_17649
+3	200	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00622
+			product	hypothetical protein
+808	1017	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00623
+			product	hypothetical protein
+>Feature scaffold_18058
+599	405	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00624
+			product	hypothetical protein
+>Feature scaffold_18177
+374	976	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00625
+			product	hypothetical protein
+>Feature scaffold_18208
+>Feature scaffold_18887
+>Feature scaffold_19080
+77	460	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00626
+			product	hypothetical protein
+510	767	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00627
+			product	hypothetical protein
+>Feature scaffold_19216
+1015	782	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00628
+			product	hypothetical protein
+>Feature scaffold_19434
+717	941	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00629
+			product	hypothetical protein
+>Feature scaffold_19879
+914	732	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00630
+			product	hypothetical protein
+>Feature scaffold_20029
+>Feature scaffold_20121
+419	778	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00631
+			product	hypothetical protein
+>Feature scaffold_20706
+429	193	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00632
+			product	hypothetical protein
+>Feature scaffold_21876
+529	798	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00633
+			product	hypothetical protein
+>Feature scaffold_21889
+246	10	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00634
+			product	hypothetical protein
+444	569	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	HIPDJCPK_00635
+			product	hypothetical protein

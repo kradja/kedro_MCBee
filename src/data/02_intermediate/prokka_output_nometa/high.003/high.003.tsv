@@ -1,0 +1,1567 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+NICNEPOM_00001	CDS	333	emrE_1		COG2076	Multidrug transporter EmrE
+NICNEPOM_00002	CDS	225				hypothetical protein
+NICNEPOM_00003	CDS	204				hypothetical protein
+NICNEPOM_00004	CDS	1305				hypothetical protein
+NICNEPOM_00005	CDS	927				hypothetical protein
+NICNEPOM_00006	CDS	861				hypothetical protein
+NICNEPOM_00007	CDS	1224				hypothetical protein
+NICNEPOM_00008	CDS	837				hypothetical protein
+NICNEPOM_00009	CDS	1446	sctC_1			Type 3 secretion system secretin
+NICNEPOM_00010	CDS	1176				hypothetical protein
+NICNEPOM_00011	CDS	480				hypothetical protein
+NICNEPOM_00012	CDS	801				hypothetical protein
+NICNEPOM_00013	CDS	1938				hypothetical protein
+NICNEPOM_00014	CDS	1122				hypothetical protein
+NICNEPOM_00015	CDS	639				hypothetical protein
+NICNEPOM_00016	CDS	774				hypothetical protein
+NICNEPOM_00017	CDS	2430				hypothetical protein
+NICNEPOM_00018	CDS	4515				hypothetical protein
+NICNEPOM_00019	CDS	753				hypothetical protein
+NICNEPOM_00020	CDS	603				hypothetical protein
+NICNEPOM_00021	CDS	891	hdfR_1			HTH-type transcriptional regulator HdfR
+NICNEPOM_00022	CDS	699				hypothetical protein
+NICNEPOM_00023	CDS	909				hypothetical protein
+NICNEPOM_00024	CDS	3105	hsdR	3.1.21.3		Type I restriction enzyme EcoR124II R protein
+NICNEPOM_00025	CDS	1155				hypothetical protein
+NICNEPOM_00026	CDS	1266				hypothetical protein
+NICNEPOM_00027	CDS	1566	prmC_1	2.1.1.297		Release factor glutamine methyltransferase
+NICNEPOM_00028	CDS	408	guaA	6.3.5.2		GMP synthase [glutamine-hydrolyzing]
+NICNEPOM_00029	CDS	456				hypothetical protein
+NICNEPOM_00030	CDS	1476				hypothetical protein
+NICNEPOM_00031	CDS	2694				hypothetical protein
+NICNEPOM_00032	CDS	963				hypothetical protein
+NICNEPOM_00033	CDS	2043				hypothetical protein
+NICNEPOM_00034	CDS	306				hypothetical protein
+NICNEPOM_00035	CDS	318				hypothetical protein
+NICNEPOM_00036	CDS	1539				hypothetical protein
+NICNEPOM_00037	CDS	252				hypothetical protein
+NICNEPOM_00038	CDS	186				hypothetical protein
+NICNEPOM_00039	CDS	414				hypothetical protein
+NICNEPOM_00040	CDS	447				hypothetical protein
+NICNEPOM_00041	CDS	168				hypothetical protein
+NICNEPOM_00042	CDS	2994				hypothetical protein
+NICNEPOM_00043	CDS	654				hypothetical protein
+NICNEPOM_00044	CDS	756				hypothetical protein
+NICNEPOM_00045	CDS	264				hypothetical protein
+NICNEPOM_00046	CDS	237				hypothetical protein
+NICNEPOM_00047	CDS	264				hypothetical protein
+NICNEPOM_00048	CDS	912				hypothetical protein
+NICNEPOM_00049	CDS	198				hypothetical protein
+NICNEPOM_00050	CDS	441				hypothetical protein
+NICNEPOM_00051	CDS	696				hypothetical protein
+NICNEPOM_00052	CDS	720				hypothetical protein
+NICNEPOM_00053	CDS	828				hypothetical protein
+NICNEPOM_00054	CDS	279				hypothetical protein
+NICNEPOM_00055	CDS	1083				hypothetical protein
+NICNEPOM_00056	CDS	456				hypothetical protein
+NICNEPOM_00057	CDS	489				hypothetical protein
+NICNEPOM_00058	CDS	1359				hypothetical protein
+NICNEPOM_00059	CDS	264				hypothetical protein
+NICNEPOM_00060	CDS	366	rnc	3.1.26.3	COG0571	Ribonuclease 3
+NICNEPOM_00061	CDS	519				hypothetical protein
+NICNEPOM_00062	CDS	924	era		COG1159	GTPase Era
+NICNEPOM_00063	CDS	561				hypothetical protein
+NICNEPOM_00064	CDS	864				hypothetical protein
+NICNEPOM_00065	CDS	831				hypothetical protein
+NICNEPOM_00066	CDS	870				hypothetical protein
+NICNEPOM_00067	CDS	1365	xseA	3.1.11.6	COG1570	Exodeoxyribonuclease 7 large subunit
+NICNEPOM_00068	CDS	3360				hypothetical protein
+NICNEPOM_00069	tRNA	76				tRNA-Val(tac)
+NICNEPOM_00070	CDS	282				hypothetical protein
+NICNEPOM_00071	CDS	2994		3.1.21.4		Type IIS restriction enzyme Eco57I
+NICNEPOM_00072	CDS	327				hypothetical protein
+NICNEPOM_00073	CDS	1626		2.1.1.72		Modification methylase Eco57IB
+NICNEPOM_00074	CDS	198				hypothetical protein
+NICNEPOM_00075	CDS	1149				hypothetical protein
+NICNEPOM_00076	CDS	1638				hypothetical protein
+NICNEPOM_00077	CDS	1152				hypothetical protein
+NICNEPOM_00078	CDS	306				hypothetical protein
+NICNEPOM_00079	CDS	837				hypothetical protein
+NICNEPOM_00080	CDS	381				hypothetical protein
+NICNEPOM_00081	CDS	540				hypothetical protein
+NICNEPOM_00082	CDS	168				hypothetical protein
+NICNEPOM_00083	CDS	507				hypothetical protein
+NICNEPOM_00084	CDS	579				hypothetical protein
+NICNEPOM_00085	CDS	924				hypothetical protein
+NICNEPOM_00086	CDS	804				hypothetical protein
+NICNEPOM_00087	tRNA	76				tRNA-Met(cat)
+NICNEPOM_00088	CDS	213				hypothetical protein
+NICNEPOM_00089	CDS	282				hypothetical protein
+NICNEPOM_00090	CDS	459				hypothetical protein
+NICNEPOM_00091	CDS	687				hypothetical protein
+NICNEPOM_00092	CDS	417				hypothetical protein
+NICNEPOM_00093	CDS	480				hypothetical protein
+NICNEPOM_00094	CDS	1074				hypothetical protein
+NICNEPOM_00095	CDS	1548				hypothetical protein
+NICNEPOM_00096	CDS	459				hypothetical protein
+NICNEPOM_00097	CDS	1389				hypothetical protein
+NICNEPOM_00098	CDS	711				hypothetical protein
+NICNEPOM_00099	CDS	480				hypothetical protein
+NICNEPOM_00100	CDS	774				hypothetical protein
+NICNEPOM_00101	CDS	294				hypothetical protein
+NICNEPOM_00102	CDS	687				hypothetical protein
+NICNEPOM_00103	CDS	516				hypothetical protein
+NICNEPOM_00104	CDS	546				hypothetical protein
+NICNEPOM_00105	CDS	885				hypothetical protein
+NICNEPOM_00106	CDS	753				hypothetical protein
+NICNEPOM_00107	CDS	1632				hypothetical protein
+NICNEPOM_00108	CDS	429				hypothetical protein
+NICNEPOM_00109	CDS	5118				hypothetical protein
+NICNEPOM_00110	CDS	1089				hypothetical protein
+NICNEPOM_00111	CDS	648				hypothetical protein
+NICNEPOM_00112	CDS	651				hypothetical protein
+NICNEPOM_00113	CDS	540				hypothetical protein
+NICNEPOM_00114	CDS	2184	sctC_2			Type 3 secretion system secretin
+NICNEPOM_00115	CDS	1269	naiP			Putative niacin/nicotinamide transporter NaiP
+NICNEPOM_00116	CDS	825		3.1.1.92		4-sulfomuconolactone hydrolase
+NICNEPOM_00117	CDS	549				hypothetical protein
+NICNEPOM_00118	CDS	1422				hypothetical protein
+NICNEPOM_00119	CDS	402	msrA	1.8.4.11	COG0225	Peptide methionine sulfoxide reductase MsrA
+NICNEPOM_00120	CDS	273	ybiI		COG1734	putative protein YbiI
+NICNEPOM_00121	CDS	774				hypothetical protein
+NICNEPOM_00122	CDS	366				hypothetical protein
+NICNEPOM_00123	CDS	678				hypothetical protein
+NICNEPOM_00124	CDS	345				hypothetical protein
+NICNEPOM_00125	CDS	363				hypothetical protein
+NICNEPOM_00126	CDS	387				hypothetical protein
+NICNEPOM_00127	CDS	393				hypothetical protein
+NICNEPOM_00128	CDS	447				hypothetical protein
+NICNEPOM_00129	CDS	681				hypothetical protein
+NICNEPOM_00130	CDS	1086				hypothetical protein
+NICNEPOM_00131	CDS	390				hypothetical protein
+NICNEPOM_00132	CDS	486	rpoH		COG0568	RNA polymerase sigma factor RpoH
+NICNEPOM_00133	CDS	3114				hypothetical protein
+NICNEPOM_00134	CDS	1884				hypothetical protein
+NICNEPOM_00135	CDS	834				hypothetical protein
+NICNEPOM_00136	CDS	339	glnB		COG0347	Nitrogen regulatory protein P-II
+NICNEPOM_00137	CDS	1125	murA	2.5.1.7	COG0766	UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+NICNEPOM_00138	CDS	4398				hypothetical protein
+NICNEPOM_00139	CDS	771				hypothetical protein
+NICNEPOM_00140	CDS	327				hypothetical protein
+NICNEPOM_00141	CDS	720	ureF		COG0830	Urease accessory protein UreF
+NICNEPOM_00142	CDS	516	ureE			Urease accessory protein UreE
+NICNEPOM_00143	CDS	501				hypothetical protein
+NICNEPOM_00144	CDS	1722	ureC	3.5.1.5		Urease subunit alpha
+NICNEPOM_00145	CDS	315	ureB	3.5.1.5		Urease subunit beta
+NICNEPOM_00146	CDS	303	ureA	3.5.1.5		Urease subunit gamma
+NICNEPOM_00147	CDS	726	leuA	2.3.3.13	COG0119	2-isopropylmalate synthase
+NICNEPOM_00148	CDS	588				hypothetical protein
+NICNEPOM_00149	CDS	4239				hypothetical protein
+NICNEPOM_00150	CDS	372				hypothetical protein
+NICNEPOM_00151	CDS	636	cycA			D-serine/D-alanine/glycine transporter
+NICNEPOM_00152	CDS	786	thiG	2.8.1.10	COG2022	Thiazole synthase
+NICNEPOM_00153	CDS	141				hypothetical protein
+NICNEPOM_00154	CDS	1497				hypothetical protein
+NICNEPOM_00155	CDS	600				hypothetical protein
+NICNEPOM_00156	CDS	642				hypothetical protein
+NICNEPOM_00157	CDS	3432				hypothetical protein
+NICNEPOM_00158	CDS	435	pasT_1		COG2867	Persistence and stress-resistance toxin PasT
+NICNEPOM_00159	CDS	288				hypothetical protein
+NICNEPOM_00160	CDS	456	zur_1		COG0735	Zinc uptake regulation protein
+NICNEPOM_00161	CDS	345	arnE_1			4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE
+NICNEPOM_00162	CDS	402	arnE_2			4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE
+NICNEPOM_00163	CDS	264				hypothetical protein
+NICNEPOM_00164	CDS	2085				hypothetical protein
+NICNEPOM_00165	CDS	675				hypothetical protein
+NICNEPOM_00166	CDS	867				hypothetical protein
+NICNEPOM_00167	CDS	414				hypothetical protein
+NICNEPOM_00168	CDS	507				hypothetical protein
+NICNEPOM_00169	CDS	315				hypothetical protein
+NICNEPOM_00170	CDS	1071				hypothetical protein
+NICNEPOM_00171	CDS	528				hypothetical protein
+NICNEPOM_00172	CDS	1863				hypothetical protein
+NICNEPOM_00173	CDS	1698	fhs	6.3.4.3	COG2759	Formate--tetrahydrofolate ligase
+NICNEPOM_00174	CDS	138				hypothetical protein
+NICNEPOM_00175	tRNA	77				tRNA-Pro(ggg)
+NICNEPOM_00176	CDS	408				hypothetical protein
+NICNEPOM_00177	CDS	720				hypothetical protein
+NICNEPOM_00178	CDS	963				hypothetical protein
+NICNEPOM_00179	CDS	1761				hypothetical protein
+NICNEPOM_00180	CDS	669				hypothetical protein
+NICNEPOM_00181	CDS	1155				hypothetical protein
+NICNEPOM_00182	CDS	1554				hypothetical protein
+NICNEPOM_00183	CDS	273				hypothetical protein
+NICNEPOM_00184	CDS	192				hypothetical protein
+NICNEPOM_00185	CDS	312	ftsY		COG0552	Signal recognition particle receptor FtsY
+NICNEPOM_00186	CDS	534				hypothetical protein
+NICNEPOM_00187	CDS	1119	mcrC		COG4268	Protein McrC
+NICNEPOM_00188	CDS	1707				hypothetical protein
+NICNEPOM_00189	CDS	537	prlC	3.4.24.70	COG0339	Oligopeptidase A
+NICNEPOM_00190	CDS	717	dnaB_1	3.6.4.12	COG0305	Replicative DNA helicase
+NICNEPOM_00191	CDS	705				hypothetical protein
+NICNEPOM_00192	CDS	507				hypothetical protein
+NICNEPOM_00193	CDS	888				hypothetical protein
+NICNEPOM_00194	CDS	606				hypothetical protein
+NICNEPOM_00195	CDS	456				hypothetical protein
+NICNEPOM_00196	CDS	402				hypothetical protein
+NICNEPOM_00197	CDS	282	grpE			Protein GrpE
+NICNEPOM_00198	CDS	420				hypothetical protein
+NICNEPOM_00199	CDS	264				hypothetical protein
+NICNEPOM_00200	CDS	246				hypothetical protein
+NICNEPOM_00201	CDS	171				hypothetical protein
+NICNEPOM_00202	CDS	315				hypothetical protein
+NICNEPOM_00203	CDS	915				hypothetical protein
+NICNEPOM_00204	CDS	918				hypothetical protein
+NICNEPOM_00205	CDS	192	artM		COG1126	Arginine transport ATP-binding protein ArtM
+NICNEPOM_00206	CDS	273	trpG	4.1.3.27	COG0512	Anthranilate synthase component 2
+NICNEPOM_00207	CDS	1053	trpD	2.4.2.18	COG0547	Anthranilate phosphoribosyltransferase
+NICNEPOM_00208	CDS	1293	serS	6.1.1.11	COG0172	Serine--tRNA ligase
+NICNEPOM_00209	CDS	156				hypothetical protein
+NICNEPOM_00210	CDS	174				hypothetical protein
+NICNEPOM_00211	tRNA	76				tRNA-Lys(ctt)
+NICNEPOM_00212	CDS	216				hypothetical protein
+NICNEPOM_00213	CDS	528				hypothetical protein
+NICNEPOM_00214	CDS	372				hypothetical protein
+NICNEPOM_00215	CDS	582				hypothetical protein
+NICNEPOM_00216	CDS	471				hypothetical protein
+NICNEPOM_00217	CDS	219				hypothetical protein
+NICNEPOM_00218	CDS	228	yqgF	3.1.-.-	COG0816	Putative pre-16S rRNA nuclease
+NICNEPOM_00219	CDS	678	ribB	4.1.99.12	COG0108	3,4-dihydroxy-2-butanone 4-phosphate synthase
+NICNEPOM_00220	CDS	720	queH_1	1.17.99.6	COG1636	Epoxyqueuosine reductase QueH
+NICNEPOM_00221	CDS	873	sbcB	3.1.11.1	COG2925	Exodeoxyribonuclease I
+NICNEPOM_00222	CDS	483	lrp		COG1522	Leucine-responsive regulatory protein
+NICNEPOM_00223	CDS	1188	ynfM			Inner membrane transport protein YnfM
+NICNEPOM_00224	CDS	1182	ubiH	1.14.13.-	COG0654	2-octaprenyl-6-methoxyphenol hydroxylase
+NICNEPOM_00225	CDS	1131	rluD	5.4.99.23	COG0564	Ribosomal large subunit pseudouridine synthase D
+NICNEPOM_00226	CDS	792	yfiH_1	1.10.3.-	COG1496	Polyphenol oxidase
+NICNEPOM_00227	CDS	528				hypothetical protein
+NICNEPOM_00228	CDS	396				hypothetical protein
+NICNEPOM_00229	CDS	2730				hypothetical protein
+NICNEPOM_00230	CDS	840	hexR		COG1737	HTH-type transcriptional regulator HexR
+NICNEPOM_00231	CDS	993	rihB	3.2.2.8	COG1957	Pyrimidine-specific ribonucleoside hydrolase RihB
+NICNEPOM_00232	CDS	1419	ydfJ			Putative transporter YdfJ
+NICNEPOM_00233	CDS	591				hypothetical protein
+NICNEPOM_00234	CDS	195				hypothetical protein
+NICNEPOM_00235	CDS	624				hypothetical protein
+NICNEPOM_00236	CDS	423	nusB			Transcription antitermination protein NusB
+NICNEPOM_00237	CDS	453	ribH	2.5.1.78	COG0054	6,7-dimethyl-8-ribityllumazine synthase
+NICNEPOM_00238	CDS	195				hypothetical protein
+NICNEPOM_00239	CDS	1185	sotB_1			Sugar efflux transporter B
+NICNEPOM_00240	CDS	888				hypothetical protein
+NICNEPOM_00241	CDS	624	prfC		COG4108	Peptide chain release factor RF3
+NICNEPOM_00242	CDS	726				hypothetical protein
+NICNEPOM_00243	CDS	1590				hypothetical protein
+NICNEPOM_00244	CDS	1287	ampG		COG0477	Anhydromuropeptide permease
+NICNEPOM_00245	CDS	300	gloC	3.1.2.6	COG0491	Hydroxyacylglutathione hydrolase GloC
+NICNEPOM_00246	CDS	696				hypothetical protein
+NICNEPOM_00247	CDS	1995	tgpA	2.3.2.13	COG1305	Protein-glutamine gamma-glutamyltransferase
+NICNEPOM_00248	CDS	393				hypothetical protein
+NICNEPOM_00249	CDS	1098	dnaB_2	3.6.4.12	COG0305	Replicative DNA helicase
+NICNEPOM_00250	CDS	900				hypothetical protein
+NICNEPOM_00251	tRNA	77				tRNA-Met(cat)
+NICNEPOM_00252	CDS	366				hypothetical protein
+NICNEPOM_00253	CDS	423	ybgI		COG0327	GTP cyclohydrolase 1 type 2 
+NICNEPOM_00254	CDS	606	sspA		COG0625	Stringent starvation protein A
+NICNEPOM_00255	CDS	450				hypothetical protein
+NICNEPOM_00256	CDS	288				hypothetical protein
+NICNEPOM_00257	CDS	600	yjdF		COG3647	Inner membrane protein YjdF
+NICNEPOM_00258	CDS	1083	ftsZ		COG0206	Cell division protein FtsZ
+NICNEPOM_00259	CDS	471	tsaE_1		COG0802	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+NICNEPOM_00260	CDS	1323	amiC	3.5.1.28	COG0860	N-acetylmuramoyl-L-alanine amidase AmiC
+NICNEPOM_00261	CDS	642				hypothetical protein
+NICNEPOM_00262	CDS	807				hypothetical protein
+NICNEPOM_00263	CDS	1041	ruvB_1	3.6.4.12	COG2255	Holliday junction ATP-dependent DNA helicase RuvB
+NICNEPOM_00264	CDS	942	aroA	2.5.1.19	COG0128	3-phosphoshikimate 1-carboxyvinyltransferase
+NICNEPOM_00265	CDS	636	atoS	2.7.13.3	COG0642	Signal transduction histidine-protein kinase AtoS
+NICNEPOM_00266	CDS	1395	atoC		COG2204	Regulatory protein AtoC
+NICNEPOM_00267	CDS	786	exoA	3.1.11.2	COG0708	Exodeoxyribonuclease
+NICNEPOM_00268	CDS	477				hypothetical protein
+NICNEPOM_00269	CDS	1770				hypothetical protein
+NICNEPOM_00270	CDS	231				hypothetical protein
+NICNEPOM_00271	CDS	813				hypothetical protein
+NICNEPOM_00272	CDS	1008				hypothetical protein
+NICNEPOM_00273	CDS	1029				hypothetical protein
+NICNEPOM_00274	CDS	471	spuC	2.6.1.113	COG0161	Putrescine--pyruvate aminotransferase
+NICNEPOM_00275	CDS	699				hypothetical protein
+NICNEPOM_00276	CDS	1995				hypothetical protein
+NICNEPOM_00277	CDS	1926				hypothetical protein
+NICNEPOM_00278	CDS	570	tsaC	2.7.7.87	COG0009	Threonylcarbamoyl-AMP synthase
+NICNEPOM_00279	CDS	897	ispA	2.5.1.10	COG0142	Farnesyl diphosphate synthase
+NICNEPOM_00280	CDS	228	xseB	3.1.11.6	COG1722	Exodeoxyribonuclease 7 small subunit
+NICNEPOM_00281	CDS	900	loiP	3.4.24.-	COG0501	Metalloprotease LoiP
+NICNEPOM_00282	CDS	1398	trkA		COG0569	Trk system potassium uptake protein TrkA
+NICNEPOM_00283	CDS	2376				hypothetical protein
+NICNEPOM_00284	CDS	1737				hypothetical protein
+NICNEPOM_00285	CDS	330				hypothetical protein
+NICNEPOM_00286	CDS	375				hypothetical protein
+NICNEPOM_00287	CDS	138				hypothetical protein
+NICNEPOM_00288	CDS	210				hypothetical protein
+NICNEPOM_00289	CDS	243				hypothetical protein
+NICNEPOM_00290	CDS	222				hypothetical protein
+NICNEPOM_00291	CDS	675	prtR_1		COG2932	HTH-type transcriptional regulator PrtR
+NICNEPOM_00292	CDS	483	narV	1.7.5.1	COG2181	Respiratory nitrate reductase 2 gamma chain
+NICNEPOM_00293	CDS	678	prtR_2		COG2932	HTH-type transcriptional regulator PrtR
+NICNEPOM_00294	CDS	222				hypothetical protein
+NICNEPOM_00295	CDS	390			COG1974	putative HTH-type transcriptional regulator
+NICNEPOM_00296	CDS	810				hypothetical protein
+NICNEPOM_00297	CDS	429				hypothetical protein
+NICNEPOM_00298	CDS	531				hypothetical protein
+NICNEPOM_00299	CDS	774	yfcA		COG0730	putative membrane transporter protein YfcA
+NICNEPOM_00300	CDS	732	tadA	3.5.4.33		tRNA-specific adenosine deaminase
+NICNEPOM_00301	CDS	924	bioB	2.8.1.6	COG0502	Biotin synthase
+NICNEPOM_00302	CDS	111				hypothetical protein
+NICNEPOM_00303	CDS	567				hypothetical protein
+NICNEPOM_00304	CDS	675				hypothetical protein
+NICNEPOM_00305	CDS	447	atoE		COG2031	Putative short-chain fatty acid transporter
+NICNEPOM_00306	CDS	1182	atoB_1	2.3.1.9	COG0183	Acetyl-CoA acetyltransferase
+NICNEPOM_00307	CDS	345	epsE		COG2804	Type II secretion system protein E
+NICNEPOM_00308	CDS	1233	epsF		COG1459	Type II secretion system protein F
+NICNEPOM_00309	CDS	852	outO			Type 4 prepilin-like proteins leader peptide-processing enzyme
+NICNEPOM_00310	CDS	615	coaE	2.7.1.24	COG0237	Dephospho-CoA kinase
+NICNEPOM_00311	CDS	2040	mrdA	3.4.16.4	COG0768	Peptidoglycan D,D-transpeptidase MrdA
+NICNEPOM_00312	CDS	498	mreD		COG2891	Rod shape-determining protein MreD
+NICNEPOM_00313	CDS	1188				hypothetical protein
+NICNEPOM_00314	CDS	639				hypothetical protein
+NICNEPOM_00315	CDS	945				hypothetical protein
+NICNEPOM_00316	CDS	1071	rfbB	4.2.1.46	COG1088	dTDP-glucose 4,6-dehydratase
+NICNEPOM_00317	CDS	891	rfbA	2.7.7.24	COG1209	Glucose-1-phosphate thymidylyltransferase 1
+NICNEPOM_00318	tRNA	77				tRNA-Arg(tct)
+NICNEPOM_00319	CDS	177				hypothetical protein
+NICNEPOM_00320	CDS	363				hypothetical protein
+NICNEPOM_00321	CDS	921				hypothetical protein
+NICNEPOM_00322	CDS	318				hypothetical protein
+NICNEPOM_00323	CDS	177				hypothetical protein
+NICNEPOM_00324	CDS	330				hypothetical protein
+NICNEPOM_00325	CDS	267				hypothetical protein
+NICNEPOM_00326	CDS	1035	sotB_2		COG2814	Sugar efflux transporter
+NICNEPOM_00327	CDS	1056				hypothetical protein
+NICNEPOM_00328	tRNA	75				tRNA-Arg(cct)
+NICNEPOM_00329	CDS	729	ispB	2.5.1.90	COG0142	Octaprenyl diphosphate synthase
+NICNEPOM_00330	CDS	1998	rep	3.6.4.12	COG0210	ATP-dependent DNA helicase Rep
+NICNEPOM_00331	CDS	660	ung	3.2.2.27	COG0692	Uracil-DNA glycosylase
+NICNEPOM_00332	CDS	309				hypothetical protein
+NICNEPOM_00333	CDS	891				hypothetical protein
+NICNEPOM_00334	CDS	1188	arnB_1	2.6.1.87		UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase
+NICNEPOM_00335	CDS	411	arnE_3			4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE
+NICNEPOM_00336	CDS	990	lplT			Lysophospholipid transporter LplT
+NICNEPOM_00337	CDS	465				hypothetical protein
+NICNEPOM_00338	CDS	1014				hypothetical protein
+NICNEPOM_00339	CDS	1416				hypothetical protein
+NICNEPOM_00340	CDS	651				hypothetical protein
+NICNEPOM_00341	CDS	906				hypothetical protein
+NICNEPOM_00342	CDS	303				hypothetical protein
+NICNEPOM_00343	CDS	660				hypothetical protein
+NICNEPOM_00344	CDS	993				putative MFS-type transporter
+NICNEPOM_00345	CDS	1149	groL		COG0459	60 kDa chaperonin
+NICNEPOM_00346	CDS	546	tpd		COG3470	34 kDa membrane antigen
+NICNEPOM_00347	CDS	294				hypothetical protein
+NICNEPOM_00348	CDS	831	efeU_1		COG0672	Ferrous iron permease EfeU
+NICNEPOM_00349	CDS	1788				hypothetical protein
+NICNEPOM_00350	CDS	396				hypothetical protein
+NICNEPOM_00351	CDS	585				hypothetical protein
+NICNEPOM_00352	CDS	450				hypothetical protein
+NICNEPOM_00353	CDS	1260	emrA_1			Colistin resistance protein EmrA
+NICNEPOM_00354	CDS	891				hypothetical protein
+NICNEPOM_00355	CDS	489				hypothetical protein
+NICNEPOM_00356	CDS	975				hypothetical protein
+NICNEPOM_00357	CDS	345				hypothetical protein
+NICNEPOM_00358	CDS	396	nrdA_1	1.17.4.1	COG0209	Ribonucleoside-diphosphate reductase 1 subunit alpha
+NICNEPOM_00359	CDS	507	luxS_1	4.4.1.21	COG1854	S-ribosylhomocysteine lyase
+NICNEPOM_00360	CDS	1413	purL_1	6.3.5.3	COG0046	Phosphoribosylformylglycinamidine synthase
+NICNEPOM_00361	CDS	483				hypothetical protein
+NICNEPOM_00362	CDS	243				hypothetical protein
+NICNEPOM_00363	CDS	306				hypothetical protein
+NICNEPOM_00364	CDS	660				hypothetical protein
+NICNEPOM_00365	CDS	537				hypothetical protein
+NICNEPOM_00366	CDS	342				hypothetical protein
+NICNEPOM_00367	CDS	465				hypothetical protein
+NICNEPOM_00368	CDS	210	cspC_1			Cold shock-like protein CspC
+NICNEPOM_00369	CDS	1773	phaZ2	3.1.1.22		D-(-)-3-hydroxybutyrate oligomer hydrolase
+NICNEPOM_00370	CDS	465	bfr_1	1.16.3.1	COG2193	Bacterioferritin
+NICNEPOM_00371	CDS	474	bfr_2	1.16.3.1	COG2193	Bacterioferritin
+NICNEPOM_00372	CDS	1188	cysG		COG0007	Siroheme synthase
+NICNEPOM_00373	CDS	486				hypothetical protein
+NICNEPOM_00374	CDS	261	lolA			Outer-membrane lipoprotein carrier protein
+NICNEPOM_00375	CDS	441				hypothetical protein
+NICNEPOM_00376	CDS	1851	comEC_1		COG0658	ComE operon protein 3
+NICNEPOM_00377	CDS	1548	mrcA		COG5009	Penicillin-binding protein 1A
+NICNEPOM_00378	CDS	294				hypothetical protein
+NICNEPOM_00379	CDS	189				hypothetical protein
+NICNEPOM_00380	CDS	135				hypothetical protein
+NICNEPOM_00381	CDS	114				hypothetical protein
+NICNEPOM_00382	CDS	183				hypothetical protein
+NICNEPOM_00383	CDS	1482				hypothetical protein
+NICNEPOM_00384	CDS	471	rlmH	2.1.1.177	COG1576	Ribosomal RNA large subunit methyltransferase H
+NICNEPOM_00385	CDS	357	rsfS		COG0799	Ribosomal silencing factor RsfS
+NICNEPOM_00386	CDS	342				hypothetical protein
+NICNEPOM_00387	CDS	489				hypothetical protein
+NICNEPOM_00388	CDS	96				hypothetical protein
+NICNEPOM_00389	CDS	609				hypothetical protein
+NICNEPOM_00390	CDS	240				hypothetical protein
+NICNEPOM_00391	CDS	591				hypothetical protein
+NICNEPOM_00392	CDS	429				hypothetical protein
+NICNEPOM_00393	CDS	1557	ftsK		COG1674	DNA translocase FtsK
+NICNEPOM_00394	CDS	729			COG2932	putative HTH-type transcriptional regulator
+NICNEPOM_00395	CDS	2673	recB_1	3.1.11.5	COG1074	RecBCD enzyme subunit RecB
+NICNEPOM_00396	CDS	138				hypothetical protein
+NICNEPOM_00397	CDS	930				hypothetical protein
+NICNEPOM_00398	CDS	117				hypothetical protein
+NICNEPOM_00399	CDS	789	tldD_1	3.4.-.-	COG0312	Metalloprotease TldD
+NICNEPOM_00400	CDS	597				hypothetical protein
+NICNEPOM_00401	CDS	195				hypothetical protein
+NICNEPOM_00402	CDS	126				hypothetical protein
+NICNEPOM_00403	CDS	777	map	3.4.11.18	COG0024	Methionine aminopeptidase
+NICNEPOM_00404	CDS	285				hypothetical protein
+NICNEPOM_00405	CDS	873	ygfZ			tRNA-modifying protein YgfZ
+NICNEPOM_00406	CDS	438	mlaE		COG0767	Intermembrane phospholipid transport system permease protein MlaE
+NICNEPOM_00407	CDS	510	mlaD		COG1463	Intermembrane phospholipid transport system binding protein MlaD
+NICNEPOM_00408	CDS	603	mlaC		COG2854	Intermembrane phospholipid transport system binding protein MlaC
+NICNEPOM_00409	CDS	285				hypothetical protein
+NICNEPOM_00410	CDS	1056	argG	6.3.4.5	COG0137	Argininosuccinate synthase
+NICNEPOM_00411	CDS	213				hypothetical protein
+NICNEPOM_00412	CDS	936				hypothetical protein
+NICNEPOM_00413	CDS	366				hypothetical protein
+NICNEPOM_00414	tRNA	76				tRNA-Ala(ggc)
+NICNEPOM_00415	CDS	1005	mltG	4.2.2.-	COG1559	Endolytic murein transglycosylase
+NICNEPOM_00416	CDS	360	opgE	2.7.-.-	COG2194	Phosphoethanolamine transferase OpgE
+NICNEPOM_00417	CDS	2088	clpA		COG0542	ATP-dependent Clp protease ATP-binding subunit ClpA
+NICNEPOM_00418	CDS	1050	pseI	2.5.1.97	COG2089	Pseudaminic acid synthase
+NICNEPOM_00419	CDS	798				hypothetical protein
+NICNEPOM_00420	CDS	2211	copA	7.2.2.8	COG2217	Copper-exporting P-type ATPase
+NICNEPOM_00421	CDS	207	copZ			Copper chaperone CopZ
+NICNEPOM_00422	CDS	588				hypothetical protein
+NICNEPOM_00423	CDS	453				hypothetical protein
+NICNEPOM_00424	CDS	201				hypothetical protein
+NICNEPOM_00425	CDS	306				hypothetical protein
+NICNEPOM_00426	CDS	306				hypothetical protein
+NICNEPOM_00427	CDS	711				hypothetical protein
+NICNEPOM_00428	CDS	453				hypothetical protein
+NICNEPOM_00429	CDS	462				hypothetical protein
+NICNEPOM_00430	CDS	147				hypothetical protein
+NICNEPOM_00431	CDS	2220				hypothetical protein
+NICNEPOM_00432	CDS	180				hypothetical protein
+NICNEPOM_00433	CDS	1116	asd	1.2.1.11	COG0136	Aspartate-semialdehyde dehydrogenase
+NICNEPOM_00434	CDS	801				hypothetical protein
+NICNEPOM_00435	CDS	1521				hypothetical protein
+NICNEPOM_00436	CDS	969	argP			HTH-type transcriptional regulator ArgP
+NICNEPOM_00437	CDS	153				hypothetical protein
+NICNEPOM_00438	CDS	783				hypothetical protein
+NICNEPOM_00439	CDS	126				hypothetical protein
+NICNEPOM_00440	CDS	2205	priA	3.6.4.-	COG1198	Primosomal protein N'
+NICNEPOM_00441	CDS	1512	mqo	1.1.5.4	COG0579	Malate:quinone oxidoreductase
+NICNEPOM_00442	CDS	1347	recB_2	3.1.11.5		RecBCD enzyme subunit RecB
+NICNEPOM_00443	CDS	186				hypothetical protein
+NICNEPOM_00444	CDS	159				hypothetical protein
+NICNEPOM_00445	CDS	138				hypothetical protein
+NICNEPOM_00446	tRNA	91				tRNA-Ser(tga)
+NICNEPOM_00447	CDS	483				hypothetical protein
+NICNEPOM_00448	CDS	303				hypothetical protein
+NICNEPOM_00449	CDS	864				hypothetical protein
+NICNEPOM_00450	CDS	963	fabH	2.3.1.180		3-oxoacyl-[acyl-carrier-protein] synthase 3
+NICNEPOM_00451	CDS	351	plsX	2.3.1.274		Phosphate acyltransferase
+NICNEPOM_00452	CDS	1218				hypothetical protein
+NICNEPOM_00453	CDS	612	def1_1	3.5.1.88		Peptide deformylase 1
+NICNEPOM_00454	CDS	258				hypothetical protein
+NICNEPOM_00455	CDS	189				hypothetical protein
+NICNEPOM_00456	CDS	453				hypothetical protein
+NICNEPOM_00457	CDS	423				hypothetical protein
+NICNEPOM_00458	CDS	1779				hypothetical protein
+NICNEPOM_00459	CDS	756				hypothetical protein
+NICNEPOM_00460	CDS	444	nudB	3.6.1.67	COG0494	Dihydroneopterin triphosphate diphosphatase
+NICNEPOM_00461	CDS	729	mscK		COG3264	Mechanosensitive channel MscK
+NICNEPOM_00462	CDS	1872	kup			Low affinity potassium transport system protein kup
+NICNEPOM_00463	CDS	180	argC_1	1.2.1.38	COG0002	N-acetyl-gamma-glutamyl-phosphate reductase
+NICNEPOM_00464	CDS	894	argC_2	1.2.1.38		N-acetyl-gamma-glutamyl-phosphate reductase
+NICNEPOM_00465	CDS	588	mog_1	2.7.7.75	COG0521	Molybdopterin adenylyltransferase
+NICNEPOM_00466	CDS	471	argR		COG1438	Arginine repressor
+NICNEPOM_00467	CDS	795	nudC	3.6.1.22	COG2816	NADH pyrophosphatase
+NICNEPOM_00468	CDS	354	yidC_1			Membrane protein insertase YidC
+NICNEPOM_00469	CDS	861	vgb	4.2.99.-		Virginiamycin B lyase
+NICNEPOM_00470	CDS	765				hypothetical protein
+NICNEPOM_00471	CDS	1581	mnmC_1	2.1.1.61		tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC
+NICNEPOM_00472	CDS	1158				hypothetical protein
+NICNEPOM_00473	CDS	912	aplIR	3.1.21.4		Type-2 restriction enzyme AplI
+NICNEPOM_00474	CDS	261				hypothetical protein
+NICNEPOM_00475	CDS	918	lpxC	3.5.1.108	COG0774	UDP-3-O-acyl-N-acetylglucosamine deacetylase
+NICNEPOM_00476	CDS	720	trmO_1	2.1.1.-	COG1720	tRNA (adenine(37)-N6)-methyltransferase
+NICNEPOM_00477	CDS	1230				hypothetical protein
+NICNEPOM_00478	CDS	540	tetA			Tetracycline resistance protein, class C
+NICNEPOM_00479	CDS	984	holA	2.7.7.7	COG1466	DNA polymerase III subunit delta
+NICNEPOM_00480	CDS	486	lptE		COG2980	LPS-assembly lipoprotein LptE
+NICNEPOM_00481	CDS	684	gatB	6.3.5.-	COG0064	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B
+NICNEPOM_00482	CDS	1251				hypothetical protein
+NICNEPOM_00483	CDS	402	wecA	2.7.8.40		UDP-N-acetylgalactosamine-undecaprenyl-phosphate N-acetylgalactosaminephosphotransferase
+NICNEPOM_00484	CDS	879				hypothetical protein
+NICNEPOM_00485	CDS	261				hypothetical protein
+NICNEPOM_00486	CDS	573	rpoE			ECF RNA polymerase sigma-E factor
+NICNEPOM_00487	CDS	558	rseA		COG3073	Anti-sigma-E factor RseA
+NICNEPOM_00488	CDS	1074				hypothetical protein
+NICNEPOM_00489	CDS	1227				hypothetical protein
+NICNEPOM_00490	CDS	1233				hypothetical protein
+NICNEPOM_00491	CDS	771				hypothetical protein
+NICNEPOM_00492	CDS	1287				hypothetical protein
+NICNEPOM_00493	CDS	114				hypothetical protein
+NICNEPOM_00494	CDS	189				hypothetical protein
+NICNEPOM_00495	CDS	231				hypothetical protein
+NICNEPOM_00496	CDS	783	tcdA	6.1.-.-	COG1179	tRNA threonylcarbamoyladenosine dehydratase
+NICNEPOM_00497	CDS	471				Putative universal stress protein
+NICNEPOM_00498	CDS	543				hypothetical protein
+NICNEPOM_00499	CDS	1491	lepA_1	3.6.5.-	COG0481	Elongation factor 4
+NICNEPOM_00500	CDS	1365		3.6.3.-	COG1132	Putative multidrug export ATP-binding/permease protein
+NICNEPOM_00501	CDS	846	nadC_1	2.4.2.19	COG0157	Nicotinate-nucleotide pyrophosphorylase [carboxylating]
+NICNEPOM_00502	CDS	924	htpG		COG0326	Chaperone protein HtpG
+NICNEPOM_00503	CDS	417				hypothetical protein
+NICNEPOM_00504	CDS	444	proY		COG1113	Proline-specific permease ProY
+NICNEPOM_00505	CDS	414				hypothetical protein
+NICNEPOM_00506	CDS	456				hypothetical protein
+NICNEPOM_00507	CDS	879				hypothetical protein
+NICNEPOM_00508	CDS	2370				hypothetical protein
+NICNEPOM_00509	CDS	543	pgpA	3.1.3.27	COG1267	Phosphatidylglycerophosphatase A
+NICNEPOM_00510	CDS	963	thiL	2.7.4.16	COG0611	Thiamine-monophosphate kinase
+NICNEPOM_00511	CDS	180	chaB_1		COG4572	Putative cation transport regulator ChaB
+NICNEPOM_00512	CDS	351		2.8.1.-	COG0607	Sulfurtransferase
+NICNEPOM_00513	CDS	894				hypothetical protein
+NICNEPOM_00514	CDS	753	lpxP	2.3.1.242	COG1560	Lipid A biosynthesis palmitoleoyltransferase
+NICNEPOM_00515	CDS	630				hypothetical protein
+NICNEPOM_00516	CDS	594				hypothetical protein
+NICNEPOM_00517	CDS	207				hypothetical protein
+NICNEPOM_00518	CDS	939	qseC	2.7.13.3		Sensor protein QseC
+NICNEPOM_00519	CDS	1296	mdtD			Putative multidrug resistance protein MdtD
+NICNEPOM_00520	CDS	1464	ppx	3.6.1.11	COG0248	Exopolyphosphatase
+NICNEPOM_00521	CDS	414	hns			DNA-binding protein H-NS
+NICNEPOM_00522	CDS	432	lolE		COG4591	Lipoprotein-releasing system transmembrane protein LolE
+NICNEPOM_00523	CDS	414				hypothetical protein
+NICNEPOM_00524	CDS	933				hypothetical protein
+NICNEPOM_00525	CDS	495				hypothetical protein
+NICNEPOM_00526	CDS	1332	uup		COG0488	ABC transporter ATP-binding protein uup
+NICNEPOM_00527	CDS	888				hypothetical protein
+NICNEPOM_00528	CDS	1149	iscS	2.8.1.7	COG1104	Cysteine desulfurase IscS
+NICNEPOM_00529	CDS	795				hypothetical protein
+NICNEPOM_00530	CDS	459				hypothetical protein
+NICNEPOM_00531	CDS	174				hypothetical protein
+NICNEPOM_00532	CDS	234				hypothetical protein
+NICNEPOM_00533	CDS	339				hypothetical protein
+NICNEPOM_00534	CDS	564				hypothetical protein
+NICNEPOM_00535	CDS	417	dksA		COG1734	RNA polymerase-binding transcription factor DksA
+NICNEPOM_00536	CDS	1569				hypothetical protein
+NICNEPOM_00537	CDS	969	potH		COG1176	Putrescine transport system permease protein PotH
+NICNEPOM_00538	CDS	939	potA	7.6.2.11	COG3842	Spermidine/putrescine import ATP-binding protein PotA
+NICNEPOM_00539	CDS	309	arfA		COG2885	Peptidoglycan-binding protein ArfA
+NICNEPOM_00540	CDS	288				hypothetical protein
+NICNEPOM_00541	CDS	1104	yidC_2			Membrane protein insertase YidC
+NICNEPOM_00542	CDS	171				hypothetical protein
+NICNEPOM_00543	CDS	1569				hypothetical protein
+NICNEPOM_00544	CDS	1590	msbA	7.5.2.6	COG1132	Lipid A export ATP-binding/permease protein MsbA
+NICNEPOM_00545	CDS	168				hypothetical protein
+NICNEPOM_00546	tRNA	81				tRNA-Ser(gct)
+NICNEPOM_00547	CDS	681	modB		COG4149	Molybdenum transport system permease protein ModB
+NICNEPOM_00548	CDS	768	modA		COG0725	Molybdate-binding protein ModA
+NICNEPOM_00549	CDS	450	resA_1			Thiol-disulfide oxidoreductase ResA
+NICNEPOM_00550	CDS	1539	nadB	1.4.3.16	COG0029	L-aspartate oxidase
+NICNEPOM_00551	CDS	336	nadA	2.5.1.72		Quinolinate synthase A
+NICNEPOM_00552	CDS	360	rplD_1		COG0088	50S ribosomal protein L4
+NICNEPOM_00553	CDS	303	rplW_1		COG0089	50S ribosomal protein L23
+NICNEPOM_00554	CDS	825	rplB		COG0090	50S ribosomal protein L2
+NICNEPOM_00555	CDS	279	rpsS		COG0185	30S ribosomal protein S19
+NICNEPOM_00556	CDS	333	rplV		COG0091	50S ribosomal protein L22
+NICNEPOM_00557	CDS	642				hypothetical protein
+NICNEPOM_00558	CDS	792	panB	2.1.2.11	COG0413	3-methyl-2-oxobutanoate hydroxymethyltransferase
+NICNEPOM_00559	CDS	216				hypothetical protein
+NICNEPOM_00560	CDS	1218	hmp	1.14.12.17		Flavohemoprotein
+NICNEPOM_00561	CDS	450	nsrR		COG1959	HTH-type transcriptional repressor NsrR
+NICNEPOM_00562	CDS	399				hypothetical protein
+NICNEPOM_00563	CDS	732				hypothetical protein
+NICNEPOM_00564	CDS	99				hypothetical protein
+NICNEPOM_00565	CDS	108				hypothetical protein
+NICNEPOM_00566	CDS	180				hypothetical protein
+NICNEPOM_00567	CDS	561	ywrO	1.6.99.-	COG2249	General stress protein 14
+NICNEPOM_00568	CDS	918	rbn	3.1.-.-	COG1234	Ribonuclease BN
+NICNEPOM_00569	CDS	234				hypothetical protein
+NICNEPOM_00570	CDS	315				hypothetical protein
+NICNEPOM_00571	CDS	234	rpmB		COG0227	50S ribosomal protein L28
+NICNEPOM_00572	CDS	156	rpmG		COG0267	50S ribosomal protein L33
+NICNEPOM_00573	CDS	228	slyX			Protein SlyX
+NICNEPOM_00574	CDS	663	tenA_1	3.5.99.2	COG0819	Aminopyrimidine aminohydrolase
+NICNEPOM_00575	CDS	1554				hypothetical protein
+NICNEPOM_00576	CDS	303				hypothetical protein
+NICNEPOM_00577	CDS	1143	pqiB		COG3008	Intermembrane transport protein PqiB
+NICNEPOM_00578	CDS	537	pqiC		COG3009	Intermembrane transport lipoprotein PqiC
+NICNEPOM_00579	CDS	192	yeeF_1	3.1.-.-		Putative ribonuclease YeeF
+NICNEPOM_00580	CDS	348				hypothetical protein
+NICNEPOM_00581	CDS	600				hypothetical protein
+NICNEPOM_00582	CDS	552				hypothetical protein
+NICNEPOM_00583	CDS	393	uvrA		COG0178	UvrABC system protein A
+NICNEPOM_00584	CDS	843	metQ_1		COG1464	D-methionine-binding lipoprotein MetQ
+NICNEPOM_00585	CDS	573	rluE	5.4.99.20	COG1187	Ribosomal large subunit pseudouridine synthase E
+NICNEPOM_00586	CDS	171				hypothetical protein
+NICNEPOM_00587	CDS	348				hypothetical protein
+NICNEPOM_00588	CDS	1476	carB_1	6.3.5.5	COG0458	Carbamoyl-phosphate synthase large chain
+NICNEPOM_00589	CDS	1128	yhhJ_1		COG0842	Inner membrane transport permease YhhJ
+NICNEPOM_00590	CDS	324	purD	6.3.4.13	COG0151	Phosphoribosylamine--glycine ligase
+NICNEPOM_00591	tRNA	74				tRNA-Gly(ccc)
+NICNEPOM_00592	CDS	402				hypothetical protein
+NICNEPOM_00593	CDS	1221				hypothetical protein
+NICNEPOM_00594	CDS	486				hypothetical protein
+NICNEPOM_00595	CDS	1380				hypothetical protein
+NICNEPOM_00596	CDS	612	rdgB_1	3.6.1.66	COG0127	dITP/XTP pyrophosphatase
+NICNEPOM_00597	CDS	1200	hemW_1		COG0635	Heme chaperone HemW
+NICNEPOM_00598	CDS	549				hypothetical protein
+NICNEPOM_00599	CDS	564				hypothetical protein
+NICNEPOM_00600	CDS	597	fdhE			Protein FdhE
+NICNEPOM_00601	CDS	279				hypothetical protein
+NICNEPOM_00602	CDS	570	metQ_2		COG1464	D-methionine-binding lipoprotein MetQ
+NICNEPOM_00603	CDS	1062	metN_1	3.6.3.-	COG1135	Methionine import ATP-binding protein MetN
+NICNEPOM_00604	CDS	933				hypothetical protein
+NICNEPOM_00605	CDS	306				hypothetical protein
+NICNEPOM_00606	CDS	315				hypothetical protein
+NICNEPOM_00607	CDS	840	panC	6.3.2.1	COG0414	Pantothenate synthetase
+NICNEPOM_00608	CDS	804	artJ		COG0834	ABC transporter arginine-binding protein 1
+NICNEPOM_00609	CDS	255				hypothetical protein
+NICNEPOM_00610	CDS	423				hypothetical protein
+NICNEPOM_00611	CDS	702				hypothetical protein
+NICNEPOM_00612	CDS	1158	pepD_1	3.4.13.18	COG2195	Cytosol non-specific dipeptidase
+NICNEPOM_00613	CDS	741	dnaQ_1	2.7.7.7	COG0847	DNA polymerase III subunit epsilon
+NICNEPOM_00614	CDS	708	ispD	2.7.7.60		2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+NICNEPOM_00615	CDS	483	ispF_1	4.6.1.12	COG0245	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
+NICNEPOM_00616	CDS	129	tehB	2.1.1.265	COG0500	Tellurite methyltransferase
+NICNEPOM_00617	CDS	663	prtR_3		COG2932	HTH-type transcriptional regulator PrtR
+NICNEPOM_00618	CDS	501	cysNC		COG0529	Bifunctional enzyme CysN/CysC
+NICNEPOM_00619	CDS	687	rfaY_1	2.7.1.-		Lipopolysaccharide core heptose(II) kinase RfaY
+NICNEPOM_00620	CDS	543	yejM		COG3083	Inner membrane protein YejM
+NICNEPOM_00621	CDS	828				hypothetical protein
+NICNEPOM_00622	CDS	180				hypothetical protein
+NICNEPOM_00623	CDS	288				hypothetical protein
+NICNEPOM_00624	CDS	582	acpH	3.1.4.14	COG3124	Acyl carrier protein phosphodiesterase
+NICNEPOM_00625	CDS	504	viuB_1		COG2375	Vibriobactin utilization protein ViuB
+NICNEPOM_00626	CDS	273	cutC	4.3.99.4	COG1882	Choline trimethylamine-lyase
+NICNEPOM_00627	CDS	876				hypothetical protein
+NICNEPOM_00628	CDS	438				hypothetical protein
+NICNEPOM_00629	CDS	654				hypothetical protein
+NICNEPOM_00630	CDS	888	rhlE	3.6.4.13		ATP-dependent RNA helicase RhlE
+NICNEPOM_00631	CDS	309	narL		COG2197	Nitrate/nitrite response regulator protein NarL
+NICNEPOM_00632	CDS	1224	narT		COG2223	putative nitrate transporter NarT
+NICNEPOM_00633	CDS	696	lolD	3.6.3.-	COG1136	Lipoprotein-releasing system ATP-binding protein LolD
+NICNEPOM_00634	CDS	921				hypothetical protein
+NICNEPOM_00635	CDS	906	waaA	2.4.99.12	COG1519	3-deoxy-D-manno-octulosonic acid transferase
+NICNEPOM_00636	CDS	1425	purH		COG0138	Bifunctional purine biosynthesis protein PurH
+NICNEPOM_00637	CDS	162				hypothetical protein
+NICNEPOM_00638	CDS	1143				hypothetical protein
+NICNEPOM_00639	CDS	351				hypothetical protein
+NICNEPOM_00640	CDS	570				hypothetical protein
+NICNEPOM_00641	CDS	453				hypothetical protein
+NICNEPOM_00642	CDS	411				hypothetical protein
+NICNEPOM_00643	CDS	291				hypothetical protein
+NICNEPOM_00644	CDS	750	tig	5.2.1.8	COG0544	Trigger factor
+NICNEPOM_00645	CDS	612	clpP	3.4.21.92	COG0740	ATP-dependent Clp protease proteolytic subunit
+NICNEPOM_00646	CDS	405	mrdB	2.4.1.129	COG0772	Peptidoglycan glycosyltransferase MrdB
+NICNEPOM_00647	CDS	450	farR			HTH-type transcriptional regulator FarR
+NICNEPOM_00648	CDS	876	valS	6.1.1.9	COG0525	Valine--tRNA ligase
+NICNEPOM_00649	CDS	102				hypothetical protein
+NICNEPOM_00650	CDS	666		3.1.3.-	COG0560	putative phosphatase
+NICNEPOM_00651	CDS	669	hda		COG0593	DnaA regulatory inactivator Hda
+NICNEPOM_00652	CDS	1884	btuB			Vitamin B12 transporter BtuB
+NICNEPOM_00653	CDS	654				hypothetical protein
+NICNEPOM_00654	CDS	225				hypothetical protein
+NICNEPOM_00655	CDS	708				hypothetical protein
+NICNEPOM_00656	CDS	225				hypothetical protein
+NICNEPOM_00657	CDS	693				hypothetical protein
+NICNEPOM_00658	CDS	879				hypothetical protein
+NICNEPOM_00659	CDS	726				hypothetical protein
+NICNEPOM_00660	CDS	621	ribC	2.5.1.9	COG0307	Riboflavin synthase
+NICNEPOM_00661	CDS	513	fldA		COG0716	Flavodoxin
+NICNEPOM_00662	CDS	636	cysH_1	1.8.4.8	COG0175	Phosphoadenosine phosphosulfate reductase
+NICNEPOM_00663	CDS	561	sat_1	2.7.7.4	COG2046	Sulfate adenylyltransferase
+NICNEPOM_00664	CDS	1116				hypothetical protein
+NICNEPOM_00665	CDS	486				hypothetical protein
+NICNEPOM_00666	CDS	705				hypothetical protein
+NICNEPOM_00667	CDS	1188	arnB_2	2.6.1.87		UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase
+NICNEPOM_00668	CDS	390				hypothetical protein
+NICNEPOM_00669	CDS	1389	bepC			Outer membrane efflux protein BepC
+NICNEPOM_00670	CDS	732	recO		COG1381	DNA repair protein RecO
+NICNEPOM_00671	CDS	873	galU_1	2.7.7.9	COG1210	UTP--glucose-1-phosphate uridylyltransferase
+NICNEPOM_00672	CDS	405				hypothetical protein
+NICNEPOM_00673	CDS	342				hypothetical protein
+NICNEPOM_00674	CDS	813	tgt	2.4.2.29	COG0343	Queuine tRNA-ribosyltransferase
+NICNEPOM_00675	CDS	243				hypothetical protein
+NICNEPOM_00676	CDS	336				hypothetical protein
+NICNEPOM_00677	CDS	192	ywnH	2.3.1.183	COG1247	Putative phosphinothricin acetyltransferase YwnH
+NICNEPOM_00678	CDS	339	erpA		COG0316	Iron-sulfur cluster insertion protein ErpA
+NICNEPOM_00679	CDS	714	ahpF	1.8.1.-	COG3634	Alkyl hydroperoxide reductase subunit F
+NICNEPOM_00680	CDS	945	cueO		COG2132	Blue copper oxidase CueO
+NICNEPOM_00681	CDS	591				hypothetical protein
+NICNEPOM_00682	CDS	564	tag	3.2.2.20	COG2818	DNA-3-methyladenine glycosylase 1
+NICNEPOM_00683	CDS	1458	relA	2.7.6.5	COG0317	GTP pyrophosphokinase
+NICNEPOM_00684	CDS	1245				hypothetical protein
+NICNEPOM_00685	CDS	870				hypothetical protein
+NICNEPOM_00686	CDS	417				hypothetical protein
+NICNEPOM_00687	CDS	180	msrAB			Peptide methionine sulfoxide reductase MsrA/MsrB
+NICNEPOM_00688	CDS	573	pgsA	2.7.8.5	COG0558	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+NICNEPOM_00689	tRNA	76				tRNA-Gly(gcc)
+NICNEPOM_00690	tRNA	76				tRNA-Gly(gcc)
+NICNEPOM_00691	tRNA	76				tRNA-Gly(gcc)
+NICNEPOM_00692	tRNA	74				tRNA-Cys(gca)
+NICNEPOM_00693	tRNA	91				tRNA-Leu(taa)
+NICNEPOM_00694	CDS	1023				hypothetical protein
+NICNEPOM_00695	CDS	993				hypothetical protein
+NICNEPOM_00696	CDS	303	zapA			Cell division protein ZapA
+NICNEPOM_00697	CDS	333				hypothetical protein
+NICNEPOM_00698	CDS	456	gpsA	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]
+NICNEPOM_00699	CDS	330				hypothetical protein
+NICNEPOM_00700	CDS	192				hypothetical protein
+NICNEPOM_00701	CDS	687	phoB		COG0745	Phosphate regulon transcriptional regulatory protein PhoB
+NICNEPOM_00702	CDS	276				hypothetical protein
+NICNEPOM_00703	CDS	1200				hypothetical protein
+NICNEPOM_00704	CDS	297				hypothetical protein
+NICNEPOM_00705	CDS	1131		3.4.11.25		Beta-peptidyl aminopeptidase BapA
+NICNEPOM_00706	CDS	234	gpmI_1	5.4.2.12	COG0696	2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+NICNEPOM_00707	CDS	1305			COG4942	putative protein
+NICNEPOM_00708	CDS	1002	ackA	2.7.2.1	COG0282	Acetate kinase
+NICNEPOM_00709	CDS	927	cysK	2.5.1.47	COG0031	Cysteine synthase
+NICNEPOM_00710	CDS	495				hypothetical protein
+NICNEPOM_00711	CDS	282				hypothetical protein
+NICNEPOM_00712	CDS	90				hypothetical protein
+NICNEPOM_00713	CDS	840	hemY		COG3071	Protein HemY
+NICNEPOM_00714	CDS	702	hemX		COG2959	Protein HemX
+NICNEPOM_00715	CDS	864	pncB2	6.3.4.21	COG1488	Nicotinate phosphoribosyltransferase 2
+NICNEPOM_00716	CDS	411	hslR		COG1188	Heat shock protein 15
+NICNEPOM_00717	CDS	372				hypothetical protein
+NICNEPOM_00718	CDS	771	mtnN	3.2.2.9	COG0775	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase
+NICNEPOM_00719	CDS	588	recD	3.1.11.5		RecBCD enzyme subunit RecD
+NICNEPOM_00720	CDS	378				hypothetical protein
+NICNEPOM_00721	CDS	1602	ilvD	4.2.1.9	COG0129	Dihydroxy-acid dehydratase
+NICNEPOM_00722	CDS	1398	purL_2	6.3.5.3	COG0046	Phosphoribosylformylglycinamidine synthase
+NICNEPOM_00723	CDS	507	luxS_2	4.4.1.21	COG1854	S-ribosylhomocysteine lyase
+NICNEPOM_00724	CDS	576	ydcV			Inner membrane ABC transporter permease protein YdcV
+NICNEPOM_00725	CDS	999	argI	2.1.3.3	COG0078	Ornithine carbamoyltransferase subunit I
+NICNEPOM_00726	CDS	852	dapE	3.5.1.18	COG0624	Succinyl-diaminopimelate desuccinylase
+NICNEPOM_00727	CDS	318				hypothetical protein
+NICNEPOM_00728	CDS	378	entB	6.3.2.14	COG1535	Enterobactin synthase component B
+NICNEPOM_00729	CDS	537	hpt_1	2.4.2.8	COG0634	Hypoxanthine phosphoribosyltransferase
+NICNEPOM_00730	CDS	498	mepS	3.4.-.-	COG0791	Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase
+NICNEPOM_00731	CDS	366				hypothetical protein
+NICNEPOM_00732	CDS	435	dtd	3.1.1.96	COG1490	D-aminoacyl-tRNA deacylase
+NICNEPOM_00733	CDS	762	oxyR			Hydrogen peroxide-inducible genes activator
+NICNEPOM_00734	CDS	1083	aroB	4.2.3.4	COG0337	3-dehydroquinate synthase
+NICNEPOM_00735	CDS	513	alaA	2.6.1.2	COG0436	Glutamate-pyruvate aminotransferase AlaA
+NICNEPOM_00736	CDS	1167	ptrA	3.4.24.55	COG1025	Protease 3
+NICNEPOM_00737	CDS	228				hypothetical protein
+NICNEPOM_00738	CDS	768	chbG	3.5.1.105	COG3394	Chitooligosaccharide deacetylase ChbG
+NICNEPOM_00739	tRNA	77				tRNA-Met(cat)
+NICNEPOM_00740	CDS	732	mutS			DNA mismatch repair protein MutS
+NICNEPOM_00741	CDS	930				hypothetical protein
+NICNEPOM_00742	CDS	546	sttH	3.5.2.19		Streptothricin hydrolase
+NICNEPOM_00743	CDS	393	lrpC		COG1522	HTH-type transcriptional regulator LrpC
+NICNEPOM_00744	CDS	576				hypothetical protein
+NICNEPOM_00745	CDS	858	dmlR			HTH-type transcriptional regulator DmlR
+NICNEPOM_00746	CDS	111				hypothetical protein
+NICNEPOM_00747	CDS	1134				hypothetical protein
+NICNEPOM_00748	CDS	510	cysA_1	7.3.2.3	COG1118	Sulfate/thiosulfate import ATP-binding protein CysA
+NICNEPOM_00749	CDS	831	mopA		COG2005	Molybdenum-pterin-binding protein MopA
+NICNEPOM_00750	CDS	171				hypothetical protein
+NICNEPOM_00751	CDS	1611	pal			Peptidoglycan-associated lipoprotein
+NICNEPOM_00752	CDS	507				hypothetical protein
+NICNEPOM_00753	CDS	936	hom	1.1.1.3	COG0460	Homoserine dehydrogenase
+NICNEPOM_00754	CDS	867				hypothetical protein
+NICNEPOM_00755	CDS	450	zur_2		COG0735	Zinc uptake regulation protein
+NICNEPOM_00756	CDS	762			COG2932	putative HTH-type transcriptional regulator
+NICNEPOM_00757	CDS	105				hypothetical protein
+NICNEPOM_00758	CDS	894			COG2822	Efem/EfeO family lipoprotein
+NICNEPOM_00759	CDS	819				hypothetical protein
+NICNEPOM_00760	CDS	144				hypothetical protein
+NICNEPOM_00761	CDS	984				hypothetical protein
+NICNEPOM_00762	CDS	354	glmU			Bifunctional protein GlmU
+NICNEPOM_00763	CDS	243				hypothetical protein
+NICNEPOM_00764	CDS	270				hypothetical protein
+NICNEPOM_00765	CDS	678	mfd	3.6.4.-	COG1197	Transcription-repair-coupling factor
+NICNEPOM_00766	CDS	699				hypothetical protein
+NICNEPOM_00767	CDS	336				hypothetical protein
+NICNEPOM_00768	CDS	552	ruvC	3.1.22.4	COG0817	Crossover junction endodeoxyribonuclease RuvC
+NICNEPOM_00769	CDS	702	murU	2.7.7.99	COG1208	N-acetylmuramate alpha-1-phosphate uridylyltransferase
+NICNEPOM_00770	CDS	1659	infB		COG0532	Translation initiation factor IF-2
+NICNEPOM_00771	CDS	453				hypothetical protein
+NICNEPOM_00772	CDS	270	ptsH		COG1925	Phosphocarrier protein HPr
+NICNEPOM_00773	CDS	651				hypothetical protein
+NICNEPOM_00774	CDS	669	rpiA	5.3.1.6		Ribose-5-phosphate isomerase A
+NICNEPOM_00775	CDS	141	ispF_2	4.6.1.12	COG0245	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
+NICNEPOM_00776	CDS	810	murI	5.1.1.3	COG0796	Glutamate racemase
+NICNEPOM_00777	CDS	1110				hypothetical protein
+NICNEPOM_00778	CDS	243				hypothetical protein
+NICNEPOM_00779	CDS	126				hypothetical protein
+NICNEPOM_00780	CDS	1008	hemH	4.99.1.1	COG0276	Ferrochelatase
+NICNEPOM_00781	CDS	213	thiE	2.5.1.3	COG0352	Thiamine-phosphate synthase
+NICNEPOM_00782	CDS	207				hypothetical protein
+NICNEPOM_00783	CDS	897	glyA	2.1.2.1	COG0112	Serine hydroxymethyltransferase
+NICNEPOM_00784	CDS	156	tyrB	2.6.1.57	COG1448	Aromatic-amino-acid aminotransferase
+NICNEPOM_00785	CDS	576				hypothetical protein
+NICNEPOM_00786	CDS	498				hypothetical protein
+NICNEPOM_00787	CDS	198	pyrG	6.3.4.2	COG0504	CTP synthase
+NICNEPOM_00788	CDS	264	tmk	2.7.4.9		Thymidylate kinase
+NICNEPOM_00789	CDS	990				hypothetical protein
+NICNEPOM_00790	CDS	360				hypothetical protein
+NICNEPOM_00791	CDS	312	fatA			Ferric-anguibactin receptor FatA
+NICNEPOM_00792	CDS	1173	iucD	1.14.13.59	COG3486	L-lysine N6-monooxygenase
+NICNEPOM_00793	CDS	900				hypothetical protein
+NICNEPOM_00794	CDS	231				hypothetical protein
+NICNEPOM_00795	CDS	1089	lptG		COG0795	Lipopolysaccharide export system permease protein LptG
+NICNEPOM_00796	CDS	423				hypothetical protein
+NICNEPOM_00797	CDS	1074	dusA_1	1.3.1.-	COG0042	tRNA-dihydrouridine(20/20a) synthase
+NICNEPOM_00798	CDS	1002	ansA	3.5.1.1	COG0252	L-asparaginase 1
+NICNEPOM_00799	CDS	843				hypothetical protein
+NICNEPOM_00800	CDS	501	prmC_2	2.1.1.297	COG2890	Release factor glutamine methyltransferase
+NICNEPOM_00801	CDS	648				hypothetical protein
+NICNEPOM_00802	CDS	321	yciO		COG0009	putative protein YciO
+NICNEPOM_00803	CDS	408	aroL	2.7.1.71		Shikimate kinase 2
+NICNEPOM_00804	CDS	1290				hypothetical protein
+NICNEPOM_00805	CDS	762				hypothetical protein
+NICNEPOM_00806	CDS	426	ndk	2.7.4.6		Nucleoside diphosphate kinase
+NICNEPOM_00807	CDS	573	rng	3.1.26.-	COG1530	Ribonuclease G
+NICNEPOM_00808	CDS	795	cysE	2.3.1.30	COG1045	Serine acetyltransferase
+NICNEPOM_00809	tRNA	77				tRNA-Met(cat)
+NICNEPOM_00810	CDS	510	zraS	2.7.13.3		Sensor protein ZraS
+NICNEPOM_00811	CDS	372				hypothetical protein
+NICNEPOM_00812	CDS	216	epd	1.2.1.72	COG0057	D-erythrose-4-phosphate dehydrogenase
+NICNEPOM_00813	CDS	207				hypothetical protein
+NICNEPOM_00814	CDS	267				hypothetical protein
+NICNEPOM_00815	CDS	264				hypothetical protein
+NICNEPOM_00816	CDS	258				hypothetical protein
+NICNEPOM_00817	CDS	177				hypothetical protein
+NICNEPOM_00818	CDS	444				hypothetical protein
+NICNEPOM_00819	CDS	963		3.4.21.26		Prolyl endopeptidase
+NICNEPOM_00820	CDS	240	acpP		COG0236	Acyl carrier protein
+NICNEPOM_00821	CDS	654				hypothetical protein
+NICNEPOM_00822	CDS	192				hypothetical protein
+NICNEPOM_00823	CDS	1314				hypothetical protein
+NICNEPOM_00824	CDS	150	cca_1	2.7.7.72		Multifunctional CCA protein
+NICNEPOM_00825	CDS	135				hypothetical protein
+NICNEPOM_00826	CDS	378				hypothetical protein
+NICNEPOM_00827	CDS	231				hypothetical protein
+NICNEPOM_00828	CDS	642	trpF	5.3.1.24	COG0135	N-(5'-phosphoribosyl)anthranilate isomerase
+NICNEPOM_00829	CDS	852	truA_1	5.4.99.12	COG0101	tRNA pseudouridine synthase A
+NICNEPOM_00830	CDS	813	typA		COG1217	GTP-binding protein TypA/BipA
+NICNEPOM_00831	CDS	489				hypothetical protein
+NICNEPOM_00832	CDS	471	nimR			HTH-type transcriptional regulator NimR
+NICNEPOM_00833	CDS	303	rplW_2		COG0089	50S ribosomal protein L23
+NICNEPOM_00834	CDS	603	rplD_2		COG0088	50S ribosomal protein L4
+NICNEPOM_00835	CDS	627	rplC		COG0087	50S ribosomal protein L3
+NICNEPOM_00836	CDS	594	inhA	4.2.1.103		Isonitrile hydratase
+NICNEPOM_00837	CDS	1680	acnB	4.2.1.3	COG1049	Aconitate hydratase B
+NICNEPOM_00838	CDS	201				hypothetical protein
+NICNEPOM_00839	CDS	669	tycB			Tyrocidine synthase 2
+NICNEPOM_00840	CDS	861	ppsD	2.3.1.-	COG0318	Plipastatin synthase subunit D
+NICNEPOM_00841	CDS	264				hypothetical protein
+NICNEPOM_00842	CDS	1263				hypothetical protein
+NICNEPOM_00843	CDS	963			COG4413	Urea transporter
+NICNEPOM_00844	CDS	1368	tcyP		COG1823	L-cystine uptake protein TcyP
+NICNEPOM_00845	CDS	504				hypothetical protein
+NICNEPOM_00846	CDS	183				hypothetical protein
+NICNEPOM_00847	CDS	270				hypothetical protein
+NICNEPOM_00848	CDS	645	gph	3.1.3.18		Phosphoglycolate phosphatase
+NICNEPOM_00849	CDS	408	ynbC		COG2267	putative protein YnbC
+NICNEPOM_00850	CDS	1281	lpd	1.8.1.4		Dihydrolipoyl dehydrogenase
+NICNEPOM_00851	CDS	420	nadC_2	2.4.2.19	COG0157	putative nicotinate-nucleotide pyrophosphorylase [carboxylating]
+NICNEPOM_00852	CDS	1218	sucB	2.3.1.61	COG0508	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex
+NICNEPOM_00853	CDS	150				hypothetical protein
+NICNEPOM_00854	CDS	1290	lldP		COG1620	L-lactate permease
+NICNEPOM_00855	CDS	690	cidB		COG1346	Holin-like protein CidB
+NICNEPOM_00856	CDS	405	cidA			Holin-like protein CidA
+NICNEPOM_00857	CDS	780	truA_2	5.4.99.12	COG0101	tRNA pseudouridine synthase A
+NICNEPOM_00858	CDS	315	usg		COG0136	USG-1 protein
+NICNEPOM_00859	CDS	477	putP		COG0591	Sodium/proline symporter
+NICNEPOM_00860	CDS	675				hypothetical protein
+NICNEPOM_00861	CDS	111				hypothetical protein
+NICNEPOM_00862	CDS	903				hypothetical protein
+NICNEPOM_00863	tRNA	91				tRNA-Leu(taa)
+NICNEPOM_00864	CDS	780	ubiI	1.14.13.240	COG0654	2-octaprenylphenol hydroxylase
+NICNEPOM_00865	CDS	456				hypothetical protein
+NICNEPOM_00866	CDS	1314				hypothetical protein
+NICNEPOM_00867	tRNA	77				tRNA-Pro(tgg)
+NICNEPOM_00868	CDS	348	entE	6.3.2.14	COG1021	Enterobactin synthase component E
+NICNEPOM_00869	CDS	246				hypothetical protein
+NICNEPOM_00870	CDS	756	srlR		COG1349	Glucitol operon repressor
+NICNEPOM_00871	CDS	138				hypothetical protein
+NICNEPOM_00872	CDS	273				hypothetical protein
+NICNEPOM_00873	CDS	828	folC	6.3.2.12	COG0285	Dihydrofolate synthase/folylpolyglutamate synthase
+NICNEPOM_00874	CDS	852	yfiC	2.1.1.223		tRNA1(Val) (adenine(37)-N6)-methyltransferase
+NICNEPOM_00875	CDS	675				hypothetical protein
+NICNEPOM_00876	CDS	1098	porA			Major outer membrane protein P.IA
+NICNEPOM_00877	CDS	1023	tsaD	2.3.1.234	COG0533	tRNA N6-adenosine threonylcarbamoyltransferase
+NICNEPOM_00878	CDS	249				hypothetical protein
+NICNEPOM_00879	CDS	975	yclO		COG4605	Petrobactin import system permease protein YclO
+NICNEPOM_00880	CDS	468	rnhA	3.1.26.4	COG0328	Ribonuclease HI
+NICNEPOM_00881	CDS	768	dnaQ_2	2.7.7.7	COG0847	DNA polymerase III subunit epsilon
+NICNEPOM_00882	CDS	744				hypothetical protein
+NICNEPOM_00883	CDS	282				hypothetical protein
+NICNEPOM_00884	CDS	318				hypothetical protein
+NICNEPOM_00885	CDS	1314	adeP		COG2252	Adenine permease AdeP
+NICNEPOM_00886	CDS	450	mscL		COG1970	Large-conductance mechanosensitive channel
+NICNEPOM_00887	CDS	666				hypothetical protein
+NICNEPOM_00888	CDS	138	recR			Recombination protein RecR
+NICNEPOM_00889	CDS	1236	ilvA	4.3.1.19	COG1171	L-threonine dehydratase biosynthetic IlvA
+NICNEPOM_00890	CDS	396				hypothetical protein
+NICNEPOM_00891	CDS	378	pilT_1		COG2805	Twitching mobility protein
+NICNEPOM_00892	CDS	219	pilT_2		COG2805	Twitching mobility protein
+NICNEPOM_00893	CDS	885	nnr_1		COG0062	Bifunctional NAD(P)H-hydrate repair enzyme Nnr
+NICNEPOM_00894	CDS	564	glnD		COG2844	Bifunctional uridylyltransferase/uridylyl-removing enzyme
+NICNEPOM_00895	CDS	639	rhtC		COG1280	Threonine efflux protein
+NICNEPOM_00896	CDS	225				hypothetical protein
+NICNEPOM_00897	CDS	492				hypothetical protein
+NICNEPOM_00898	CDS	561	rluB	5.4.99.22	COG1187	Ribosomal large subunit pseudouridine synthase B
+NICNEPOM_00899	CDS	579				hypothetical protein
+NICNEPOM_00900	CDS	783				hypothetical protein
+NICNEPOM_00901	CDS	423				hypothetical protein
+NICNEPOM_00902	CDS	276				hypothetical protein
+NICNEPOM_00903	CDS	222				hypothetical protein
+NICNEPOM_00904	CDS	96				hypothetical protein
+NICNEPOM_00905	CDS	273				hypothetical protein
+NICNEPOM_00906	CDS	630		1.5.5.1	COG0644	Electron transfer flavoprotein-ubiquinone oxidoreductase
+NICNEPOM_00907	CDS	252				hypothetical protein
+NICNEPOM_00908	CDS	1149	menE	6.2.1.26		2-succinylbenzoate--CoA ligase
+NICNEPOM_00909	CDS	714	pdxY	2.7.1.35	COG2240	Pyridoxal kinase PdxY
+NICNEPOM_00910	CDS	720			COG0325	Pyridoxal phosphate homeostasis protein
+NICNEPOM_00911	CDS	228	chaB_2		COG4572	Putative cation transport regulator ChaB
+NICNEPOM_00912	CDS	657	pcm_1	2.1.1.77		Protein-L-isoaspartate O-methyltransferase
+NICNEPOM_00913	CDS	483				hypothetical protein
+NICNEPOM_00914	CDS	408	hmrR			HTH-type transcriptional regulator HmrR
+NICNEPOM_00915	CDS	522	cpxR		COG0745	Transcriptional regulatory protein CpxR
+NICNEPOM_00916	CDS	366				hypothetical protein
+NICNEPOM_00917	CDS	429				hypothetical protein
+NICNEPOM_00918	CDS	414				hypothetical protein
+NICNEPOM_00919	CDS	501				hypothetical protein
+NICNEPOM_00920	CDS	210	cspC_2			Cold shock-like protein CspC
+NICNEPOM_00921	CDS	576				hypothetical protein
+NICNEPOM_00922	CDS	1002				hypothetical protein
+NICNEPOM_00923	CDS	591	lemA		COG1704	Protein LemA
+NICNEPOM_00924	CDS	135				hypothetical protein
+NICNEPOM_00925	CDS	267				hypothetical protein
+NICNEPOM_00926	CDS	606				hypothetical protein
+NICNEPOM_00927	CDS	300	uspA		COG0589	Universal stress protein A
+NICNEPOM_00928	CDS	633	yhhJ_2		COG0842	Inner membrane transport permease YhhJ
+NICNEPOM_00929	CDS	747	manA	5.3.1.8	COG1482	Mannose-6-phosphate isomerase
+NICNEPOM_00930	CDS	354	frdD			Fumarate reductase subunit D
+NICNEPOM_00931	CDS	396				hypothetical protein
+NICNEPOM_00932	CDS	378				hypothetical protein
+NICNEPOM_00933	CDS	318				hypothetical protein
+NICNEPOM_00934	CDS	693				hypothetical protein
+NICNEPOM_00935	CDS	1122	clsC	2.7.8.-	COG1502	Cardiolipin synthase C
+NICNEPOM_00936	CDS	360	cca_2		COG0617	Multifunctional CCA protein
+NICNEPOM_00937	CDS	156				hypothetical protein
+NICNEPOM_00938	CDS	843				hypothetical protein
+NICNEPOM_00939	CDS	288				hypothetical protein
+NICNEPOM_00940	CDS	624	rpsC		COG0092	30S ribosomal protein S3
+NICNEPOM_00941	CDS	411	rplP		COG0197	50S ribosomal protein L16
+NICNEPOM_00942	CDS	192	rpmC		COG0255	50S ribosomal protein L29
+NICNEPOM_00943	CDS	261	rpsQ		COG0186	30S ribosomal protein S17
+NICNEPOM_00944	CDS	417	queH_2	1.17.99.6	COG1636	Epoxyqueuosine reductase QueH
+NICNEPOM_00945	CDS	333	emrE_2		COG2076	Multidrug transporter EmrE
+NICNEPOM_00946	CDS	249	hfq_1		COG1923	RNA-binding protein Hfq
+NICNEPOM_00947	CDS	1299	der		COG1160	GTPase Der
+NICNEPOM_00948	CDS	666				hypothetical protein
+NICNEPOM_00949	CDS	240	carB_2	6.3.5.5	COG0458	Carbamoyl-phosphate synthase large chain
+NICNEPOM_00950	CDS	579				hypothetical protein
+NICNEPOM_00951	CDS	678	pcm_2	2.1.1.77	COG2518	Protein-L-isoaspartate O-methyltransferase
+NICNEPOM_00952	CDS	273	prfA		COG0216	Peptide chain release factor RF1
+NICNEPOM_00953	CDS	876				hypothetical protein
+NICNEPOM_00954	CDS	264				hypothetical protein
+NICNEPOM_00955	CDS	576	pth_1	3.1.1.29		Peptidyl-tRNA hydrolase
+NICNEPOM_00956	CDS	285				hypothetical protein
+NICNEPOM_00957	CDS	270	pasT_2		COG2867	Persistence and stress-resistance toxin PasT
+NICNEPOM_00958	CDS	564	mtcA1	4.2.1.1	COG0288	Beta-carbonic anhydrase 1
+NICNEPOM_00959	CDS	636	nadD	2.7.7.18	COG1057	putative nicotinate-nucleotide adenylyltransferase
+NICNEPOM_00960	CDS	1410	pheT	6.1.1.20	COG0072	Phenylalanine--tRNA ligase beta subunit
+NICNEPOM_00961	CDS	1350	murD	6.3.2.9	COG0771	UDP-N-acetylmuramoylalanine--D-glutamate ligase
+NICNEPOM_00962	CDS	1392				hypothetical protein
+NICNEPOM_00963	CDS	129				hypothetical protein
+NICNEPOM_00964	CDS	360				hypothetical protein
+NICNEPOM_00965	CDS	408				hypothetical protein
+NICNEPOM_00966	CDS	246				hypothetical protein
+NICNEPOM_00967	CDS	1119	umuC		COG0389	Protein UmuC
+NICNEPOM_00968	CDS	735				hypothetical protein
+NICNEPOM_00969	CDS	933	moeA_1	2.10.1.1	COG0303	Molybdopterin molybdenumtransferase
+NICNEPOM_00970	CDS	333				hypothetical protein
+NICNEPOM_00971	CDS	750				hypothetical protein
+NICNEPOM_00972	CDS	591	yceF	3.6.1.-	COG0424	7-methyl-GTP pyrophosphatase
+NICNEPOM_00973	CDS	714	rsmI_1	2.1.1.198	COG0313	Ribosomal RNA small subunit methyltransferase I
+NICNEPOM_00974	tRNA	77				tRNA-Pro(cgg)
+NICNEPOM_00975	CDS	879				hypothetical protein
+NICNEPOM_00976	CDS	642	leuD1	4.2.1.33	COG0066	3-isopropylmalate dehydratase small subunit 1
+NICNEPOM_00977	CDS	1182	coaBC		COG0452	Coenzyme A biosynthesis bifunctional protein CoaBC
+NICNEPOM_00978	CDS	1146				hypothetical protein
+NICNEPOM_00979	CDS	531	yclQ		COG4607	Petrobactin-binding protein YclQ
+NICNEPOM_00980	CDS	594	plsY	2.3.1.15	COG0344	putative glycerol-3-phosphate acyltransferase
+NICNEPOM_00981	CDS	117				hypothetical protein
+NICNEPOM_00982	CDS	1005	pyrP			Uracil permease
+NICNEPOM_00983	CDS	126	cspC_3		COG1278	Cold shock protein CspC
+NICNEPOM_00984	CDS	441				hypothetical protein
+NICNEPOM_00985	CDS	942				hypothetical protein
+NICNEPOM_00986	CDS	831	efeU_2		COG0672	Ferrous iron permease EfeU
+NICNEPOM_00987	CDS	243				hypothetical protein
+NICNEPOM_00988	CDS	525	guaB	1.1.1.205	COG0516	Inosine-5'-monophosphate dehydrogenase
+NICNEPOM_00989	CDS	615				hypothetical protein
+NICNEPOM_00990	CDS	426				hypothetical protein
+NICNEPOM_00991	CDS	207				hypothetical protein
+NICNEPOM_00992	CDS	426	rhsIA			Immunity protein RhsIA
+NICNEPOM_00993	CDS	228	sat_2	2.7.7.4	COG2046	Sulfate adenylyltransferase
+NICNEPOM_00994	CDS	636	cysH_2	1.8.4.8	COG0175	Phosphoadenosine phosphosulfate reductase
+NICNEPOM_00995	CDS	375				hypothetical protein
+NICNEPOM_00996	CDS	288				hypothetical protein
+NICNEPOM_00997	CDS	741				hypothetical protein
+NICNEPOM_00998	CDS	168				hypothetical protein
+NICNEPOM_00999	CDS	360				hypothetical protein
+NICNEPOM_01000	CDS	771	puuD	3.5.1.94	COG2071	Gamma-glutamyl-gamma-aminobutyrate hydrolase PuuD
+NICNEPOM_01001	CDS	324	def1_2	3.5.1.88		Peptide deformylase 1
+NICNEPOM_01002	CDS	942	fmt	2.1.2.9	COG0223	Methionyl-tRNA formyltransferase
+NICNEPOM_01003	CDS	840	fliY		COG0834	L-cystine-binding protein FliY
+NICNEPOM_01004	CDS	186				hypothetical protein
+NICNEPOM_01005	CDS	1170	hslU		COG1220	ATP-dependent protease ATPase subunit HslU
+NICNEPOM_01006	CDS	912	rdgC_1		COG2974	Recombination-associated protein RdgC
+NICNEPOM_01007	CDS	618				hypothetical protein
+NICNEPOM_01008	CDS	945	mltC	4.2.2.-	COG0741	Membrane-bound lytic murein transglycosylase C
+NICNEPOM_01009	CDS	381	smc			Chromosome partition protein Smc
+NICNEPOM_01010	CDS	333	comM		COG0606	Competence protein ComM
+NICNEPOM_01011	CDS	786				hypothetical protein
+NICNEPOM_01012	CDS	735	clpV1		COG0542	Protein ClpV1
+NICNEPOM_01013	CDS	321				hypothetical protein
+NICNEPOM_01014	CDS	687			COG4380	Putative lipoprotein/NMB1162
+NICNEPOM_01015	CDS	897	hscA		COG0443	Chaperone protein HscA
+NICNEPOM_01016	CDS	969	clpX		COG1219	ATP-dependent Clp protease ATP-binding subunit ClpX
+NICNEPOM_01017	CDS	249				hypothetical protein
+NICNEPOM_01018	CDS	237	intA		COG0582	Prophage integrase IntA
+NICNEPOM_01019	CDS	111				hypothetical protein
+NICNEPOM_01020	CDS	708	rfaY_2	2.7.1.-		Lipopolysaccharide core heptose(II) kinase RfaY
+NICNEPOM_01021	CDS	327				hypothetical protein
+NICNEPOM_01022	CDS	234	tyrS	6.1.1.1	COG0162	Tyrosine--tRNA ligase
+NICNEPOM_01023	CDS	465	rodZ_1		COG1426	Cytoskeleton protein RodZ
+NICNEPOM_01024	CDS	447				hypothetical protein
+NICNEPOM_01025	CDS	468	ulaC_1		COG1762	Ascorbate-specific PTS system EIIA component
+NICNEPOM_01026	CDS	333	argO		COG1279	Arginine exporter protein ArgO
+NICNEPOM_01027	CDS	912				hypothetical protein
+NICNEPOM_01028	CDS	390	xanQ		COG2233	Xanthine permease XanQ
+NICNEPOM_01029	CDS	768	hsrA			putative transport protein HsrA
+NICNEPOM_01030	CDS	360	fccA	1.3.5.4	COG1053	Fumarate reductase flavoprotein subunit
+NICNEPOM_01031	CDS	288				hypothetical protein
+NICNEPOM_01032	CDS	693	menH	4.2.99.20		2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase
+NICNEPOM_01033	CDS	261	rlmK	2.1.1.264	COG1092	Ribosomal RNA large subunit methyltransferase K
+NICNEPOM_01034	CDS	591				hypothetical protein
+NICNEPOM_01035	CDS	783				hypothetical protein
+NICNEPOM_01036	CDS	150				hypothetical protein
+NICNEPOM_01037	CDS	537	pdxH	1.4.3.5	COG0259	Pyridoxine/pyridoxamine 5'-phosphate oxidase
+NICNEPOM_01038	CDS	810				hypothetical protein
+NICNEPOM_01039	CDS	486	yycB		COG2807	putative transporter YycB
+NICNEPOM_01040	CDS	774	moeB	2.7.7.80	COG0476	Molybdopterin-synthase adenylyltransferase
+NICNEPOM_01041	CDS	372				hypothetical protein
+NICNEPOM_01042	CDS	417	exbD		COG0848	Biopolymer transport protein ExbD
+NICNEPOM_01043	CDS	666	tolQ		COG0811	Tol-Pal system protein TolQ
+NICNEPOM_01044	CDS	198				hypothetical protein
+NICNEPOM_01045	CDS	1101	proB_1	2.7.2.11	COG0263	Glutamate 5-kinase
+NICNEPOM_01046	CDS	648	grxB		COG2999	Glutaredoxin 2
+NICNEPOM_01047	CDS	1119				hypothetical protein
+NICNEPOM_01048	CDS	663				hypothetical protein
+NICNEPOM_01049	CDS	570	serC	2.6.1.52	COG1932	Phosphoserine aminotransferase
+NICNEPOM_01050	CDS	471	tsaE_2		COG0802	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+NICNEPOM_01051	CDS	192				hypothetical protein
+NICNEPOM_01052	CDS	957		4.3.1.9	COG0492	Glucosaminate ammonia-lyase
+NICNEPOM_01053	CDS	858	lolC		COG4591	Lipoprotein-releasing system transmembrane protein LolC
+NICNEPOM_01054	CDS	645	hemW_2		COG0635	Heme chaperone HemW
+NICNEPOM_01055	CDS	294	yfiH_2	1.10.3.-	COG1496	Polyphenol oxidase
+NICNEPOM_01056	CDS	792	cydA	1.10.3.-	COG1271	Cytochrome bd ubiquinol oxidase subunit 1
+NICNEPOM_01057	CDS	204	yeeF_2	3.1.-.-		Putative ribonuclease YeeF
+NICNEPOM_01058	CDS	372				hypothetical protein
+NICNEPOM_01059	CDS	243				hypothetical protein
+NICNEPOM_01060	CDS	1260	pflD	4.2.1.172	COG1882	Trans-4-hydroxy-L-proline dehydratase
+NICNEPOM_01061	CDS	690	acuI	1.3.1.84	COG0604	Acrylyl-CoA reductase AcuI
+NICNEPOM_01062	CDS	321	lexA_1	3.4.21.88		LexA repressor
+NICNEPOM_01063	CDS	420				hypothetical protein
+NICNEPOM_01064	CDS	117				hypothetical protein
+NICNEPOM_01065	CDS	1032				hypothetical protein
+NICNEPOM_01066	CDS	342	yybR		COG1733	putative HTH-type transcriptional regulator YybR
+NICNEPOM_01067	CDS	462	pepD_2	3.4.13.18	COG2195	Cytosol non-specific dipeptidase
+NICNEPOM_01068	CDS	837	setA			Sugar efflux transporter A
+NICNEPOM_01069	CDS	858	dapF	5.1.1.7		Diaminopimelate epimerase
+NICNEPOM_01070	CDS	219				hypothetical protein
+NICNEPOM_01071	CDS	369	rsmI_2	2.1.1.198	COG0313	Ribosomal RNA small subunit methyltransferase I
+NICNEPOM_01072	CDS	882	galU_2	2.7.7.9	COG1210	UTP--glucose-1-phosphate uridylyltransferase
+NICNEPOM_01073	CDS	270	rluC	5.4.99.24	COG0564	Ribosomal large subunit pseudouridine synthase C
+NICNEPOM_01074	CDS	753		5.4.4.3	COG0174	3-hydroxylaminophenol mutase
+NICNEPOM_01075	CDS	276				hypothetical protein
+NICNEPOM_01076	CDS	741	mpl	6.3.2.45	COG0773	UDP-N-acetylmuramate--L-alanyl-gamma-D-glutamyl-meso-2,6-diaminoheptandioate ligase
+NICNEPOM_01077	CDS	582				hypothetical protein
+NICNEPOM_01078	CDS	438	lepA_2	3.6.5.-	COG0481	Elongation factor 4
+NICNEPOM_01079	CDS	507	mtrR		COG1309	HTH-type transcriptional regulator MtrR
+NICNEPOM_01080	CDS	453				hypothetical protein
+NICNEPOM_01081	CDS	426	rrrD_1	3.2.1.17	COG3772	Lysozyme RrrD
+NICNEPOM_01082	CDS	312				hypothetical protein
+NICNEPOM_01083	CDS	456				hypothetical protein
+NICNEPOM_01084	CDS	456	purC_1	6.3.2.6	COG0152	Phosphoribosylaminoimidazole-succinocarboxamide synthase
+NICNEPOM_01085	CDS	456	tldD_2	3.4.-.-	COG0312	Metalloprotease TldD
+NICNEPOM_01086	CDS	162				hypothetical protein
+NICNEPOM_01087	CDS	834				hypothetical protein
+NICNEPOM_01088	CDS	861				hypothetical protein
+NICNEPOM_01089	CDS	240				hypothetical protein
+NICNEPOM_01090	CDS	453				hypothetical protein
+NICNEPOM_01091	CDS	1011	ruvB_2	3.6.4.12	COG2255	Holliday junction ATP-dependent DNA helicase RuvB
+NICNEPOM_01092	CDS	471	iscR		COG1959	HTH-type transcriptional regulator IscR
+NICNEPOM_01093	CDS	276	pip	3.4.11.5	COG0596	Proline iminopeptidase
+NICNEPOM_01094	CDS	528				hypothetical protein
+NICNEPOM_01095	CDS	687				hypothetical protein
+NICNEPOM_01096	CDS	474	purK	6.3.4.18		N5-carboxyaminoimidazole ribonucleotide synthase
+NICNEPOM_01097	CDS	864				hypothetical protein
+NICNEPOM_01098	CDS	333	lytF	3.4.-.-	COG0791	Peptidoglycan endopeptidase LytF
+NICNEPOM_01099	CDS	648				hypothetical protein
+NICNEPOM_01100	CDS	729	btuD_1	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+NICNEPOM_01101	CDS	273				hypothetical protein
+NICNEPOM_01102	CDS	555				hypothetical protein
+NICNEPOM_01103	CDS	468	ulaC_2		COG1762	Ascorbate-specific PTS system EIIA component
+NICNEPOM_01104	CDS	696	ulaF	5.1.3.4	COG0235	L-ribulose-5-phosphate 4-epimerase UlaF
+NICNEPOM_01105	CDS	864	roxA	1.14.11.47	COG2850	50S ribosomal protein L16 3-hydroxylase
+NICNEPOM_01106	CDS	381				hypothetical protein
+NICNEPOM_01107	CDS	960	cho	3.1.25.-	COG0322	Excinuclease cho
+NICNEPOM_01108	CDS	225				hypothetical protein
+NICNEPOM_01109	CDS	171				hypothetical protein
+NICNEPOM_01110	CDS	744		1.-.-.-		putative oxidoreductase
+NICNEPOM_01111	CDS	927				hypothetical protein
+NICNEPOM_01112	CDS	960	lipA	2.8.1.8	COG0320	Lipoyl synthase
+NICNEPOM_01113	CDS	105				hypothetical protein
+NICNEPOM_01114	CDS	270	serB1	3.1.3.3	COG0560	Phosphoserine phosphatase SerB1
+NICNEPOM_01115	CDS	102				hypothetical protein
+NICNEPOM_01116	CDS	204				hypothetical protein
+NICNEPOM_01117	CDS	942				hypothetical protein
+NICNEPOM_01118	CDS	762	mntB			Manganese transport system membrane protein MntB
+NICNEPOM_01119	CDS	927	uvrB		COG0556	UvrABC system protein B
+NICNEPOM_01120	CDS	387				hypothetical protein
+NICNEPOM_01121	CDS	336	esiB_1			Secretory immunoglobulin A-binding protein EsiB
+NICNEPOM_01122	CDS	1140	esiB_2			Secretory immunoglobulin A-binding protein EsiB
+NICNEPOM_01123	CDS	147	ybeT		COG0790	Sel1-repeat-containing protein YbeT
+NICNEPOM_01124	CDS	213				hypothetical protein
+NICNEPOM_01125	CDS	240				hypothetical protein
+NICNEPOM_01126	CDS	318	yclP	7.2.2.-	COG4604	Petrobactin import ATP-binding protein YclP
+NICNEPOM_01127	CDS	684				hypothetical protein
+NICNEPOM_01128	CDS	543				hypothetical protein
+NICNEPOM_01129	CDS	546	wbbD	2.4.1.303	COG0463	UDP-Gal:alpha-D-GlcNAc-diphosphoundecaprenol beta-1,3-galactosyltransferase
+NICNEPOM_01130	CDS	795				hypothetical protein
+NICNEPOM_01131	CDS	654	degU		COG2197	Transcriptional regulatory protein DegU
+NICNEPOM_01132	CDS	615	narQ	2.7.13.3		Nitrate/nitrite sensor protein NarQ
+NICNEPOM_01133	CDS	1068	nrdA_2	1.17.4.1	COG0209	Ribonucleoside-diphosphate reductase 1 subunit alpha
+NICNEPOM_01134	CDS	981				hypothetical protein
+NICNEPOM_01135	CDS	417	queH_3	1.17.99.6	COG1636	Epoxyqueuosine reductase QueH
+NICNEPOM_01136	CDS	333	emrE_3		COG2076	Multidrug transporter EmrE
+NICNEPOM_01137	CDS	249	hfq_2		COG1923	RNA-binding protein Hfq
+NICNEPOM_01138	CDS	321	ftsB		COG2919	Cell division protein FtsB
+NICNEPOM_01139	CDS	441	eno	4.2.1.11	COG0148	Enolase
+NICNEPOM_01140	CDS	441				hypothetical protein
+NICNEPOM_01141	CDS	327				hypothetical protein
+NICNEPOM_01142	CDS	384				hypothetical protein
+NICNEPOM_01143	CDS	249				hypothetical protein
+NICNEPOM_01144	CDS	255				hypothetical protein
+NICNEPOM_01145	CDS	354				hypothetical protein
+NICNEPOM_01146	CDS	705	rnd	3.1.13.5	COG0349	Ribonuclease D
+NICNEPOM_01147	CDS	375	crcB		COG0239	Putative fluoride ion transporter CrcB
+NICNEPOM_01148	CDS	618				hypothetical protein
+NICNEPOM_01149	CDS	252				hypothetical protein
+NICNEPOM_01150	CDS	207				hypothetical protein
+NICNEPOM_01151	CDS	144				hypothetical protein
+NICNEPOM_01152	CDS	243				hypothetical protein
+NICNEPOM_01153	CDS	411				hypothetical protein
+NICNEPOM_01154	CDS	1242				hypothetical protein
+NICNEPOM_01155	CDS	345				hypothetical protein
+NICNEPOM_01156	CDS	633	murE	6.3.2.13	COG0769	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase
+NICNEPOM_01157	CDS	537				hypothetical protein
+NICNEPOM_01158	CDS	357	rluF	5.4.99.-	COG1187	Dual-specificity RNA pseudouridine synthase RluF
+NICNEPOM_01159	CDS	606				hypothetical protein
+NICNEPOM_01160	CDS	231	apt	2.4.2.7	COG0503	Adenine phosphoribosyltransferase
+NICNEPOM_01161	CDS	849	kdsA	2.5.1.55	COG2877	2-dehydro-3-deoxyphosphooctonate aldolase
+NICNEPOM_01162	CDS	621	nnr_2		COG0062	Bifunctional NAD(P)H-hydrate repair enzyme Nnr
+NICNEPOM_01163	CDS	267	folB	4.1.2.25	COG1539	Dihydroneopterin aldolase
+NICNEPOM_01164	CDS	612				hypothetical protein
+NICNEPOM_01165	CDS	978	uvrD	3.6.4.12	COG0210	DNA helicase II
+NICNEPOM_01166	CDS	939				hypothetical protein
+NICNEPOM_01167	CDS	465	comEC_2		COG0658	ComE operon protein 3
+NICNEPOM_01168	CDS	99				hypothetical protein
+NICNEPOM_01169	CDS	1167	gpmI_2	5.4.2.12	COG0696	2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+NICNEPOM_01170	CDS	561	cdsA	2.7.7.41	COG0575	Phosphatidate cytidylyltransferase
+NICNEPOM_01171	CDS	102				hypothetical protein
+NICNEPOM_01172	CDS	291				hypothetical protein
+NICNEPOM_01173	CDS	999				hypothetical protein
+NICNEPOM_01174	CDS	465				hypothetical protein
+NICNEPOM_01175	CDS	240				hypothetical protein
+NICNEPOM_01176	CDS	156				hypothetical protein
+NICNEPOM_01177	CDS	465	esiB_3			Secretory immunoglobulin A-binding protein EsiB
+NICNEPOM_01178	CDS	804	metN_2	3.6.3.-	COG1135	Methionine import ATP-binding protein MetN
+NICNEPOM_01179	CDS	213	rpsU		COG0828	30S ribosomal protein S21
+NICNEPOM_01180	CDS	690	spoT		COG0317	Bifunctional (p)ppGpp synthase/hydrolase SpoT
+NICNEPOM_01181	CDS	606	rodZ_2			Cytoskeleton protein RodZ
+NICNEPOM_01182	CDS	372				hypothetical protein
+NICNEPOM_01183	CDS	1134				Sodium-lithium/proton antiporter
+NICNEPOM_01184	CDS	303	nuoK	7.1.1.-	COG0713	NADH-quinone oxidoreductase subunit K
+NICNEPOM_01185	CDS	393	trkH		COG0168	Trk system potassium uptake protein TrkH
+NICNEPOM_01186	CDS	540	hemG	1.3.5.3	COG4635	Protoporphyrinogen IX dehydrogenase [menaquinone]
+NICNEPOM_01187	CDS	255	yfhL		COG1145	Ferredoxin YfhL
+NICNEPOM_01188	CDS	462				hypothetical protein
+NICNEPOM_01189	CDS	672	hisS	6.1.1.21		Histidine--tRNA ligase
+NICNEPOM_01190	CDS	321	tatC		COG0805	Sec-independent protein translocase protein TatC
+NICNEPOM_01191	CDS	147				hypothetical protein
+NICNEPOM_01192	CDS	543				hypothetical protein
+NICNEPOM_01193	CDS	420				hypothetical protein
+NICNEPOM_01194	CDS	861				hypothetical protein
+NICNEPOM_01195	CDS	279				hypothetical protein
+NICNEPOM_01196	CDS	162				hypothetical protein
+NICNEPOM_01197	CDS	816				hypothetical protein
+NICNEPOM_01198	CDS	924				hypothetical protein
+NICNEPOM_01199	CDS	360				hypothetical protein
+NICNEPOM_01200	CDS	486				hypothetical protein
+NICNEPOM_01201	CDS	615		3.4.21.-	COG3340	putative peptidase
+NICNEPOM_01202	CDS	414				hypothetical protein
+NICNEPOM_01203	CDS	810				hypothetical protein
+NICNEPOM_01204	CDS	153				hypothetical protein
+NICNEPOM_01205	CDS	588	slmA			Nucleoid occlusion factor SlmA
+NICNEPOM_01206	CDS	339				hypothetical protein
+NICNEPOM_01207	CDS	645				hypothetical protein
+NICNEPOM_01208	CDS	150				hypothetical protein
+NICNEPOM_01209	CDS	609	prfB			Peptide chain release factor 2
+NICNEPOM_01210	CDS	405	ffh		COG0541	Signal recognition particle protein
+NICNEPOM_01211	CDS	306				hypothetical protein
+NICNEPOM_01212	CDS	639			COG2220	putative protein
+NICNEPOM_01213	CDS	99				hypothetical protein
+NICNEPOM_01214	tRNA	76				tRNA-Lys(ttt)
+NICNEPOM_01215	CDS	1068	phoR_1	2.7.13.3		Phosphate regulon sensor protein PhoR
+NICNEPOM_01216	CDS	231	def	3.5.1.88	COG0242	Peptide deformylase
+NICNEPOM_01217	CDS	657	proS_1	6.1.1.15	COG0442	Proline--tRNA ligase
+NICNEPOM_01218	CDS	507				hypothetical protein
+NICNEPOM_01219	CDS	612	rdgB_2	3.6.1.66	COG0127	dITP/XTP pyrophosphatase
+NICNEPOM_01220	CDS	900				hypothetical protein
+NICNEPOM_01221	CDS	1245				hypothetical protein
+NICNEPOM_01222	CDS	1011	glyS	6.1.1.14	COG0751	Glycine--tRNA ligase beta subunit
+NICNEPOM_01223	CDS	291	rplS		COG0335	50S ribosomal protein L19
+NICNEPOM_01224	CDS	747	trmD	2.1.1.228	COG0336	tRNA (guanine-N(1)-)-methyltransferase
+NICNEPOM_01225	CDS	426	tenA_2	3.5.99.2	COG0819	Aminopyrimidine aminohydrolase
+NICNEPOM_01226	CDS	1047				hypothetical protein
+NICNEPOM_01227	CDS	318				hypothetical protein
+NICNEPOM_01228	CDS	804	gltC			HTH-type transcriptional regulator GltC
+NICNEPOM_01229	CDS	486	moaC2	4.6.1.17	COG0315	Cyclic pyranopterin monophosphate synthase 2
+NICNEPOM_01230	CDS	276				hypothetical protein
+NICNEPOM_01231	CDS	273				hypothetical protein
+NICNEPOM_01232	CDS	417				hypothetical protein
+NICNEPOM_01233	CDS	963	ftsW	2.4.1.129	COG0772	putative peptidoglycan glycosyltransferase FtsW
+NICNEPOM_01234	tRNA	74				tRNA-Cys(gca)
+NICNEPOM_01235	CDS	432	rrrD_2	3.2.1.17	COG3772	Lysozyme RrrD
+NICNEPOM_01236	CDS	309				hypothetical protein
+NICNEPOM_01237	CDS	414				hypothetical protein
+NICNEPOM_01238	CDS	753				hypothetical protein
+NICNEPOM_01239	CDS	288				hypothetical protein
+NICNEPOM_01240	CDS	936	btuD_2	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+NICNEPOM_01241	CDS	207				hypothetical protein
+NICNEPOM_01242	CDS	732	scpA		COG1354	Segregation and condensation protein A
+NICNEPOM_01243	CDS	402				hypothetical protein
+NICNEPOM_01244	CDS	798	rfaP	2.7.1.-		Lipopolysaccharide core heptose(I) kinase RfaP
+NICNEPOM_01245	CDS	303				hypothetical protein
+NICNEPOM_01246	CDS	519				hypothetical protein
+NICNEPOM_01247	CDS	249				Single-stranded DNA-binding protein
+NICNEPOM_01248	CDS	1152	sbmA		COG1133	Peptide antibiotic transporter SbmA
+NICNEPOM_01249	CDS	339	hpf		COG1544	Ribosome hibernation promoting factor
+NICNEPOM_01250	CDS	204				hypothetical protein
+NICNEPOM_01251	CDS	138				hypothetical protein
+NICNEPOM_01252	CDS	309				hypothetical protein
+NICNEPOM_01253	CDS	630	dnaJ		COG0484	Chaperone protein DnaJ
+NICNEPOM_01254	CDS	942				hypothetical protein
+NICNEPOM_01255	CDS	1014	kdsD	5.3.1.13	COG0517	Arabinose 5-phosphate isomerase KdsD
+NICNEPOM_01256	CDS	1134	ybjL			Putative transport protein YbjL
+NICNEPOM_01257	CDS	1017	dinG	3.6.4.12	COG1199	ATP-dependent DNA helicase DinG
+NICNEPOM_01258	rRNA	950				23S ribosomal RNA (partial)
+NICNEPOM_01259	rRNA	112				5S ribosomal RNA
+NICNEPOM_01260	tRNA	75				tRNA-Asn(gtt)
+NICNEPOM_01261	CDS	408				hypothetical protein
+NICNEPOM_01262	CDS	480	fabG	1.1.1.100		3-oxoacyl-[acyl-carrier-protein] reductase FabG
+NICNEPOM_01263	CDS	987	pepP_1	3.4.11.9	COG0006	Xaa-Pro aminopeptidase
+NICNEPOM_01264	CDS	417	viuB_2		COG2375	Vibriobactin utilization protein ViuB
+NICNEPOM_01265	CDS	390				hypothetical protein
+NICNEPOM_01266	CDS	135				hypothetical protein
+NICNEPOM_01267	CDS	396				hypothetical protein
+NICNEPOM_01268	tRNA	76				tRNA-Val(tac)
+NICNEPOM_01269	tRNA	76				tRNA-Val(tac)
+NICNEPOM_01270	tRNA	76				tRNA-Lys(ttt)
+NICNEPOM_01271	CDS	423	adh_1	1.1.1.1	COG1063	Alcohol dehydrogenase
+NICNEPOM_01272	CDS	591	purF	2.4.2.14	COG0034	Amidophosphoribosyltransferase
+NICNEPOM_01273	CDS	372				hypothetical protein
+NICNEPOM_01274	CDS	597				hypothetical protein
+NICNEPOM_01275	CDS	753		1.1.1.119	COG1028	Glucose 1-dehydrogenase
+NICNEPOM_01276	CDS	459				hypothetical protein
+NICNEPOM_01277	CDS	402				hypothetical protein
+NICNEPOM_01278	CDS	930			COG0628	Putative transport protein
+NICNEPOM_01279	CDS	384				hypothetical protein
+NICNEPOM_01280	CDS	135	gatC	6.3.5.-	COG0721	Glutamyl-tRNA(Gln) amidotransferase subunit C
+NICNEPOM_01281	CDS	288				hypothetical protein
+NICNEPOM_01282	CDS	399	cybC		COG3783	Soluble cytochrome b562
+NICNEPOM_01283	CDS	231				hypothetical protein
+NICNEPOM_01284	CDS	930	ptsI	2.7.3.9	COG1080	Phosphoenolpyruvate-protein phosphotransferase
+NICNEPOM_01285	CDS	729				hypothetical protein
+NICNEPOM_01286	CDS	870	amtB			Ammonia channel
+NICNEPOM_01287	CDS	309	pchB	4.2.99.21	COG1605	Isochorismate pyruvate lyase
+NICNEPOM_01288	CDS	363	murJ		COG0728	putative lipid II flippase MurJ
+NICNEPOM_01289	CDS	969	cbpA		COG2214	Curved DNA-binding protein
+NICNEPOM_01290	CDS	555	ogt	2.1.1.63	COG0350	Methylated-DNA--protein-cysteine methyltransferase
+NICNEPOM_01291	CDS	537	hmuV	3.6.3.-	COG4559	Hemin import ATP-binding protein HmuV
+NICNEPOM_01292	CDS	645	lysC	2.7.2.4	COG0527	Aspartokinase
+NICNEPOM_01293	CDS	255	rplE		COG0094	50S ribosomal protein L5
+NICNEPOM_01294	CDS	306	rpsN		COG0199	30S ribosomal protein S14
+NICNEPOM_01295	CDS	393	rpsH		COG0096	30S ribosomal protein S8
+NICNEPOM_01296	CDS	180				hypothetical protein
+NICNEPOM_01297	CDS	543				hypothetical protein
+NICNEPOM_01298	CDS	1023				hypothetical protein
+NICNEPOM_01299	CDS	699	hdfR_2			HTH-type transcriptional regulator HdfR
+NICNEPOM_01300	CDS	417				hypothetical protein
+NICNEPOM_01301	CDS	348	sdhD		COG2142	Succinate dehydrogenase hydrophobic membrane anchor subunit
+NICNEPOM_01302	CDS	381	sdhC		COG2009	Succinate dehydrogenase cytochrome b556 subunit
+NICNEPOM_01303	CDS	282				hypothetical protein
+NICNEPOM_01304	CDS	798	proC	1.5.1.2	COG0345	Pyrroline-5-carboxylate reductase
+NICNEPOM_01305	CDS	423				hypothetical protein
+NICNEPOM_01306	CDS	249				hypothetical protein
+NICNEPOM_01307	CDS	906	pepP_2	3.4.11.9	COG0006	Xaa-Pro aminopeptidase
+NICNEPOM_01308	CDS	354	pepP_3	3.4.11.9	COG0006	Xaa-Pro aminopeptidase
+NICNEPOM_01309	CDS	702	alsD	4.1.1.5	COG3527	Alpha-acetolactate decarboxylase
+NICNEPOM_01310	CDS	504				hypothetical protein
+NICNEPOM_01311	CDS	318	ltxB	7.4.2.5	COG2274	Leukotoxin export ATP-binding protein LtxB
+NICNEPOM_01312	tRNA	74				tRNA-Arg(cct)
+NICNEPOM_01313	CDS	390				hypothetical protein
+NICNEPOM_01314	CDS	927	hemF	1.3.3.3	COG0408	Oxygen-dependent coproporphyrinogen-III oxidase
+NICNEPOM_01315	CDS	477				hypothetical protein
+NICNEPOM_01316	CDS	363				hypothetical protein
+NICNEPOM_01317	CDS	1089	aceE	1.2.4.1	COG2609	Pyruvate dehydrogenase E1 component
+NICNEPOM_01318	CDS	405				hypothetical protein
+NICNEPOM_01319	CDS	528	yceI		COG2353	Protein YceI
+NICNEPOM_01320	CDS	831	ubiA	2.5.1.39	COG0382	4-hydroxybenzoate octaprenyltransferase
+NICNEPOM_01321	CDS	273				hypothetical protein
+NICNEPOM_01322	CDS	240	ptsN		COG1762	Nitrogen regulatory protein
+NICNEPOM_01323	CDS	228				hypothetical protein
+NICNEPOM_01324	CDS	723				hypothetical protein
+NICNEPOM_01325	CDS	519				hypothetical protein
+NICNEPOM_01326	CDS	276	hlyD			Hemolysin secretion protein D, plasmid
+NICNEPOM_01327	CDS	753	dapA	4.3.3.7	COG0329	4-hydroxy-tetrahydrodipicolinate synthase
+NICNEPOM_01328	CDS	489				hypothetical protein
+NICNEPOM_01329	CDS	1083	miaB	2.8.4.3	COG0621	tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase
+NICNEPOM_01330	CDS	642	mexB		COG0841	Multidrug resistance protein MexB
+NICNEPOM_01331	CDS	477	tatB			Sec-independent protein translocase protein TatB
+NICNEPOM_01332	CDS	201	tatA		COG1826	Sec-independent protein translocase protein TatA
+NICNEPOM_01333	CDS	177	hisE	3.6.1.31	COG0140	Phosphoribosyl-ATP pyrophosphatase
+NICNEPOM_01334	CDS	777	fpr	1.18.1.2	COG1018	Ferredoxin--NADP reductase
+NICNEPOM_01335	CDS	642	nadE	6.3.1.5		NH(3)-dependent NAD(+) synthetase
+NICNEPOM_01336	CDS	282	proS_2	6.1.1.15	COG0442	Proline--tRNA ligase
+NICNEPOM_01337	CDS	462				hypothetical protein
+NICNEPOM_01338	CDS	342				hypothetical protein
+NICNEPOM_01339	CDS	246				hypothetical protein
+NICNEPOM_01340	CDS	744	nrdB	1.17.4.1	COG0208	Ribonucleoside-diphosphate reductase 1 subunit beta
+NICNEPOM_01341	CDS	1014	zapE		COG1485	Cell division protein ZapE
+NICNEPOM_01342	CDS	228				hypothetical protein
+NICNEPOM_01343	CDS	579				hypothetical protein
+NICNEPOM_01344	CDS	195	bioP		COG0697	Biotin transporter
+NICNEPOM_01345	CDS	249				hypothetical protein
+NICNEPOM_01346	CDS	495	ytbE	1.-.-.-	COG0656	putative oxidoreductase YtbE
+NICNEPOM_01347	CDS	225	sad	1.2.1.16	COG1012	Succinate semialdehyde dehydrogenase [NAD(P)+] Sad
+NICNEPOM_01348	CDS	273				hypothetical protein
+NICNEPOM_01349	CDS	906	metXS	2.3.1.46		Homoserine O-succinyltransferase
+NICNEPOM_01350	CDS	336				hypothetical protein
+NICNEPOM_01351	CDS	669	prs			Putative ribose-phosphate pyrophosphokinase
+NICNEPOM_01352	CDS	828				hypothetical protein
+NICNEPOM_01353	CDS	498	pgm	5.4.2.2	COG0033	Phosphoglucomutase
+NICNEPOM_01354	CDS	324				hypothetical protein
+NICNEPOM_01355	CDS	375	cysW		COG4208	Sulfate transport system permease protein CysW
+NICNEPOM_01356	CDS	453	cusS	2.7.13.3	COG0642	Sensor histidine kinase CusS
+NICNEPOM_01357	CDS	825	yajR		COG0477	Inner membrane transport protein YajR
+NICNEPOM_01358	tRNA	76				tRNA-Thr(tgt)
+NICNEPOM_01359	CDS	303				hypothetical protein
+NICNEPOM_01360	CDS	582				hypothetical protein
+NICNEPOM_01361	CDS	633	rsmE	2.1.1.193	COG1385	Ribosomal RNA small subunit methyltransferase E
+NICNEPOM_01362	CDS	537	proA	1.2.1.41		Gamma-glutamyl phosphate reductase
+NICNEPOM_01363	CDS	660				hypothetical protein
+NICNEPOM_01364	CDS	282	lpxA	2.3.1.129	COG1043	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase
+NICNEPOM_01365	CDS	564	hpt_2	2.4.2.8		Hypoxanthine-guanine phosphoribosyltransferase
+NICNEPOM_01366	CDS	441	rsmJ	2.1.1.242		Ribosomal RNA small subunit methyltransferase J
+NICNEPOM_01367	CDS	963	hprK	2.7.11.-		HPr kinase/phosphorylase
+NICNEPOM_01368	CDS	675	cmk	2.7.4.25		Cytidylate kinase
+NICNEPOM_01369	CDS	489				hypothetical protein
+NICNEPOM_01370	CDS	222	proB_2	2.7.2.11	COG0263	Glutamate 5-kinase
+NICNEPOM_01371	CDS	771				hypothetical protein
+NICNEPOM_01372	CDS	351	yqjZ		COG2329	putative protein YqjZ
+NICNEPOM_01373	CDS	198	coaD	2.7.7.3		Phosphopantetheine adenylyltransferase
+NICNEPOM_01374	CDS	951	murB	1.3.1.98	COG0812	UDP-N-acetylenolpyruvoylglucosamine reductase
+NICNEPOM_01375	CDS	771		3.5.3.18	COG1834	N(G),N(G)-dimethylarginine dimethylaminohydrolase
+NICNEPOM_01376	CDS	465	accB		COG0511	Biotin carboxyl carrier protein of acetyl-CoA carboxylase
+NICNEPOM_01377	CDS	801	glnH		COG0834	Glutamine-binding periplasmic protein
+NICNEPOM_01378	CDS	774	dnaA		COG0593	Chromosomal replication initiator protein DnaA
+NICNEPOM_01379	CDS	366	apaH	3.6.1.41	COG0639	Bis(5'-nucleosyl)-tetraphosphatase, symmetrical
+NICNEPOM_01380	CDS	198				hypothetical protein
+NICNEPOM_01381	CDS	468				hypothetical protein
+NICNEPOM_01382	CDS	570	rpe	5.1.3.1	COG0036	Ribulose-phosphate 3-epimerase
+NICNEPOM_01383	CDS	246	polA	2.7.7.7	COG0258	DNA polymerase I
+NICNEPOM_01384	CDS	327	pntB	7.1.1.1	COG1282	NAD(P) transhydrogenase subunit beta
+NICNEPOM_01385	CDS	495	mog_2	2.7.7.75	COG0521	Molybdopterin adenylyltransferase
+NICNEPOM_01386	CDS	219				hypothetical protein
+NICNEPOM_01387	CDS	387				hypothetical protein
+NICNEPOM_01388	CDS	429				hypothetical protein
+NICNEPOM_01389	CDS	963	nylB'	3.5.1.46		6-aminohexanoate-dimer hydrolase
+NICNEPOM_01390	CDS	717	rplA		COG0081	50S ribosomal protein L1
+NICNEPOM_01391	CDS	198	rplK		COG0080	50S ribosomal protein L11
+NICNEPOM_01392	CDS	255				hypothetical protein
+NICNEPOM_01393	CDS	762	psd	4.1.1.65	COG0688	Phosphatidylserine decarboxylase proenzyme
+NICNEPOM_01394	CDS	465	rdgC_2		COG2974	Recombination-associated protein RdgC
+NICNEPOM_01395	CDS	375	cydB	7.1.1.7	COG1294	Cytochrome bd-I ubiquinol oxidase subunit 2
+NICNEPOM_01396	CDS	120				hypothetical protein
+NICNEPOM_01397	CDS	243				hypothetical protein
+NICNEPOM_01398	CDS	282				hypothetical protein
+NICNEPOM_01399	CDS	996	sotB_3			Sugar efflux transporter B
+NICNEPOM_01400	CDS	240				hypothetical protein
+NICNEPOM_01401	CDS	378				hypothetical protein
+NICNEPOM_01402	CDS	501				hypothetical protein
+NICNEPOM_01403	CDS	177				hypothetical protein
+NICNEPOM_01404	CDS	738	rph	2.7.7.56	COG0689	Ribonuclease PH
+NICNEPOM_01405	CDS	945	miaA	2.5.1.75	COG0324	tRNA dimethylallyltransferase
+NICNEPOM_01406	CDS	687	trmO_2	2.1.1.-	COG1720	tRNA (adenine(37)-N6)-methyltransferase
+NICNEPOM_01407	CDS	264				hypothetical protein
+NICNEPOM_01408	CDS	297				hypothetical protein
+NICNEPOM_01409	CDS	396	glpE	2.8.1.1		Thiosulfate sulfurtransferase GlpE
+NICNEPOM_01410	CDS	324	emrA_2			Colistin resistance protein EmrA
+NICNEPOM_01411	CDS	960	pta	2.3.1.8	COG0280	Phosphate acetyltransferase
+NICNEPOM_01412	CDS	519				hypothetical protein
+NICNEPOM_01413	CDS	1044	adh_2	1.1.1.1	COG1063	Alcohol dehydrogenase
+NICNEPOM_01414	CDS	342	umuD	3.4.21.-	COG1974	Protein UmuD
+NICNEPOM_01415	CDS	393				hypothetical protein
+NICNEPOM_01416	CDS	624	lexA_2	3.4.21.88		LexA repressor
+NICNEPOM_01417	CDS	249				hypothetical protein
+NICNEPOM_01418	CDS	681	leuE		COG1280	Leucine efflux protein
+NICNEPOM_01419	CDS	168				hypothetical protein
+NICNEPOM_01420	CDS	582				hypothetical protein
+NICNEPOM_01421	CDS	417	mcjD			Microcin-J25 export ATP-binding/permease protein McjD
+NICNEPOM_01422	CDS	480				hypothetical protein
+NICNEPOM_01423	CDS	387	prmB	2.1.1.298	COG2890	50S ribosomal protein L3 glutamine methyltransferase
+NICNEPOM_01424	CDS	474		3.6.1.25	COG2954	Inorganic triphosphatase
+NICNEPOM_01425	CDS	438				hypothetical protein
+NICNEPOM_01426	CDS	462	dut	3.6.1.23		Deoxyuridine 5'-triphosphate nucleotidohydrolase
+NICNEPOM_01427	CDS	450	ppk	2.7.4.1		Polyphosphate kinase
+NICNEPOM_01428	CDS	384				hypothetical protein
+NICNEPOM_01429	CDS	543	trpB	4.2.1.20	COG0133	Tryptophan synthase beta chain
+NICNEPOM_01430	CDS	822	cyaA	4.6.1.1	COG3072	Adenylate cyclase
+NICNEPOM_01431	CDS	408	dgkA	2.7.1.107	COG0818	Diacylglycerol kinase
+NICNEPOM_01432	CDS	402	gshB	6.3.2.3	COG0189	Glutathione synthetase
+NICNEPOM_01433	CDS	363				hypothetical protein
+NICNEPOM_01434	CDS	372				hypothetical protein
+NICNEPOM_01435	CDS	216				hypothetical protein
+NICNEPOM_01436	CDS	483	trmL	2.1.1.207	COG0219	tRNA (cytidine(34)-2'-O)-methyltransferase
+NICNEPOM_01437	CDS	336	mutM	3.2.2.23	COG0266	Formamidopyrimidine-DNA glycosylase
+NICNEPOM_01438	CDS	162				hypothetical protein
+NICNEPOM_01439	CDS	114				hypothetical protein
+NICNEPOM_01440	CDS	366	tusC		COG2923	Protein TusC
+NICNEPOM_01441	CDS	384	tusD	2.8.1.-	COG1553	Sulfurtransferase TusD
+NICNEPOM_01442	CDS	390				hypothetical protein
+NICNEPOM_01443	CDS	753	atoB_2	2.3.1.9	COG0183	Acetyl-CoA acetyltransferase
+NICNEPOM_01444	CDS	168				hypothetical protein
+NICNEPOM_01445	CDS	801	tamB		COG2911	Translocation and assembly module subunit TamB
+NICNEPOM_01446	CDS	852				hypothetical protein
+NICNEPOM_01447	CDS	582	ruvA	3.6.4.12	COG0632	Holliday junction ATP-dependent DNA helicase RuvA
+NICNEPOM_01448	CDS	861				hypothetical protein
+NICNEPOM_01449	CDS	387	mnmC_2	2.1.1.61		tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC
+NICNEPOM_01450	CDS	585	phoR_2	2.7.13.3		Phosphate regulon sensor protein PhoR
+NICNEPOM_01451	CDS	312	engB			putative GTP-binding protein EngB
+NICNEPOM_01452	CDS	594	recN		COG0497	DNA repair protein RecN
+NICNEPOM_01453	CDS	453	fur		COG0735	Ferric uptake regulation protein
+NICNEPOM_01454	CDS	660	fabI	1.3.1.9	COG0623	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI
+NICNEPOM_01455	CDS	132	djlA			Co-chaperone protein DjlA
+NICNEPOM_01456	CDS	258	fabF	2.3.1.179	COG0304	3-oxoacyl-[acyl-carrier-protein] synthase 2
+NICNEPOM_01457	CDS	645				hypothetical protein
+NICNEPOM_01458	CDS	216	truC	5.4.99.26	COG0564	tRNA pseudouridine synthase C
+NICNEPOM_01459	CDS	426				hypothetical protein
+NICNEPOM_01460	CDS	516				hypothetical protein
+NICNEPOM_01461	CDS	267				hypothetical protein
+NICNEPOM_01462	CDS	1035	spuE		COG0687	Spermidine-binding periplasmic protein SpuE
+NICNEPOM_01463	CDS	822	ppsR	2.7.11.33	COG1806	Phosphoenolpyruvate synthase regulatory protein
+NICNEPOM_01464	CDS	588	purC_2	6.3.2.6	COG0152	Phosphoribosylaminoimidazole-succinocarboxamide synthase
+NICNEPOM_01465	CDS	807				hypothetical protein
+NICNEPOM_01466	CDS	324	cpdA	3.1.4.53	COG1409	3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+NICNEPOM_01467	CDS	540	clsA	2.7.8.-	COG1502	Cardiolipin synthase A
+NICNEPOM_01468	CDS	285				hypothetical protein
+NICNEPOM_01469	CDS	849	lpoA		COG3107	Penicillin-binding protein activator LpoA
+NICNEPOM_01470	CDS	237				hypothetical protein
+NICNEPOM_01471	CDS	759	pilT_3		COG2805	Twitching mobility protein
+NICNEPOM_01472	CDS	219	ARG7	2.3.1.1		Arginine biosynthesis bifunctional protein ArgJ, chloroplastic
+NICNEPOM_01473	CDS	360	yabJ	3.5.99.10	COG0251	2-iminobutanoate/2-iminopropanoate deaminase
+NICNEPOM_01474	CDS	915	proP			Proline/betaine transporter
+NICNEPOM_01475	CDS	264	pnp	2.7.7.8	COG1185	Polyribonucleotide nucleotidyltransferase
+NICNEPOM_01476	CDS	438				hypothetical protein
+NICNEPOM_01477	CDS	207				hypothetical protein
+NICNEPOM_01478	CDS	429				hypothetical protein
+NICNEPOM_01479	CDS	669	moeA_2	2.10.1.1	COG0303	Molybdopterin molybdenumtransferase
+NICNEPOM_01480	CDS	894	pgrR			HTH-type transcriptional regulator PgrR
+NICNEPOM_01481	CDS	582				hypothetical protein
+NICNEPOM_01482	CDS	381	kdsC	3.1.3.45	COG1778	3-deoxy-D-manno-octulosonate 8-phosphate phosphatase KdsC
+NICNEPOM_01483	CDS	585	lptC			Lipopolysaccharide export system protein LptC
+NICNEPOM_01484	CDS	684	tsaB		COG1214	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB
+NICNEPOM_01485	CDS	474	rlmJ	2.1.1.266	COG2961	Ribosomal RNA large subunit methyltransferase J
+NICNEPOM_01486	CDS	243				hypothetical protein
+NICNEPOM_01487	CDS	534				hypothetical protein
+NICNEPOM_01488	CDS	900	sbp		COG1613	Sulfate-binding protein
+NICNEPOM_01489	CDS	306				hypothetical protein
+NICNEPOM_01490	CDS	660	fdoI		COG2864	Formate dehydrogenase, cytochrome b556(fdo) subunit
+NICNEPOM_01491	CDS	219				hypothetical protein
+NICNEPOM_01492	CDS	426				hypothetical protein
+NICNEPOM_01493	CDS	678	mobA	2.7.7.77	COG0746	Molybdenum cofactor guanylyltransferase
+NICNEPOM_01494	CDS	321				hypothetical protein
+NICNEPOM_01495	CDS	333	dnaE	2.7.7.7	COG0587	DNA polymerase III subunit alpha
+NICNEPOM_01496	CDS	774				hypothetical protein
+NICNEPOM_01497	CDS	543	cysS	6.1.1.16	COG0215	Cysteine--tRNA ligase
+NICNEPOM_01498	CDS	450	resA_2			Thiol-disulfide oxidoreductase ResA
+NICNEPOM_01499	CDS	246	yagU		COG3477	Inner membrane protein YagU
+NICNEPOM_01500	CDS	180				hypothetical protein
+NICNEPOM_01501	CDS	978	lpxK	2.7.1.130	COG1663	Tetraacyldisaccharide 4'-kinase
+NICNEPOM_01502	CDS	624	nudL	3.6.1.-		putative Nudix hydrolase NudL
+NICNEPOM_01503	CDS	243				hypothetical protein
+NICNEPOM_01504	CDS	777	dusA_2	1.3.1.-	COG0042	tRNA-dihydrouridine(20/20a) synthase
+NICNEPOM_01505	CDS	630				hypothetical protein
+NICNEPOM_01506	CDS	387	frp	1.5.1.38		NADPH-flavin oxidoreductase
+NICNEPOM_01507	CDS	423				hypothetical protein
+NICNEPOM_01508	CDS	150	astC	2.6.1.81		Succinylornithine transaminase
+NICNEPOM_01509	CDS	729	SIRT5	2.3.1.286		NAD-dependent protein deacylase sirtuin-5, mitochondrial
+NICNEPOM_01510	CDS	714	oprM		COG1538	Outer membrane protein OprM
+NICNEPOM_01511	tRNA	77				tRNA-Arg(acg)
+NICNEPOM_01512	CDS	495				hypothetical protein
+NICNEPOM_01513	CDS	366				hypothetical protein
+NICNEPOM_01514	CDS	162				hypothetical protein
+NICNEPOM_01515	tRNA	77				tRNA-Asp(gtc)
+NICNEPOM_01516	CDS	537	sasA	2.7.-.-		Adaptive-response sensory-kinase SasA
+NICNEPOM_01517	CDS	165	upp	2.4.2.9	COG0035	Uracil phosphoribosyltransferase
+NICNEPOM_01518	CDS	771	soj	3.6.-.-	COG1192	Sporulation initiation inhibitor protein Soj
+NICNEPOM_01519	CDS	261				hypothetical protein
+NICNEPOM_01520	CDS	318	porB			Major outer membrane protein P.IB
+NICNEPOM_01521	CDS	681	cysA_2	7.3.2.3	COG1118	Sulfate/thiosulfate import ATP-binding protein CysA
+NICNEPOM_01522	CDS	306	kefF	1.6.5.2		Glutathione-regulated potassium-efflux system ancillary protein KefF
+NICNEPOM_01523	CDS	573	hemL_1	5.4.3.8	COG0001	Glutamate-1-semialdehyde 2,1-aminomutase
+NICNEPOM_01524	CDS	465				hypothetical protein
+NICNEPOM_01525	CDS	429	uspF		COG0589	Universal stress protein F
+NICNEPOM_01526	CDS	480				hypothetical protein
+NICNEPOM_01527	CDS	132				hypothetical protein
+NICNEPOM_01528	CDS	138				hypothetical protein
+NICNEPOM_01529	CDS	840	btuD_3	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+NICNEPOM_01530	CDS	651	panS		COG0385	Pantothenate precursors transporter PanS
+NICNEPOM_01531	CDS	450	ybiT		COG0488	putative ABC transporter ATP-binding protein YbiT
+NICNEPOM_01532	CDS	546		2.3.1.-		L-methionine sulfoximine/L-methionine sulfone acetyltransferase
+NICNEPOM_01533	CDS	171				hypothetical protein
+NICNEPOM_01534	CDS	336	cyaY		COG1965	Iron-sulfur cluster assembly protein CyaY
+NICNEPOM_01535	CDS	408				hypothetical protein
+NICNEPOM_01536	CDS	153				hypothetical protein
+NICNEPOM_01537	CDS	489	dsbB			Disulfide bond formation protein B
+NICNEPOM_01538	CDS	381	pth_2	3.1.1.29	COG0193	Peptidyl-tRNA hydrolase
+NICNEPOM_01539	CDS	675	yadH		COG0842	Inner membrane transport permease YadH
+NICNEPOM_01540	CDS	114				hypothetical protein
+NICNEPOM_01541	CDS	282				hypothetical protein
+NICNEPOM_01542	CDS	258				hypothetical protein
+NICNEPOM_01543	CDS	189				hypothetical protein
+NICNEPOM_01544	CDS	357				hypothetical protein
+NICNEPOM_01545	CDS	276	namA	1.6.99.1	COG1902	NADPH dehydrogenase
+NICNEPOM_01546	CDS	258	ribA	3.5.4.25	COG0807	GTP cyclohydrolase-2
+NICNEPOM_01547	tRNA	76				tRNA-Lys(ctt)
+NICNEPOM_01548	CDS	303				hypothetical protein
+NICNEPOM_01549	CDS	360	cptA	2.7.-.-	COG2194	Phosphoethanolamine transferase CptA
+NICNEPOM_01550	CDS	273				hypothetical protein
+NICNEPOM_01551	CDS	240	pheA			Bifunctional chorismate mutase/prephenate dehydratase
+NICNEPOM_01552	CDS	537	yvdD		COG1611	LOG family protein YvdD
+NICNEPOM_01553	CDS	375				hypothetical protein
+NICNEPOM_01554	CDS	276				hypothetical protein
+NICNEPOM_01555	CDS	381			COG0346	Virulence protein
+NICNEPOM_01556	CDS	519	yceD		COG2310	General stress protein 16U
+NICNEPOM_01557	rRNA	476				16S ribosomal RNA (partial)
+NICNEPOM_01558	CDS	165				hypothetical protein
+NICNEPOM_01559	CDS	237				hypothetical protein
+NICNEPOM_01560	CDS	234				hypothetical protein
+NICNEPOM_01561	CDS	159	ubiE	2.1.1.163	COG2226	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE
+NICNEPOM_01562	CDS	669	mnmE_1	3.6.-.-	COG0486	tRNA modification GTPase MnmE
+NICNEPOM_01563	CDS	369	mnmE_2	3.6.-.-	COG0486	tRNA modification GTPase MnmE
+NICNEPOM_01564	CDS	252				hypothetical protein
+NICNEPOM_01565	CDS	261				hypothetical protein
+NICNEPOM_01566	CDS	183	hemL_2	5.4.3.8	COG0001	Glutamate-1-semialdehyde 2,1-aminomutase

@@ -1,0 +1,2886 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:291 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 291 present
+DISC_FEATURE_COUNT:tRNA: 1 present
+DISC_COUNT_NUCLEOTIDES:165 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:292 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:1 product_names contain suspect phrase or characters
+	use protein instead of gene as appropriate
+		1 features contains 'genes'
+DISC_LONG_NO_ANNOTATION:1 bioseqs are longer than 5000nt and have no features
+NO_ANNOTATION:32 bioseqs have no features
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:165 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:7 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:165 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:165 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:165 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:165 sequences do not include structured comments.
+MISSING_PROJECT:456 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::291 proteins have invalid IDs.
+low.012/low.012:scaffold_153_1 (length 218)
+low.012/low.012:scaffold_153_2 (length 126)
+low.012/low.012:scaffold_153_3 (length 311)
+low.012/low.012:scaffold_153_4 (length 129)
+low.012/low.012:scaffold_153_5 (length 121)
+low.012/low.012:scaffold_153_6 (length 38)
+low.012/low.012:scaffold_153_7 (length 72)
+low.012/low.012:scaffold_153_8 (length 218)
+low.012/low.012:scaffold_153_9 (length 431)
+low.012/low.012:scaffold_153_10 (length 146)
+low.012/low.012:scaffold_153_11 (length 61)
+low.012/low.012:scaffold_153_12 (length 166)
+low.012/low.012:scaffold_153_13 (length 118)
+low.012/low.012:scaffold_153_14 (length 178)
+low.012/low.012:scaffold_153_15 (length 132)
+low.012/low.012:scaffold_153_16 (length 61)
+low.012/low.012:scaffold_153_17 (length 180)
+low.012/low.012:scaffold_153_18 (length 90)
+low.012/low.012:scaffold_153_19 (length 122)
+low.012/low.012:scaffold_153_20 (length 91)
+low.012/low.012:scaffold_153_21 (length 65)
+low.012/low.012:scaffold_153_22 (length 144)
+low.012/low.012:scaffold_153_23 (length 227)
+low.012/low.012:scaffold_153_24 (length 116)
+low.012/low.012:scaffold_153_25 (length 92)
+low.012/low.012:scaffold_153_26 (length 279)
+low.012/low.012:scaffold_153_27 (length 95)
+low.012/low.012:scaffold_153_28 (length 207)
+low.012/low.012:scaffold_153_29 (length 234)
+low.012/low.012:scaffold_153_30 (length 102)
+low.012/low.012:scaffold_153_31 (length 183)
+low.012/low.012:scaffold_153_32 (length 697)
+low.012/low.012:scaffold_153_33 (length 156)
+low.012/low.012:scaffold_153_34 (length 137)
+low.012/low.012:scaffold_153_35 (length 227)
+low.012/low.012:scaffold_153_36 (length 89)
+low.012/low.012:scaffold_607_1 (length 121)
+low.012/low.012:scaffold_607_2 (length 182)
+low.012/low.012:scaffold_607_3 (length 512)
+low.012/low.012:scaffold_607_4 (length 304)
+low.012/low.012:scaffold_607_5 (length 98)
+low.012/low.012:scaffold_607_6 (length 315)
+low.012/low.012:scaffold_607_7 (length 265)
+low.012/low.012:scaffold_607_8 (length 488)
+low.012/low.012:scaffold_607_9 (length 232)
+low.012/low.012:scaffold_607_10 (length 265)
+low.012/low.012:scaffold_613_1 (length 815)
+low.012/low.012:scaffold_613_2 (length 168)
+low.012/low.012:scaffold_613_3 (length 165)
+low.012/low.012:scaffold_613_4 (length 73)
+low.012/low.012:scaffold_613_5 (length 401)
+low.012/low.012:scaffold_613_6 (length 461)
+low.012/low.012:scaffold_613_7 (length 127)
+low.012/low.012:scaffold_613_8 (length 104)
+low.012/low.012:scaffold_669_1 (length 349)
+low.012/low.012:scaffold_669_2 (length 300)
+low.012/low.012:scaffold_669_3 (length 125)
+low.012/low.012:scaffold_669_4 (length 883)
+low.012/low.012:scaffold_669_5 (length 491)
+low.012/low.012:scaffold_669_6 (length 153)
+low.012/low.012:scaffold_705_1 (length 175)
+low.012/low.012:scaffold_705_2 (length 335)
+low.012/low.012:scaffold_705_3 (length 1219)
+low.012/low.012:scaffold_705_4 (length 637)
+low.012/low.012:scaffold_705_5 (length 113)
+low.012/low.012:scaffold_922_1 (length 302)
+low.012/low.012:scaffold_922_2 (length 290)
+low.012/low.012:scaffold_922_3 (length 369)
+low.012/low.012:scaffold_922_4 (length 50)
+low.012/low.012:scaffold_922_5 (length 291)
+low.012/low.012:scaffold_922_6 (length 261)
+low.012/low.012:scaffold_1129_1 (length 338)
+low.012/low.012:scaffold_1129_2 (length 395)
+low.012/low.012:scaffold_1135_1 (length 175)
+low.012/low.012:scaffold_1135_2 (length 89)
+low.012/low.012:scaffold_1135_3 (length 136)
+low.012/low.012:scaffold_1135_4 (length 223)
+low.012/low.012:scaffold_1135_5 (length 118)
+low.012/low.012:scaffold_1135_6 (length 165)
+low.012/low.012:scaffold_1135_7 (length 113)
+low.012/low.012:scaffold_1135_8 (length 102)
+low.012/low.012:scaffold_1135_9 (length 415)
+low.012/low.012:scaffold_1480_1 (length 233)
+low.012/low.012:scaffold_1480_2 (length 142)
+low.012/low.012:scaffold_1480_3 (length 359)
+low.012/low.012:scaffold_1480_4 (length 387)
+low.012/low.012:scaffold_1496_1 (length 158)
+low.012/low.012:scaffold_1496_2 (length 40)
+low.012/low.012:scaffold_1496_3 (length 413)
+low.012/low.012:scaffold_1496_4 (length 522)
+low.012/low.012:scaffold_1698_1 (length 1247)
+low.012/low.012:scaffold_1789_1 (length 447)
+low.012/low.012:scaffold_1789_2 (length 371)
+low.012/low.012:scaffold_1827_1 (length 311)
+low.012/low.012:scaffold_1827_2 (length 363)
+low.012/low.012:scaffold_1827_3 (length 112)
+low.012/low.012:scaffold_1827_4 (length 331)
+low.012/low.012:scaffold_1834_1 (length 136)
+low.012/low.012:scaffold_1834_2 (length 183)
+low.012/low.012:scaffold_1834_3 (length 305)
+low.012/low.012:scaffold_1834_4 (length 379)
+low.012/low.012:scaffold_1933_1 (length 505)
+low.012/low.012:scaffold_1933_2 (length 238)
+low.012/low.012:scaffold_1933_3 (length 125)
+low.012/low.012:scaffold_1968_1 (length 87)
+low.012/low.012:scaffold_1968_2 (length 277)
+low.012/low.012:scaffold_1968_3 (length 218)
+low.012/low.012:scaffold_1968_4 (length 230)
+low.012/low.012:scaffold_1968_5 (length 379)
+low.012/low.012:scaffold_2000_1 (length 347)
+low.012/low.012:scaffold_2000_2 (length 339)
+low.012/low.012:scaffold_2000_3 (length 404)
+low.012/low.012:scaffold_2176_1 (length 730)
+low.012/low.012:scaffold_2176_2 (length 61)
+low.012/low.012:scaffold_2176_3 (length 88)
+low.012/low.012:scaffold_2292_1 (length 310)
+low.012/low.012:scaffold_2292_2 (length 333)
+low.012/low.012:scaffold_2292_3 (length 385)
+low.012/low.012:scaffold_2481_1 (length 405)
+low.012/low.012:scaffold_2481_2 (length 380)
+low.012/low.012:scaffold_2481_3 (length 147)
+low.012/low.012:scaffold_2704_1 (length 118)
+low.012/low.012:scaffold_2704_2 (length 37)
+low.012/low.012:scaffold_2704_3 (length 445)
+low.012/low.012:scaffold_2704_4 (length 144)
+low.012/low.012:scaffold_2704_5 (length 59)
+low.012/low.012:scaffold_2704_6 (length 129)
+low.012/low.012:scaffold_2967_1 (length 320)
+low.012/low.012:scaffold_2967_2 (length 385)
+low.012/low.012:scaffold_3106_1 (length 502)
+low.012/low.012:scaffold_3106_2 (length 66)
+low.012/low.012:scaffold_3106_3 (length 176)
+low.012/low.012:scaffold_3153_1 (length 419)
+low.012/low.012:scaffold_3153_2 (length 292)
+low.012/low.012:scaffold_3164_1 (length 136)
+low.012/low.012:scaffold_3164_2 (length 403)
+low.012/low.012:scaffold_3324_1 (length 278)
+low.012/low.012:scaffold_3324_2 (length 339)
+low.012/low.012:scaffold_3576_1 (length 325)
+low.012/low.012:scaffold_3657_1 (length 304)
+low.012/low.012:scaffold_3657_2 (length 302)
+low.012/low.012:scaffold_3907_1 (length 620)
+low.012/low.012:scaffold_3927_1 (length 688)
+low.012/low.012:scaffold_3978_1 (length 275)
+low.012/low.012:scaffold_3978_2 (length 227)
+low.012/low.012:scaffold_3978_3 (length 180)
+low.012/low.012:scaffold_4082_1 (length 478)
+low.012/low.012:scaffold_4169_1 (length 244)
+low.012/low.012:scaffold_4169_2 (length 435)
+low.012/low.012:scaffold_4198_1 (length 311)
+low.012/low.012:scaffold_4257_1 (length 617)
+low.012/low.012:scaffold_4262_1 (length 288)
+low.012/low.012:scaffold_4262_2 (length 199)
+low.012/low.012:scaffold_4280_1 (length 297)
+low.012/low.012:scaffold_4280_2 (length 193)
+low.012/low.012:scaffold_4381_1 (length 338)
+low.012/low.012:scaffold_4381_2 (length 96)
+low.012/low.012:scaffold_4381_3 (length 72)
+low.012/low.012:scaffold_4429_1 (length 221)
+low.012/low.012:scaffold_4693_1 (length 557)
+low.012/low.012:scaffold_4804_1 (length 353)
+low.012/low.012:scaffold_4808_1 (length 250)
+low.012/low.012:scaffold_4917_1 (length 401)
+low.012/low.012:scaffold_4927_1 (length 121)
+low.012/low.012:scaffold_4927_2 (length 406)
+low.012/low.012:scaffold_4943_1 (length 117)
+low.012/low.012:scaffold_5084_1 (length 364)
+low.012/low.012:scaffold_5087_1 (length 534)
+low.012/low.012:scaffold_5122_1 (length 441)
+low.012/low.012:scaffold_5122_2 (length 151)
+low.012/low.012:scaffold_5125_1 (length 111)
+low.012/low.012:scaffold_5265_1 (length 36)
+low.012/low.012:scaffold_5265_2 (length 227)
+low.012/low.012:scaffold_5288_1 (length 100)
+low.012/low.012:scaffold_5288_2 (length 146)
+low.012/low.012:scaffold_5288_3 (length 224)
+low.012/low.012:scaffold_5363_1 (length 609)
+low.012/low.012:scaffold_5416_1 (length 425)
+low.012/low.012:scaffold_5416_2 (length 77)
+low.012/low.012:scaffold_5426_1 (length 182)
+low.012/low.012:scaffold_5426_2 (length 306)
+low.012/low.012:scaffold_5430_1 (length 246)
+low.012/low.012:scaffold_5430_2 (length 310)
+low.012/low.012:scaffold_5522_1 (length 463)
+low.012/low.012:scaffold_5814_1 (length 304)
+low.012/low.012:scaffold_5814_2 (length 184)
+low.012/low.012:scaffold_5877_1 (length 228)
+low.012/low.012:scaffold_5877_2 (length 206)
+low.012/low.012:scaffold_5908_1 (length 311)
+low.012/low.012:scaffold_5908_2 (length 151)
+low.012/low.012:scaffold_5998_1 (length 430)
+low.012/low.012:scaffold_6026_1 (length 375)
+low.012/low.012:scaffold_6102_1 (length 50)
+low.012/low.012:scaffold_6102_2 (length 61)
+low.012/low.012:scaffold_6124_1 (length 166)
+low.012/low.012:scaffold_6353_1 (length 128)
+low.012/low.012:scaffold_6353_2 (length 289)
+low.012/low.012:scaffold_6396_1 (length 283)
+low.012/low.012:scaffold_6504_1 (length 348)
+low.012/low.012:scaffold_6504_2 (length 91)
+low.012/low.012:scaffold_6554_1 (length 262)
+low.012/low.012:scaffold_6600_1 (length 252)
+low.012/low.012:scaffold_6600_2 (length 237)
+low.012/low.012:scaffold_6601_1 (length 237)
+low.012/low.012:scaffold_6601_2 (length 154)
+low.012/low.012:scaffold_6686_1 (length 273)
+low.012/low.012:scaffold_6686_2 (length 222)
+low.012/low.012:scaffold_6797_1 (length 287)
+low.012/low.012:scaffold_6797_2 (length 170)
+low.012/low.012:scaffold_6803_1 (length 366)
+low.012/low.012:scaffold_6847_1 (length 294)
+low.012/low.012:scaffold_6855_1 (length 102)
+low.012/low.012:scaffold_6867_1 (length 470)
+low.012/low.012:scaffold_6892_1 (length 184)
+low.012/low.012:scaffold_6892_2 (length 239)
+low.012/low.012:scaffold_6904_1 (length 241)
+low.012/low.012:scaffold_6904_2 (length 171)
+low.012/low.012:scaffold_7050_1 (length 177)
+low.012/low.012:scaffold_7063_1 (length 54)
+low.012/low.012:scaffold_7063_2 (length 302)
+low.012/low.012:scaffold_7084_1 (length 155)
+low.012/low.012:scaffold_7243_1 (length 80)
+low.012/low.012:scaffold_7243_2 (length 335)
+low.012/low.012:scaffold_7296_1 (length 126)
+low.012/low.012:scaffold_7296_2 (length 105)
+low.012/low.012:scaffold_7367_1 (length 221)
+low.012/low.012:scaffold_7367_2 (length 193)
+low.012/low.012:scaffold_7375_1 (length 184)
+low.012/low.012:scaffold_7399_1 (length 218)
+low.012/low.012:scaffold_7714_1 (length 258)
+low.012/low.012:scaffold_7714_2 (length 118)
+low.012/low.012:scaffold_7753_1 (length 310)
+low.012/low.012:scaffold_7753_2 (length 61)
+low.012/low.012:scaffold_7771_1 (length 320)
+low.012/low.012:scaffold_7858_1 (length 234)
+low.012/low.012:scaffold_7858_2 (length 89)
+low.012/low.012:scaffold_7880_1 (length 389)
+low.012/low.012:scaffold_7946_1 (length 276)
+low.012/low.012:scaffold_7989_1 (length 285)
+low.012/low.012:scaffold_7989_2 (length 82)
+low.012/low.012:scaffold_8004_1 (length 332)
+low.012/low.012:scaffold_8050_1 (length 138)
+low.012/low.012:scaffold_8126_1 (length 181)
+low.012/low.012:scaffold_8153_1 (length 384)
+low.012/low.012:scaffold_8208_1 (length 384)
+low.012/low.012:scaffold_8260_1 (length 324)
+low.012/low.012:scaffold_8344_1 (length 79)
+low.012/low.012:scaffold_8479_1 (length 61)
+low.012/low.012:scaffold_8479_2 (length 289)
+low.012/low.012:scaffold_8596_1 (length 266)
+low.012/low.012:scaffold_8623_1 (length 359)
+low.012/low.012:scaffold_8732_1 (length 337)
+low.012/low.012:scaffold_8782_1 (length 268)
+low.012/low.012:scaffold_8782_2 (length 97)
+low.012/low.012:scaffold_8784_1 (length 169)
+low.012/low.012:scaffold_8830_1 (length 367)
+low.012/low.012:scaffold_8920_1 (length 186)
+low.012/low.012:scaffold_8992_1 (length 120)
+low.012/low.012:scaffold_8992_2 (length 120)
+low.012/low.012:scaffold_8992_3 (length 93)
+low.012/low.012:scaffold_9181_1 (length 263)
+low.012/low.012:scaffold_9181_2 (length 85)
+low.012/low.012:scaffold_9247_1 (length 351)
+low.012/low.012:scaffold_9330_1 (length 336)
+low.012/low.012:scaffold_9336_1 (length 242)
+low.012/low.012:scaffold_9336_2 (length 41)
+low.012/low.012:scaffold_9371_1 (length 296)
+low.012/low.012:scaffold_9394_1 (length 330)
+low.012/low.012:scaffold_9426_1 (length 363)
+low.012/low.012:scaffold_9439_1 (length 91)
+low.012/low.012:scaffold_9601_1 (length 144)
+low.012/low.012:scaffold_9616_1 (length 143)
+low.012/low.012:scaffold_9616_2 (length 197)
+low.012/low.012:scaffold_9685_1 (length 225)
+low.012/low.012:scaffold_9932_1 (length 257)
+low.012/low.012:scaffold_9932_2 (length 73)
+low.012/low.012:scaffold_9972_1 (length 132)
+low.012/low.012:scaffold_9972_2 (length 184)
+low.012/low.012:scaffold_9988_1 (length 237)
+low.012/low.012:scaffold_9992_1 (length 267)
+low.012/low.012:scaffold_10125_1 (length 264)
+low.012/low.012:scaffold_10420_1 (length 189)
+low.012/low.012:scaffold_10540_1 (length 211)
+low.012/low.012:scaffold_10896_1 (length 290)
+low.012/low.012:scaffold_10996_1 (length 66)
+low.012/low.012:scaffold_11011_1 (length 45)
+low.012/low.012:scaffold_11395_1 (length 270)
+low.012/low.012:scaffold_11465_1 (length 73)
+low.012/low.012:scaffold_11465_2 (length 179)
+low.012/low.012:scaffold_11468_1 (length 282)
+low.012/low.012:scaffold_11471_1 (length 38)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::165 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::165 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 291 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 1 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::165 nucleotide Bioseqs are present
+low.012/low.012:scaffold_153 (length 19851)
+low.012/low.012:scaffold_607 (length 8704)
+low.012/low.012:scaffold_613 (length 8639)
+low.012/low.012:scaffold_669 (length 8120)
+low.012/low.012:scaffold_705 (length 7896)
+low.012/low.012:scaffold_922 (length 6648)
+low.012/low.012:scaffold_1079 (length 5989)
+low.012/low.012:scaffold_1129 (length 5804)
+low.012/low.012:scaffold_1135 (length 5790)
+low.012/low.012:scaffold_1480 (length 4759)
+low.012/low.012:scaffold_1496 (length 4728)
+low.012/low.012:scaffold_1698 (length 4328)
+low.012/low.012:scaffold_1789 (length 4153)
+low.012/low.012:scaffold_1827 (length 4093)
+low.012/low.012:scaffold_1834 (length 4089)
+low.012/low.012:scaffold_1933 (length 3915)
+low.012/low.012:scaffold_1968 (length 3861)
+low.012/low.012:scaffold_2000 (length 3816)
+low.012/low.012:scaffold_2176 (length 3593)
+low.012/low.012:scaffold_2292 (length 3481)
+low.012/low.012:scaffold_2481 (length 3310)
+low.012/low.012:scaffold_2704 (length 3121)
+low.012/low.012:scaffold_2967 (length 2912)
+low.012/low.012:scaffold_3106 (length 2810)
+low.012/low.012:scaffold_3153 (length 2780)
+low.012/low.012:scaffold_3164 (length 2770)
+low.012/low.012:scaffold_3324 (length 2664)
+low.012/low.012:scaffold_3576 (length 2518)
+low.012/low.012:scaffold_3657 (length 2467)
+low.012/low.012:scaffold_3907 (length 2349)
+low.012/low.012:scaffold_3927 (length 2342)
+low.012/low.012:scaffold_3978 (length 2316)
+low.012/low.012:scaffold_4082 (length 2266)
+low.012/low.012:scaffold_4169 (length 2229)
+low.012/low.012:scaffold_4198 (length 2218)
+low.012/low.012:scaffold_4257 (length 2195)
+low.012/low.012:scaffold_4262 (length 2194)
+low.012/low.012:scaffold_4280 (length 2185)
+low.012/low.012:scaffold_4381 (length 2151)
+low.012/low.012:scaffold_4429 (length 2136)
+low.012/low.012:scaffold_4693 (length 2047)
+low.012/low.012:scaffold_4804 (length 2012)
+low.012/low.012:scaffold_4808 (length 2010)
+low.012/low.012:scaffold_4917 (length 1970)
+low.012/low.012:scaffold_4927 (length 1967)
+low.012/low.012:scaffold_4943 (length 1961)
+low.012/low.012:scaffold_5084 (length 1919)
+low.012/low.012:scaffold_5087 (length 1919)
+low.012/low.012:scaffold_5122 (length 1910)
+low.012/low.012:scaffold_5125 (length 1909)
+low.012/low.012:scaffold_5169 (length 1896)
+low.012/low.012:scaffold_5265 (length 1868)
+low.012/low.012:scaffold_5288 (length 1862)
+low.012/low.012:scaffold_5363 (length 1844)
+low.012/low.012:scaffold_5416 (length 1827)
+low.012/low.012:scaffold_5426 (length 1824)
+low.012/low.012:scaffold_5430 (length 2645)
+low.012/low.012:scaffold_5522 (length 1800)
+low.012/low.012:scaffold_5814 (length 1727)
+low.012/low.012:scaffold_5877 (length 1712)
+low.012/low.012:scaffold_5908 (length 1705)
+low.012/low.012:scaffold_5998 (length 1681)
+low.012/low.012:scaffold_6021 (length 1674)
+low.012/low.012:scaffold_6026 (length 1673)
+low.012/low.012:scaffold_6102 (length 1657)
+low.012/low.012:scaffold_6124 (length 1649)
+low.012/low.012:scaffold_6353 (length 1598)
+low.012/low.012:scaffold_6396 (length 1588)
+low.012/low.012:scaffold_6504 (length 1571)
+low.012/low.012:scaffold_6554 (length 1563)
+low.012/low.012:scaffold_6600 (length 1554)
+low.012/low.012:scaffold_6601 (length 1554)
+low.012/low.012:scaffold_6668 (length 1542)
+low.012/low.012:scaffold_6686 (length 1539)
+low.012/low.012:scaffold_6797 (length 1522)
+low.012/low.012:scaffold_6803 (length 1521)
+low.012/low.012:scaffold_6847 (length 1515)
+low.012/low.012:scaffold_6855 (length 1513)
+low.012/low.012:scaffold_6867 (length 1511)
+low.012/low.012:scaffold_6892 (length 1506)
+low.012/low.012:scaffold_6904 (length 1504)
+low.012/low.012:scaffold_7050 (length 1481)
+low.012/low.012:scaffold_7063 (length 1479)
+low.012/low.012:scaffold_7071 (length 1478)
+low.012/low.012:scaffold_7084 (length 1475)
+low.012/low.012:scaffold_7243 (length 1449)
+low.012/low.012:scaffold_7296 (length 1440)
+low.012/low.012:scaffold_7367 (length 1429)
+low.012/low.012:scaffold_7375 (length 1427)
+low.012/low.012:scaffold_7399 (length 1424)
+low.012/low.012:scaffold_7498 (length 1410)
+low.012/low.012:scaffold_7534 (length 1405)
+low.012/low.012:scaffold_7714 (length 1380)
+low.012/low.012:scaffold_7753 (length 1374)
+low.012/low.012:scaffold_7758 (length 1374)
+low.012/low.012:scaffold_7771 (length 1372)
+low.012/low.012:scaffold_7858 (length 1360)
+low.012/low.012:scaffold_7880 (length 1356)
+low.012/low.012:scaffold_7946 (length 1349)
+low.012/low.012:scaffold_7953 (length 1348)
+low.012/low.012:scaffold_7986 (length 1344)
+low.012/low.012:scaffold_7989 (length 2260)
+low.012/low.012:scaffold_8004 (length 1341)
+low.012/low.012:scaffold_8050 (length 1334)
+low.012/low.012:scaffold_8126 (length 1324)
+low.012/low.012:scaffold_8153 (length 1319)
+low.012/low.012:scaffold_8208 (length 1312)
+low.012/low.012:scaffold_8260 (length 1305)
+low.012/low.012:scaffold_8344 (length 1296)
+low.012/low.012:scaffold_8479 (length 1281)
+low.012/low.012:scaffold_8498 (length 1279)
+low.012/low.012:scaffold_8596 (length 1269)
+low.012/low.012:scaffold_8621 (length 1267)
+low.012/low.012:scaffold_8623 (length 1266)
+low.012/low.012:scaffold_8727 (length 1253)
+low.012/low.012:scaffold_8732 (length 1253)
+low.012/low.012:scaffold_8782 (length 1248)
+low.012/low.012:scaffold_8784 (length 1248)
+low.012/low.012:scaffold_8830 (length 1244)
+low.012/low.012:scaffold_8834 (length 1244)
+low.012/low.012:scaffold_8902 (length 1235)
+low.012/low.012:scaffold_8920 (length 1233)
+low.012/low.012:scaffold_8992 (length 1226)
+low.012/low.012:scaffold_9181 (length 1206)
+low.012/low.012:scaffold_9247 (length 1198)
+low.012/low.012:scaffold_9288 (length 1194)
+low.012/low.012:scaffold_9330 (length 1190)
+low.012/low.012:scaffold_9336 (length 1189)
+low.012/low.012:scaffold_9371 (length 1186)
+low.012/low.012:scaffold_9394 (length 1184)
+low.012/low.012:scaffold_9426 (length 1181)
+low.012/low.012:scaffold_9436 (length 1180)
+low.012/low.012:scaffold_9439 (length 1180)
+low.012/low.012:scaffold_9480 (length 1175)
+low.012/low.012:scaffold_9512 (length 1173)
+low.012/low.012:scaffold_9601 (length 1164)
+low.012/low.012:scaffold_9616 (length 1163)
+low.012/low.012:scaffold_9669 (length 1158)
+low.012/low.012:scaffold_9685 (length 1157)
+low.012/low.012:scaffold_9817 (length 1147)
+low.012/low.012:scaffold_9826 (length 1146)
+low.012/low.012:scaffold_9898 (length 1138)
+low.012/low.012:scaffold_9905 (length 1137)
+low.012/low.012:scaffold_9932 (length 1135)
+low.012/low.012:scaffold_9972 (length 1131)
+low.012/low.012:scaffold_9988 (length 1130)
+low.012/low.012:scaffold_9992 (length 1129)
+low.012/low.012:scaffold_10125 (length 1116)
+low.012/low.012:scaffold_10218 (length 1109)
+low.012/low.012:scaffold_10406 (length 1091)
+low.012/low.012:scaffold_10420 (length 1090)
+low.012/low.012:scaffold_10540 (length 1079)
+low.012/low.012:scaffold_10617 (length 1073)
+low.012/low.012:scaffold_10719 (length 1066)
+low.012/low.012:scaffold_10743 (length 1065)
+low.012/low.012:scaffold_10896 (length 1054)
+low.012/low.012:scaffold_10996 (length 1047)
+low.012/low.012:scaffold_11011 (length 1046)
+low.012/low.012:scaffold_11326 (length 1024)
+low.012/low.012:scaffold_11395 (length 1021)
+low.012/low.012:scaffold_11465 (length 1016)
+low.012/low.012:scaffold_11468 (length 1016)
+low.012/low.012:scaffold_11471 (length 1016)
+low.012/low.012:scaffold_11474 (length 1016)
+low.012/low.012:scaffold_11616 (length 1446)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::292 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Endonuclease III	scaffold_153:37-693	POBMCIKN_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L17	scaffold_153:c1177-797	POBMCIKN_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	DNA-directed RNA polymerase subunit alpha	scaffold_153:c2135-1200	POBMCIKN_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S11	scaffold_153:c2591-2202	POBMCIKN_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S13	scaffold_153:c2973-2608	POBMCIKN_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L36	scaffold_153:c3110-2994	POBMCIKN_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Translation initiation factor IF-1	scaffold_153:c3378-3160	POBMCIKN_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Adenylate kinase	scaffold_153:c4142-3486	POBMCIKN_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Protein translocase subunit SecY	scaffold_153:c5463-4168	POBMCIKN_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L15	scaffold_153:c5903-5463	POBMCIKN_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L30	scaffold_153:c6112-5927	POBMCIKN_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S5	scaffold_153:c6624-6124	POBMCIKN_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L18	scaffold_153:c6999-6643	POBMCIKN_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L6	scaffold_153:c7571-7035	POBMCIKN_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S8	scaffold_153:c8001-7603	POBMCIKN_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S14 type Z	scaffold_153:c8211-8026	POBMCIKN_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L5	scaffold_153:c8771-8229	POBMCIKN_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_153:c9069-8797	POBMCIKN_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L14	scaffold_153:c9468-9100	POBMCIKN_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S17	scaffold_153:c9785-9510	POBMCIKN_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L29	scaffold_153:c10000-9803	POBMCIKN_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L16	scaffold_153:c10424-9990	POBMCIKN_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S3	scaffold_153:c11111-10428	POBMCIKN_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L22	scaffold_153:c11483-11133	POBMCIKN_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S19	scaffold_153:c11779-11501	POBMCIKN_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L2	scaffold_153:c12655-11816	POBMCIKN_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L23	scaffold_153:c12964-12677	POBMCIKN_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L4	scaffold_153:c13587-12964	POBMCIKN_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L3	scaffold_153:c14311-13607	POBMCIKN_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S10	scaffold_153:c14660-14352	POBMCIKN_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Nicotinamidase	scaffold_153:c15425-14874	POBMCIKN_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Elongation factor G	scaffold_153:c17665-15572	POBMCIKN_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S7	scaffold_153:c18172-17702	POBMCIKN_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S12	scaffold_153:c18621-18208	POBMCIKN_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_153:18848-19531	POBMCIKN_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Peptide methionine sulfoxide reductase MsrA 2	scaffold_153:c19805-19536	POBMCIKN_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_607:96-461	POBMCIKN_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Apo-citrate lyase phosphoribosyl-dephospho-CoA transferase	scaffold_607:c1002-454	POBMCIKN_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Citrate lyase alpha chain	scaffold_607:c2614-1076	POBMCIKN_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Citrate lyase subunit beta	scaffold_607:c3518-2604	POBMCIKN_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Citrate lyase acyl carrier protein	scaffold_607:c3815-3519	POBMCIKN_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	[Citrate [pro-3S]-lyase] ligase	scaffold_607:c4752-3805	POBMCIKN_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	AB hydrolase superfamily protein YdjP	scaffold_607:c5683-4886	POBMCIKN_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Putative malate transporter YflS	scaffold_607:c7150-5684	POBMCIKN_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	4-hydroxy-4-methyl-2-oxoglutarate aldolase/4-carboxy-4-hydroxy-2-oxoadipate aldolase	scaffold_607:c7867-7169	POBMCIKN_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	L-lactate dehydrogenase	scaffold_607:c8680-7883	POBMCIKN_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_613:c3478-1031	POBMCIKN_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_613:c3968-3462	POBMCIKN_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_613:c4440-3943	POBMCIKN_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_613:c4778-4557	POBMCIKN_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_613:c6026-4821	POBMCIKN_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_613:c7589-6204	POBMCIKN_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_613:c8001-7618	POBMCIKN_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_613:c8334-8020	POBMCIKN_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	HTH-type transcriptional repressor CytR	scaffold_669:742-1791	POBMCIKN_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	tRNA pseudouridine synthase B	scaffold_669:c2724-1822	POBMCIKN_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosome-binding factor	scaffold_669:c3168-2791	POBMCIKN_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Translation initiation factor IF-2	scaffold_669:c5886-3235	POBMCIKN_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Transcription termination/antitermination protein NusA	scaffold_669:c7379-5904	POBMCIKN_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Ribosome maturation factor RimP	scaffold_669:c7857-7396	POBMCIKN_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+low.012/low.012:tRNA	Met	scaffold_669:c8119-8048	POBMCIKN_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Peptide methionine sulfoxide reductase MsrA	scaffold_705:c641-114	POBMCIKN_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Penicillin acylase	scaffold_705:752-1759	POBMCIKN_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	DNA-directed RNA polymerase subunit beta'	scaffold_705:c5486-1827	POBMCIKN_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	DNA-directed RNA polymerase subunit beta	scaffold_705:c7414-5501	POBMCIKN_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	DNA-directed RNA polymerase subunit beta	scaffold_705:c7855-7514	POBMCIKN_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Malonyl CoA-acyl carrier protein transacylase	scaffold_922:c2108-1200	POBMCIKN_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	HTH-type transcriptional regulator HdfR	scaffold_922:2219-3091	POBMCIKN_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_922:3191-4300	POBMCIKN_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_922:c4544-4392	POBMCIKN_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Elongation factor Ts	scaffold_922:c5596-4721	POBMCIKN_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S2	scaffold_922:c6413-5628	POBMCIKN_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Arginine utilization regulatory protein RocR	scaffold_1129:31-1047	POBMCIKN_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1129:c2508-1321	POBMCIKN_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1135:136-663	POBMCIKN_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1135:c1677-1408	POBMCIKN_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1135:c2105-1695	POBMCIKN_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1135:c2778-2107	POBMCIKN_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1135:c3193-2837	POBMCIKN_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1135:c3694-3197	POBMCIKN_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1135:c4032-3691	POBMCIKN_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1135:c4344-4036	POBMCIKN_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1135:c5631-4384	POBMCIKN_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L1	scaffold_1480:c1388-687	POBMCIKN_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L11	scaffold_1480:c1820-1392	POBMCIKN_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Fructose-bisphosphate aldolase class 2	scaffold_1480:c3096-2017	POBMCIKN_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Phosphoglycerate kinase	scaffold_1480:c4336-3173	POBMCIKN_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Pur operon repressor	scaffold_1496:139-615	POBMCIKN_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Bifunctional protein GlmU	scaffold_1496:667-789	POBMCIKN_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Bifunctional protein GlmU	scaffold_1496:811-2052	POBMCIKN_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1496:2206-3774	POBMCIKN_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	DNA-directed RNA polymerase subunit beta	scaffold_1698:34-3777	POBMCIKN_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Cytosine permease	scaffold_1789:427-1770	POBMCIKN_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1789:1774-2889	POBMCIKN_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Pseudouridine-5'-phosphate glycosidase	scaffold_1827:c1345-410	POBMCIKN_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Pseudouridine kinase	scaffold_1827:c2433-1342	POBMCIKN_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	2Fe-2S ferredoxin	scaffold_1827:c2939-2601	POBMCIKN_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Chaperone protein HscA	scaffold_1827:c3949-2954	POBMCIKN_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Alpha-acetolactate decarboxylase	scaffold_1834:100-510	POBMCIKN_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Protein LemA	scaffold_1834:598-1149	POBMCIKN_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Protease HtpX	scaffold_1834:1163-2080	POBMCIKN_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase	scaffold_1834:2450-3589	POBMCIKN_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase GtfA subunit	scaffold_1933:c2575-1058	POBMCIKN_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1933:c3499-2783	POBMCIKN_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Transcriptional repressor CopY	scaffold_1933:c3911-3534	POBMCIKN_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Hydroxyethylthiazole kinase	scaffold_1968:30-293	POBMCIKN_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase	scaffold_1968:277-1110	POBMCIKN_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Thiamine-phosphate synthase	scaffold_1968:1097-1753	POBMCIKN_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	GTP pyrophosphokinase YwaC	scaffold_1968:1817-2509	POBMCIKN_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_1968:c3743-2604	POBMCIKN_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Central glycolytic genes regulator	scaffold_2000:183-1226	POBMCIKN_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Glyceraldehyde-3-phosphate dehydrogenase	scaffold_2000:1259-2278	POBMCIKN_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Phosphoglycerate kinase	scaffold_2000:2374-3588	POBMCIKN_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	ATP-dependent Clp protease ATP-binding subunit ClpE	scaffold_2176:c2537-345	POBMCIKN_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_2176:2807-2992	POBMCIKN_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Phosphocarrier protein HPr	scaffold_2176:3128-3394	POBMCIKN_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_2292:c1266-334	POBMCIKN_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_2292:c2264-1263	POBMCIKN_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_2292:c3418-2261	POBMCIKN_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_2481:152-1369	POBMCIKN_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_2481:1416-2558	POBMCIKN_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_2481:c3074-2631	POBMCIKN_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S13	scaffold_2704:c421-65	POBMCIKN_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L36	scaffold_2704:c708-595	POBMCIKN_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Protein translocase subunit SecY	scaffold_2704:c2072-735	POBMCIKN_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L15	scaffold_2704:c2515-2081	POBMCIKN_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	50S ribosomal protein L30	scaffold_2704:c2700-2521	POBMCIKN_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S5	scaffold_2704:c3096-2707	POBMCIKN_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Phenylalanine--tRNA ligase beta subunit	scaffold_2967:6-968	POBMCIKN_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Endolytic murein transglycosylase	scaffold_2967:1037-2194	POBMCIKN_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Low affinity potassium transport system protein kup	scaffold_3106:36-1544	POBMCIKN_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_3106:1701-1901	POBMCIKN_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Neutral endopeptidase	scaffold_3106:c2729-2199	POBMCIKN_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	L-xylulose/3-keto-L-gulonate kinase	scaffold_3153:227-1486	POBMCIKN_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	L-ribulose-5-phosphate 3-epimerase UlaE	scaffold_3153:1476-2354	POBMCIKN_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	putative acetyl-CoA acyltransferase	scaffold_3164:41-451	POBMCIKN_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	3-hydroxy-3-methylglutaryl-coenzyme A reductase	scaffold_3164:455-1666	POBMCIKN_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase	scaffold_3324:12-848	POBMCIKN_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Glycerol-3-phosphate dehydrogenase [NAD(P)+]	scaffold_3324:880-1899	POBMCIKN_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	ATP-dependent DNA helicase PcrA	scaffold_3576:145-1122	POBMCIKN_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Bifunctional ribokinase/ribose-5-phosphate isomerase A	scaffold_3657:139-1053	POBMCIKN_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	L-2-hydroxyisocaproate dehydrogenase	scaffold_3657:1171-2079	POBMCIKN_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Methionine--tRNA ligase	scaffold_3907:97-1959	POBMCIKN_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	DNA polymerase III PolC-type	scaffold_3927:218-2284	POBMCIKN_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_3978:c904-77	POBMCIKN_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	HTH-type transcriptional regulator BetI	scaffold_3978:c1599-916	POBMCIKN_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Ribose-phosphate pyrophosphokinase	scaffold_3978:c2314-1772	POBMCIKN_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Protein FdrA	scaffold_4082:94-1530	POBMCIKN_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Carbamoyl-phosphate synthase large chain	scaffold_4169:46-780	POBMCIKN_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Xaa-Pro dipeptidyl-peptidase	scaffold_4169:c2144-837	POBMCIKN_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	GTP-binding protein TypA/BipA	scaffold_4198:10-945	POBMCIKN_00151
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Sensor protein kinase WalK	scaffold_4257:c2148-295	POBMCIKN_00152
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Lactose transport system permease protein LacF	scaffold_4262:c1540-674	POBMCIKN_00153
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_4262:c2139-1540	POBMCIKN_00154
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Phosphate transport system permease protein PstA	scaffold_4280:c1567-674	POBMCIKN_00155
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Phosphate transport system permease protein PstC	scaffold_4280:c2156-1575	POBMCIKN_00156
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	30S ribosomal protein S1	scaffold_4381:95-1111	POBMCIKN_00157
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Integration host factor subunit beta	scaffold_4381:1211-1501	POBMCIKN_00158
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Putative transposase InsK for insertion sequence element IS150	scaffold_4381:c1787-1569	POBMCIKN_00159
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Deoxyribose-phosphate aldolase	scaffold_4429:403-1068	POBMCIKN_00160
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Phosphoenolpyruvate-protein phosphotransferase	scaffold_4693:12-1685	POBMCIKN_00161
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Oligopeptide-binding protein AppA	scaffold_4804:c2011-950	POBMCIKN_00162
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Phosphopentomutase	scaffold_4808:c1980-1228	POBMCIKN_00163
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Purine nucleoside transport protein NupG	scaffold_4917:c1933-728	POBMCIKN_00164
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	D-aspartate ligase	scaffold_4927:39-404	POBMCIKN_00165
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Multidrug resistance protein MdtH	scaffold_4927:573-1793	POBMCIKN_00166
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_4943:c630-277	POBMCIKN_00167
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5084:49-1143	POBMCIKN_00168
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	DNA topoisomerase 4 subunit B	scaffold_5087:c1841-237	POBMCIKN_00169
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Cardiolipin synthase	scaffold_5122:53-1378	POBMCIKN_00170
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5122:c1894-1439	POBMCIKN_00171
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	S-layer protein	scaffold_5125:80-415	POBMCIKN_00172
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5265:573-683	POBMCIKN_00173
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	S-layer protein	scaffold_5265:c1826-1143	POBMCIKN_00174
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5288:c682-380	POBMCIKN_00175
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Cell division protein SepF	scaffold_5288:c1122-682	POBMCIKN_00176
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Cell division protein FtsZ	scaffold_5288:c1812-1138	POBMCIKN_00177
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5363:13-1842	POBMCIKN_00178
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Nucleobase transporter PlUacP	scaffold_5416:27-1304	POBMCIKN_00179
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5416:c1633-1400	POBMCIKN_00180
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Glutathione transport system permease protein GsiC	scaffold_5426:60-608	POBMCIKN_00181
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5426:621-1541	POBMCIKN_00182
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5430:212-952	POBMCIKN_00183
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5430:957-1889	POBMCIKN_00184
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5522:c1766-375	POBMCIKN_00185
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Proline iminopeptidase	scaffold_5814:126-1040	POBMCIKN_00186
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5814:c1671-1117	POBMCIKN_00187
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5877:313-999	POBMCIKN_00188
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5877:c1683-1063	POBMCIKN_00189
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	putative cell division protein WhiA	scaffold_5908:c1183-248	POBMCIKN_00190
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Putative gluconeogenesis factor	scaffold_5908:c1642-1187	POBMCIKN_00191
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_5998:c1529-237	POBMCIKN_00192
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_6026:c1655-528	POBMCIKN_00193
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_6102:784-936	POBMCIKN_00194
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_6102:1108-1293	POBMCIKN_00195
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Methylated-DNA--protein-cysteine methyltransferase	scaffold_6124:c649-149	POBMCIKN_00196
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	ATP synthase subunit alpha	scaffold_6353:210-596	POBMCIKN_00197
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	ATP synthase gamma chain	scaffold_6353:611-1480	POBMCIKN_00198
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	DNA replication and repair protein RecF	scaffold_6396:c1546-695	POBMCIKN_00199
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	GTPase Der	scaffold_6504:51-1097	POBMCIKN_00200
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	DNA-binding protein HU	scaffold_6504:1283-1558	POBMCIKN_00201
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Sporulation initiation inhibitor protein Soj	scaffold_6554:11-799	POBMCIKN_00202
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Foldase protein PrsA	scaffold_6600:4-762	POBMCIKN_00203
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	3'-5' exoribonuclease YhaM	scaffold_6600:c1521-808	POBMCIKN_00204
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Purine nucleoside phosphorylase DeoD-type	scaffold_6601:c1037-324	POBMCIKN_00205
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Pyrimidine-nucleoside phosphorylase	scaffold_6601:c1525-1061	POBMCIKN_00206
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	PTS system mannose-specific EIID component	scaffold_6686:c855-34	POBMCIKN_00207
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	N-acetylgalactosamine permease IIC component 1	scaffold_6686:c1498-830	POBMCIKN_00208
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	DNA repair protein RadA	scaffold_6797:47-910	POBMCIKN_00209
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Pyrimidine/purine nucleotide 5'-monophosphate nucleosidase	scaffold_6797:c1517-1005	POBMCIKN_00210
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Inner membrane transporter YcaM	scaffold_6803:c1416-316	POBMCIKN_00211
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Urocanate reductase	scaffold_6847:c1403-519	POBMCIKN_00212
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Aspartate carbamoyltransferase	scaffold_6855:55-363	POBMCIKN_00213
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Adenine deaminase	scaffold_6867:44-1456	POBMCIKN_00214
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_6892:25-579	POBMCIKN_00215
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Glycerol uptake facilitator protein	scaffold_6892:c1362-643	POBMCIKN_00216
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	tRNA (guanine-N(1)-)-methyltransferase	scaffold_6904:c950-225	POBMCIKN_00217
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Ribosome maturation factor RimM	scaffold_6904:c1455-940	POBMCIKN_00218
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	ATP synthase subunit delta	scaffold_7050:81-614	POBMCIKN_00219
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_7063:163-327	POBMCIKN_00220
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Fructosamine deglycase FrlB	scaffold_7063:c1453-545	POBMCIKN_00221
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_7084:541-1008	POBMCIKN_00222
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_7243:c410-168	POBMCIKN_00223
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Transcription-repair-coupling factor	scaffold_7243:c1429-422	POBMCIKN_00224
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_7296:7-387	POBMCIKN_00225
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_7296:390-707	POBMCIKN_00226
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Lipoprotein-releasing system ATP-binding protein LolD	scaffold_7367:88-753	POBMCIKN_00227
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	7-methyl-GTP pyrophosphatase	scaffold_7367:c1398-817	POBMCIKN_00228
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase	scaffold_7375:c1365-811	POBMCIKN_00229
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_7399:c1397-741	POBMCIKN_00230
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Microcin C7 self-immunity protein MccF	scaffold_7714:62-838	POBMCIKN_00231
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_7714:c1257-901	POBMCIKN_00232
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_7753:15-947	POBMCIKN_00233
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_7753:944-1129	POBMCIKN_00234
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_7771:125-1087	POBMCIKN_00235
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	N-acetylmuramic acid/N-acetylglucosamine kinase	scaffold_7858:162-866	POBMCIKN_00236
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Transcription elongation factor GreA	scaffold_7858:c1190-921	POBMCIKN_00237
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_7880:c1348-179	POBMCIKN_00238
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	1-deoxy-D-xylulose-5-phosphate synthase	scaffold_7946:c1338-508	POBMCIKN_00239
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Leucine--tRNA ligase	scaffold_7989:59-916	POBMCIKN_00240
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_7989:c1498-1250	POBMCIKN_00241
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Glutamine synthetase	scaffold_8004:c1290-292	POBMCIKN_00242
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_8050:20-436	POBMCIKN_00243
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Guanine deaminase	scaffold_8126:94-639	POBMCIKN_00244
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	N-acetylgalactosamine-6-phosphate deacetylase	scaffold_8153:36-1190	POBMCIKN_00245
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_8208:c1294-140	POBMCIKN_00246
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	D-alanine--D-alanyl carrier protein ligase	scaffold_8260:c1144-170	POBMCIKN_00247
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	S-layer protein	scaffold_8344:101-340	POBMCIKN_00248
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Aspartokinase 3	scaffold_8479:14-199	POBMCIKN_00249
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Diaminopimelate epimerase	scaffold_8479:196-1065	POBMCIKN_00250
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Tyrosine-protein phosphatase	scaffold_8596:c1183-383	POBMCIKN_00251
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	tRNA modification GTPase MnmE	scaffold_8623:76-1155	POBMCIKN_00252
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Oligopeptide transport ATP-binding protein OppD	scaffold_8732:157-1170	POBMCIKN_00253
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_8782:10-816	POBMCIKN_00254
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_8782:c1211-918	POBMCIKN_00255
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_8784:118-627	POBMCIKN_00256
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_8830:c1148-45	POBMCIKN_00257
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	D-alanine--D-alanine ligase A	scaffold_8920:c1214-654	POBMCIKN_00258
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_8992:c438-76	POBMCIKN_00259
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_8992:c854-492	POBMCIKN_00260
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_8992:c1158-877	POBMCIKN_00261
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_9181:c826-35	POBMCIKN_00262
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	NADH-dependent flavin reductase subunit 2	scaffold_9181:c1168-911	POBMCIKN_00263
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_9247:c1197-142	POBMCIKN_00264
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	PTS system mannose-specific EIIAB component	scaffold_9330:c1074-64	POBMCIKN_00265
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	IS30 family transposase ISLga1	scaffold_9336:c927-199	POBMCIKN_00266
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_9336:c1170-1045	POBMCIKN_00267
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Glutamyl-Q tRNA(Asp) synthetase	scaffold_9371:c1052-162	POBMCIKN_00268
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	PTS system lactose-specific EIICB component	scaffold_9394:18-1010	POBMCIKN_00269
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Copper-exporting P-type ATPase B	scaffold_9426:21-1112	POBMCIKN_00270
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_9439:362-637	POBMCIKN_00271
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase	scaffold_9601:c1072-638	POBMCIKN_00272
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Aminopeptidase E	scaffold_9616:54-485	POBMCIKN_00273
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Pyrimidine-specific ribonucleoside hydrolase RihA	scaffold_9616:c1152-559	POBMCIKN_00274
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Fructose-bisphosphate aldolase	scaffold_9685:27-704	POBMCIKN_00275
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_9932:47-820	POBMCIKN_00276
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_9932:c1114-893	POBMCIKN_00277
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Diacylglycerol kinase	scaffold_9972:36-434	POBMCIKN_00278
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_9972:c1056-502	POBMCIKN_00279
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_9988:c769-56	POBMCIKN_00280
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Replicative DNA helicase	scaffold_9992:55-858	POBMCIKN_00281
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Putative phosphatase	scaffold_10125:306-1100	POBMCIKN_00282
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Oligopeptide transport system permease protein OppC	scaffold_10420:c987-418	POBMCIKN_00283
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_10540:c902-267	POBMCIKN_00284
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_10896:170-1042	POBMCIKN_00285
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	hypothetical protein	scaffold_10996:c721-521	POBMCIKN_00286
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Transcriptional regulator MraZ	scaffold_11011:c1027-890	POBMCIKN_00287
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	3-hydroxy-5-phosphonooxypentane-2,4-dione thiolase	scaffold_11395:141-953	POBMCIKN_00288
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Translation initiation factor IF-1	scaffold_11465:c328-107	POBMCIKN_00289
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Adenylate kinase	scaffold_11465:c933-394	POBMCIKN_00290
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagU	scaffold_11468:c942-94	POBMCIKN_00291
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+low.012/low.012:CDS	DNA-directed RNA polymerase subunit beta'	scaffold_11471:c933-817	POBMCIKN_00292
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::1 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::use protein instead of gene as appropriate
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains 'genes'
+low.012/low.012:CDS	Central glycolytic genes regulator	scaffold_2000:183-1226	POBMCIKN_00111
+
+DiscRep_ALL:DISC_LONG_NO_ANNOTATION::1 bioseqs are longer than 5000nt and have no features
+low.012/low.012:scaffold_1079 (length 5989)
+
+DiscRep_ALL:NO_ANNOTATION::32 bioseqs have no features
+low.012/low.012:scaffold_1079 (length 5989)
+low.012/low.012:scaffold_5169 (length 1896)
+low.012/low.012:scaffold_6021 (length 1674)
+low.012/low.012:scaffold_6668 (length 1542)
+low.012/low.012:scaffold_7071 (length 1478)
+low.012/low.012:scaffold_7498 (length 1410)
+low.012/low.012:scaffold_7534 (length 1405)
+low.012/low.012:scaffold_7758 (length 1374)
+low.012/low.012:scaffold_7953 (length 1348)
+low.012/low.012:scaffold_7986 (length 1344)
+low.012/low.012:scaffold_8498 (length 1279)
+low.012/low.012:scaffold_8621 (length 1267)
+low.012/low.012:scaffold_8727 (length 1253)
+low.012/low.012:scaffold_8834 (length 1244)
+low.012/low.012:scaffold_8902 (length 1235)
+low.012/low.012:scaffold_9288 (length 1194)
+low.012/low.012:scaffold_9436 (length 1180)
+low.012/low.012:scaffold_9480 (length 1175)
+low.012/low.012:scaffold_9512 (length 1173)
+low.012/low.012:scaffold_9669 (length 1158)
+low.012/low.012:scaffold_9817 (length 1147)
+low.012/low.012:scaffold_9826 (length 1146)
+low.012/low.012:scaffold_9898 (length 1138)
+low.012/low.012:scaffold_9905 (length 1137)
+low.012/low.012:scaffold_10218 (length 1109)
+low.012/low.012:scaffold_10406 (length 1091)
+low.012/low.012:scaffold_10617 (length 1073)
+low.012/low.012:scaffold_10719 (length 1066)
+low.012/low.012:scaffold_10743 (length 1065)
+low.012/low.012:scaffold_11326 (length 1024)
+low.012/low.012:scaffold_11474 (length 1016)
+low.012/low.012:scaffold_11616 (length 1446)
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::165 comment descriptors were found (all same)
+low.012/low.012:scaffold_153:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_607:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_613:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_669:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_705:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_922:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_1079:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_1129:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_1135:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_1480:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_1496:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_1698:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_1789:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_1827:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_1834:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_1933:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_1968:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_2000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_2176:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_2292:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_2481:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_2704:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_2967:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_3106:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_3153:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_3164:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_3324:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_3576:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_3657:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_3907:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_3927:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_3978:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4082:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4169:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4198:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4257:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4262:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4280:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4381:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4429:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4693:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4804:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4808:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4917:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4927:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_4943:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5084:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5087:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5122:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5125:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5169:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5265:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5288:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5363:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5416:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5426:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5430:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5522:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5814:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5877:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5908:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_5998:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6021:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6026:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6102:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6124:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6353:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6396:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6504:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6554:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6600:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6601:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6668:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6686:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6797:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6803:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6847:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6855:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6867:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6892:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_6904:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7050:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7063:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7071:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7084:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7243:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7296:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7367:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7375:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7399:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7498:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7534:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7714:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7753:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7758:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7771:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7858:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7880:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7946:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7953:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7986:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_7989:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8004:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8050:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8126:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8153:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8208:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8260:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8344:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8479:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8498:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8596:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8621:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8623:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8727:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8732:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8782:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8784:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8830:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8834:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8902:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8920:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_8992:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9181:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9247:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9288:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9330:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9336:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9371:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9394:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9426:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9436:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9439:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9480:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9512:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9601:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9616:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9669:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9685:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9817:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9826:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9898:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9905:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9932:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9972:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9988:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_9992:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_10125:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_10218:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_10406:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_10420:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_10540:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_10617:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_10719:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_10743:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_10896:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_10996:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_11011:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_11326:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_11395:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_11465:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_11468:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_11471:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_11474:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+low.012/low.012:scaffold_11616:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::7 protein sequences are shorter than 50 aa.
+low.012/low.012:scaffold_153_6 (length 38)
+low.012/low.012:scaffold_1496_2 (length 40)
+low.012/low.012:scaffold_2704_2 (length 37)
+low.012/low.012:scaffold_5265_1 (length 36)
+low.012/low.012:scaffold_9336_2 (length 41)
+low.012/low.012:scaffold_11011_1 (length 45)
+low.012/low.012:scaffold_11471_1 (length 38)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::165 bioseqs are missing GenomeAssembly structured comments
+low.012/low.012:scaffold_153 (length 19851)
+low.012/low.012:scaffold_607 (length 8704)
+low.012/low.012:scaffold_613 (length 8639)
+low.012/low.012:scaffold_669 (length 8120)
+low.012/low.012:scaffold_705 (length 7896)
+low.012/low.012:scaffold_922 (length 6648)
+low.012/low.012:scaffold_1079 (length 5989)
+low.012/low.012:scaffold_1129 (length 5804)
+low.012/low.012:scaffold_1135 (length 5790)
+low.012/low.012:scaffold_1480 (length 4759)
+low.012/low.012:scaffold_1496 (length 4728)
+low.012/low.012:scaffold_1698 (length 4328)
+low.012/low.012:scaffold_1789 (length 4153)
+low.012/low.012:scaffold_1827 (length 4093)
+low.012/low.012:scaffold_1834 (length 4089)
+low.012/low.012:scaffold_1933 (length 3915)
+low.012/low.012:scaffold_1968 (length 3861)
+low.012/low.012:scaffold_2000 (length 3816)
+low.012/low.012:scaffold_2176 (length 3593)
+low.012/low.012:scaffold_2292 (length 3481)
+low.012/low.012:scaffold_2481 (length 3310)
+low.012/low.012:scaffold_2704 (length 3121)
+low.012/low.012:scaffold_2967 (length 2912)
+low.012/low.012:scaffold_3106 (length 2810)
+low.012/low.012:scaffold_3153 (length 2780)
+low.012/low.012:scaffold_3164 (length 2770)
+low.012/low.012:scaffold_3324 (length 2664)
+low.012/low.012:scaffold_3576 (length 2518)
+low.012/low.012:scaffold_3657 (length 2467)
+low.012/low.012:scaffold_3907 (length 2349)
+low.012/low.012:scaffold_3927 (length 2342)
+low.012/low.012:scaffold_3978 (length 2316)
+low.012/low.012:scaffold_4082 (length 2266)
+low.012/low.012:scaffold_4169 (length 2229)
+low.012/low.012:scaffold_4198 (length 2218)
+low.012/low.012:scaffold_4257 (length 2195)
+low.012/low.012:scaffold_4262 (length 2194)
+low.012/low.012:scaffold_4280 (length 2185)
+low.012/low.012:scaffold_4381 (length 2151)
+low.012/low.012:scaffold_4429 (length 2136)
+low.012/low.012:scaffold_4693 (length 2047)
+low.012/low.012:scaffold_4804 (length 2012)
+low.012/low.012:scaffold_4808 (length 2010)
+low.012/low.012:scaffold_4917 (length 1970)
+low.012/low.012:scaffold_4927 (length 1967)
+low.012/low.012:scaffold_4943 (length 1961)
+low.012/low.012:scaffold_5084 (length 1919)
+low.012/low.012:scaffold_5087 (length 1919)
+low.012/low.012:scaffold_5122 (length 1910)
+low.012/low.012:scaffold_5125 (length 1909)
+low.012/low.012:scaffold_5169 (length 1896)
+low.012/low.012:scaffold_5265 (length 1868)
+low.012/low.012:scaffold_5288 (length 1862)
+low.012/low.012:scaffold_5363 (length 1844)
+low.012/low.012:scaffold_5416 (length 1827)
+low.012/low.012:scaffold_5426 (length 1824)
+low.012/low.012:scaffold_5430 (length 2645)
+low.012/low.012:scaffold_5522 (length 1800)
+low.012/low.012:scaffold_5814 (length 1727)
+low.012/low.012:scaffold_5877 (length 1712)
+low.012/low.012:scaffold_5908 (length 1705)
+low.012/low.012:scaffold_5998 (length 1681)
+low.012/low.012:scaffold_6021 (length 1674)
+low.012/low.012:scaffold_6026 (length 1673)
+low.012/low.012:scaffold_6102 (length 1657)
+low.012/low.012:scaffold_6124 (length 1649)
+low.012/low.012:scaffold_6353 (length 1598)
+low.012/low.012:scaffold_6396 (length 1588)
+low.012/low.012:scaffold_6504 (length 1571)
+low.012/low.012:scaffold_6554 (length 1563)
+low.012/low.012:scaffold_6600 (length 1554)
+low.012/low.012:scaffold_6601 (length 1554)
+low.012/low.012:scaffold_6668 (length 1542)
+low.012/low.012:scaffold_6686 (length 1539)
+low.012/low.012:scaffold_6797 (length 1522)
+low.012/low.012:scaffold_6803 (length 1521)
+low.012/low.012:scaffold_6847 (length 1515)
+low.012/low.012:scaffold_6855 (length 1513)
+low.012/low.012:scaffold_6867 (length 1511)
+low.012/low.012:scaffold_6892 (length 1506)
+low.012/low.012:scaffold_6904 (length 1504)
+low.012/low.012:scaffold_7050 (length 1481)
+low.012/low.012:scaffold_7063 (length 1479)
+low.012/low.012:scaffold_7071 (length 1478)
+low.012/low.012:scaffold_7084 (length 1475)
+low.012/low.012:scaffold_7243 (length 1449)
+low.012/low.012:scaffold_7296 (length 1440)
+low.012/low.012:scaffold_7367 (length 1429)
+low.012/low.012:scaffold_7375 (length 1427)
+low.012/low.012:scaffold_7399 (length 1424)
+low.012/low.012:scaffold_7498 (length 1410)
+low.012/low.012:scaffold_7534 (length 1405)
+low.012/low.012:scaffold_7714 (length 1380)
+low.012/low.012:scaffold_7753 (length 1374)
+low.012/low.012:scaffold_7758 (length 1374)
+low.012/low.012:scaffold_7771 (length 1372)
+low.012/low.012:scaffold_7858 (length 1360)
+low.012/low.012:scaffold_7880 (length 1356)
+low.012/low.012:scaffold_7946 (length 1349)
+low.012/low.012:scaffold_7953 (length 1348)
+low.012/low.012:scaffold_7986 (length 1344)
+low.012/low.012:scaffold_7989 (length 2260)
+low.012/low.012:scaffold_8004 (length 1341)
+low.012/low.012:scaffold_8050 (length 1334)
+low.012/low.012:scaffold_8126 (length 1324)
+low.012/low.012:scaffold_8153 (length 1319)
+low.012/low.012:scaffold_8208 (length 1312)
+low.012/low.012:scaffold_8260 (length 1305)
+low.012/low.012:scaffold_8344 (length 1296)
+low.012/low.012:scaffold_8479 (length 1281)
+low.012/low.012:scaffold_8498 (length 1279)
+low.012/low.012:scaffold_8596 (length 1269)
+low.012/low.012:scaffold_8621 (length 1267)
+low.012/low.012:scaffold_8623 (length 1266)
+low.012/low.012:scaffold_8727 (length 1253)
+low.012/low.012:scaffold_8732 (length 1253)
+low.012/low.012:scaffold_8782 (length 1248)
+low.012/low.012:scaffold_8784 (length 1248)
+low.012/low.012:scaffold_8830 (length 1244)
+low.012/low.012:scaffold_8834 (length 1244)
+low.012/low.012:scaffold_8902 (length 1235)
+low.012/low.012:scaffold_8920 (length 1233)
+low.012/low.012:scaffold_8992 (length 1226)
+low.012/low.012:scaffold_9181 (length 1206)
+low.012/low.012:scaffold_9247 (length 1198)
+low.012/low.012:scaffold_9288 (length 1194)
+low.012/low.012:scaffold_9330 (length 1190)
+low.012/low.012:scaffold_9336 (length 1189)
+low.012/low.012:scaffold_9371 (length 1186)
+low.012/low.012:scaffold_9394 (length 1184)
+low.012/low.012:scaffold_9426 (length 1181)
+low.012/low.012:scaffold_9436 (length 1180)
+low.012/low.012:scaffold_9439 (length 1180)
+low.012/low.012:scaffold_9480 (length 1175)
+low.012/low.012:scaffold_9512 (length 1173)
+low.012/low.012:scaffold_9601 (length 1164)
+low.012/low.012:scaffold_9616 (length 1163)
+low.012/low.012:scaffold_9669 (length 1158)
+low.012/low.012:scaffold_9685 (length 1157)
+low.012/low.012:scaffold_9817 (length 1147)
+low.012/low.012:scaffold_9826 (length 1146)
+low.012/low.012:scaffold_9898 (length 1138)
+low.012/low.012:scaffold_9905 (length 1137)
+low.012/low.012:scaffold_9932 (length 1135)
+low.012/low.012:scaffold_9972 (length 1131)
+low.012/low.012:scaffold_9988 (length 1130)
+low.012/low.012:scaffold_9992 (length 1129)
+low.012/low.012:scaffold_10125 (length 1116)
+low.012/low.012:scaffold_10218 (length 1109)
+low.012/low.012:scaffold_10406 (length 1091)
+low.012/low.012:scaffold_10420 (length 1090)
+low.012/low.012:scaffold_10540 (length 1079)
+low.012/low.012:scaffold_10617 (length 1073)
+low.012/low.012:scaffold_10719 (length 1066)
+low.012/low.012:scaffold_10743 (length 1065)
+low.012/low.012:scaffold_10896 (length 1054)
+low.012/low.012:scaffold_10996 (length 1047)
+low.012/low.012:scaffold_11011 (length 1046)
+low.012/low.012:scaffold_11326 (length 1024)
+low.012/low.012:scaffold_11395 (length 1021)
+low.012/low.012:scaffold_11465 (length 1016)
+low.012/low.012:scaffold_11468 (length 1016)
+low.012/low.012:scaffold_11471 (length 1016)
+low.012/low.012:scaffold_11474 (length 1016)
+low.012/low.012:scaffold_11616 (length 1446)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::165 molecule types are not set as mRNA.
+low.012/low.012:scaffold_153 (length 19851)
+low.012/low.012:scaffold_607 (length 8704)
+low.012/low.012:scaffold_613 (length 8639)
+low.012/low.012:scaffold_669 (length 8120)
+low.012/low.012:scaffold_705 (length 7896)
+low.012/low.012:scaffold_922 (length 6648)
+low.012/low.012:scaffold_1079 (length 5989)
+low.012/low.012:scaffold_1129 (length 5804)
+low.012/low.012:scaffold_1135 (length 5790)
+low.012/low.012:scaffold_1480 (length 4759)
+low.012/low.012:scaffold_1496 (length 4728)
+low.012/low.012:scaffold_1698 (length 4328)
+low.012/low.012:scaffold_1789 (length 4153)
+low.012/low.012:scaffold_1827 (length 4093)
+low.012/low.012:scaffold_1834 (length 4089)
+low.012/low.012:scaffold_1933 (length 3915)
+low.012/low.012:scaffold_1968 (length 3861)
+low.012/low.012:scaffold_2000 (length 3816)
+low.012/low.012:scaffold_2176 (length 3593)
+low.012/low.012:scaffold_2292 (length 3481)
+low.012/low.012:scaffold_2481 (length 3310)
+low.012/low.012:scaffold_2704 (length 3121)
+low.012/low.012:scaffold_2967 (length 2912)
+low.012/low.012:scaffold_3106 (length 2810)
+low.012/low.012:scaffold_3153 (length 2780)
+low.012/low.012:scaffold_3164 (length 2770)
+low.012/low.012:scaffold_3324 (length 2664)
+low.012/low.012:scaffold_3576 (length 2518)
+low.012/low.012:scaffold_3657 (length 2467)
+low.012/low.012:scaffold_3907 (length 2349)
+low.012/low.012:scaffold_3927 (length 2342)
+low.012/low.012:scaffold_3978 (length 2316)
+low.012/low.012:scaffold_4082 (length 2266)
+low.012/low.012:scaffold_4169 (length 2229)
+low.012/low.012:scaffold_4198 (length 2218)
+low.012/low.012:scaffold_4257 (length 2195)
+low.012/low.012:scaffold_4262 (length 2194)
+low.012/low.012:scaffold_4280 (length 2185)
+low.012/low.012:scaffold_4381 (length 2151)
+low.012/low.012:scaffold_4429 (length 2136)
+low.012/low.012:scaffold_4693 (length 2047)
+low.012/low.012:scaffold_4804 (length 2012)
+low.012/low.012:scaffold_4808 (length 2010)
+low.012/low.012:scaffold_4917 (length 1970)
+low.012/low.012:scaffold_4927 (length 1967)
+low.012/low.012:scaffold_4943 (length 1961)
+low.012/low.012:scaffold_5084 (length 1919)
+low.012/low.012:scaffold_5087 (length 1919)
+low.012/low.012:scaffold_5122 (length 1910)
+low.012/low.012:scaffold_5125 (length 1909)
+low.012/low.012:scaffold_5169 (length 1896)
+low.012/low.012:scaffold_5265 (length 1868)
+low.012/low.012:scaffold_5288 (length 1862)
+low.012/low.012:scaffold_5363 (length 1844)
+low.012/low.012:scaffold_5416 (length 1827)
+low.012/low.012:scaffold_5426 (length 1824)
+low.012/low.012:scaffold_5430 (length 2645)
+low.012/low.012:scaffold_5522 (length 1800)
+low.012/low.012:scaffold_5814 (length 1727)
+low.012/low.012:scaffold_5877 (length 1712)
+low.012/low.012:scaffold_5908 (length 1705)
+low.012/low.012:scaffold_5998 (length 1681)
+low.012/low.012:scaffold_6021 (length 1674)
+low.012/low.012:scaffold_6026 (length 1673)
+low.012/low.012:scaffold_6102 (length 1657)
+low.012/low.012:scaffold_6124 (length 1649)
+low.012/low.012:scaffold_6353 (length 1598)
+low.012/low.012:scaffold_6396 (length 1588)
+low.012/low.012:scaffold_6504 (length 1571)
+low.012/low.012:scaffold_6554 (length 1563)
+low.012/low.012:scaffold_6600 (length 1554)
+low.012/low.012:scaffold_6601 (length 1554)
+low.012/low.012:scaffold_6668 (length 1542)
+low.012/low.012:scaffold_6686 (length 1539)
+low.012/low.012:scaffold_6797 (length 1522)
+low.012/low.012:scaffold_6803 (length 1521)
+low.012/low.012:scaffold_6847 (length 1515)
+low.012/low.012:scaffold_6855 (length 1513)
+low.012/low.012:scaffold_6867 (length 1511)
+low.012/low.012:scaffold_6892 (length 1506)
+low.012/low.012:scaffold_6904 (length 1504)
+low.012/low.012:scaffold_7050 (length 1481)
+low.012/low.012:scaffold_7063 (length 1479)
+low.012/low.012:scaffold_7071 (length 1478)
+low.012/low.012:scaffold_7084 (length 1475)
+low.012/low.012:scaffold_7243 (length 1449)
+low.012/low.012:scaffold_7296 (length 1440)
+low.012/low.012:scaffold_7367 (length 1429)
+low.012/low.012:scaffold_7375 (length 1427)
+low.012/low.012:scaffold_7399 (length 1424)
+low.012/low.012:scaffold_7498 (length 1410)
+low.012/low.012:scaffold_7534 (length 1405)
+low.012/low.012:scaffold_7714 (length 1380)
+low.012/low.012:scaffold_7753 (length 1374)
+low.012/low.012:scaffold_7758 (length 1374)
+low.012/low.012:scaffold_7771 (length 1372)
+low.012/low.012:scaffold_7858 (length 1360)
+low.012/low.012:scaffold_7880 (length 1356)
+low.012/low.012:scaffold_7946 (length 1349)
+low.012/low.012:scaffold_7953 (length 1348)
+low.012/low.012:scaffold_7986 (length 1344)
+low.012/low.012:scaffold_7989 (length 2260)
+low.012/low.012:scaffold_8004 (length 1341)
+low.012/low.012:scaffold_8050 (length 1334)
+low.012/low.012:scaffold_8126 (length 1324)
+low.012/low.012:scaffold_8153 (length 1319)
+low.012/low.012:scaffold_8208 (length 1312)
+low.012/low.012:scaffold_8260 (length 1305)
+low.012/low.012:scaffold_8344 (length 1296)
+low.012/low.012:scaffold_8479 (length 1281)
+low.012/low.012:scaffold_8498 (length 1279)
+low.012/low.012:scaffold_8596 (length 1269)
+low.012/low.012:scaffold_8621 (length 1267)
+low.012/low.012:scaffold_8623 (length 1266)
+low.012/low.012:scaffold_8727 (length 1253)
+low.012/low.012:scaffold_8732 (length 1253)
+low.012/low.012:scaffold_8782 (length 1248)
+low.012/low.012:scaffold_8784 (length 1248)
+low.012/low.012:scaffold_8830 (length 1244)
+low.012/low.012:scaffold_8834 (length 1244)
+low.012/low.012:scaffold_8902 (length 1235)
+low.012/low.012:scaffold_8920 (length 1233)
+low.012/low.012:scaffold_8992 (length 1226)
+low.012/low.012:scaffold_9181 (length 1206)
+low.012/low.012:scaffold_9247 (length 1198)
+low.012/low.012:scaffold_9288 (length 1194)
+low.012/low.012:scaffold_9330 (length 1190)
+low.012/low.012:scaffold_9336 (length 1189)
+low.012/low.012:scaffold_9371 (length 1186)
+low.012/low.012:scaffold_9394 (length 1184)
+low.012/low.012:scaffold_9426 (length 1181)
+low.012/low.012:scaffold_9436 (length 1180)
+low.012/low.012:scaffold_9439 (length 1180)
+low.012/low.012:scaffold_9480 (length 1175)
+low.012/low.012:scaffold_9512 (length 1173)
+low.012/low.012:scaffold_9601 (length 1164)
+low.012/low.012:scaffold_9616 (length 1163)
+low.012/low.012:scaffold_9669 (length 1158)
+low.012/low.012:scaffold_9685 (length 1157)
+low.012/low.012:scaffold_9817 (length 1147)
+low.012/low.012:scaffold_9826 (length 1146)
+low.012/low.012:scaffold_9898 (length 1138)
+low.012/low.012:scaffold_9905 (length 1137)
+low.012/low.012:scaffold_9932 (length 1135)
+low.012/low.012:scaffold_9972 (length 1131)
+low.012/low.012:scaffold_9988 (length 1130)
+low.012/low.012:scaffold_9992 (length 1129)
+low.012/low.012:scaffold_10125 (length 1116)
+low.012/low.012:scaffold_10218 (length 1109)
+low.012/low.012:scaffold_10406 (length 1091)
+low.012/low.012:scaffold_10420 (length 1090)
+low.012/low.012:scaffold_10540 (length 1079)
+low.012/low.012:scaffold_10617 (length 1073)
+low.012/low.012:scaffold_10719 (length 1066)
+low.012/low.012:scaffold_10743 (length 1065)
+low.012/low.012:scaffold_10896 (length 1054)
+low.012/low.012:scaffold_10996 (length 1047)
+low.012/low.012:scaffold_11011 (length 1046)
+low.012/low.012:scaffold_11326 (length 1024)
+low.012/low.012:scaffold_11395 (length 1021)
+low.012/low.012:scaffold_11465 (length 1016)
+low.012/low.012:scaffold_11468 (length 1016)
+low.012/low.012:scaffold_11471 (length 1016)
+low.012/low.012:scaffold_11474 (length 1016)
+low.012/low.012:scaffold_11616 (length 1446)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::165 technique are not set as TSA
+low.012/low.012:scaffold_153 (length 19851)
+low.012/low.012:scaffold_607 (length 8704)
+low.012/low.012:scaffold_613 (length 8639)
+low.012/low.012:scaffold_669 (length 8120)
+low.012/low.012:scaffold_705 (length 7896)
+low.012/low.012:scaffold_922 (length 6648)
+low.012/low.012:scaffold_1079 (length 5989)
+low.012/low.012:scaffold_1129 (length 5804)
+low.012/low.012:scaffold_1135 (length 5790)
+low.012/low.012:scaffold_1480 (length 4759)
+low.012/low.012:scaffold_1496 (length 4728)
+low.012/low.012:scaffold_1698 (length 4328)
+low.012/low.012:scaffold_1789 (length 4153)
+low.012/low.012:scaffold_1827 (length 4093)
+low.012/low.012:scaffold_1834 (length 4089)
+low.012/low.012:scaffold_1933 (length 3915)
+low.012/low.012:scaffold_1968 (length 3861)
+low.012/low.012:scaffold_2000 (length 3816)
+low.012/low.012:scaffold_2176 (length 3593)
+low.012/low.012:scaffold_2292 (length 3481)
+low.012/low.012:scaffold_2481 (length 3310)
+low.012/low.012:scaffold_2704 (length 3121)
+low.012/low.012:scaffold_2967 (length 2912)
+low.012/low.012:scaffold_3106 (length 2810)
+low.012/low.012:scaffold_3153 (length 2780)
+low.012/low.012:scaffold_3164 (length 2770)
+low.012/low.012:scaffold_3324 (length 2664)
+low.012/low.012:scaffold_3576 (length 2518)
+low.012/low.012:scaffold_3657 (length 2467)
+low.012/low.012:scaffold_3907 (length 2349)
+low.012/low.012:scaffold_3927 (length 2342)
+low.012/low.012:scaffold_3978 (length 2316)
+low.012/low.012:scaffold_4082 (length 2266)
+low.012/low.012:scaffold_4169 (length 2229)
+low.012/low.012:scaffold_4198 (length 2218)
+low.012/low.012:scaffold_4257 (length 2195)
+low.012/low.012:scaffold_4262 (length 2194)
+low.012/low.012:scaffold_4280 (length 2185)
+low.012/low.012:scaffold_4381 (length 2151)
+low.012/low.012:scaffold_4429 (length 2136)
+low.012/low.012:scaffold_4693 (length 2047)
+low.012/low.012:scaffold_4804 (length 2012)
+low.012/low.012:scaffold_4808 (length 2010)
+low.012/low.012:scaffold_4917 (length 1970)
+low.012/low.012:scaffold_4927 (length 1967)
+low.012/low.012:scaffold_4943 (length 1961)
+low.012/low.012:scaffold_5084 (length 1919)
+low.012/low.012:scaffold_5087 (length 1919)
+low.012/low.012:scaffold_5122 (length 1910)
+low.012/low.012:scaffold_5125 (length 1909)
+low.012/low.012:scaffold_5169 (length 1896)
+low.012/low.012:scaffold_5265 (length 1868)
+low.012/low.012:scaffold_5288 (length 1862)
+low.012/low.012:scaffold_5363 (length 1844)
+low.012/low.012:scaffold_5416 (length 1827)
+low.012/low.012:scaffold_5426 (length 1824)
+low.012/low.012:scaffold_5430 (length 2645)
+low.012/low.012:scaffold_5522 (length 1800)
+low.012/low.012:scaffold_5814 (length 1727)
+low.012/low.012:scaffold_5877 (length 1712)
+low.012/low.012:scaffold_5908 (length 1705)
+low.012/low.012:scaffold_5998 (length 1681)
+low.012/low.012:scaffold_6021 (length 1674)
+low.012/low.012:scaffold_6026 (length 1673)
+low.012/low.012:scaffold_6102 (length 1657)
+low.012/low.012:scaffold_6124 (length 1649)
+low.012/low.012:scaffold_6353 (length 1598)
+low.012/low.012:scaffold_6396 (length 1588)
+low.012/low.012:scaffold_6504 (length 1571)
+low.012/low.012:scaffold_6554 (length 1563)
+low.012/low.012:scaffold_6600 (length 1554)
+low.012/low.012:scaffold_6601 (length 1554)
+low.012/low.012:scaffold_6668 (length 1542)
+low.012/low.012:scaffold_6686 (length 1539)
+low.012/low.012:scaffold_6797 (length 1522)
+low.012/low.012:scaffold_6803 (length 1521)
+low.012/low.012:scaffold_6847 (length 1515)
+low.012/low.012:scaffold_6855 (length 1513)
+low.012/low.012:scaffold_6867 (length 1511)
+low.012/low.012:scaffold_6892 (length 1506)
+low.012/low.012:scaffold_6904 (length 1504)
+low.012/low.012:scaffold_7050 (length 1481)
+low.012/low.012:scaffold_7063 (length 1479)
+low.012/low.012:scaffold_7071 (length 1478)
+low.012/low.012:scaffold_7084 (length 1475)
+low.012/low.012:scaffold_7243 (length 1449)
+low.012/low.012:scaffold_7296 (length 1440)
+low.012/low.012:scaffold_7367 (length 1429)
+low.012/low.012:scaffold_7375 (length 1427)
+low.012/low.012:scaffold_7399 (length 1424)
+low.012/low.012:scaffold_7498 (length 1410)
+low.012/low.012:scaffold_7534 (length 1405)
+low.012/low.012:scaffold_7714 (length 1380)
+low.012/low.012:scaffold_7753 (length 1374)
+low.012/low.012:scaffold_7758 (length 1374)
+low.012/low.012:scaffold_7771 (length 1372)
+low.012/low.012:scaffold_7858 (length 1360)
+low.012/low.012:scaffold_7880 (length 1356)
+low.012/low.012:scaffold_7946 (length 1349)
+low.012/low.012:scaffold_7953 (length 1348)
+low.012/low.012:scaffold_7986 (length 1344)
+low.012/low.012:scaffold_7989 (length 2260)
+low.012/low.012:scaffold_8004 (length 1341)
+low.012/low.012:scaffold_8050 (length 1334)
+low.012/low.012:scaffold_8126 (length 1324)
+low.012/low.012:scaffold_8153 (length 1319)
+low.012/low.012:scaffold_8208 (length 1312)
+low.012/low.012:scaffold_8260 (length 1305)
+low.012/low.012:scaffold_8344 (length 1296)
+low.012/low.012:scaffold_8479 (length 1281)
+low.012/low.012:scaffold_8498 (length 1279)
+low.012/low.012:scaffold_8596 (length 1269)
+low.012/low.012:scaffold_8621 (length 1267)
+low.012/low.012:scaffold_8623 (length 1266)
+low.012/low.012:scaffold_8727 (length 1253)
+low.012/low.012:scaffold_8732 (length 1253)
+low.012/low.012:scaffold_8782 (length 1248)
+low.012/low.012:scaffold_8784 (length 1248)
+low.012/low.012:scaffold_8830 (length 1244)
+low.012/low.012:scaffold_8834 (length 1244)
+low.012/low.012:scaffold_8902 (length 1235)
+low.012/low.012:scaffold_8920 (length 1233)
+low.012/low.012:scaffold_8992 (length 1226)
+low.012/low.012:scaffold_9181 (length 1206)
+low.012/low.012:scaffold_9247 (length 1198)
+low.012/low.012:scaffold_9288 (length 1194)
+low.012/low.012:scaffold_9330 (length 1190)
+low.012/low.012:scaffold_9336 (length 1189)
+low.012/low.012:scaffold_9371 (length 1186)
+low.012/low.012:scaffold_9394 (length 1184)
+low.012/low.012:scaffold_9426 (length 1181)
+low.012/low.012:scaffold_9436 (length 1180)
+low.012/low.012:scaffold_9439 (length 1180)
+low.012/low.012:scaffold_9480 (length 1175)
+low.012/low.012:scaffold_9512 (length 1173)
+low.012/low.012:scaffold_9601 (length 1164)
+low.012/low.012:scaffold_9616 (length 1163)
+low.012/low.012:scaffold_9669 (length 1158)
+low.012/low.012:scaffold_9685 (length 1157)
+low.012/low.012:scaffold_9817 (length 1147)
+low.012/low.012:scaffold_9826 (length 1146)
+low.012/low.012:scaffold_9898 (length 1138)
+low.012/low.012:scaffold_9905 (length 1137)
+low.012/low.012:scaffold_9932 (length 1135)
+low.012/low.012:scaffold_9972 (length 1131)
+low.012/low.012:scaffold_9988 (length 1130)
+low.012/low.012:scaffold_9992 (length 1129)
+low.012/low.012:scaffold_10125 (length 1116)
+low.012/low.012:scaffold_10218 (length 1109)
+low.012/low.012:scaffold_10406 (length 1091)
+low.012/low.012:scaffold_10420 (length 1090)
+low.012/low.012:scaffold_10540 (length 1079)
+low.012/low.012:scaffold_10617 (length 1073)
+low.012/low.012:scaffold_10719 (length 1066)
+low.012/low.012:scaffold_10743 (length 1065)
+low.012/low.012:scaffold_10896 (length 1054)
+low.012/low.012:scaffold_10996 (length 1047)
+low.012/low.012:scaffold_11011 (length 1046)
+low.012/low.012:scaffold_11326 (length 1024)
+low.012/low.012:scaffold_11395 (length 1021)
+low.012/low.012:scaffold_11465 (length 1016)
+low.012/low.012:scaffold_11468 (length 1016)
+low.012/low.012:scaffold_11471 (length 1016)
+low.012/low.012:scaffold_11474 (length 1016)
+low.012/low.012:scaffold_11616 (length 1446)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::165 sequences do not include structured comments.
+low.012/low.012:scaffold_153 (length 19851)
+low.012/low.012:scaffold_607 (length 8704)
+low.012/low.012:scaffold_613 (length 8639)
+low.012/low.012:scaffold_669 (length 8120)
+low.012/low.012:scaffold_705 (length 7896)
+low.012/low.012:scaffold_922 (length 6648)
+low.012/low.012:scaffold_1079 (length 5989)
+low.012/low.012:scaffold_1129 (length 5804)
+low.012/low.012:scaffold_1135 (length 5790)
+low.012/low.012:scaffold_1480 (length 4759)
+low.012/low.012:scaffold_1496 (length 4728)
+low.012/low.012:scaffold_1698 (length 4328)
+low.012/low.012:scaffold_1789 (length 4153)
+low.012/low.012:scaffold_1827 (length 4093)
+low.012/low.012:scaffold_1834 (length 4089)
+low.012/low.012:scaffold_1933 (length 3915)
+low.012/low.012:scaffold_1968 (length 3861)
+low.012/low.012:scaffold_2000 (length 3816)
+low.012/low.012:scaffold_2176 (length 3593)
+low.012/low.012:scaffold_2292 (length 3481)
+low.012/low.012:scaffold_2481 (length 3310)
+low.012/low.012:scaffold_2704 (length 3121)
+low.012/low.012:scaffold_2967 (length 2912)
+low.012/low.012:scaffold_3106 (length 2810)
+low.012/low.012:scaffold_3153 (length 2780)
+low.012/low.012:scaffold_3164 (length 2770)
+low.012/low.012:scaffold_3324 (length 2664)
+low.012/low.012:scaffold_3576 (length 2518)
+low.012/low.012:scaffold_3657 (length 2467)
+low.012/low.012:scaffold_3907 (length 2349)
+low.012/low.012:scaffold_3927 (length 2342)
+low.012/low.012:scaffold_3978 (length 2316)
+low.012/low.012:scaffold_4082 (length 2266)
+low.012/low.012:scaffold_4169 (length 2229)
+low.012/low.012:scaffold_4198 (length 2218)
+low.012/low.012:scaffold_4257 (length 2195)
+low.012/low.012:scaffold_4262 (length 2194)
+low.012/low.012:scaffold_4280 (length 2185)
+low.012/low.012:scaffold_4381 (length 2151)
+low.012/low.012:scaffold_4429 (length 2136)
+low.012/low.012:scaffold_4693 (length 2047)
+low.012/low.012:scaffold_4804 (length 2012)
+low.012/low.012:scaffold_4808 (length 2010)
+low.012/low.012:scaffold_4917 (length 1970)
+low.012/low.012:scaffold_4927 (length 1967)
+low.012/low.012:scaffold_4943 (length 1961)
+low.012/low.012:scaffold_5084 (length 1919)
+low.012/low.012:scaffold_5087 (length 1919)
+low.012/low.012:scaffold_5122 (length 1910)
+low.012/low.012:scaffold_5125 (length 1909)
+low.012/low.012:scaffold_5169 (length 1896)
+low.012/low.012:scaffold_5265 (length 1868)
+low.012/low.012:scaffold_5288 (length 1862)
+low.012/low.012:scaffold_5363 (length 1844)
+low.012/low.012:scaffold_5416 (length 1827)
+low.012/low.012:scaffold_5426 (length 1824)
+low.012/low.012:scaffold_5430 (length 2645)
+low.012/low.012:scaffold_5522 (length 1800)
+low.012/low.012:scaffold_5814 (length 1727)
+low.012/low.012:scaffold_5877 (length 1712)
+low.012/low.012:scaffold_5908 (length 1705)
+low.012/low.012:scaffold_5998 (length 1681)
+low.012/low.012:scaffold_6021 (length 1674)
+low.012/low.012:scaffold_6026 (length 1673)
+low.012/low.012:scaffold_6102 (length 1657)
+low.012/low.012:scaffold_6124 (length 1649)
+low.012/low.012:scaffold_6353 (length 1598)
+low.012/low.012:scaffold_6396 (length 1588)
+low.012/low.012:scaffold_6504 (length 1571)
+low.012/low.012:scaffold_6554 (length 1563)
+low.012/low.012:scaffold_6600 (length 1554)
+low.012/low.012:scaffold_6601 (length 1554)
+low.012/low.012:scaffold_6668 (length 1542)
+low.012/low.012:scaffold_6686 (length 1539)
+low.012/low.012:scaffold_6797 (length 1522)
+low.012/low.012:scaffold_6803 (length 1521)
+low.012/low.012:scaffold_6847 (length 1515)
+low.012/low.012:scaffold_6855 (length 1513)
+low.012/low.012:scaffold_6867 (length 1511)
+low.012/low.012:scaffold_6892 (length 1506)
+low.012/low.012:scaffold_6904 (length 1504)
+low.012/low.012:scaffold_7050 (length 1481)
+low.012/low.012:scaffold_7063 (length 1479)
+low.012/low.012:scaffold_7071 (length 1478)
+low.012/low.012:scaffold_7084 (length 1475)
+low.012/low.012:scaffold_7243 (length 1449)
+low.012/low.012:scaffold_7296 (length 1440)
+low.012/low.012:scaffold_7367 (length 1429)
+low.012/low.012:scaffold_7375 (length 1427)
+low.012/low.012:scaffold_7399 (length 1424)
+low.012/low.012:scaffold_7498 (length 1410)
+low.012/low.012:scaffold_7534 (length 1405)
+low.012/low.012:scaffold_7714 (length 1380)
+low.012/low.012:scaffold_7753 (length 1374)
+low.012/low.012:scaffold_7758 (length 1374)
+low.012/low.012:scaffold_7771 (length 1372)
+low.012/low.012:scaffold_7858 (length 1360)
+low.012/low.012:scaffold_7880 (length 1356)
+low.012/low.012:scaffold_7946 (length 1349)
+low.012/low.012:scaffold_7953 (length 1348)
+low.012/low.012:scaffold_7986 (length 1344)
+low.012/low.012:scaffold_7989 (length 2260)
+low.012/low.012:scaffold_8004 (length 1341)
+low.012/low.012:scaffold_8050 (length 1334)
+low.012/low.012:scaffold_8126 (length 1324)
+low.012/low.012:scaffold_8153 (length 1319)
+low.012/low.012:scaffold_8208 (length 1312)
+low.012/low.012:scaffold_8260 (length 1305)
+low.012/low.012:scaffold_8344 (length 1296)
+low.012/low.012:scaffold_8479 (length 1281)
+low.012/low.012:scaffold_8498 (length 1279)
+low.012/low.012:scaffold_8596 (length 1269)
+low.012/low.012:scaffold_8621 (length 1267)
+low.012/low.012:scaffold_8623 (length 1266)
+low.012/low.012:scaffold_8727 (length 1253)
+low.012/low.012:scaffold_8732 (length 1253)
+low.012/low.012:scaffold_8782 (length 1248)
+low.012/low.012:scaffold_8784 (length 1248)
+low.012/low.012:scaffold_8830 (length 1244)
+low.012/low.012:scaffold_8834 (length 1244)
+low.012/low.012:scaffold_8902 (length 1235)
+low.012/low.012:scaffold_8920 (length 1233)
+low.012/low.012:scaffold_8992 (length 1226)
+low.012/low.012:scaffold_9181 (length 1206)
+low.012/low.012:scaffold_9247 (length 1198)
+low.012/low.012:scaffold_9288 (length 1194)
+low.012/low.012:scaffold_9330 (length 1190)
+low.012/low.012:scaffold_9336 (length 1189)
+low.012/low.012:scaffold_9371 (length 1186)
+low.012/low.012:scaffold_9394 (length 1184)
+low.012/low.012:scaffold_9426 (length 1181)
+low.012/low.012:scaffold_9436 (length 1180)
+low.012/low.012:scaffold_9439 (length 1180)
+low.012/low.012:scaffold_9480 (length 1175)
+low.012/low.012:scaffold_9512 (length 1173)
+low.012/low.012:scaffold_9601 (length 1164)
+low.012/low.012:scaffold_9616 (length 1163)
+low.012/low.012:scaffold_9669 (length 1158)
+low.012/low.012:scaffold_9685 (length 1157)
+low.012/low.012:scaffold_9817 (length 1147)
+low.012/low.012:scaffold_9826 (length 1146)
+low.012/low.012:scaffold_9898 (length 1138)
+low.012/low.012:scaffold_9905 (length 1137)
+low.012/low.012:scaffold_9932 (length 1135)
+low.012/low.012:scaffold_9972 (length 1131)
+low.012/low.012:scaffold_9988 (length 1130)
+low.012/low.012:scaffold_9992 (length 1129)
+low.012/low.012:scaffold_10125 (length 1116)
+low.012/low.012:scaffold_10218 (length 1109)
+low.012/low.012:scaffold_10406 (length 1091)
+low.012/low.012:scaffold_10420 (length 1090)
+low.012/low.012:scaffold_10540 (length 1079)
+low.012/low.012:scaffold_10617 (length 1073)
+low.012/low.012:scaffold_10719 (length 1066)
+low.012/low.012:scaffold_10743 (length 1065)
+low.012/low.012:scaffold_10896 (length 1054)
+low.012/low.012:scaffold_10996 (length 1047)
+low.012/low.012:scaffold_11011 (length 1046)
+low.012/low.012:scaffold_11326 (length 1024)
+low.012/low.012:scaffold_11395 (length 1021)
+low.012/low.012:scaffold_11465 (length 1016)
+low.012/low.012:scaffold_11468 (length 1016)
+low.012/low.012:scaffold_11471 (length 1016)
+low.012/low.012:scaffold_11474 (length 1016)
+low.012/low.012:scaffold_11616 (length 1446)
+
+DiscRep_ALL:MISSING_PROJECT::456 sequences do not include project.
+low.012/low.012:scaffold_153 (length 19851)
+low.012/low.012:scaffold_153_1 (length 218)
+low.012/low.012:scaffold_153_2 (length 126)
+low.012/low.012:scaffold_153_3 (length 311)
+low.012/low.012:scaffold_153_4 (length 129)
+low.012/low.012:scaffold_153_5 (length 121)
+low.012/low.012:scaffold_153_6 (length 38)
+low.012/low.012:scaffold_153_7 (length 72)
+low.012/low.012:scaffold_153_8 (length 218)
+low.012/low.012:scaffold_153_9 (length 431)
+low.012/low.012:scaffold_153_10 (length 146)
+low.012/low.012:scaffold_153_11 (length 61)
+low.012/low.012:scaffold_153_12 (length 166)
+low.012/low.012:scaffold_153_13 (length 118)
+low.012/low.012:scaffold_153_14 (length 178)
+low.012/low.012:scaffold_153_15 (length 132)
+low.012/low.012:scaffold_153_16 (length 61)
+low.012/low.012:scaffold_153_17 (length 180)
+low.012/low.012:scaffold_153_18 (length 90)
+low.012/low.012:scaffold_153_19 (length 122)
+low.012/low.012:scaffold_153_20 (length 91)
+low.012/low.012:scaffold_153_21 (length 65)
+low.012/low.012:scaffold_153_22 (length 144)
+low.012/low.012:scaffold_153_23 (length 227)
+low.012/low.012:scaffold_153_24 (length 116)
+low.012/low.012:scaffold_153_25 (length 92)
+low.012/low.012:scaffold_153_26 (length 279)
+low.012/low.012:scaffold_153_27 (length 95)
+low.012/low.012:scaffold_153_28 (length 207)
+low.012/low.012:scaffold_153_29 (length 234)
+low.012/low.012:scaffold_153_30 (length 102)
+low.012/low.012:scaffold_153_31 (length 183)
+low.012/low.012:scaffold_153_32 (length 697)
+low.012/low.012:scaffold_153_33 (length 156)
+low.012/low.012:scaffold_153_34 (length 137)
+low.012/low.012:scaffold_153_35 (length 227)
+low.012/low.012:scaffold_153_36 (length 89)
+low.012/low.012:scaffold_607 (length 8704)
+low.012/low.012:scaffold_607_1 (length 121)
+low.012/low.012:scaffold_607_2 (length 182)
+low.012/low.012:scaffold_607_3 (length 512)
+low.012/low.012:scaffold_607_4 (length 304)
+low.012/low.012:scaffold_607_5 (length 98)
+low.012/low.012:scaffold_607_6 (length 315)
+low.012/low.012:scaffold_607_7 (length 265)
+low.012/low.012:scaffold_607_8 (length 488)
+low.012/low.012:scaffold_607_9 (length 232)
+low.012/low.012:scaffold_607_10 (length 265)
+low.012/low.012:scaffold_613 (length 8639)
+low.012/low.012:scaffold_613_1 (length 815)
+low.012/low.012:scaffold_613_2 (length 168)
+low.012/low.012:scaffold_613_3 (length 165)
+low.012/low.012:scaffold_613_4 (length 73)
+low.012/low.012:scaffold_613_5 (length 401)
+low.012/low.012:scaffold_613_6 (length 461)
+low.012/low.012:scaffold_613_7 (length 127)
+low.012/low.012:scaffold_613_8 (length 104)
+low.012/low.012:scaffold_669 (length 8120)
+low.012/low.012:scaffold_669_1 (length 349)
+low.012/low.012:scaffold_669_2 (length 300)
+low.012/low.012:scaffold_669_3 (length 125)
+low.012/low.012:scaffold_669_4 (length 883)
+low.012/low.012:scaffold_669_5 (length 491)
+low.012/low.012:scaffold_669_6 (length 153)
+low.012/low.012:scaffold_705 (length 7896)
+low.012/low.012:scaffold_705_1 (length 175)
+low.012/low.012:scaffold_705_2 (length 335)
+low.012/low.012:scaffold_705_3 (length 1219)
+low.012/low.012:scaffold_705_4 (length 637)
+low.012/low.012:scaffold_705_5 (length 113)
+low.012/low.012:scaffold_922 (length 6648)
+low.012/low.012:scaffold_922_1 (length 302)
+low.012/low.012:scaffold_922_2 (length 290)
+low.012/low.012:scaffold_922_3 (length 369)
+low.012/low.012:scaffold_922_4 (length 50)
+low.012/low.012:scaffold_922_5 (length 291)
+low.012/low.012:scaffold_922_6 (length 261)
+low.012/low.012:scaffold_1079 (length 5989)
+low.012/low.012:scaffold_1129 (length 5804)
+low.012/low.012:scaffold_1129_1 (length 338)
+low.012/low.012:scaffold_1129_2 (length 395)
+low.012/low.012:scaffold_1135 (length 5790)
+low.012/low.012:scaffold_1135_1 (length 175)
+low.012/low.012:scaffold_1135_2 (length 89)
+low.012/low.012:scaffold_1135_3 (length 136)
+low.012/low.012:scaffold_1135_4 (length 223)
+low.012/low.012:scaffold_1135_5 (length 118)
+low.012/low.012:scaffold_1135_6 (length 165)
+low.012/low.012:scaffold_1135_7 (length 113)
+low.012/low.012:scaffold_1135_8 (length 102)
+low.012/low.012:scaffold_1135_9 (length 415)
+low.012/low.012:scaffold_1480 (length 4759)
+low.012/low.012:scaffold_1480_1 (length 233)
+low.012/low.012:scaffold_1480_2 (length 142)
+low.012/low.012:scaffold_1480_3 (length 359)
+low.012/low.012:scaffold_1480_4 (length 387)
+low.012/low.012:scaffold_1496 (length 4728)
+low.012/low.012:scaffold_1496_1 (length 158)
+low.012/low.012:scaffold_1496_2 (length 40)
+low.012/low.012:scaffold_1496_3 (length 413)
+low.012/low.012:scaffold_1496_4 (length 522)
+low.012/low.012:scaffold_1698 (length 4328)
+low.012/low.012:scaffold_1698_1 (length 1247)
+low.012/low.012:scaffold_1789 (length 4153)
+low.012/low.012:scaffold_1789_1 (length 447)
+low.012/low.012:scaffold_1789_2 (length 371)
+low.012/low.012:scaffold_1827 (length 4093)
+low.012/low.012:scaffold_1827_1 (length 311)
+low.012/low.012:scaffold_1827_2 (length 363)
+low.012/low.012:scaffold_1827_3 (length 112)
+low.012/low.012:scaffold_1827_4 (length 331)
+low.012/low.012:scaffold_1834 (length 4089)
+low.012/low.012:scaffold_1834_1 (length 136)
+low.012/low.012:scaffold_1834_2 (length 183)
+low.012/low.012:scaffold_1834_3 (length 305)
+low.012/low.012:scaffold_1834_4 (length 379)
+low.012/low.012:scaffold_1933 (length 3915)
+low.012/low.012:scaffold_1933_1 (length 505)
+low.012/low.012:scaffold_1933_2 (length 238)
+low.012/low.012:scaffold_1933_3 (length 125)
+low.012/low.012:scaffold_1968 (length 3861)
+low.012/low.012:scaffold_1968_1 (length 87)
+low.012/low.012:scaffold_1968_2 (length 277)
+low.012/low.012:scaffold_1968_3 (length 218)
+low.012/low.012:scaffold_1968_4 (length 230)
+low.012/low.012:scaffold_1968_5 (length 379)
+low.012/low.012:scaffold_2000 (length 3816)
+low.012/low.012:scaffold_2000_1 (length 347)
+low.012/low.012:scaffold_2000_2 (length 339)
+low.012/low.012:scaffold_2000_3 (length 404)
+low.012/low.012:scaffold_2176 (length 3593)
+low.012/low.012:scaffold_2176_1 (length 730)
+low.012/low.012:scaffold_2176_2 (length 61)
+low.012/low.012:scaffold_2176_3 (length 88)
+low.012/low.012:scaffold_2292 (length 3481)
+low.012/low.012:scaffold_2292_1 (length 310)
+low.012/low.012:scaffold_2292_2 (length 333)
+low.012/low.012:scaffold_2292_3 (length 385)
+low.012/low.012:scaffold_2481 (length 3310)
+low.012/low.012:scaffold_2481_1 (length 405)
+low.012/low.012:scaffold_2481_2 (length 380)
+low.012/low.012:scaffold_2481_3 (length 147)
+low.012/low.012:scaffold_2704 (length 3121)
+low.012/low.012:scaffold_2704_1 (length 118)
+low.012/low.012:scaffold_2704_2 (length 37)
+low.012/low.012:scaffold_2704_3 (length 445)
+low.012/low.012:scaffold_2704_4 (length 144)
+low.012/low.012:scaffold_2704_5 (length 59)
+low.012/low.012:scaffold_2704_6 (length 129)
+low.012/low.012:scaffold_2967 (length 2912)
+low.012/low.012:scaffold_2967_1 (length 320)
+low.012/low.012:scaffold_2967_2 (length 385)
+low.012/low.012:scaffold_3106 (length 2810)
+low.012/low.012:scaffold_3106_1 (length 502)
+low.012/low.012:scaffold_3106_2 (length 66)
+low.012/low.012:scaffold_3106_3 (length 176)
+low.012/low.012:scaffold_3153 (length 2780)
+low.012/low.012:scaffold_3153_1 (length 419)
+low.012/low.012:scaffold_3153_2 (length 292)
+low.012/low.012:scaffold_3164 (length 2770)
+low.012/low.012:scaffold_3164_1 (length 136)
+low.012/low.012:scaffold_3164_2 (length 403)
+low.012/low.012:scaffold_3324 (length 2664)
+low.012/low.012:scaffold_3324_1 (length 278)
+low.012/low.012:scaffold_3324_2 (length 339)
+low.012/low.012:scaffold_3576 (length 2518)
+low.012/low.012:scaffold_3576_1 (length 325)
+low.012/low.012:scaffold_3657 (length 2467)
+low.012/low.012:scaffold_3657_1 (length 304)
+low.012/low.012:scaffold_3657_2 (length 302)
+low.012/low.012:scaffold_3907 (length 2349)
+low.012/low.012:scaffold_3907_1 (length 620)
+low.012/low.012:scaffold_3927 (length 2342)
+low.012/low.012:scaffold_3927_1 (length 688)
+low.012/low.012:scaffold_3978 (length 2316)
+low.012/low.012:scaffold_3978_1 (length 275)
+low.012/low.012:scaffold_3978_2 (length 227)
+low.012/low.012:scaffold_3978_3 (length 180)
+low.012/low.012:scaffold_4082 (length 2266)
+low.012/low.012:scaffold_4082_1 (length 478)
+low.012/low.012:scaffold_4169 (length 2229)
+low.012/low.012:scaffold_4169_1 (length 244)
+low.012/low.012:scaffold_4169_2 (length 435)
+low.012/low.012:scaffold_4198 (length 2218)
+low.012/low.012:scaffold_4198_1 (length 311)
+low.012/low.012:scaffold_4257 (length 2195)
+low.012/low.012:scaffold_4257_1 (length 617)
+low.012/low.012:scaffold_4262 (length 2194)
+low.012/low.012:scaffold_4262_1 (length 288)
+low.012/low.012:scaffold_4262_2 (length 199)
+low.012/low.012:scaffold_4280 (length 2185)
+low.012/low.012:scaffold_4280_1 (length 297)
+low.012/low.012:scaffold_4280_2 (length 193)
+low.012/low.012:scaffold_4381 (length 2151)
+low.012/low.012:scaffold_4381_1 (length 338)
+low.012/low.012:scaffold_4381_2 (length 96)
+low.012/low.012:scaffold_4381_3 (length 72)
+low.012/low.012:scaffold_4429 (length 2136)
+low.012/low.012:scaffold_4429_1 (length 221)
+low.012/low.012:scaffold_4693 (length 2047)
+low.012/low.012:scaffold_4693_1 (length 557)
+low.012/low.012:scaffold_4804 (length 2012)
+low.012/low.012:scaffold_4804_1 (length 353)
+low.012/low.012:scaffold_4808 (length 2010)
+low.012/low.012:scaffold_4808_1 (length 250)
+low.012/low.012:scaffold_4917 (length 1970)
+low.012/low.012:scaffold_4917_1 (length 401)
+low.012/low.012:scaffold_4927 (length 1967)
+low.012/low.012:scaffold_4927_1 (length 121)
+low.012/low.012:scaffold_4927_2 (length 406)
+low.012/low.012:scaffold_4943 (length 1961)
+low.012/low.012:scaffold_4943_1 (length 117)
+low.012/low.012:scaffold_5084 (length 1919)
+low.012/low.012:scaffold_5084_1 (length 364)
+low.012/low.012:scaffold_5087 (length 1919)
+low.012/low.012:scaffold_5087_1 (length 534)
+low.012/low.012:scaffold_5122 (length 1910)
+low.012/low.012:scaffold_5122_1 (length 441)
+low.012/low.012:scaffold_5122_2 (length 151)
+low.012/low.012:scaffold_5125 (length 1909)
+low.012/low.012:scaffold_5125_1 (length 111)
+low.012/low.012:scaffold_5169 (length 1896)
+low.012/low.012:scaffold_5265 (length 1868)
+low.012/low.012:scaffold_5265_1 (length 36)
+low.012/low.012:scaffold_5265_2 (length 227)
+low.012/low.012:scaffold_5288 (length 1862)
+low.012/low.012:scaffold_5288_1 (length 100)
+low.012/low.012:scaffold_5288_2 (length 146)
+low.012/low.012:scaffold_5288_3 (length 224)
+low.012/low.012:scaffold_5363 (length 1844)
+low.012/low.012:scaffold_5363_1 (length 609)
+low.012/low.012:scaffold_5416 (length 1827)
+low.012/low.012:scaffold_5416_1 (length 425)
+low.012/low.012:scaffold_5416_2 (length 77)
+low.012/low.012:scaffold_5426 (length 1824)
+low.012/low.012:scaffold_5426_1 (length 182)
+low.012/low.012:scaffold_5426_2 (length 306)
+low.012/low.012:scaffold_5430 (length 2645)
+low.012/low.012:scaffold_5430_1 (length 246)
+low.012/low.012:scaffold_5430_2 (length 310)
+low.012/low.012:scaffold_5522 (length 1800)
+low.012/low.012:scaffold_5522_1 (length 463)
+low.012/low.012:scaffold_5814 (length 1727)
+low.012/low.012:scaffold_5814_1 (length 304)
+low.012/low.012:scaffold_5814_2 (length 184)
+low.012/low.012:scaffold_5877 (length 1712)
+low.012/low.012:scaffold_5877_1 (length 228)
+low.012/low.012:scaffold_5877_2 (length 206)
+low.012/low.012:scaffold_5908 (length 1705)
+low.012/low.012:scaffold_5908_1 (length 311)
+low.012/low.012:scaffold_5908_2 (length 151)
+low.012/low.012:scaffold_5998 (length 1681)
+low.012/low.012:scaffold_5998_1 (length 430)
+low.012/low.012:scaffold_6021 (length 1674)
+low.012/low.012:scaffold_6026 (length 1673)
+low.012/low.012:scaffold_6026_1 (length 375)
+low.012/low.012:scaffold_6102 (length 1657)
+low.012/low.012:scaffold_6102_1 (length 50)
+low.012/low.012:scaffold_6102_2 (length 61)
+low.012/low.012:scaffold_6124 (length 1649)
+low.012/low.012:scaffold_6124_1 (length 166)
+low.012/low.012:scaffold_6353 (length 1598)
+low.012/low.012:scaffold_6353_1 (length 128)
+low.012/low.012:scaffold_6353_2 (length 289)
+low.012/low.012:scaffold_6396 (length 1588)
+low.012/low.012:scaffold_6396_1 (length 283)
+low.012/low.012:scaffold_6504 (length 1571)
+low.012/low.012:scaffold_6504_1 (length 348)
+low.012/low.012:scaffold_6504_2 (length 91)
+low.012/low.012:scaffold_6554 (length 1563)
+low.012/low.012:scaffold_6554_1 (length 262)
+low.012/low.012:scaffold_6600 (length 1554)
+low.012/low.012:scaffold_6600_1 (length 252)
+low.012/low.012:scaffold_6600_2 (length 237)
+low.012/low.012:scaffold_6601 (length 1554)
+low.012/low.012:scaffold_6601_1 (length 237)
+low.012/low.012:scaffold_6601_2 (length 154)
+low.012/low.012:scaffold_6668 (length 1542)
+low.012/low.012:scaffold_6686 (length 1539)
+low.012/low.012:scaffold_6686_1 (length 273)
+low.012/low.012:scaffold_6686_2 (length 222)
+low.012/low.012:scaffold_6797 (length 1522)
+low.012/low.012:scaffold_6797_1 (length 287)
+low.012/low.012:scaffold_6797_2 (length 170)
+low.012/low.012:scaffold_6803 (length 1521)
+low.012/low.012:scaffold_6803_1 (length 366)
+low.012/low.012:scaffold_6847 (length 1515)
+low.012/low.012:scaffold_6847_1 (length 294)
+low.012/low.012:scaffold_6855 (length 1513)
+low.012/low.012:scaffold_6855_1 (length 102)
+low.012/low.012:scaffold_6867 (length 1511)
+low.012/low.012:scaffold_6867_1 (length 470)
+low.012/low.012:scaffold_6892 (length 1506)
+low.012/low.012:scaffold_6892_1 (length 184)
+low.012/low.012:scaffold_6892_2 (length 239)
+low.012/low.012:scaffold_6904 (length 1504)
+low.012/low.012:scaffold_6904_1 (length 241)
+low.012/low.012:scaffold_6904_2 (length 171)
+low.012/low.012:scaffold_7050 (length 1481)
+low.012/low.012:scaffold_7050_1 (length 177)
+low.012/low.012:scaffold_7063 (length 1479)
+low.012/low.012:scaffold_7063_1 (length 54)
+low.012/low.012:scaffold_7063_2 (length 302)
+low.012/low.012:scaffold_7071 (length 1478)
+low.012/low.012:scaffold_7084 (length 1475)
+low.012/low.012:scaffold_7084_1 (length 155)
+low.012/low.012:scaffold_7243 (length 1449)
+low.012/low.012:scaffold_7243_1 (length 80)
+low.012/low.012:scaffold_7243_2 (length 335)
+low.012/low.012:scaffold_7296 (length 1440)
+low.012/low.012:scaffold_7296_1 (length 126)
+low.012/low.012:scaffold_7296_2 (length 105)
+low.012/low.012:scaffold_7367 (length 1429)
+low.012/low.012:scaffold_7367_1 (length 221)
+low.012/low.012:scaffold_7367_2 (length 193)
+low.012/low.012:scaffold_7375 (length 1427)
+low.012/low.012:scaffold_7375_1 (length 184)
+low.012/low.012:scaffold_7399 (length 1424)
+low.012/low.012:scaffold_7399_1 (length 218)
+low.012/low.012:scaffold_7498 (length 1410)
+low.012/low.012:scaffold_7534 (length 1405)
+low.012/low.012:scaffold_7714 (length 1380)
+low.012/low.012:scaffold_7714_1 (length 258)
+low.012/low.012:scaffold_7714_2 (length 118)
+low.012/low.012:scaffold_7753 (length 1374)
+low.012/low.012:scaffold_7753_1 (length 310)
+low.012/low.012:scaffold_7753_2 (length 61)
+low.012/low.012:scaffold_7758 (length 1374)
+low.012/low.012:scaffold_7771 (length 1372)
+low.012/low.012:scaffold_7771_1 (length 320)
+low.012/low.012:scaffold_7858 (length 1360)
+low.012/low.012:scaffold_7858_1 (length 234)
+low.012/low.012:scaffold_7858_2 (length 89)
+low.012/low.012:scaffold_7880 (length 1356)
+low.012/low.012:scaffold_7880_1 (length 389)
+low.012/low.012:scaffold_7946 (length 1349)
+low.012/low.012:scaffold_7946_1 (length 276)
+low.012/low.012:scaffold_7953 (length 1348)
+low.012/low.012:scaffold_7986 (length 1344)
+low.012/low.012:scaffold_7989 (length 2260)
+low.012/low.012:scaffold_7989_1 (length 285)
+low.012/low.012:scaffold_7989_2 (length 82)
+low.012/low.012:scaffold_8004 (length 1341)
+low.012/low.012:scaffold_8004_1 (length 332)
+low.012/low.012:scaffold_8050 (length 1334)
+low.012/low.012:scaffold_8050_1 (length 138)
+low.012/low.012:scaffold_8126 (length 1324)
+low.012/low.012:scaffold_8126_1 (length 181)
+low.012/low.012:scaffold_8153 (length 1319)
+low.012/low.012:scaffold_8153_1 (length 384)
+low.012/low.012:scaffold_8208 (length 1312)
+low.012/low.012:scaffold_8208_1 (length 384)
+low.012/low.012:scaffold_8260 (length 1305)
+low.012/low.012:scaffold_8260_1 (length 324)
+low.012/low.012:scaffold_8344 (length 1296)
+low.012/low.012:scaffold_8344_1 (length 79)
+low.012/low.012:scaffold_8479 (length 1281)
+low.012/low.012:scaffold_8479_1 (length 61)
+low.012/low.012:scaffold_8479_2 (length 289)
+low.012/low.012:scaffold_8498 (length 1279)
+low.012/low.012:scaffold_8596 (length 1269)
+low.012/low.012:scaffold_8596_1 (length 266)
+low.012/low.012:scaffold_8621 (length 1267)
+low.012/low.012:scaffold_8623 (length 1266)
+low.012/low.012:scaffold_8623_1 (length 359)
+low.012/low.012:scaffold_8727 (length 1253)
+low.012/low.012:scaffold_8732 (length 1253)
+low.012/low.012:scaffold_8732_1 (length 337)
+low.012/low.012:scaffold_8782 (length 1248)
+low.012/low.012:scaffold_8782_1 (length 268)
+low.012/low.012:scaffold_8782_2 (length 97)
+low.012/low.012:scaffold_8784 (length 1248)
+low.012/low.012:scaffold_8784_1 (length 169)
+low.012/low.012:scaffold_8830 (length 1244)
+low.012/low.012:scaffold_8830_1 (length 367)
+low.012/low.012:scaffold_8834 (length 1244)
+low.012/low.012:scaffold_8902 (length 1235)
+low.012/low.012:scaffold_8920 (length 1233)
+low.012/low.012:scaffold_8920_1 (length 186)
+low.012/low.012:scaffold_8992 (length 1226)
+low.012/low.012:scaffold_8992_1 (length 120)
+low.012/low.012:scaffold_8992_2 (length 120)
+low.012/low.012:scaffold_8992_3 (length 93)
+low.012/low.012:scaffold_9181 (length 1206)
+low.012/low.012:scaffold_9181_1 (length 263)
+low.012/low.012:scaffold_9181_2 (length 85)
+low.012/low.012:scaffold_9247 (length 1198)
+low.012/low.012:scaffold_9247_1 (length 351)
+low.012/low.012:scaffold_9288 (length 1194)
+low.012/low.012:scaffold_9330 (length 1190)
+low.012/low.012:scaffold_9330_1 (length 336)
+low.012/low.012:scaffold_9336 (length 1189)
+low.012/low.012:scaffold_9336_1 (length 242)
+low.012/low.012:scaffold_9336_2 (length 41)
+low.012/low.012:scaffold_9371 (length 1186)
+low.012/low.012:scaffold_9371_1 (length 296)
+low.012/low.012:scaffold_9394 (length 1184)
+low.012/low.012:scaffold_9394_1 (length 330)
+low.012/low.012:scaffold_9426 (length 1181)
+low.012/low.012:scaffold_9426_1 (length 363)
+low.012/low.012:scaffold_9436 (length 1180)
+low.012/low.012:scaffold_9439 (length 1180)
+low.012/low.012:scaffold_9439_1 (length 91)
+low.012/low.012:scaffold_9480 (length 1175)
+low.012/low.012:scaffold_9512 (length 1173)
+low.012/low.012:scaffold_9601 (length 1164)
+low.012/low.012:scaffold_9601_1 (length 144)
+low.012/low.012:scaffold_9616 (length 1163)
+low.012/low.012:scaffold_9616_1 (length 143)
+low.012/low.012:scaffold_9616_2 (length 197)
+low.012/low.012:scaffold_9669 (length 1158)
+low.012/low.012:scaffold_9685 (length 1157)
+low.012/low.012:scaffold_9685_1 (length 225)
+low.012/low.012:scaffold_9817 (length 1147)
+low.012/low.012:scaffold_9826 (length 1146)
+low.012/low.012:scaffold_9898 (length 1138)
+low.012/low.012:scaffold_9905 (length 1137)
+low.012/low.012:scaffold_9932 (length 1135)
+low.012/low.012:scaffold_9932_1 (length 257)
+low.012/low.012:scaffold_9932_2 (length 73)
+low.012/low.012:scaffold_9972 (length 1131)
+low.012/low.012:scaffold_9972_1 (length 132)
+low.012/low.012:scaffold_9972_2 (length 184)
+low.012/low.012:scaffold_9988 (length 1130)
+low.012/low.012:scaffold_9988_1 (length 237)
+low.012/low.012:scaffold_9992 (length 1129)
+low.012/low.012:scaffold_9992_1 (length 267)
+low.012/low.012:scaffold_10125 (length 1116)
+low.012/low.012:scaffold_10125_1 (length 264)
+low.012/low.012:scaffold_10218 (length 1109)
+low.012/low.012:scaffold_10406 (length 1091)
+low.012/low.012:scaffold_10420 (length 1090)
+low.012/low.012:scaffold_10420_1 (length 189)
+low.012/low.012:scaffold_10540 (length 1079)
+low.012/low.012:scaffold_10540_1 (length 211)
+low.012/low.012:scaffold_10617 (length 1073)
+low.012/low.012:scaffold_10719 (length 1066)
+low.012/low.012:scaffold_10743 (length 1065)
+low.012/low.012:scaffold_10896 (length 1054)
+low.012/low.012:scaffold_10896_1 (length 290)
+low.012/low.012:scaffold_10996 (length 1047)
+low.012/low.012:scaffold_10996_1 (length 66)
+low.012/low.012:scaffold_11011 (length 1046)
+low.012/low.012:scaffold_11011_1 (length 45)
+low.012/low.012:scaffold_11326 (length 1024)
+low.012/low.012:scaffold_11395 (length 1021)
+low.012/low.012:scaffold_11395_1 (length 270)
+low.012/low.012:scaffold_11465 (length 1016)
+low.012/low.012:scaffold_11465_1 (length 73)
+low.012/low.012:scaffold_11465_2 (length 179)
+low.012/low.012:scaffold_11468 (length 1016)
+low.012/low.012:scaffold_11468_1 (length 282)
+low.012/low.012:scaffold_11471 (length 1016)
+low.012/low.012:scaffold_11471_1 (length 38)
+low.012/low.012:scaffold_11474 (length 1016)
+low.012/low.012:scaffold_11616 (length 1446)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::165 Molinfos are missing field technique
+low.012/low.012:scaffold_153 (length 19851)
+low.012/low.012:scaffold_607 (length 8704)
+low.012/low.012:scaffold_613 (length 8639)
+low.012/low.012:scaffold_669 (length 8120)
+low.012/low.012:scaffold_705 (length 7896)
+low.012/low.012:scaffold_922 (length 6648)
+low.012/low.012:scaffold_1079 (length 5989)
+low.012/low.012:scaffold_1129 (length 5804)
+low.012/low.012:scaffold_1135 (length 5790)
+low.012/low.012:scaffold_1480 (length 4759)
+low.012/low.012:scaffold_1496 (length 4728)
+low.012/low.012:scaffold_1698 (length 4328)
+low.012/low.012:scaffold_1789 (length 4153)
+low.012/low.012:scaffold_1827 (length 4093)
+low.012/low.012:scaffold_1834 (length 4089)
+low.012/low.012:scaffold_1933 (length 3915)
+low.012/low.012:scaffold_1968 (length 3861)
+low.012/low.012:scaffold_2000 (length 3816)
+low.012/low.012:scaffold_2176 (length 3593)
+low.012/low.012:scaffold_2292 (length 3481)
+low.012/low.012:scaffold_2481 (length 3310)
+low.012/low.012:scaffold_2704 (length 3121)
+low.012/low.012:scaffold_2967 (length 2912)
+low.012/low.012:scaffold_3106 (length 2810)
+low.012/low.012:scaffold_3153 (length 2780)
+low.012/low.012:scaffold_3164 (length 2770)
+low.012/low.012:scaffold_3324 (length 2664)
+low.012/low.012:scaffold_3576 (length 2518)
+low.012/low.012:scaffold_3657 (length 2467)
+low.012/low.012:scaffold_3907 (length 2349)
+low.012/low.012:scaffold_3927 (length 2342)
+low.012/low.012:scaffold_3978 (length 2316)
+low.012/low.012:scaffold_4082 (length 2266)
+low.012/low.012:scaffold_4169 (length 2229)
+low.012/low.012:scaffold_4198 (length 2218)
+low.012/low.012:scaffold_4257 (length 2195)
+low.012/low.012:scaffold_4262 (length 2194)
+low.012/low.012:scaffold_4280 (length 2185)
+low.012/low.012:scaffold_4381 (length 2151)
+low.012/low.012:scaffold_4429 (length 2136)
+low.012/low.012:scaffold_4693 (length 2047)
+low.012/low.012:scaffold_4804 (length 2012)
+low.012/low.012:scaffold_4808 (length 2010)
+low.012/low.012:scaffold_4917 (length 1970)
+low.012/low.012:scaffold_4927 (length 1967)
+low.012/low.012:scaffold_4943 (length 1961)
+low.012/low.012:scaffold_5084 (length 1919)
+low.012/low.012:scaffold_5087 (length 1919)
+low.012/low.012:scaffold_5122 (length 1910)
+low.012/low.012:scaffold_5125 (length 1909)
+low.012/low.012:scaffold_5169 (length 1896)
+low.012/low.012:scaffold_5265 (length 1868)
+low.012/low.012:scaffold_5288 (length 1862)
+low.012/low.012:scaffold_5363 (length 1844)
+low.012/low.012:scaffold_5416 (length 1827)
+low.012/low.012:scaffold_5426 (length 1824)
+low.012/low.012:scaffold_5430 (length 2645)
+low.012/low.012:scaffold_5522 (length 1800)
+low.012/low.012:scaffold_5814 (length 1727)
+low.012/low.012:scaffold_5877 (length 1712)
+low.012/low.012:scaffold_5908 (length 1705)
+low.012/low.012:scaffold_5998 (length 1681)
+low.012/low.012:scaffold_6021 (length 1674)
+low.012/low.012:scaffold_6026 (length 1673)
+low.012/low.012:scaffold_6102 (length 1657)
+low.012/low.012:scaffold_6124 (length 1649)
+low.012/low.012:scaffold_6353 (length 1598)
+low.012/low.012:scaffold_6396 (length 1588)
+low.012/low.012:scaffold_6504 (length 1571)
+low.012/low.012:scaffold_6554 (length 1563)
+low.012/low.012:scaffold_6600 (length 1554)
+low.012/low.012:scaffold_6601 (length 1554)
+low.012/low.012:scaffold_6668 (length 1542)
+low.012/low.012:scaffold_6686 (length 1539)
+low.012/low.012:scaffold_6797 (length 1522)
+low.012/low.012:scaffold_6803 (length 1521)
+low.012/low.012:scaffold_6847 (length 1515)
+low.012/low.012:scaffold_6855 (length 1513)
+low.012/low.012:scaffold_6867 (length 1511)
+low.012/low.012:scaffold_6892 (length 1506)
+low.012/low.012:scaffold_6904 (length 1504)
+low.012/low.012:scaffold_7050 (length 1481)
+low.012/low.012:scaffold_7063 (length 1479)
+low.012/low.012:scaffold_7071 (length 1478)
+low.012/low.012:scaffold_7084 (length 1475)
+low.012/low.012:scaffold_7243 (length 1449)
+low.012/low.012:scaffold_7296 (length 1440)
+low.012/low.012:scaffold_7367 (length 1429)
+low.012/low.012:scaffold_7375 (length 1427)
+low.012/low.012:scaffold_7399 (length 1424)
+low.012/low.012:scaffold_7498 (length 1410)
+low.012/low.012:scaffold_7534 (length 1405)
+low.012/low.012:scaffold_7714 (length 1380)
+low.012/low.012:scaffold_7753 (length 1374)
+low.012/low.012:scaffold_7758 (length 1374)
+low.012/low.012:scaffold_7771 (length 1372)
+low.012/low.012:scaffold_7858 (length 1360)
+low.012/low.012:scaffold_7880 (length 1356)
+low.012/low.012:scaffold_7946 (length 1349)
+low.012/low.012:scaffold_7953 (length 1348)
+low.012/low.012:scaffold_7986 (length 1344)
+low.012/low.012:scaffold_7989 (length 2260)
+low.012/low.012:scaffold_8004 (length 1341)
+low.012/low.012:scaffold_8050 (length 1334)
+low.012/low.012:scaffold_8126 (length 1324)
+low.012/low.012:scaffold_8153 (length 1319)
+low.012/low.012:scaffold_8208 (length 1312)
+low.012/low.012:scaffold_8260 (length 1305)
+low.012/low.012:scaffold_8344 (length 1296)
+low.012/low.012:scaffold_8479 (length 1281)
+low.012/low.012:scaffold_8498 (length 1279)
+low.012/low.012:scaffold_8596 (length 1269)
+low.012/low.012:scaffold_8621 (length 1267)
+low.012/low.012:scaffold_8623 (length 1266)
+low.012/low.012:scaffold_8727 (length 1253)
+low.012/low.012:scaffold_8732 (length 1253)
+low.012/low.012:scaffold_8782 (length 1248)
+low.012/low.012:scaffold_8784 (length 1248)
+low.012/low.012:scaffold_8830 (length 1244)
+low.012/low.012:scaffold_8834 (length 1244)
+low.012/low.012:scaffold_8902 (length 1235)
+low.012/low.012:scaffold_8920 (length 1233)
+low.012/low.012:scaffold_8992 (length 1226)
+low.012/low.012:scaffold_9181 (length 1206)
+low.012/low.012:scaffold_9247 (length 1198)
+low.012/low.012:scaffold_9288 (length 1194)
+low.012/low.012:scaffold_9330 (length 1190)
+low.012/low.012:scaffold_9336 (length 1189)
+low.012/low.012:scaffold_9371 (length 1186)
+low.012/low.012:scaffold_9394 (length 1184)
+low.012/low.012:scaffold_9426 (length 1181)
+low.012/low.012:scaffold_9436 (length 1180)
+low.012/low.012:scaffold_9439 (length 1180)
+low.012/low.012:scaffold_9480 (length 1175)
+low.012/low.012:scaffold_9512 (length 1173)
+low.012/low.012:scaffold_9601 (length 1164)
+low.012/low.012:scaffold_9616 (length 1163)
+low.012/low.012:scaffold_9669 (length 1158)
+low.012/low.012:scaffold_9685 (length 1157)
+low.012/low.012:scaffold_9817 (length 1147)
+low.012/low.012:scaffold_9826 (length 1146)
+low.012/low.012:scaffold_9898 (length 1138)
+low.012/low.012:scaffold_9905 (length 1137)
+low.012/low.012:scaffold_9932 (length 1135)
+low.012/low.012:scaffold_9972 (length 1131)
+low.012/low.012:scaffold_9988 (length 1130)
+low.012/low.012:scaffold_9992 (length 1129)
+low.012/low.012:scaffold_10125 (length 1116)
+low.012/low.012:scaffold_10218 (length 1109)
+low.012/low.012:scaffold_10406 (length 1091)
+low.012/low.012:scaffold_10420 (length 1090)
+low.012/low.012:scaffold_10540 (length 1079)
+low.012/low.012:scaffold_10617 (length 1073)
+low.012/low.012:scaffold_10719 (length 1066)
+low.012/low.012:scaffold_10743 (length 1065)
+low.012/low.012:scaffold_10896 (length 1054)
+low.012/low.012:scaffold_10996 (length 1047)
+low.012/low.012:scaffold_11011 (length 1046)
+low.012/low.012:scaffold_11326 (length 1024)
+low.012/low.012:scaffold_11395 (length 1021)
+low.012/low.012:scaffold_11465 (length 1016)
+low.012/low.012:scaffold_11468 (length 1016)
+low.012/low.012:scaffold_11471 (length 1016)
+low.012/low.012:scaffold_11474 (length 1016)
+low.012/low.012:scaffold_11616 (length 1446)
+

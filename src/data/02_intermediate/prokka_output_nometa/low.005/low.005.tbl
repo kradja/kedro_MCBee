@@ -1,0 +1,5005 @@
+>Feature scaffold_270
+569	324	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00001
+			product	hypothetical protein
+1480	1719	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00002
+			product	hypothetical protein
+1780	2106	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISEc18
+			locus_tag	JJLONHNI_00003
+			product	IS481 family transposase ISEc18
+2232	2450	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00004
+			product	hypothetical protein
+6206	2463	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00005
+			product	hypothetical protein
+7350	6244	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00006
+			product	hypothetical protein
+9552	7483	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00007
+			product	hypothetical protein
+11627	9606	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00008
+			product	hypothetical protein
+13003	12794	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00009
+			product	hypothetical protein
+13242	13021	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00010
+			product	hypothetical protein
+13677	13354	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00011
+			product	hypothetical protein
+13892	13716	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00012
+			product	hypothetical protein
+14897	14822	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00013
+			product	tRNA-Phe(gaa)
+>Feature scaffold_439
+480	205	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00014
+			product	hypothetical protein
+1250	1717	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00015
+			product	hypothetical protein
+1763	2608	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00016
+			product	hypothetical protein
+2622	3476	CDS
+			EC_number	2.1.1.163
+			gene	COQ5
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01813
+			locus_tag	JJLONHNI_00017
+			product	2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+3473	4990	CDS
+			EC_number	1.17.9.1
+			gene	pchF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P09788
+			locus_tag	JJLONHNI_00018
+			product	4-cresol dehydrogenase [hydroxylating] flavoprotein subunit
+4990	5769	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00019
+			product	hypothetical protein
+5772	6401	CDS
+			gene	resA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01319
+			locus_tag	JJLONHNI_00020
+			product	Thiol-disulfide oxidoreductase ResA
+6442	8148	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00021
+			product	hypothetical protein
+8174	9619	CDS
+			EC_number	6.3.5.7
+			db_xref	COG:COG0154
+			gene	gatA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O66610
+			locus_tag	JJLONHNI_00022
+			product	Glutamyl-tRNA(Gln) amidotransferase subunit A
+10108	9968	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00023
+			product	hypothetical protein
+>Feature scaffold_443
+113	655	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00024
+			product	hypothetical protein
+1669	1821	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00025
+			product	hypothetical protein
+2079	2273	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00026
+			product	hypothetical protein
+2546	5065	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00027
+			product	hypothetical protein
+5124	6248	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00028
+			product	hypothetical protein
+6277	8055	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00029
+			product	hypothetical protein
+8056	9195	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00030
+			product	hypothetical protein
+10694	10619	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00031
+			product	tRNA-Gly(gcc)
+>Feature scaffold_574
+322	1794	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00032
+			product	hypothetical protein
+2275	3111	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00033
+			product	hypothetical protein
+3790	4764	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00034
+			product	hypothetical protein
+5428	6390	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00035
+			product	hypothetical protein
+6747	6881	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00036
+			product	hypothetical protein
+7599	7390	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00037
+			product	hypothetical protein
+>Feature scaffold_610
+1340	156	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00038
+			product	hypothetical protein
+5044	1706	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00039
+			product	hypothetical protein
+5450	5046	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00040
+			product	hypothetical protein
+5724	5437	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00041
+			product	hypothetical protein
+6200	5781	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00042
+			product	hypothetical protein
+7782	6247	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00043
+			product	hypothetical protein
+9172	8510	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00044
+			product	hypothetical protein
+10115	10023	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00045
+			product	hypothetical protein
+10365	10278	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00046
+			product	tRNA-Ser(gga)
+>Feature scaffold_1006
+73	2955	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00047
+			product	hypothetical protein
+>Feature scaffold_1108
+1862	768	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00048
+			product	hypothetical protein
+2665	2318	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00049
+			product	hypothetical protein
+3774	2761	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00050
+			product	hypothetical protein
+5038	3785	CDS
+			db_xref	COG:COG2244
+			gene	rfbX
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37746
+			locus_tag	JJLONHNI_00051
+			product	Putative O-antigen transporter
+5819	5028	CDS
+			EC_number	2.5.1.7
+			db_xref	COG:COG0766
+			gene	murA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A749
+			locus_tag	JJLONHNI_00052
+			product	UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+>Feature scaffold_1137
+2	74	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00053
+			product	tRNA-Arg(tct)
+277	723	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00054
+			product	hypothetical protein
+716	1030	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00055
+			product	hypothetical protein
+1087	1638	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00056
+			product	hypothetical protein
+2109	2426	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00057
+			product	hypothetical protein
+2856	2632	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00058
+			product	hypothetical protein
+2899	3138	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00059
+			product	hypothetical protein
+3221	3469	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00060
+			product	hypothetical protein
+3635	3811	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00061
+			product	hypothetical protein
+4250	4630	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00062
+			product	hypothetical protein
+5103	5495	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00063
+			product	hypothetical protein
+>Feature scaffold_1171
+54	130	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00064
+			product	tRNA-Arg(acg)
+151	227	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00065
+			product	tRNA-Arg(tcg)
+363	1535	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00066
+			product	hypothetical protein
+1548	1979	CDS
+			EC_number	3.1.3.48
+			db_xref	COG:COG0394
+			gene	amsI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q46630
+			locus_tag	JJLONHNI_00067
+			product	putative low molecular weight protein-tyrosine-phosphatase AmsI
+2008	4155	CDS
+			EC_number	2.7.10.-
+			db_xref	COG:COG0489
+			gene	wzc
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P76387
+			locus_tag	JJLONHNI_00068
+			product	Tyrosine-protein kinase wzc
+5476	4520	CDS
+			db_xref	COG:COG1344
+			gene	flgL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16326
+			locus_tag	JJLONHNI_00069
+			product	Flagellar hook-associated protein 3
+>Feature scaffold_1175
+2637	724	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00070
+			product	hypothetical protein
+3699	2650	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00071
+			product	hypothetical protein
+4825	3710	CDS
+			EC_number	2.1.1.37
+			gene	bspRIM
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13906
+			locus_tag	JJLONHNI_00072
+			product	Modification methylase BspRI
+5510	5277	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00073
+			product	hypothetical protein
+>Feature scaffold_1271
+2891	1362	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00074
+			product	hypothetical protein
+3504	3001	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00075
+			product	hypothetical protein
+4395	3721	CDS
+			gene	esaR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P54293
+			locus_tag	JJLONHNI_00076
+			product	Transcriptional activator protein EsaR
+5287	4607	CDS
+			EC_number	1.4.1.13
+			db_xref	COG:COG0493
+			gene	gltD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P09832
+			locus_tag	JJLONHNI_00077
+			product	Glutamate synthase [NADPH] small chain
+>Feature scaffold_1299
+549	37	CDS
+			db_xref	COG:COG3157
+			gene	hcpA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9HI36
+			locus_tag	JJLONHNI_00078
+			product	Major exported protein
+981	1487	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00079
+			product	hypothetical protein
+1559	3040	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00080
+			product	hypothetical protein
+3047	3469	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00081
+			product	hypothetical protein
+3510	5228	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00082
+			product	hypothetical protein
+>Feature scaffold_1326
+1709	1137	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00083
+			product	hypothetical protein
+2760	1762	CDS
+			EC_number	1.2.1.12
+			db_xref	COG:COG0057
+			gene	gap2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q829W3
+			locus_tag	JJLONHNI_00084
+			product	Glyceraldehyde-3-phosphate dehydrogenase 2
+2958	3305	CDS
+			EC_number	2.3.3.13
+			gene	leuA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01025
+			locus_tag	JJLONHNI_00085
+			product	2-isopropylmalate synthase
+3465	4658	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WJW7
+			locus_tag	JJLONHNI_00086
+			product	putative MFS-type transporter
+>Feature scaffold_1341
+96	206	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00087
+			product	hypothetical protein
+1055	300	CDS
+			db_xref	COG:COG1349
+			gene	ydjF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P77721
+			locus_tag	JJLONHNI_00088
+			product	putative HTH-type transcriptional regulator YdjF
+1291	1815	CDS
+			EC_number	5.3.1.6
+			db_xref	COG:COG0698
+			gene	rpiB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q92EU5
+			locus_tag	JJLONHNI_00089
+			product	Ribose-5-P isomerase B
+1839	3209	CDS
+			db_xref	COG:COG3775
+			gene	gatC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69831
+			locus_tag	JJLONHNI_00090
+			product	PTS system galactitol-specific EIIC component
+3308	3595	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00091
+			product	hypothetical protein
+3606	4061	CDS
+			db_xref	COG:COG1762
+			gene	gatA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69828
+			locus_tag	JJLONHNI_00092
+			product	PTS system galactitol-specific EIIA component
+4151	4678	CDS
+			EC_number	5.3.1.27
+			db_xref	COG:COG0794
+			gene	hxlB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P42404
+			locus_tag	JJLONHNI_00093
+			product	3-hexulose-6-phosphate isomerase
+>Feature scaffold_1348
+924	160	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00094
+			product	hypothetical protein
+2267	924	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00095
+			product	hypothetical protein
+2804	2280	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00096
+			product	hypothetical protein
+4039	2804	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00097
+			product	hypothetical protein
+5019	4042	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00098
+			product	hypothetical protein
+>Feature scaffold_1391
+313	528	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00099
+			product	hypothetical protein
+824	2128	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00100
+			product	hypothetical protein
+2125	3051	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00101
+			product	hypothetical protein
+3066	3914	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00102
+			product	hypothetical protein
+>Feature scaffold_1591
+1475	450	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00103
+			product	hypothetical protein
+2527	1502	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00104
+			product	hypothetical protein
+3579	2554	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00105
+			product	hypothetical protein
+4535	3606	CDS
+			EC_number	1.8.3.7
+			db_xref	COG:COG1262
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9F3C7
+			locus_tag	JJLONHNI_00106
+			product	Formylglycine-generating enzyme
+>Feature scaffold_1675
+2056	1397	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00107
+			product	hypothetical protein
+2670	2191	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00108
+			product	hypothetical protein
+3878	2700	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00109
+			product	hypothetical protein
+5335	3896	CDS
+			gene	sctC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02219
+			locus_tag	JJLONHNI_00110
+			product	Type 3 secretion system secretin
+6174	5338	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00111
+			product	hypothetical protein
+>Feature scaffold_1682
+162	338	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00112
+			product	hypothetical protein
+625	3264	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00113
+			product	hypothetical protein
+3270	4298	CDS
+			db_xref	COG:COG4268
+			gene	mcrC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P15006
+			locus_tag	JJLONHNI_00114
+			product	Protein McrC
+>Feature scaffold_1718
+940	707	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00115
+			product	hypothetical protein
+1837	1481	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00116
+			product	hypothetical protein
+2339	1830	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00117
+			product	hypothetical protein
+2824	2339	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00118
+			product	hypothetical protein
+3044	3460	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00119
+			product	hypothetical protein
+3587	3486	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00120
+			product	hypothetical protein
+4020	3640	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00121
+			product	hypothetical protein
+>Feature scaffold_1763
+20	880	CDS
+			EC_number	3.6.4.12
+			db_xref	COG:COG0305
+			gene	dnaB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ACB0
+			locus_tag	JJLONHNI_00122
+			product	Replicative DNA helicase
+921	1241	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00123
+			product	hypothetical protein
+1571	2611	CDS
+			EC_number	2.3.1.191
+			gene	lpxD_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00523
+			locus_tag	JJLONHNI_00124
+			product	UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase
+2639	3598	CDS
+			EC_number	2.3.1.191
+			gene	lpxD_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00523
+			locus_tag	JJLONHNI_00125
+			product	UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase
+3626	3715	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00126
+			product	hypothetical protein
+4147	3935	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00127
+			product	hypothetical protein
+>Feature scaffold_1772
+21	356	CDS
+			db_xref	COG:COG0790
+			gene	ybeT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P77296
+			locus_tag	JJLONHNI_00128
+			product	Sel1-repeat-containing protein YbeT
+928	686	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00129
+			product	hypothetical protein
+1439	1819	CDS
+			db_xref	COG:COG0346
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8ZM36
+			locus_tag	JJLONHNI_00130
+			product	Virulence protein
+2855	2286	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00131
+			product	hypothetical protein
+3560	3484	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00132
+			product	tRNA-Val(gac)
+4156	3707	CDS
+			db_xref	COG:COG0534
+			gene	mdtK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37340
+			locus_tag	JJLONHNI_00133
+			product	Multidrug resistance protein MdtK
+>Feature scaffold_1821
+224	397	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00134
+			product	hypothetical protein
+990	1229	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00135
+			product	hypothetical protein
+1580	1879	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00136
+			product	hypothetical protein
+1876	2184	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00137
+			product	hypothetical protein
+2479	2291	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00138
+			product	hypothetical protein
+3436	3023	CDS
+			db_xref	COG:COG1598
+			gene	hicB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P67697
+			locus_tag	JJLONHNI_00139
+			product	Antitoxin HicB
+3654	3478	CDS
+			EC_number	3.1.-.-
+			gene	hicA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P76106
+			locus_tag	JJLONHNI_00140
+			product	putative mRNA interferase toxin HicA
+4351	4506	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00141
+			product	hypothetical protein
+>Feature scaffold_1970
+899	824	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00142
+			product	tRNA-Lys(ttt)
+1691	993	CDS
+			db_xref	COG:COG1729
+			gene	cpoB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45955
+			locus_tag	JJLONHNI_00143
+			product	Cell division coordinator CpoB
+2311	1838	CDS
+			db_xref	COG:COG2885
+			gene	pal
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A912
+			locus_tag	JJLONHNI_00144
+			product	Peptidoglycan-associated lipoprotein
+3827	2526	CDS
+			db_xref	COG:COG0823
+			gene	tolB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8ZGZ1
+			locus_tag	JJLONHNI_00145
+			product	Tol-Pal system protein TolB
+>Feature scaffold_2038
+30	662	CDS
+			db_xref	COG:COG0664
+			gene	crp
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ACJ8
+			locus_tag	JJLONHNI_00146
+			product	cAMP-activated global transcriptional regulator CRP
+819	1538	CDS
+			EC_number	2.5.1.31
+			db_xref	COG:COG0020
+			gene	ispU
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P60472
+			locus_tag	JJLONHNI_00147
+			product	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific)
+1558	2397	CDS
+			EC_number	2.7.7.41
+			db_xref	COG:COG0575
+			gene	cdsA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ABG1
+			locus_tag	JJLONHNI_00148
+			product	Phosphatidate cytidylyltransferase
+2407	3738	CDS
+			EC_number	3.4.24.-
+			db_xref	COG:COG0750
+			gene	rseP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AEH1
+			locus_tag	JJLONHNI_00149
+			product	Regulator of sigma-E protease RseP
+>Feature scaffold_2069
+465	1214	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00150
+			product	hypothetical protein
+1951	1217	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00151
+			product	hypothetical protein
+2887	1976	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00152
+			product	hypothetical protein
+>Feature scaffold_2112
+940	503	CDS
+			db_xref	COG:COG2310
+			gene	yceD_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P80875
+			locus_tag	JJLONHNI_00153
+			product	General stress protein 16U
+1077	955	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00154
+			product	hypothetical protein
+1674	1096	CDS
+			db_xref	COG:COG2310
+			gene	yceD_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P80875
+			locus_tag	JJLONHNI_00155
+			product	General stress protein 16U
+2738	1716	CDS
+			db_xref	COG:COG0861
+			gene	alx
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P42601
+			locus_tag	JJLONHNI_00156
+			product	Putative membrane-bound redox modulator Alx
+3219	2893	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00157
+			product	hypothetical protein
+3607	3161	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00158
+			product	hypothetical protein
+>Feature scaffold_2141
+1499	630	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00159
+			product	hypothetical protein
+3634	1502	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00160
+			product	hypothetical protein
+3969	3613	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00161
+			product	hypothetical protein
+4246	3962	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00162
+			product	hypothetical protein
+4433	4233	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00163
+			product	hypothetical protein
+4669	4430	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00164
+			product	hypothetical protein
+5440	4682	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00165
+			product	hypothetical protein
+>Feature scaffold_2213
+11	910	CDS
+			EC_number	2.10.1.1
+			db_xref	COG:COG0303
+			gene	moeA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P12281
+			locus_tag	JJLONHNI_00166
+			product	Molybdopterin molybdenumtransferase
+1548	1120	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00167
+			product	hypothetical protein
+1770	1564	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00168
+			product	hypothetical protein
+2993	2019	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00169
+			product	hypothetical protein
+3387	3028	CDS
+			EC_number	4.1.2.25
+			db_xref	COG:COG1539
+			gene	folB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AC16
+			locus_tag	JJLONHNI_00170
+			product	Dihydroneopterin aldolase
+>Feature scaffold_2214
+2478	865	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00171
+			product	hypothetical protein
+3281	2682	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00172
+			product	hypothetical protein
+>Feature scaffold_2312
+1853	2212	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00173
+			product	hypothetical protein
+3444	2611	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00174
+			product	hypothetical protein
+>Feature scaffold_2452
+219	1304	CDS
+			EC_number	2.6.1.52
+			db_xref	COG:COG1932
+			gene	serC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P23721
+			locus_tag	JJLONHNI_00175
+			product	Phosphoserine aminotransferase
+2077	2490	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00176
+			product	hypothetical protein
+>Feature scaffold_2460
+3130	1430	CDS
+			gene	aspT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8L3K8
+			locus_tag	JJLONHNI_00177
+			product	Aspartate/alanine antiporter
+>Feature scaffold_2522
+840	2177	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00178
+			product	hypothetical protein
+2475	2227	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00179
+			product	hypothetical protein
+>Feature scaffold_2545
+741	52	CDS
+			EC_number	5.1.1.13
+			gene	ygeA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0A140N890
+			locus_tag	JJLONHNI_00180
+			product	L-aspartate/glutamate-specific racemase
+1893	754	CDS
+			EC_number	2.1.1.189
+			db_xref	COG:COG2265
+			gene	rlmC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P75817
+			locus_tag	JJLONHNI_00181
+			product	23S rRNA (uracil(747)-C(5))-methyltransferase RlmC
+3235	2381	CDS
+			db_xref	COG:COG0697
+			gene	bioP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ADP5
+			locus_tag	JJLONHNI_00182
+			product	Biotin transporter
+>Feature scaffold_2572
+>Feature scaffold_2598
+96	1178	CDS
+			EC_number	5.3.1.8
+			db_xref	COG:COG1482
+			gene	manA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P00946
+			locus_tag	JJLONHNI_00183
+			product	Mannose-6-phosphate isomerase
+1563	1210	CDS
+			gene	frdD
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00709
+			locus_tag	JJLONHNI_00184
+			product	Fumarate reductase subunit D
+1975	1577	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00185
+			product	hypothetical protein
+2334	2861	CDS
+			EC_number	3.4.25.2
+			db_xref	COG:COG5405
+			gene	hslV
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A7B8
+			locus_tag	JJLONHNI_00186
+			product	ATP-dependent protease subunit HslV
+>Feature scaffold_2609
+70	4	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00187
+			product	tRNA-Met(cat)
+300	665	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00188
+			product	hypothetical protein
+1040	2236	CDS
+			EC_number	3.5.1.16
+			db_xref	COG:COG0624
+			gene	argE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P23908
+			locus_tag	JJLONHNI_00189
+			product	Acetylornithine deacetylase
+3061	2309	CDS
+			EC_number	2.5.1.19
+			db_xref	COG:COG0128
+			gene	aroA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A6D3
+			locus_tag	JJLONHNI_00190
+			product	3-phosphoshikimate 1-carboxyvinyltransferase
+>Feature scaffold_2643
+118	2403	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00191
+			product	hypothetical protein
+3151	2540	CDS
+			EC_number	3.1.1.-
+			db_xref	COG:COG1680
+			gene	estB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9KX40
+			locus_tag	JJLONHNI_00192
+			product	Esterase EstB
+>Feature scaffold_2684
+44	304	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00193
+			product	hypothetical protein
+554	2587	CDS
+			EC_number	6.3.2.-
+			gene	vgrG1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0A0H3AIG7
+			locus_tag	JJLONHNI_00194
+			product	Actin cross-linking toxin VgrG1
+>Feature scaffold_2706
+1009	287	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00195
+			product	hypothetical protein
+1962	1006	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00196
+			product	hypothetical protein
+2839	1970	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00197
+			product	hypothetical protein
+3027	2869	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00198
+			product	hypothetical protein
+>Feature scaffold_2769
+442	155	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00199
+			product	hypothetical protein
+632	453	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00200
+			product	hypothetical protein
+1774	758	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00201
+			product	hypothetical protein
+2339	2106	CDS
+			db_xref	COG:COG0582
+			gene	intA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32053
+			locus_tag	JJLONHNI_00202
+			product	Prophage integrase IntA
+3001	2926	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00203
+			product	tRNA-Lys(ctt)
+>Feature scaffold_2771
+69	725	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00204
+			product	hypothetical protein
+727	2079	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00205
+			product	hypothetical protein
+2091	2528	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00206
+			product	hypothetical protein
+>Feature scaffold_2814
+127	723	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00207
+			product	hypothetical protein
+753	1079	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00208
+			product	hypothetical protein
+1557	1913	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00209
+			product	hypothetical protein
+2031	2732	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00210
+			product	hypothetical protein
+>Feature scaffold_2874
+90	1685	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00211
+			product	hypothetical protein
+>Feature scaffold_2932
+26	502	CDS
+			EC_number	6.3.5.2
+			db_xref	COG:COG0518
+			gene	guaA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04079
+			locus_tag	JJLONHNI_00212
+			product	GMP synthase [glutamine-hydrolyzing]
+721	2082	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00213
+			product	hypothetical protein
+>Feature scaffold_2951
+668	1525	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00214
+			product	hypothetical protein
+1540	2535	CDS
+			EC_number	2.1.1.37
+			gene	haeIIIM
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20589
+			locus_tag	JJLONHNI_00215
+			product	Modification methylase HaeIII
+>Feature scaffold_3003
+129	539	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00216
+			product	hypothetical protein
+539	2176	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00217
+			product	hypothetical protein
+>Feature scaffold_3047
+96	863	CDS
+			EC_number	2.7.7.7
+			db_xref	COG:COG0847
+			gene	dnaQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P03007
+			locus_tag	JJLONHNI_00218
+			product	DNA polymerase III subunit epsilon
+2180	1557	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00219
+			product	hypothetical protein
+2773	2510	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00220
+			product	hypothetical protein
+3210	3410	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00221
+			product	hypothetical protein
+4675	4031	CDS
+			db_xref	COG:COG1974
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q83BT6
+			locus_tag	JJLONHNI_00222
+			product	putative HTH-type transcriptional regulator
+>Feature scaffold_3085
+12	185	CDS
+			EC_number	2.3.1.179
+			gene	fabF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P73283
+			locus_tag	JJLONHNI_00223
+			product	3-oxoacyl-[acyl-carrier-protein] synthase 2
+1420	377	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00224
+			product	hypothetical protein
+2704	2282	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00225
+			product	hypothetical protein
+>Feature scaffold_3086
+104	1204	CDS
+			EC_number	2.7.2.11
+			db_xref	COG:COG0263
+			gene	proB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A7B5
+			locus_tag	JJLONHNI_00226
+			product	Glutamate 5-kinase
+1271	1759	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00227
+			product	hypothetical protein
+2772	2455	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00228
+			product	hypothetical protein
+>Feature scaffold_3166
+1661	468	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00229
+			product	hypothetical protein
+2704	1658	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00230
+			product	hypothetical protein
+>Feature scaffold_3169
+414	1808	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00231
+			product	hypothetical protein
+2278	1997	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00232
+			product	hypothetical protein
+3533	2232	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00233
+			product	hypothetical protein
+4838	4509	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00234
+			product	hypothetical protein
+>Feature scaffold_3184
+630	1523	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00235
+			product	hypothetical protein
+2743	1832	CDS
+			EC_number	3.6.5.-
+			db_xref	COG:COG0481
+			gene	lepA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q2FXY7
+			locus_tag	JJLONHNI_00236
+			product	Elongation factor 4
+>Feature scaffold_3233
+24	2060	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00237
+			product	hypothetical protein
+2070	2270	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00238
+			product	hypothetical protein
+>Feature scaffold_3238
+39	266	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00239
+			product	hypothetical protein
+>Feature scaffold_3273
+67	327	CDS
+			db_xref	COG:COG3721
+			gene	hutX
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9KL40
+			locus_tag	JJLONHNI_00240
+			product	Intracellular heme transport protein HutX
+341	979	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00241
+			product	hypothetical protein
+1029	2015	CDS
+			db_xref	COG:COG0609
+			gene	hmuU
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q56992
+			locus_tag	JJLONHNI_00242
+			product	Hemin transport system permease protein HmuU
+>Feature scaffold_3296
+48	2357	CDS
+			db_xref	COG:COG2911
+			gene	tamB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P39321
+			locus_tag	JJLONHNI_00243
+			product	Translocation and assembly module subunit TamB
+>Feature scaffold_3297
+21	1208	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00244
+			product	hypothetical protein
+1272	1835	CDS
+			db_xref	COG:COG3470
+			gene	tpd
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P19478
+			locus_tag	JJLONHNI_00245
+			product	34 kDa membrane antigen
+>Feature scaffold_3401
+119	1726	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00246
+			product	hypothetical protein
+2612	1905	CDS
+			EC_number	6.5.1.-
+			db_xref	COG:COG1690
+			gene	rtcB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P46850
+			locus_tag	JJLONHNI_00247
+			product	RNA-splicing ligase RtcB
+>Feature scaffold_3472
+117	1352	CDS
+			db_xref	COG:COG4591
+			gene	lolE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P75958
+			locus_tag	JJLONHNI_00248
+			product	Lipoprotein-releasing system transmembrane protein LolE
+1797	1384	CDS
+			gene	hns
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DOA5
+			locus_tag	JJLONHNI_00249
+			product	DNA-binding protein H-NS
+2295	1810	CDS
+			EC_number	3.6.1.11
+			db_xref	COG:COG0248
+			gene	ppx
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AFL6
+			locus_tag	JJLONHNI_00250
+			product	Exopolyphosphatase
+>Feature scaffold_3520
+60	770	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00251
+			product	hypothetical protein
+1991	930	CDS
+			EC_number	1.3.-.-
+			gene	pyrD
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00224
+			locus_tag	JJLONHNI_00252
+			product	Dihydroorotate dehydrogenase
+2545	2099	CDS
+			EC_number	3.5.4.1
+			db_xref	COG:COG0402
+			gene	codA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25524
+			locus_tag	JJLONHNI_00253
+			product	Cytosine deaminase
+>Feature scaffold_3534
+1285	386	CDS
+			EC_number	1.97.1.-
+			db_xref	COG:COG1180
+			gene	cutD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q30W71
+			locus_tag	JJLONHNI_00254
+			product	Choline trimethylamine-lyase activating enzyme
+1490	1666	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00255
+			product	hypothetical protein
+1707	1955	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00256
+			product	hypothetical protein
+>Feature scaffold_3544
+1713	466	CDS
+			db_xref	COG:COG2995
+			gene	pqiA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AFL9
+			locus_tag	JJLONHNI_00257
+			product	Intermembrane transport protein PqiA
+2420	1884	CDS
+			db_xref	COG:COG0488
+			gene	uup
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P43672
+			locus_tag	JJLONHNI_00258
+			product	ABC transporter ATP-binding protein uup
+>Feature scaffold_3557
+110	691	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00259
+			product	hypothetical protein
+1002	886	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00260
+			product	hypothetical protein
+1311	1096	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00261
+			product	hypothetical protein
+1538	2140	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00262
+			product	hypothetical protein
+>Feature scaffold_3561
+1909	1043	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00263
+			product	hypothetical protein
+2432	2163	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00264
+			product	hypothetical protein
+>Feature scaffold_3619
+3	1040	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00265
+			product	hypothetical protein
+>Feature scaffold_3635
+22	1863	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00266
+			product	hypothetical protein
+>Feature scaffold_3682
+>Feature scaffold_3709
+>Feature scaffold_3725
+817	581	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00267
+			product	hypothetical protein
+>Feature scaffold_3764
+2274	2110	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00268
+			product	hypothetical protein
+>Feature scaffold_3776
+2370	199	CDS
+			gene	purR
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01277
+			locus_tag	JJLONHNI_00269
+			product	HTH-type transcriptional repressor PurR
+>Feature scaffold_3833
+2236	275	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00270
+			product	hypothetical protein
+>Feature scaffold_3843
+588	184	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00271
+			product	hypothetical protein
+872	1804	CDS
+			db_xref	COG:COG0354
+			gene	ygfZ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ADE8
+			locus_tag	JJLONHNI_00272
+			product	tRNA-modifying protein YgfZ
+2192	1887	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00273
+			product	hypothetical protein
+>Feature scaffold_3861
+2323	2081	CDS
+			db_xref	COG:COG0116
+			gene	rlmL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P75864
+			locus_tag	JJLONHNI_00274
+			product	Ribosomal RNA large subunit methyltransferase K/L
+>Feature scaffold_3869
+2	178	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00275
+			product	hypothetical protein
+1074	220	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00276
+			product	hypothetical protein
+2253	1966	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00277
+			product	hypothetical protein
+>Feature scaffold_3886
+354	578	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00278
+			product	hypothetical protein
+2324	1056	CDS
+			EC_number	3.1.11.1
+			db_xref	COG:COG2925
+			gene	sbcB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04995
+			locus_tag	JJLONHNI_00279
+			product	Exodeoxyribonuclease I
+>Feature scaffold_3923
+193	381	CDS
+			EC_number	1.5.1.2
+			db_xref	COG:COG0345
+			gene	proC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27771
+			locus_tag	JJLONHNI_00280
+			product	Pyrroline-5-carboxylate reductase
+2333	453	CDS
+			db_xref	COG:COG0754
+			gene	gss
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AES0
+			locus_tag	JJLONHNI_00281
+			product	Bifunctional glutathionylspermidine synthetase/amidase
+3041	2406	CDS
+			db_xref	COG:COG1279
+			gene	argO
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P11667
+			locus_tag	JJLONHNI_00282
+			product	Arginine exporter protein ArgO
+>Feature scaffold_3934
+92	793	CDS
+			db_xref	COG:COG2959
+			gene	hemX
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P09127
+			locus_tag	JJLONHNI_00283
+			product	Protein HemX
+803	1642	CDS
+			db_xref	COG:COG3071
+			gene	hemY
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ACB7
+			locus_tag	JJLONHNI_00284
+			product	Protein HemY
+2230	1784	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00285
+			product	hypothetical protein
+>Feature scaffold_4032
+891	496	CDS
+			EC_number	2.8.1.1
+			gene	glpE
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01009
+			locus_tag	JJLONHNI_00286
+			product	Thiosulfate sulfurtransferase GlpE
+2241	1972	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00287
+			product	hypothetical protein
+>Feature scaffold_4035
+457	1305	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00288
+			product	hypothetical protein
+>Feature scaffold_4044
+1601	696	CDS
+			gene	hdfR
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01233
+			locus_tag	JJLONHNI_00289
+			product	HTH-type transcriptional regulator HdfR
+1723	2004	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00290
+			product	hypothetical protein
+>Feature scaffold_4115
+1837	812	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00291
+			product	hypothetical protein
+2249	1863	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00292
+			product	hypothetical protein
+>Feature scaffold_4125
+>Feature scaffold_4145
+995	168	CDS
+			db_xref	COG:COG1464
+			gene	metQ_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P28635
+			locus_tag	JJLONHNI_00293
+			product	D-methionine-binding lipoprotein MetQ
+1724	1047	CDS
+			db_xref	COG:COG2011
+			gene	metI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P31547
+			locus_tag	JJLONHNI_00294
+			product	D-methionine transport system permease protein MetI
+2157	1717	CDS
+			EC_number	3.6.3.-
+			db_xref	COG:COG1135
+			gene	metN_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O32169
+			locus_tag	JJLONHNI_00295
+			product	Methionine import ATP-binding protein MetN
+>Feature scaffold_4172
+30	350	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00296
+			product	hypothetical protein
+347	1411	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00297
+			product	hypothetical protein
+1408	2169	CDS
+			EC_number	3.1.2.-
+			gene	pikAV_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9ZGI1
+			locus_tag	JJLONHNI_00298
+			product	Thioesterase PikA5
+>Feature scaffold_4186
+65	985	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00299
+			product	hypothetical protein
+1280	1816	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00300
+			product	hypothetical protein
+>Feature scaffold_4225
+2188	1556	CDS
+			EC_number	6.3.4.14
+			db_xref	COG:COG0439
+			gene	accC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24182
+			locus_tag	JJLONHNI_00301
+			product	Biotin carboxylase
+>Feature scaffold_4230
+417	1292	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00302
+			product	hypothetical protein
+3193	1379	CDS
+			EC_number	4.2.1.172
+			db_xref	COG:COG1882
+			gene	pflD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0A031WDE4
+			locus_tag	JJLONHNI_00303
+			product	Trans-4-hydroxy-L-proline dehydratase
+>Feature scaffold_4294
+78	527	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A8D9
+			locus_tag	JJLONHNI_00304
+			note	UPF0208 membrane protein YfbV
+			product	hypothetical protein
+538	1071	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00305
+			product	hypothetical protein
+>Feature scaffold_4296
+84	674	CDS
+			EC_number	3.4.21.53
+			db_xref	COG:COG0466
+			gene	lon
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A9M0
+			locus_tag	JJLONHNI_00306
+			product	Lon protease
+947	1270	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00307
+			product	hypothetical protein
+>Feature scaffold_4346
+267	464	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00308
+			product	hypothetical protein
+506	1540	CDS
+			EC_number	3.6.-.-
+			db_xref	COG:COG0523
+			gene	yjiA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24203
+			locus_tag	JJLONHNI_00309
+			product	P-loop guanosine triphosphatase YjiA
+1897	1640	CDS
+			db_xref	COG:COG5007
+			gene	ibaG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A9W6
+			locus_tag	JJLONHNI_00310
+			product	Acid stress protein IbaG
+>Feature scaffold_4348
+>Feature scaffold_4367
+2023	902	CDS
+			db_xref	COG:COG1263
+			gene	treB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P36672
+			locus_tag	JJLONHNI_00311
+			product	PTS system trehalose-specific EIIBC component
+>Feature scaffold_4378
+2134	398	CDS
+			db_xref	COG:COG4775
+			gene	bamA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:D5CHY0
+			locus_tag	JJLONHNI_00312
+			product	Outer membrane protein assembly factor BamA
+>Feature scaffold_4430
+1286	807	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00313
+			product	hypothetical protein
+2008	1529	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00314
+			product	hypothetical protein
+>Feature scaffold_4440
+1158	496	CDS
+			EC_number	4.1.2.-
+			db_xref	COG:COG0176
+			gene	fsaB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32669
+			locus_tag	JJLONHNI_00315
+			product	Fructose-6-phosphate aldolase 2
+1974	1777	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00316
+			product	hypothetical protein
+>Feature scaffold_4454
+41	1060	CDS
+			EC_number	4.6.1.1
+			db_xref	COG:COG3072
+			gene	cyaA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P00936
+			locus_tag	JJLONHNI_00317
+			product	Adenylate cyclase
+1267	1839	CDS
+			gene	rpoE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:D0ZSY9
+			locus_tag	JJLONHNI_00318
+			product	ECF RNA polymerase sigma-E factor
+>Feature scaffold_4467
+>Feature scaffold_4504
+2035	938	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00319
+			product	hypothetical protein
+>Feature scaffold_4507
+1290	262	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00320
+			product	hypothetical protein
+2084	1371	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00321
+			product	hypothetical protein
+>Feature scaffold_4533
+41	739	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00322
+			product	hypothetical protein
+895	1746	CDS
+			db_xref	COG:COG0190
+			gene	folD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24186
+			locus_tag	JJLONHNI_00323
+			product	Bifunctional protein FolD protein
+>Feature scaffold_4539
+2085	1774	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00324
+			product	hypothetical protein
+>Feature scaffold_4550
+>Feature scaffold_4568
+138	1913	CDS
+			gene	ompA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00842
+			locus_tag	JJLONHNI_00325
+			product	Outer membrane protein A
+>Feature scaffold_4581
+50	247	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00326
+			product	hypothetical protein
+539	1174	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00327
+			product	hypothetical protein
+1765	1526	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00328
+			product	hypothetical protein
+>Feature scaffold_4610
+56	1414	CDS
+			db_xref	COG:COG0542
+			gene	clpV1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9I742
+			locus_tag	JJLONHNI_00329
+			product	Protein ClpV1
+>Feature scaffold_4617
+474	1202	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00330
+			product	hypothetical protein
+2038	1400	CDS
+			db_xref	COG:COG1629
+			gene	tdhA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7VNU1
+			locus_tag	JJLONHNI_00331
+			product	TonB-dependent heme receptor A
+>Feature scaffold_4624
+134	1693	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00332
+			product	hypothetical protein
+>Feature scaffold_4645
+29	1573	CDS
+			EC_number	2.7.-.-
+			db_xref	COG:COG0661
+			gene	ubiB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O07443
+			locus_tag	JJLONHNI_00333
+			product	putative protein kinase UbiB
+>Feature scaffold_4648
+10	1173	CDS
+			EC_number	4.1.99.3
+			db_xref	COG:COG0415
+			gene	phrB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25078
+			locus_tag	JJLONHNI_00334
+			product	Deoxyribodipyrimidine photo-lyase
+>Feature scaffold_4654
+972	37	CDS
+			db_xref	COG:COG1131
+			gene	yadG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P36879
+			locus_tag	JJLONHNI_00335
+			product	putative ABC transporter ATP-binding protein YadG
+2025	1093	CDS
+			EC_number	3.6.-.-
+			db_xref	COG:COG0486
+			gene	mnmE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25522
+			locus_tag	JJLONHNI_00336
+			product	tRNA modification GTPase MnmE
+>Feature scaffold_4673
+440	54	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00337
+			product	hypothetical protein
+>Feature scaffold_4683
+118	597	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00338
+			product	hypothetical protein
+>Feature scaffold_4696
+124	759	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00339
+			product	hypothetical protein
+1903	803	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00340
+			product	hypothetical protein
+>Feature scaffold_4707
+2025	1450	CDS
+			gene	sotB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9S3J9
+			locus_tag	JJLONHNI_00341
+			product	Sugar efflux transporter B
+>Feature scaffold_4726
+365	607	CDS
+			EC_number	3.1.11.6
+			db_xref	COG:COG1722
+			gene	xseB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A8G9
+			locus_tag	JJLONHNI_00342
+			product	Exodeoxyribonuclease 7 small subunit
+625	1509	CDS
+			EC_number	2.5.1.10
+			db_xref	COG:COG0142
+			gene	ispA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P22939
+			locus_tag	JJLONHNI_00343
+			product	Farnesyl diphosphate synthase
+>Feature scaffold_4762
+15	395	CDS
+			EC_number	2.3.1.41
+			db_xref	COG:COG0304
+			gene	fabB_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A953
+			locus_tag	JJLONHNI_00344
+			product	3-oxoacyl-[acyl-carrier-protein] synthase 1
+767	1759	CDS
+			EC_number	6.3.1.1
+			db_xref	COG:COG2502
+			gene	asnA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P00963
+			locus_tag	JJLONHNI_00345
+			product	Aspartate--ammonia ligase
+>Feature scaffold_4785
+1250	288	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00346
+			product	hypothetical protein
+1598	1260	CDS
+			db_xref	COG:COG0718
+			gene	ybaB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A8B5
+			locus_tag	JJLONHNI_00347
+			product	Nucleoid-associated protein YbaB
+1988	1641	CDS
+			EC_number	2.7.7.7
+			db_xref	COG:COG2812
+			gene	dnaX
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P06710
+			locus_tag	JJLONHNI_00348
+			product	DNA polymerase III subunit tau
+>Feature scaffold_4788
+150	1040	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00349
+			product	hypothetical protein
+1180	977	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00350
+			product	hypothetical protein
+>Feature scaffold_4825
+65	625	CDS
+			EC_number	4.3.99.4
+			db_xref	COG:COG1882
+			gene	cutC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q30W70
+			locus_tag	JJLONHNI_00351
+			product	Choline trimethylamine-lyase
+1587	712	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00352
+			product	hypothetical protein
+>Feature scaffold_4830
+636	1031	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00353
+			product	hypothetical protein
+1775	1020	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00354
+			product	hypothetical protein
+>Feature scaffold_4883
+790	1599	CDS
+			EC_number	5.1.1.3
+			db_xref	COG:COG0796
+			gene	murI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P22634
+			locus_tag	JJLONHNI_00355
+			product	Glutamate racemase
+>Feature scaffold_4896
+>Feature scaffold_4940
+12	584	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00356
+			product	hypothetical protein
+1035	1319	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00357
+			product	hypothetical protein
+1954	1466	CDS
+			db_xref	COG:COG3157
+			gene	hcpA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9HI36
+			locus_tag	JJLONHNI_00358
+			product	Major exported protein
+>Feature scaffold_4986
+1104	1406	CDS
+			EC_number	3.6.1.7
+			db_xref	COG:COG1254
+			gene	yccX
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AB65
+			locus_tag	JJLONHNI_00359
+			product	Acylphosphatase
+>Feature scaffold_5045
+54	404	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00360
+			product	hypothetical protein
+890	1279	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00361
+			product	hypothetical protein
+1854	1684	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00362
+			product	hypothetical protein
+>Feature scaffold_5048
+27	509	CDS
+			db_xref	COG:COG5006
+			gene	rhtA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AA67
+			locus_tag	JJLONHNI_00363
+			product	Threonine/homoserine exporter RhtA
+1154	558	CDS
+			EC_number	2.5.1.18
+			db_xref	COG:COG0625
+			gene	gstB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P15214
+			locus_tag	JJLONHNI_00364
+			product	Glutathione S-transferase GST-6.0
+1905	1327	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00365
+			product	hypothetical protein
+>Feature scaffold_5058
+84	461	CDS
+			db_xref	COG:COG1314
+			gene	secG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AG99
+			locus_tag	JJLONHNI_00366
+			product	Protein-export membrane protein SecG
+472	556	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00367
+			product	tRNA-Leu(gag)
+710	862	CDS
+			db_xref	COG:COG0582
+			gene	intA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32053
+			locus_tag	JJLONHNI_00368
+			product	Prophage integrase IntA
+859	954	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00369
+			product	hypothetical protein
+1479	1910	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00370
+			product	hypothetical protein
+>Feature scaffold_5072
+77	277	CDS
+			db_xref	COG:COG0687
+			gene	potF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P31133
+			locus_tag	JJLONHNI_00371
+			product	Putrescine-binding periplasmic protein
+312	1112	CDS
+			db_xref	COG:COG2375
+			gene	viuB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A5F660
+			locus_tag	JJLONHNI_00372
+			product	Vibriobactin utilization protein ViuB
+1142	1723	CDS
+			EC_number	3.1.4.14
+			db_xref	COG:COG3124
+			gene	acpH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21515
+			locus_tag	JJLONHNI_00373
+			product	Acyl carrier protein phosphodiesterase
+>Feature scaffold_5144
+>Feature scaffold_5187
+370	732	CDS
+			db_xref	COG:COG2832
+			gene	ybaN
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AAR5
+			locus_tag	JJLONHNI_00374
+			product	Inner membrane protein YbaN
+>Feature scaffold_5191
+53	1165	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00375
+			product	hypothetical protein
+1283	1708	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00376
+			product	hypothetical protein
+>Feature scaffold_5219
+875	612	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00377
+			product	hypothetical protein
+1283	1196	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00378
+			product	tRNA-Ser(tga)
+1463	1792	CDS
+			EC_number	2.8.1.-
+			db_xref	COG:COG2920
+			gene	tusE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AB18
+			locus_tag	JJLONHNI_00379
+			product	Sulfurtransferase TusE
+>Feature scaffold_5237
+1641	802	CDS
+			EC_number	2.1.3.10
+			gene	madC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O06926
+			locus_tag	JJLONHNI_00380
+			product	Malonyl-S-ACP:biotin-protein carboxyltransferase MADC
+1792	1628	CDS
+			gene	mdcC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O32712
+			locus_tag	JJLONHNI_00381
+			product	Malonate decarboxylase acyl carrier protein
+>Feature scaffold_5242
+>Feature scaffold_5255
+93	251	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00382
+			product	hypothetical protein
+281	1150	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00383
+			product	hypothetical protein
+>Feature scaffold_5300
+931	101	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00384
+			product	hypothetical protein
+1695	946	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00385
+			product	hypothetical protein
+>Feature scaffold_5308
+3	1241	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00386
+			product	hypothetical protein
+1231	1500	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00387
+			product	hypothetical protein
+>Feature scaffold_5353
+75	956	CDS
+			db_xref	COG:COG0216
+			gene	prfA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A7I0
+			locus_tag	JJLONHNI_00388
+			product	Peptide chain release factor RF1
+956	1792	CDS
+			EC_number	2.1.1.297
+			db_xref	COG:COG2890
+			gene	prmC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ACC1
+			locus_tag	JJLONHNI_00389
+			product	Release factor glutamine methyltransferase
+>Feature scaffold_5379
+42	938	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00390
+			product	hypothetical protein
+>Feature scaffold_5389
+>Feature scaffold_5392
+484	1557	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P75777
+			locus_tag	JJLONHNI_00391
+			note	UPF0194 membrane protein YbhG
+			product	hypothetical protein
+1769	1392	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00392
+			product	hypothetical protein
+>Feature scaffold_5394
+1554	799	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00393
+			product	hypothetical protein
+>Feature scaffold_5415
+640	251	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00394
+			product	hypothetical protein
+1649	738	CDS
+			db_xref	COG:COG3716
+			gene	manZ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69805
+			locus_tag	JJLONHNI_00395
+			product	PTS system mannose-specific EIID component
+1822	1667	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00396
+			product	hypothetical protein
+>Feature scaffold_5420
+682	891	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00397
+			product	hypothetical protein
+>Feature scaffold_5427
+>Feature scaffold_5439
+>Feature scaffold_5450
+11	394	CDS
+			EC_number	2.8.1.-
+			db_xref	COG:COG1553
+			gene	tusD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45532
+			locus_tag	JJLONHNI_00398
+			product	Sulfurtransferase TusD
+406	771	CDS
+			db_xref	COG:COG2923
+			gene	tusC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45531
+			locus_tag	JJLONHNI_00399
+			product	Protein TusC
+1541	849	CDS
+			EC_number	3.2.2.27
+			db_xref	COG:COG0692
+			gene	ung
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9KPK8
+			locus_tag	JJLONHNI_00400
+			product	Uracil-DNA glycosylase
+>Feature scaffold_5493
+701	120	CDS
+			db_xref	COG:COG0316
+			gene	nfuA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P63020
+			locus_tag	JJLONHNI_00401
+			product	Fe/S biogenesis protein NfuA
+1151	810	CDS
+			gene	prs
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00583_A
+			locus_tag	JJLONHNI_00402
+			product	Putative ribose-phosphate pyrophosphokinase
+1478	1167	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00403
+			product	hypothetical protein
+>Feature scaffold_5495
+>Feature scaffold_5512
+>Feature scaffold_5520
+17	175	CDS
+			EC_number	4.2.3.4
+			db_xref	COG:COG0337
+			gene	aroB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07639
+			locus_tag	JJLONHNI_00404
+			product	3-dehydroquinate synthase
+524	631	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00405
+			product	hypothetical protein
+648	1643	CDS
+			EC_number	2.5.1.54
+			db_xref	COG:COG0722
+			gene	aroF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P00888
+			locus_tag	JJLONHNI_00406
+			product	Phospho-2-dehydro-3-deoxyheptonate aldolase, Tyr-sensitive
+2282	1701	CDS
+			db_xref	COG:COG2962
+			gene	rarD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27844
+			locus_tag	JJLONHNI_00407
+			product	Protein RarD
+>Feature scaffold_5530
+>Feature scaffold_5531
+16	681	CDS
+			db_xref	COG:COG2853
+			gene	mlaA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P43262
+			locus_tag	JJLONHNI_00408
+			product	Intermembrane phospholipid transport system lipoprotein MlaA
+1442	750	CDS
+			db_xref	COG:COG1381
+			gene	recO
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A7H3
+			locus_tag	JJLONHNI_00409
+			product	DNA repair protein RecO
+>Feature scaffold_5535
+1418	1026	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37052
+			locus_tag	JJLONHNI_00410
+			note	UPF0225 protein YchJ
+			product	hypothetical protein
+1746	1435	CDS
+			db_xref	COG:COG2431
+			gene	lysO
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P75826
+			locus_tag	JJLONHNI_00411
+			product	Lysine exporter LysO
+>Feature scaffold_5579
+42	1358	CDS
+			db_xref	COG:COG4178
+			gene	yddA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P31826
+			locus_tag	JJLONHNI_00412
+			product	Inner membrane ABC transporter ATP-binding protein YddA
+>Feature scaffold_5596
+824	222	CDS
+			EC_number	1.11.1.15
+			db_xref	COG:COG0450
+			gene	ahpC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21762
+			locus_tag	JJLONHNI_00413
+			product	Alkyl hydroperoxide reductase C
+1776	961	CDS
+			EC_number	3.6.4.13
+			db_xref	COG:COG0513
+			gene	srmB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21507
+			locus_tag	JJLONHNI_00414
+			product	ATP-dependent RNA helicase SrmB
+>Feature scaffold_5623
+58	258	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00415
+			product	hypothetical protein
+518	721	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00416
+			product	hypothetical protein
+724	1074	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00417
+			product	hypothetical protein
+1351	1557	CDS
+			EC_number	3.1.-.-
+			gene	yeeF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O31506
+			locus_tag	JJLONHNI_00418
+			product	Putative ribonuclease YeeF
+>Feature scaffold_5644
+46	384	CDS
+			db_xref	COG:COG0628
+			gene	ydiK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AFS7
+			locus_tag	JJLONHNI_00419
+			product	Putative transport protein YdiK
+1303	437	CDS
+			EC_number	3.4.24.-
+			db_xref	COG:COG0501
+			gene	htpX
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P65813
+			locus_tag	JJLONHNI_00420
+			product	Protease HtpX
+>Feature scaffold_5675
+24	728	CDS
+			EC_number	3.1.13.5
+			db_xref	COG:COG0349
+			gene	rnd
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P09155
+			locus_tag	JJLONHNI_00421
+			product	Ribonuclease D
+1149	775	CDS
+			db_xref	COG:COG0239
+			gene	crcB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37002
+			locus_tag	JJLONHNI_00422
+			product	Putative fluoride ion transporter CrcB
+>Feature scaffold_5684
+13	675	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00423
+			product	hypothetical protein
+675	1361	CDS
+			EC_number	3.6.3.-
+			db_xref	COG:COG1136
+			gene	lolD_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P75957
+			locus_tag	JJLONHNI_00424
+			product	Lipoprotein-releasing system ATP-binding protein LolD
+>Feature scaffold_5687
+496	672	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00425
+			product	hypothetical protein
+>Feature scaffold_5695
+1435	230	CDS
+			gene	ynfM
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P43531
+			locus_tag	JJLONHNI_00426
+			product	Inner membrane transport protein YnfM
+>Feature scaffold_5699
+1210	773	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00427
+			product	hypothetical protein
+1729	1223	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00428
+			product	hypothetical protein
+>Feature scaffold_5704
+175	1281	CDS
+			EC_number	1.14.11.47
+			db_xref	COG:COG2850
+			gene	roxA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27431
+			locus_tag	JJLONHNI_00429
+			product	50S ribosomal protein L16 3-hydroxylase
+>Feature scaffold_5710
+122	1024	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00430
+			product	hypothetical protein
+1130	1690	CDS
+			EC_number	2.7.7.87
+			db_xref	COG:COG0009
+			gene	tsaC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45748
+			locus_tag	JJLONHNI_00431
+			product	Threonylcarbamoyl-AMP synthase
+>Feature scaffold_5737
+1732	317	CDS
+			EC_number	2.7.7.19
+			db_xref	COG:COG0617
+			gene	pcnB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ABF1
+			locus_tag	JJLONHNI_00432
+			product	Poly(A) polymerase I
+>Feature scaffold_5741
+667	927	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00433
+			product	hypothetical protein
+1733	1344	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00434
+			product	hypothetical protein
+>Feature scaffold_5748
+326	1504	CDS
+			EC_number	1.14.13.240
+			db_xref	COG:COG0654
+			gene	ubiI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25535
+			locus_tag	JJLONHNI_00435
+			product	2-octaprenylphenol hydroxylase
+>Feature scaffold_5789
+49	537	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISWco1
+			locus_tag	JJLONHNI_00436
+			product	IS3 family transposase ISWco1
+558	1403	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISWco1
+			locus_tag	JJLONHNI_00437
+			product	IS3 family transposase ISWco1
+>Feature scaffold_5808
+608	832	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00438
+			product	hypothetical protein
+811	1530	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00439
+			product	hypothetical protein
+1582	2070	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:ISfinder:ISSsu9
+			locus_tag	JJLONHNI_00440
+			product	IS1595 family transposase ISSsu9
+>Feature scaffold_5822
+34	849	CDS
+			gene	mdtH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69367
+			locus_tag	JJLONHNI_00441
+			product	Multidrug resistance protein MdtH
+1635	868	CDS
+			EC_number	2.4.2.-
+			db_xref	COG:COG0121
+			gene	yafJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q47147
+			locus_tag	JJLONHNI_00442
+			product	Putative glutamine amidotransferase YafJ
+>Feature scaffold_5880
+430	1245	CDS
+			EC_number	2.4.1.303
+			db_xref	COG:COG0463
+			gene	wbbD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q03084
+			locus_tag	JJLONHNI_00443
+			product	UDP-Gal:alpha-D-GlcNAc-diphosphoundecaprenol beta-1,3-galactosyltransferase
+>Feature scaffold_5900
+327	941	CDS
+			EC_number	3.4.21.88
+			db_xref	COG:COG1974
+			gene	lexA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A7C2
+			locus_tag	JJLONHNI_00444
+			product	LexA repressor
+997	1356	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00445
+			product	hypothetical protein
+>Feature scaffold_5904
+>Feature scaffold_5911
+1563	436	CDS
+			db_xref	COG:COG1263
+			gene	bglF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08722
+			locus_tag	JJLONHNI_00446
+			product	PTS system beta-glucoside-specific EIIBCA component
+>Feature scaffold_5920
+>Feature scaffold_5942
+>Feature scaffold_5953
+831	265	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00447
+			product	hypothetical protein
+1660	1031	CDS
+			EC_number	6.1.1.18
+			db_xref	COG:COG0008
+			gene	glnS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P00962
+			locus_tag	JJLONHNI_00448
+			product	Glutamine--tRNA ligase
+>Feature scaffold_5973
+1065	40	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00449
+			product	hypothetical protein
+1524	1093	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00450
+			product	hypothetical protein
+>Feature scaffold_6013
+42	1397	CDS
+			db_xref	COG:COG0591
+			gene	putP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07117
+			locus_tag	JJLONHNI_00451
+			product	Sodium/proline symporter
+>Feature scaffold_6051
+152	331	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00452
+			product	hypothetical protein
+434	691	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00453
+			product	hypothetical protein
+>Feature scaffold_6068
+1650	625	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00454
+			product	hypothetical protein
+>Feature scaffold_6095
+740	159	CDS
+			db_xref	COG:COG1268
+			gene	bioY
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9WZQ6
+			locus_tag	JJLONHNI_00455
+			product	Biotin transporter BioY
+>Feature scaffold_6128
+597	1553	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00456
+			product	hypothetical protein
+>Feature scaffold_6134
+211	396	CDS
+			db_xref	COG:COG4591
+			gene	lolC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ADC3
+			locus_tag	JJLONHNI_00457
+			product	Lipoprotein-releasing system transmembrane protein LolC
+381	905	CDS
+			db_xref	COG:COG4591
+			gene	lolC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ADC3
+			locus_tag	JJLONHNI_00458
+			product	Lipoprotein-releasing system transmembrane protein LolC
+898	1614	CDS
+			EC_number	3.6.3.-
+			db_xref	COG:COG1136
+			gene	lolD_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P75957
+			locus_tag	JJLONHNI_00459
+			product	Lipoprotein-releasing system ATP-binding protein LolD
+>Feature scaffold_6151
+52	738	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00460
+			product	hypothetical protein
+>Feature scaffold_6172
+>Feature scaffold_6174
+316	113	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00461
+			product	hypothetical protein
+946	590	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00462
+			product	hypothetical protein
+1545	949	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00463
+			product	hypothetical protein
+>Feature scaffold_6186
+571	786	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00464
+			product	hypothetical protein
+928	1098	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00465
+			product	hypothetical protein
+>Feature scaffold_6211
+160	516	CDS
+			db_xref	COG:COG0664
+			gene	fnr
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9EXQ1
+			locus_tag	JJLONHNI_00466
+			product	Anaerobic regulatory protein
+>Feature scaffold_6220
+1189	284	CDS
+			db_xref	COG:COG2974
+			gene	rdgC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P36767
+			locus_tag	JJLONHNI_00467
+			product	Recombination-associated protein RdgC
+>Feature scaffold_6261
+1585	1043	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00468
+			product	hypothetical protein
+>Feature scaffold_6280
+>Feature scaffold_6283
+54	1544	CDS
+			gene	srfAB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q04747
+			locus_tag	JJLONHNI_00469
+			product	Surfactin synthase subunit 2
+>Feature scaffold_6313
+18	119	CDS
+			db_xref	COG:COG0203
+			gene	rplQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AG44
+			locus_tag	JJLONHNI_00470
+			product	50S ribosomal protein L17
+517	314	CDS
+			gene	slyX
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00715
+			locus_tag	JJLONHNI_00471
+			product	Protein SlyX
+1393	746	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q02170
+			locus_tag	JJLONHNI_00472
+			note	UPF0758 protein YsxA
+			product	hypothetical protein
+>Feature scaffold_6322
+27	938	CDS
+			EC_number	5.4.99.25
+			db_xref	COG:COG0130
+			gene	truB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P60340
+			locus_tag	JJLONHNI_00473
+			product	tRNA pseudouridine synthase B
+1144	923	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00474
+			product	hypothetical protein
+>Feature scaffold_6326
+36	803	CDS
+			EC_number	5.4.2.-
+			gene	gpmB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01040
+			locus_tag	JJLONHNI_00475
+			product	phosphoglycerate mutase GpmB
+>Feature scaffold_6336
+535	611	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00476
+			product	tRNA-Met(cat)
+680	1579	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00477
+			product	hypothetical protein
+>Feature scaffold_6358
+>Feature scaffold_6394
+528	76	CDS
+			EC_number	3.6.1.67
+			db_xref	COG:COG0494
+			gene	nudB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AFC0
+			locus_tag	JJLONHNI_00478
+			product	Dihydroneopterin triphosphate diphosphatase
+1537	584	CDS
+			EC_number	6.1.1.12
+			db_xref	COG:COG0173
+			gene	aspS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21889
+			locus_tag	JJLONHNI_00479
+			product	Aspartate--tRNA ligase
+>Feature scaffold_6402
+35	286	CDS
+			db_xref	COG:COG1108
+			gene	znuB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P39832
+			locus_tag	JJLONHNI_00480
+			product	High-affinity zinc uptake system membrane protein ZnuB
+>Feature scaffold_6405
+183	1562	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00481
+			product	hypothetical protein
+>Feature scaffold_6409
+29	1210	CDS
+			db_xref	COG:COG4942
+			gene	envC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37690
+			locus_tag	JJLONHNI_00482
+			product	Murein hydrolase activator EnvC
+>Feature scaffold_6451
+326	54	CDS
+			db_xref	COG:COG1734
+			gene	ybiI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P41039
+			locus_tag	JJLONHNI_00483
+			product	putative protein YbiI
+511	1044	CDS
+			EC_number	1.8.4.11
+			db_xref	COG:COG0225
+			gene	msrA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P54154
+			locus_tag	JJLONHNI_00484
+			product	Peptide methionine sulfoxide reductase MsrA
+>Feature scaffold_6457
+464	694	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00485
+			product	hypothetical protein
+>Feature scaffold_6479
+23	265	CDS
+			EC_number	5.3.2.-
+			gene	pptA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00718
+			locus_tag	JJLONHNI_00486
+			product	Tautomerase PptA
+252	929	CDS
+			EC_number	3.1.3.3
+			db_xref	COG:COG0560
+			gene	serB1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WGJ3
+			locus_tag	JJLONHNI_00487
+			product	Phosphoserine phosphatase SerB1
+>Feature scaffold_6489
+874	488	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00488
+			product	hypothetical protein
+1297	974	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00489
+			product	hypothetical protein
+>Feature scaffold_6512
+1466	171	CDS
+			EC_number	2.8.1.4
+			db_xref	COG:COG0301
+			gene	thiI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8XE74
+			locus_tag	JJLONHNI_00490
+			product	tRNA sulfurtransferase
+>Feature scaffold_6621
+1496	1050	CDS
+			EC_number	2.7.1.35
+			db_xref	COG:COG2240
+			gene	pdxY
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9HT57
+			locus_tag	JJLONHNI_00491
+			product	Pyridoxal kinase PdxY
+>Feature scaffold_6680
+1445	543	CDS
+			EC_number	2.4.2.14
+			db_xref	COG:COG0034
+			gene	purF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AG16
+			locus_tag	JJLONHNI_00492
+			product	Amidophosphoribosyltransferase
+>Feature scaffold_6689
+1016	846	CDS
+			db_xref	COG:COG0582
+			gene	intA_3
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32053
+			locus_tag	JJLONHNI_00493
+			product	Prophage integrase IntA
+1426	1211	CDS
+			EC_number	5.4.99.26
+			db_xref	COG:COG0564
+			gene	truC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AA41
+			locus_tag	JJLONHNI_00494
+			product	tRNA pseudouridine synthase C
+>Feature scaffold_6708
+1369	881	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00495
+			product	hypothetical protein
+>Feature scaffold_6725
+822	394	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00496
+			product	hypothetical protein
+1473	1132	CDS
+			EC_number	1.1.1.6
+			db_xref	COG:COG0371
+			gene	gldA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A9S5
+			locus_tag	JJLONHNI_00497
+			product	Glycerol dehydrogenase
+>Feature scaffold_6778
+1118	276	CDS
+			EC_number	3.1.21.2
+			db_xref	COG:COG0648
+			gene	nfo_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A6C1
+			locus_tag	JJLONHNI_00498
+			product	Endonuclease 4
+>Feature scaffold_6793
+893	168	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00499
+			product	hypothetical protein
+>Feature scaffold_6801
+267	602	CDS
+			EC_number	1.8.4.8
+			gene	cysH
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00063
+			locus_tag	JJLONHNI_00500
+			product	Phosphoadenosine phosphosulfate reductase
+>Feature scaffold_6822
+823	605	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00501
+			product	hypothetical protein
+1458	1372	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00502
+			product	tRNA-Leu(caa)
+>Feature scaffold_6914
+9	407	CDS
+			gene	slyA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:B1JJ73
+			locus_tag	JJLONHNI_00503
+			product	Transcriptional regulator SlyA
+1419	1495	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00504
+			product	tRNA-Met(cat)
+>Feature scaffold_6970
+1468	1349	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00505
+			product	hypothetical protein
+>Feature scaffold_6971
+39	1196	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00506
+			product	hypothetical protein
+1737	1462	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00507
+			product	hypothetical protein
+>Feature scaffold_6975
+369	46	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00508
+			product	hypothetical protein
+1474	464	CDS
+			db_xref	COG:COG3775
+			gene	gatC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69831
+			locus_tag	JJLONHNI_00509
+			product	PTS system galactitol-specific EIIC component
+>Feature scaffold_6979
+171	866	CDS
+			EC_number	2.7.13.3
+			gene	rstB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P18392
+			locus_tag	JJLONHNI_00510
+			product	Sensor protein RstB
+1425	973	CDS
+			db_xref	COG:COG2081
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P44941
+			locus_tag	JJLONHNI_00511
+			product	putative protein
+>Feature scaffold_7016
+1470	1222	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00512
+			product	hypothetical protein
+>Feature scaffold_7019
+270	605	CDS
+			db_xref	COG:COG4558
+			gene	hmuT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q56991
+			locus_tag	JJLONHNI_00513
+			product	Hemin-binding periplasmic protein HmuT
+1130	996	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00514
+			product	hypothetical protein
+>Feature scaffold_7044
+189	473	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00515
+			product	hypothetical protein
+>Feature scaffold_7056
+>Feature scaffold_7062
+845	417	CDS
+			db_xref	COG:COG0589
+			gene	uspF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P67091
+			locus_tag	JJLONHNI_00516
+			product	Universal stress protein F
+>Feature scaffold_7080
+19	780	CDS
+			EC_number	1.1.1.23
+			db_xref	COG:COG0141
+			gene	hisD_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P10370
+			locus_tag	JJLONHNI_00517
+			product	Histidinol dehydrogenase
+>Feature scaffold_7104
+110	1411	CDS
+			EC_number	1.1.1.23
+			db_xref	COG:COG0141
+			gene	hisD_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P10370
+			locus_tag	JJLONHNI_00518
+			product	Histidinol dehydrogenase
+>Feature scaffold_7108
+1344	163	CDS
+			db_xref	COG:COG0317
+			gene	spoT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AG24
+			locus_tag	JJLONHNI_00519
+			product	Bifunctional (p)ppGpp synthase/hydrolase SpoT
+>Feature scaffold_7174
+>Feature scaffold_7197
+1701	1336	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00520
+			product	hypothetical protein
+>Feature scaffold_7199
+33	701	CDS
+			gene	glnQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27675
+			locus_tag	JJLONHNI_00521
+			product	Glutamine transport ATP-binding protein GlnQ
+1088	909	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00522
+			product	hypothetical protein
+>Feature scaffold_7231
+54	662	CDS
+			EC_number	3.6.1.-
+			gene	nudL
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01592
+			locus_tag	JJLONHNI_00523
+			product	putative Nudix hydrolase NudL
+725	1429	CDS
+			EC_number	2.1.1.222
+			db_xref	COG:COG2227
+			gene	ubiG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P17993
+			locus_tag	JJLONHNI_00524
+			product	Ubiquinone biosynthesis O-methyltransferase
+>Feature scaffold_7246
+85	1245	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00525
+			product	hypothetical protein
+>Feature scaffold_7262
+1387	377	CDS
+			EC_number	3.6.4.12
+			db_xref	COG:COG2255
+			gene	ruvB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A812
+			locus_tag	JJLONHNI_00526
+			product	Holliday junction ATP-dependent DNA helicase RuvB
+>Feature scaffold_7294
+1438	1022	CDS
+			EC_number	6.1.1.9
+			db_xref	COG:COG0525
+			gene	valS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07118
+			locus_tag	JJLONHNI_00527
+			product	Valine--tRNA ligase
+>Feature scaffold_7300
+>Feature scaffold_7303
+252	404	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00528
+			product	hypothetical protein
+>Feature scaffold_7326
+65	757	CDS
+			EC_number	1.5.1.49
+			gene	arcB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q6HMS8
+			locus_tag	JJLONHNI_00529
+			product	Delta(1)-pyrroline-2-carboxylate reductase
+>Feature scaffold_7331
+1161	661	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00530
+			product	hypothetical protein
+>Feature scaffold_7379
+>Feature scaffold_7385
+>Feature scaffold_7389
+2	1366	CDS
+			EC_number	2.3.1.193
+			db_xref	COG:COG1444
+			gene	tmcA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P76562
+			locus_tag	JJLONHNI_00531
+			product	tRNA(Met) cytidine acetyltransferase TmcA
+>Feature scaffold_7406
+134	874	CDS
+			db_xref	COG:COG1338
+			gene	fliP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P54700
+			locus_tag	JJLONHNI_00532
+			product	Flagellar biosynthetic protein FliP
+883	1152	CDS
+			db_xref	COG:COG1987
+			gene	fliQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A1L6
+			locus_tag	JJLONHNI_00533
+			product	Flagellar biosynthetic protein FliQ
+1412	1149	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00534
+			product	hypothetical protein
+>Feature scaffold_7409
+1306	221	CDS
+			db_xref	COG:COG0489
+			gene	apbC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8ZNN5
+			locus_tag	JJLONHNI_00535
+			product	Iron-sulfur cluster carrier protein
+>Feature scaffold_7414
+>Feature scaffold_7417
+>Feature scaffold_7463
+1392	232	CDS
+			EC_number	2.7.7.4
+			db_xref	COG:COG2046
+			gene	sat
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O34764
+			locus_tag	JJLONHNI_00536
+			product	Sulfate adenylyltransferase
+>Feature scaffold_7484
+>Feature scaffold_7487
+150	245	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00537
+			product	hypothetical protein
+>Feature scaffold_7491
+1186	5	CDS
+			gene	rfnT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A6X7E7
+			locus_tag	JJLONHNI_00538
+			product	Riboflavin transporter RfnT
+2284	1898	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00539
+			product	hypothetical protein
+>Feature scaffold_7538
+>Feature scaffold_7567
+1198	20	CDS
+			EC_number	7.1.1.-
+			db_xref	COG:COG1009
+			gene	nuoL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P33607
+			locus_tag	JJLONHNI_00540
+			product	NADH-quinone oxidoreductase subunit L
+>Feature scaffold_7570
+31	477	CDS
+			EC_number	3.1.22.4
+			db_xref	COG:COG0817
+			gene	ruvC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A814
+			locus_tag	JJLONHNI_00541
+			product	Crossover junction endodeoxyribonuclease RuvC
+643	1263	CDS
+			EC_number	3.6.4.12
+			db_xref	COG:COG0632
+			gene	ruvA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A809
+			locus_tag	JJLONHNI_00542
+			product	Holliday junction ATP-dependent DNA helicase RuvA
+>Feature scaffold_7584
+1377	670	CDS
+			db_xref	COG:COG4786
+			gene	flgG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A1J3
+			locus_tag	JJLONHNI_00543
+			product	Flagellar basal-body rod protein FlgG
+>Feature scaffold_7600
+390	175	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00544
+			product	hypothetical protein
+1294	560	CDS
+			EC_number	2.7.7.6
+			db_xref	COG:COG0086
+			gene	rpoC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A8T7
+			locus_tag	JJLONHNI_00545
+			product	DNA-directed RNA polymerase subunit beta'
+>Feature scaffold_7619
+>Feature scaffold_7645
+86	634	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00546
+			product	hypothetical protein
+1388	768	CDS
+			db_xref	COG:COG1298
+			gene	flhA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P40729
+			locus_tag	JJLONHNI_00547
+			product	Flagellar biosynthesis protein FlhA
+>Feature scaffold_7649
+1374	1228	CDS
+			db_xref	COG:COG4108
+			gene	prfC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A7I4
+			locus_tag	JJLONHNI_00548
+			product	Peptide chain release factor RF3
+>Feature scaffold_7680
+24	1367	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00549
+			product	hypothetical protein
+>Feature scaffold_7689
+75	1262	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00550
+			product	hypothetical protein
+>Feature scaffold_7703
+837	262	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00551
+			product	hypothetical protein
+>Feature scaffold_7704
+214	981	CDS
+			EC_number	2.7.13.3
+			db_xref	COG:COG0642
+			gene	cusS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P77485
+			locus_tag	JJLONHNI_00552
+			product	Sensor histidine kinase CusS
+>Feature scaffold_7713
+897	289	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00553
+			product	hypothetical protein
+1316	894	CDS
+			EC_number	3.1.2.28
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02101
+			locus_tag	JJLONHNI_00554
+			product	1,4-dihydroxy-2-naphthoyl-CoA hydrolase
+>Feature scaffold_7720
+23	160	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00555
+			product	hypothetical protein
+1242	613	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00556
+			product	hypothetical protein
+>Feature scaffold_7727
+>Feature scaffold_7730
+115	771	CDS
+			db_xref	COG:COG1418
+			gene	yedJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P46144
+			locus_tag	JJLONHNI_00557
+			product	putative protein YedJ
+>Feature scaffold_7739
+671	1222	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00558
+			product	hypothetical protein
+1239	2243	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00559
+			product	hypothetical protein
+>Feature scaffold_7740
+1357	1130	CDS
+			db_xref	COG:COG4107
+			gene	phnK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16678
+			locus_tag	JJLONHNI_00560
+			product	Putative phosphonates utilization ATP-binding protein PhnK
+>Feature scaffold_7759
+91	966	CDS
+			gene	esiB_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0A0H2VDN9
+			locus_tag	JJLONHNI_00561
+			product	Secretory immunoglobulin A-binding protein EsiB
+>Feature scaffold_7787
+48	719	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00562
+			product	hypothetical protein
+>Feature scaffold_7802
+61	720	CDS
+			EC_number	3.5.1.108
+			db_xref	COG:COG0774
+			gene	lpxC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A725
+			locus_tag	JJLONHNI_00563
+			product	UDP-3-O-acyl-N-acetylglucosamine deacetylase
+>Feature scaffold_7838
+>Feature scaffold_7854
+1116	337	CDS
+			EC_number	3.4.21.107
+			db_xref	COG:COG0265
+			gene	degQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P39099
+			locus_tag	JJLONHNI_00564
+			product	Periplasmic pH-dependent serine endoprotease DegQ
+>Feature scaffold_7860
+10	216	CDS
+			db_xref	COG:COG0168
+			gene	trkH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q87TN7
+			locus_tag	JJLONHNI_00565
+			product	Trk system potassium uptake protein TrkH
+325	864	CDS
+			EC_number	1.3.5.3
+			db_xref	COG:COG4635
+			gene	hemG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ACB4
+			locus_tag	JJLONHNI_00566
+			product	Protoporphyrinogen IX dehydrogenase [menaquinone]
+>Feature scaffold_7925
+1241	111	CDS
+			db_xref	COG:COG0842
+			gene	yhhJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AGH1
+			locus_tag	JJLONHNI_00567
+			product	Inner membrane transport permease YhhJ
+>Feature scaffold_7949
+1339	485	CDS
+			EC_number	2.4.-.-
+			gene	rfaG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25740
+			locus_tag	JJLONHNI_00568
+			product	Lipopolysaccharide core biosynthesis protein RfaG
+>Feature scaffold_7969
+1225	893	CDS
+			db_xref	COG:COG0353
+			gene	recR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9I3H9
+			locus_tag	JJLONHNI_00569
+			product	Recombination protein RecR
+>Feature scaffold_7996
+39	176	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00570
+			product	hypothetical protein
+>Feature scaffold_8011
+>Feature scaffold_8023
+>Feature scaffold_8029
+99	1139	CDS
+			EC_number	1.1.1.44
+			db_xref	COG:COG0362
+			gene	gnd
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P00350
+			locus_tag	JJLONHNI_00571
+			product	6-phosphogluconate dehydrogenase, decarboxylating
+>Feature scaffold_8033
+12	458	CDS
+			EC_number	3.5.1.87
+			db_xref	COG:COG0624
+			gene	hyuC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q6DTN4
+			locus_tag	JJLONHNI_00572
+			product	N-carbamoyl-L-amino-acid hydrolase
+1286	567	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00573
+			product	hypothetical protein
+>Feature scaffold_8042
+1222	557	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00574
+			product	hypothetical protein
+>Feature scaffold_8048
+23	823	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00575
+			product	hypothetical protein
+>Feature scaffold_8062
+>Feature scaffold_8077
+201	824	CDS
+			db_xref	COG:COG1280
+			gene	rhtC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AG38
+			locus_tag	JJLONHNI_00576
+			product	Threonine efflux protein
+1224	916	CDS
+			EC_number	2.1.1.72
+			db_xref	COG:COG0338
+			gene	dam
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AEE8
+			locus_tag	JJLONHNI_00577
+			product	DNA adenine methylase
+>Feature scaffold_8084
+38	895	CDS
+			EC_number	2.7.1.121
+			db_xref	COG:COG2376
+			gene	dhaK-2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q92EU2
+			locus_tag	JJLONHNI_00578
+			product	PTS-dependent dihydroxyacetone kinase 2, dihydroxyacetone-binding subunit DhaK
+>Feature scaffold_8086
+651	178	CDS
+			gene	ybjN
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AAY6
+			locus_tag	JJLONHNI_00579
+			product	putative protein YbjN
+>Feature scaffold_8092
+1278	955	CDS
+			EC_number	1.8.4.12
+			gene	msrB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:E6ESW1
+			locus_tag	JJLONHNI_00580
+			product	Peptide methionine sulfoxide reductase MsrB
+>Feature scaffold_8130
+26	181	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00581
+			product	hypothetical protein
+587	814	CDS
+			db_xref	COG:COG4572
+			gene	chaB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AE65
+			locus_tag	JJLONHNI_00582
+			product	Putative cation transport regulator ChaB
+>Feature scaffold_8181
+40	921	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00583
+			product	hypothetical protein
+1271	1005	CDS
+			EC_number	3.5.1.105
+			gene	chbG
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01246
+			locus_tag	JJLONHNI_00584
+			product	Chitooligosaccharide deacetylase
+>Feature scaffold_8213
+1264	257	CDS
+			EC_number	1.2.4.1
+			db_xref	COG:COG2609
+			gene	aceE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AFG8
+			locus_tag	JJLONHNI_00585
+			product	Pyruvate dehydrogenase E1 component
+>Feature scaffold_8261
+1262	201	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00586
+			product	hypothetical protein
+>Feature scaffold_8285
+1257	1033	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00587
+			product	hypothetical protein
+>Feature scaffold_8326
+42	350	CDS
+			EC_number	3.6.4.-
+			db_xref	COG:COG1197
+			gene	mfd
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P30958
+			locus_tag	JJLONHNI_00588
+			product	Transcription-repair-coupling factor
+>Feature scaffold_8333
+522	791	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00589
+			product	hypothetical protein
+>Feature scaffold_8347
+1204	458	CDS
+			EC_number	3.1.13.-
+			db_xref	COG:COG0613
+			gene	yciV
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P77766
+			locus_tag	JJLONHNI_00590
+			product	5'-3' exoribonuclease
+>Feature scaffold_8352
+1269	478	CDS
+			EC_number	2.3.1.129
+			db_xref	COG:COG1043
+			gene	lpxA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A722
+			locus_tag	JJLONHNI_00591
+			product	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase
+>Feature scaffold_8355
+1284	1063	CDS
+			db_xref	COG:COG0814
+			gene	sdaC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AAD6
+			locus_tag	JJLONHNI_00592
+			product	Serine transporter
+>Feature scaffold_8368
+1247	201	CDS
+			db_xref	COG:COG5009
+			gene	mrcA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P02918
+			locus_tag	JJLONHNI_00593
+			product	Penicillin-binding protein 1A
+>Feature scaffold_8372
+802	8	CDS
+			EC_number	3.6.1.22
+			db_xref	COG:COG2816
+			gene	nudC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32664
+			locus_tag	JJLONHNI_00594
+			product	NADH pyrophosphatase
+1268	915	CDS
+			db_xref	COG:COG0706
+			gene	yidC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25714
+			locus_tag	JJLONHNI_00595
+			product	Membrane protein insertase YidC
+>Feature scaffold_8374
+5	835	CDS
+			db_xref	COG:COG1589
+			gene	ftsQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P06136
+			locus_tag	JJLONHNI_00596
+			product	Cell division protein FtsQ
+>Feature scaffold_8403
+1240	191	CDS
+			EC_number	3.4.21.107
+			db_xref	COG:COG0265
+			gene	degS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AEE3
+			locus_tag	JJLONHNI_00597
+			product	Serine endoprotease DegS
+>Feature scaffold_8406
+570	127	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00598
+			product	hypothetical protein
+>Feature scaffold_8413
+>Feature scaffold_8424
+>Feature scaffold_8434
+20	580	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00599
+			product	hypothetical protein
+1239	1003	CDS
+			db_xref	COG:COG0782
+			gene	greB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P30128
+			locus_tag	JJLONHNI_00600
+			product	Transcription elongation factor GreB
+>Feature scaffold_8441
+1245	505	CDS
+			EC_number	1.17.4.1
+			db_xref	COG:COG0208
+			gene	nrdB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69924
+			locus_tag	JJLONHNI_00601
+			product	Ribonucleoside-diphosphate reductase 1 subunit beta
+>Feature scaffold_8445
+1197	4	CDS
+			db_xref	COG:COG4172
+			gene	yejF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P33916
+			locus_tag	JJLONHNI_00602
+			product	putative ABC transporter ATP-binding protein YejF
+>Feature scaffold_8466
+500	318	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00603
+			product	hypothetical protein
+1212	955	CDS
+			db_xref	COG:COG0218
+			gene	engB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A6P7
+			locus_tag	JJLONHNI_00604
+			product	putative GTP-binding protein EngB
+>Feature scaffold_8469
+243	159	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00605
+			product	tRNA-Tyr(gta)
+361	286	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00606
+			product	tRNA-Thr(tgt)
+1042	1164	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00607
+			product	hypothetical protein
+>Feature scaffold_8499
+1154	918	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00608
+			product	hypothetical protein
+>Feature scaffold_8505
+1272	619	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00609
+			product	hypothetical protein
+>Feature scaffold_8521
+996	850	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00610
+			product	hypothetical protein
+>Feature scaffold_8531
+>Feature scaffold_8554
+3	995	CDS
+			EC_number	2.7.7.8
+			db_xref	COG:COG1185
+			gene	pnp
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P05055
+			locus_tag	JJLONHNI_00611
+			product	Polyribonucleotide nucleotidyltransferase
+>Feature scaffold_8607
+>Feature scaffold_8613
+162	833	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00612
+			product	hypothetical protein
+1245	952	CDS
+			EC_number	2.7.1.-
+			gene	rfaP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9R9D6
+			locus_tag	JJLONHNI_00613
+			product	Lipopolysaccharide core heptose(I) kinase RfaP
+>Feature scaffold_8617
+1259	975	CDS
+			EC_number	2.5.1.15
+			db_xref	COG:COG0294
+			gene	folP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AC13
+			locus_tag	JJLONHNI_00614
+			product	Dihydropteroate synthase
+>Feature scaffold_8647
+870	379	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00615
+			product	hypothetical protein
+>Feature scaffold_8687
+1152	634	CDS
+			db_xref	COG:COG1132
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q57538
+			locus_tag	JJLONHNI_00616
+			product	putative ABC transporter ATP-binding/permease protein
+>Feature scaffold_8699
+9	1046	CDS
+			EC_number	1.17.4.1
+			db_xref	COG:COG0209
+			gene	nrdA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P00452
+			locus_tag	JJLONHNI_00617
+			product	Ribonucleoside-diphosphate reductase 1 subunit alpha
+>Feature scaffold_8701
+21	812	CDS
+			db_xref	COG:COG1526
+			gene	fdhD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32177
+			locus_tag	JJLONHNI_00618
+			product	Sulfur carrier protein FdhD
+>Feature scaffold_8724
+>Feature scaffold_8731
+1170	973	CDS
+			EC_number	1.2.1.12
+			db_xref	COG:COG0057
+			gene	gapA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A9B2
+			locus_tag	JJLONHNI_00619
+			product	Glyceraldehyde-3-phosphate dehydrogenase A
+>Feature scaffold_8748
+>Feature scaffold_8756
+1221	250	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00620
+			product	hypothetical protein
+>Feature scaffold_8776
+1046	177	CDS
+			db_xref	COG:COG1291
+			gene	motA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P09348
+			locus_tag	JJLONHNI_00621
+			product	Motility protein A
+>Feature scaffold_8806
+>Feature scaffold_8807
+135	1013	CDS
+			EC_number	2.4.1.-
+			gene	gtfA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01472
+			locus_tag	JJLONHNI_00622
+			product	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase GtfA subunit
+1058	1147	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00623
+			product	hypothetical protein
+>Feature scaffold_8821
+>Feature scaffold_8843
+654	160	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00624
+			product	hypothetical protein
+1199	654	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00625
+			product	hypothetical protein
+>Feature scaffold_8852
+3	221	CDS
+			EC_number	2.1.1.177
+			db_xref	COG:COG1576
+			gene	rlmH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A8I8
+			locus_tag	JJLONHNI_00626
+			product	Ribosomal RNA large subunit methyltransferase H
+230	688	CDS
+			EC_number	3.1.-.-
+			db_xref	COG:COG0319
+			gene	ybeY
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P71335
+			locus_tag	JJLONHNI_00627
+			product	Endoribonuclease YbeY
+>Feature scaffold_8888
+1202	522	CDS
+			EC_number	3.1.21.7
+			db_xref	COG:COG1515
+			gene	nfi
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68739
+			locus_tag	JJLONHNI_00628
+			product	Endonuclease V
+>Feature scaffold_8901
+>Feature scaffold_8924
+>Feature scaffold_8928
+2	514	CDS
+			EC_number	2.7.1.121
+			db_xref	COG:COG2376
+			gene	dhaL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P76014
+			locus_tag	JJLONHNI_00629
+			product	PEP-dependent dihydroxyacetone kinase, ADP-binding subunit DhaL
+1176	688	CDS
+			EC_number	4.1.2.-
+			db_xref	COG:COG0235
+			gene	ald2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q2RXI1
+			locus_tag	JJLONHNI_00630
+			product	5-(methylthio)ribulose-1-phosphate aldolase
+>Feature scaffold_8929
+13	264	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00631
+			product	hypothetical protein
+>Feature scaffold_8954
+460	260	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00632
+			product	hypothetical protein
+>Feature scaffold_8959
+58	324	CDS
+			db_xref	COG:COG2321
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WL85
+			locus_tag	JJLONHNI_00633
+			product	putative protein
+>Feature scaffold_8998
+140	517	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00634
+			product	hypothetical protein
+1205	501	CDS
+			db_xref	COG:COG0555
+			gene	cysT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27367
+			locus_tag	JJLONHNI_00635
+			product	Sulfate transport system permease protein CysT
+>Feature scaffold_8999
+>Feature scaffold_9004
+>Feature scaffold_9040
+9	962	CDS
+			EC_number	4.99.1.1
+			db_xref	COG:COG0276
+			gene	hemH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P23871
+			locus_tag	JJLONHNI_00636
+			product	Ferrochelatase
+>Feature scaffold_9045
+93	317	CDS
+			EC_number	3.1.21.2
+			db_xref	COG:COG0648
+			gene	nfo_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A6C1
+			locus_tag	JJLONHNI_00637
+			product	Endonuclease 4
+>Feature scaffold_9063
+143	718	CDS
+			gene	ydcV
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AFR9
+			locus_tag	JJLONHNI_00638
+			product	Inner membrane ABC transporter permease protein YdcV
+>Feature scaffold_9071
+1166	681	CDS
+			EC_number	2.7.7.7
+			db_xref	COG:COG0258
+			gene	polA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P00582
+			locus_tag	JJLONHNI_00639
+			product	DNA polymerase I
+>Feature scaffold_9103
+1039	566	CDS
+			db_xref	COG:COG4143
+			gene	thiB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P31550
+			locus_tag	JJLONHNI_00640
+			product	Thiamine-binding periplasmic protein
+>Feature scaffold_9106
+74	934	CDS
+			EC_number	2.7.1.148
+			db_xref	COG:COG1947
+			gene	ispE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P62615
+			locus_tag	JJLONHNI_00641
+			product	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase
+>Feature scaffold_9125
+12	680	CDS
+			EC_number	2.3.1.15
+			db_xref	COG:COG2937
+			gene	plsB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A7A7
+			locus_tag	JJLONHNI_00642
+			product	Glycerol-3-phosphate acyltransferase
+1210	677	CDS
+			EC_number	2.5.1.39
+			db_xref	COG:COG0382
+			gene	ubiA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AGK1
+			locus_tag	JJLONHNI_00643
+			product	4-hydroxybenzoate octaprenyltransferase
+>Feature scaffold_9135
+1016	840	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00644
+			product	hypothetical protein
+>Feature scaffold_9138
+1181	894	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00645
+			product	hypothetical protein
+>Feature scaffold_9150
+>Feature scaffold_9155
+1125	460	CDS
+			db_xref	COG:COG1989
+			gene	pppA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q46836
+			locus_tag	JJLONHNI_00646
+			product	Prepilin peptidase PppA
+>Feature scaffold_9194
+78	689	CDS
+			EC_number	1.3.1.-
+			db_xref	COG:COG1028
+			gene	bacG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P39644
+			locus_tag	JJLONHNI_00647
+			product	NADPH-dependent reductase BacG
+>Feature scaffold_9204
+72	206	CDS
+			db_xref	COG:COG1677
+			gene	fliE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26462
+			locus_tag	JJLONHNI_00648
+			product	Flagellar hook-basal body complex protein FliE
+626	282	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00649
+			product	hypothetical protein
+1019	642	CDS
+			db_xref	COG:COG1516
+			gene	fliS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26609
+			locus_tag	JJLONHNI_00650
+			product	Flagellar secretion chaperone FliS
+1194	1030	CDS
+			db_xref	COG:COG1345
+			gene	fliD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16328
+			locus_tag	JJLONHNI_00651
+			product	Flagellar hook-associated protein 2
+>Feature scaffold_9216
+990	1199	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00652
+			product	hypothetical protein
+>Feature scaffold_9225
+54	314	CDS
+			EC_number	6.3.2.8
+			db_xref	COG:COG0773
+			gene	murC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8ZIE8
+			locus_tag	JJLONHNI_00653
+			product	UDP-N-acetylmuramate--L-alanine ligase
+>Feature scaffold_9254
+1135	455	CDS
+			EC_number	1.-.-.-
+			db_xref	COG:COG0656
+			gene	ytbE_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O34678
+			locus_tag	JJLONHNI_00654
+			product	putative oxidoreductase YtbE
+>Feature scaffold_9304
+>Feature scaffold_9319
+676	194	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00655
+			product	hypothetical protein
+>Feature scaffold_9354
+1152	709	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00656
+			product	hypothetical protein
+>Feature scaffold_9361
+1034	711	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00657
+			product	hypothetical protein
+>Feature scaffold_9381
+1147	419	CDS
+			EC_number	6.3.2.2
+			db_xref	COG:COG2918
+			gene	gshA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A6W9
+			locus_tag	JJLONHNI_00658
+			product	Glutamate--cysteine ligase
+>Feature scaffold_9383
+390	875	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00659
+			product	hypothetical protein
+1111	974	CDS
+			db_xref	COG:COG1825
+			gene	rplY
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68919
+			locus_tag	JJLONHNI_00660
+			product	50S ribosomal protein L25
+>Feature scaffold_9420
+51	1106	CDS
+			EC_number	2.4.1.227
+			db_xref	COG:COG0707
+			gene	murG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P17443
+			locus_tag	JJLONHNI_00661
+			product	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+>Feature scaffold_9441
+1010	423	CDS
+			EC_number	6.3.2.12
+			db_xref	COG:COG0285
+			gene	folC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08192
+			locus_tag	JJLONHNI_00662
+			product	Dihydrofolate synthase/folylpolyglutamate synthase
+>Feature scaffold_9464
+162	362	CDS
+			db_xref	COG:COG0803
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q57449
+			locus_tag	JJLONHNI_00663
+			product	putative periplasmic iron-binding protein
+609	439	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00664
+			product	hypothetical protein
+>Feature scaffold_9510
+50	160	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00665
+			product	hypothetical protein
+773	225	CDS
+			EC_number	3.1.-.-
+			gene	mutS2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00092
+			locus_tag	JJLONHNI_00666
+			product	Endonuclease MutS2
+1132	779	CDS
+			EC_number	4.2.99.18
+			db_xref	COG:COG0177
+			gene	nth
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AB83
+			locus_tag	JJLONHNI_00667
+			product	Endonuclease III
+>Feature scaffold_9532
+18	710	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00668
+			product	hypothetical protein
+1140	748	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AEY1
+			locus_tag	JJLONHNI_00669
+			note	UPF0056 inner membrane protein MarC
+			product	hypothetical protein
+>Feature scaffold_9533
+>Feature scaffold_9557
+314	1084	CDS
+			EC_number	6.3.5.1
+			db_xref	COG:COG0171
+			gene	nadE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q03638
+			locus_tag	JJLONHNI_00670
+			product	Glutamine-dependent NAD(+) synthetase
+>Feature scaffold_9559
+>Feature scaffold_9573
+1131	607	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00671
+			product	hypothetical protein
+>Feature scaffold_9580
+>Feature scaffold_9587
+>Feature scaffold_9600
+558	695	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00672
+			product	hypothetical protein
+705	1067	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00673
+			product	hypothetical protein
+>Feature scaffold_9618
+>Feature scaffold_9624
+>Feature scaffold_9625
+>Feature scaffold_9639
+>Feature scaffold_9646
+66	1004	CDS
+			EC_number	2.3.1.191
+			db_xref	COG:COG1044
+			gene	lpxD_3
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21645
+			locus_tag	JJLONHNI_00674
+			product	UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase
+>Feature scaffold_9682
+>Feature scaffold_9690
+580	1140	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00675
+			product	hypothetical protein
+>Feature scaffold_9712
+714	526	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00676
+			product	hypothetical protein
+>Feature scaffold_9722
+1065	94	CDS
+			gene	cysB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45600
+			locus_tag	JJLONHNI_00677
+			product	HTH-type transcriptional regulator CysB
+>Feature scaffold_9724
+27	374	CDS
+			db_xref	COG:COG1733
+			gene	yybR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37486
+			locus_tag	JJLONHNI_00678
+			product	putative HTH-type transcriptional regulator YybR
+913	371	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00679
+			product	hypothetical protein
+>Feature scaffold_9727
+>Feature scaffold_9728
+1130	489	CDS
+			EC_number	2.4.2.2
+			db_xref	COG:COG0213
+			gene	pdp
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P39142
+			locus_tag	JJLONHNI_00680
+			product	Pyrimidine-nucleoside phosphorylase
+>Feature scaffold_9729
+1	1152	CDS
+			EC_number	2.7.13.3
+			gene	cpxA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AE82
+			locus_tag	JJLONHNI_00681
+			product	Sensor histidine kinase CpxA
+>Feature scaffold_9730
+>Feature scaffold_9759
+15	215	CDS
+			EC_number	3.4.21.105
+			db_xref	COG:COG0705
+			gene	glpG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P09391
+			locus_tag	JJLONHNI_00682
+			product	Rhomboid protease GlpG
+1056	289	CDS
+			EC_number	2.7.-.-
+			db_xref	COG:COG2194
+			gene	cptA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7CPC0
+			locus_tag	JJLONHNI_00683
+			product	Phosphoethanolamine transferase CptA
+>Feature scaffold_9790
+1116	7	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00684
+			product	hypothetical protein
+>Feature scaffold_9831
+7	384	CDS
+			db_xref	COG:COG0330
+			gene	qmcA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AA53
+			locus_tag	JJLONHNI_00685
+			product	Protein QmcA
+408	872	CDS
+			db_xref	COG:COG1585
+			gene	ybbJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AAS3
+			locus_tag	JJLONHNI_00686
+			product	Inner membrane protein YbbJ
+>Feature scaffold_9843
+499	780	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00687
+			product	hypothetical protein
+1060	950	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00688
+			product	hypothetical protein
+>Feature scaffold_9845
+1138	83	CDS
+			EC_number	2.4.1.129
+			db_xref	COG:COG0772
+			gene	mrdB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ABG7
+			locus_tag	JJLONHNI_00689
+			product	Peptidoglycan glycosyltransferase MrdB
+>Feature scaffold_9867
+>Feature scaffold_9871
+>Feature scaffold_9876
+13	126	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00690
+			product	hypothetical protein
+119	355	CDS
+			db_xref	COG:COG0425
+			gene	tusA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A890
+			locus_tag	JJLONHNI_00691
+			product	Sulfur carrier protein TusA
+>Feature scaffold_9878
+>Feature scaffold_9897
+>Feature scaffold_9903
+67	537	CDS
+			db_xref	COG:COG0326
+			gene	htpG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A6Z3
+			locus_tag	JJLONHNI_00692
+			product	Chaperone protein HtpG
+1025	792	CDS
+			db_xref	COG:COG0826
+			gene	rlhA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P76104
+			locus_tag	JJLONHNI_00693
+			product	23S rRNA 5-hydroxycytidine synthase
+>Feature scaffold_9906
+>Feature scaffold_9913
+>Feature scaffold_9920
+>Feature scaffold_9926
+534	836	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00694
+			product	hypothetical protein
+>Feature scaffold_9928
+>Feature scaffold_9930
+235	125	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00695
+			product	hypothetical protein
+>Feature scaffold_9946
+18	428	CDS
+			EC_number	5.1.3.22
+			gene	ulaE
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01951
+			locus_tag	JJLONHNI_00696
+			product	L-ribulose-5-phosphate 3-epimerase UlaE
+>Feature scaffold_9957
+45	437	CDS
+			EC_number	2.1.3.-
+			db_xref	COG:COG0500
+			gene	cmoA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P76290
+			locus_tag	JJLONHNI_00697
+			product	Carboxy-S-adenosyl-L-methionine synthase
+>Feature scaffold_9979
+>Feature scaffold_10050
+51	248	CDS
+			EC_number	2.8.1.7
+			db_xref	COG:COG1104
+			gene	iscS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A6B7
+			locus_tag	JJLONHNI_00698
+			product	Cysteine desulfurase IscS
+556	173	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00699
+			product	hypothetical protein
+>Feature scaffold_10059
+33	824	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00700
+			product	hypothetical protein
+>Feature scaffold_10107
+57	896	CDS
+			EC_number	3.1.-.-
+			db_xref	COG:COG0608
+			gene	recJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21893
+			locus_tag	JJLONHNI_00701
+			product	Single-stranded-DNA-specific exonuclease RecJ
+>Feature scaffold_10112
+914	138	CDS
+			db_xref	COG:COG2885
+			gene	ompA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A910
+			locus_tag	JJLONHNI_00702
+			product	Outer membrane protein A
+>Feature scaffold_10144
+51	161	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00703
+			product	hypothetical protein
+1101	400	CDS
+			db_xref	COG:COG0725
+			gene	modA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37329
+			locus_tag	JJLONHNI_00704
+			product	Molybdate-binding protein ModA
+>Feature scaffold_10152
+>Feature scaffold_10153
+>Feature scaffold_10154
+81	404	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00705
+			product	hypothetical protein
+>Feature scaffold_10160
+1054	446	CDS
+			db_xref	COG:COG1966
+			gene	btsT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P39396
+			locus_tag	JJLONHNI_00706
+			product	Pyruvate/proton symporter BtsT
+>Feature scaffold_10161
+>Feature scaffold_10164
+950	201	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00707
+			product	hypothetical protein
+>Feature scaffold_10176
+27	251	CDS
+			db_xref	COG:COG0670
+			gene	ybhL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AAC4
+			locus_tag	JJLONHNI_00708
+			product	Inner membrane protein YbhL
+735	328	CDS
+			EC_number	4.4.1.5
+			db_xref	COG:COG0346
+			gene	gloA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AC81
+			locus_tag	JJLONHNI_00709
+			product	Lactoylglutathione lyase
+1099	764	CDS
+			db_xref	COG:COG3133
+			gene	slyB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A1X0
+			locus_tag	JJLONHNI_00710
+			product	Outer membrane lipoprotein SlyB
+>Feature scaffold_10178
+>Feature scaffold_10200
+446	727	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00711
+			product	hypothetical protein
+>Feature scaffold_10205
+1084	131	CDS
+			db_xref	COG:COG2252
+			gene	adeP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P31466
+			locus_tag	JJLONHNI_00712
+			product	Adenine permease AdeP
+>Feature scaffold_10222
+106	972	CDS
+			db_xref	COG:COG1925
+			gene	fruB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69811
+			locus_tag	JJLONHNI_00713
+			product	Multiphosphoryl transfer protein
+>Feature scaffold_10249
+1069	95	CDS
+			EC_number	3.1.11.5
+			db_xref	COG:COG1330
+			gene	recC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07648
+			locus_tag	JJLONHNI_00714
+			product	RecBCD enzyme subunit RecC
+>Feature scaffold_10254
+>Feature scaffold_10294
+1	258	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00715
+			product	hypothetical protein
+1055	690	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00716
+			product	hypothetical protein
+>Feature scaffold_10316
+>Feature scaffold_10326
+244	894	CDS
+			EC_number	2.4.1.182
+			db_xref	COG:COG0763
+			gene	lpxB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P10441
+			locus_tag	JJLONHNI_00717
+			product	Lipid-A-disaccharide synthase
+>Feature scaffold_10352
+12	623	CDS
+			EC_number	2.3.1.41
+			db_xref	COG:COG0304
+			gene	fabB_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A953
+			locus_tag	JJLONHNI_00718
+			product	3-oxoacyl-[acyl-carrier-protein] synthase 1
+>Feature scaffold_10373
+57	545	CDS
+			db_xref	COG:COG1952
+			gene	secB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AG86
+			locus_tag	JJLONHNI_00719
+			product	Protein-export protein SecB
+>Feature scaffold_10423
+369	599	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00720
+			product	hypothetical protein
+>Feature scaffold_10445
+968	696	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00721
+			product	hypothetical protein
+>Feature scaffold_10447
+3	398	CDS
+			db_xref	COG:COG1674
+			gene	ftsK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P46889
+			locus_tag	JJLONHNI_00722
+			product	DNA translocase FtsK
+672	1187	CDS
+			db_xref	COG:COG2834
+			gene	lolA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8ZGC6
+			locus_tag	JJLONHNI_00723
+			product	Outer-membrane lipoprotein carrier protein
+>Feature scaffold_10460
+46	726	CDS
+			EC_number	2.6.1.11
+			db_xref	COG:COG4992
+			gene	argD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P18335
+			locus_tag	JJLONHNI_00724
+			product	Acetylornithine/succinyldiaminopimelate aminotransferase
+>Feature scaffold_10471
+884	180	CDS
+			gene	esiB_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0A0H2VDN9
+			locus_tag	JJLONHNI_00725
+			product	Secretory immunoglobulin A-binding protein EsiB
+>Feature scaffold_10474
+>Feature scaffold_10478
+987	583	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00726
+			product	hypothetical protein
+>Feature scaffold_10495
+24	902	CDS
+			gene	ycaD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21503
+			locus_tag	JJLONHNI_00727
+			product	putative MFS-type transporter YcaD
+>Feature scaffold_10513
+690	403	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00728
+			product	hypothetical protein
+1055	720	CDS
+			EC_number	3.6.3.3
+			gene	cadA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q60048
+			locus_tag	JJLONHNI_00729
+			product	putative cadmium-transporting ATPase
+>Feature scaffold_10514
+>Feature scaffold_10528
+18	233	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00730
+			product	hypothetical protein
+965	288	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00731
+			product	hypothetical protein
+>Feature scaffold_10534
+6	326	CDS
+			EC_number	7.1.1.1
+			db_xref	COG:COG1282
+			gene	pntB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AB67
+			locus_tag	JJLONHNI_00732
+			product	NAD(P) transhydrogenase subunit beta
+904	689	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00733
+			product	hypothetical protein
+>Feature scaffold_10545
+>Feature scaffold_10619
+>Feature scaffold_10634
+>Feature scaffold_10645
+84	908	CDS
+			db_xref	COG:COG1360
+			gene	motB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AF06
+			locus_tag	JJLONHNI_00734
+			product	Motility protein B
+>Feature scaffold_10647
+929	672	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00735
+			product	hypothetical protein
+>Feature scaffold_10653
+112	726	CDS
+			EC_number	6.3.3.2
+			db_xref	COG:COG0212
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P44905
+			locus_tag	JJLONHNI_00736
+			product	5-formyltetrahydrofolate cyclo-ligase
+>Feature scaffold_10664
+99	380	CDS
+			gene	amtB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69681
+			locus_tag	JJLONHNI_00737
+			product	Ammonia channel
+>Feature scaffold_10708
+>Feature scaffold_10728
+>Feature scaffold_10732
+>Feature scaffold_10735
+35	268	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00738
+			product	hypothetical protein
+268	990	CDS
+			EC_number	3.1.2.-
+			gene	pikAV_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9ZGI1
+			locus_tag	JJLONHNI_00739
+			product	Thioesterase PikA5
+>Feature scaffold_10747
+1064	579	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00740
+			product	hypothetical protein
+>Feature scaffold_10761
+37	618	CDS
+			EC_number	3.4.11.2
+			db_xref	COG:COG0308
+			gene	pepN
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04825
+			locus_tag	JJLONHNI_00741
+			product	Aminopeptidase N
+>Feature scaffold_10768
+119	907	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00742
+			product	hypothetical protein
+>Feature scaffold_10775
+62	787	CDS
+			db_xref	COG:COG0484
+			gene	dnaJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08622
+			locus_tag	JJLONHNI_00743
+			product	Chaperone protein DnaJ
+>Feature scaffold_10787
+32	274	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00744
+			product	hypothetical protein
+>Feature scaffold_10806
+844	548	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00745
+			product	hypothetical protein
+>Feature scaffold_10812
+120	575	CDS
+			gene	cidA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01143
+			locus_tag	JJLONHNI_00746
+			product	Holin-like protein CidA
+1021	788	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00747
+			product	hypothetical protein
+>Feature scaffold_10819
+264	911	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00748
+			product	hypothetical protein
+>Feature scaffold_10842
+1054	26	CDS
+			EC_number	4.2.1.9
+			db_xref	COG:COG0129
+			gene	ilvD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P05791
+			locus_tag	JJLONHNI_00749
+			product	Dihydroxy-acid dehydratase
+>Feature scaffold_10875
+>Feature scaffold_10878
+18	629	CDS
+			db_xref	COG:COG1113
+			gene	cycA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AAE0
+			locus_tag	JJLONHNI_00750
+			product	D-serine/D-alanine/glycine transporter
+>Feature scaffold_10906
+>Feature scaffold_10910
+680	42	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00751
+			product	hypothetical protein
+>Feature scaffold_10918
+554	970	CDS
+			db_xref	COG:COG1815
+			gene	flgB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16437
+			locus_tag	JJLONHNI_00752
+			product	Flagellar basal body rod protein FlgB
+>Feature scaffold_10945
+537	229	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00753
+			product	hypothetical protein
+>Feature scaffold_10948
+973	23	CDS
+			EC_number	1.17.7.4
+			db_xref	COG:COG0761
+			gene	ispH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P62623
+			locus_tag	JJLONHNI_00754
+			product	4-hydroxy-3-methylbut-2-enyl diphosphate reductase
+>Feature scaffold_10953
+467	267	CDS
+			EC_number	1.-.-.-
+			db_xref	COG:COG0656
+			gene	ytbE_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O34678
+			locus_tag	JJLONHNI_00755
+			product	putative oxidoreductase YtbE
+>Feature scaffold_10970
+>Feature scaffold_10972
+>Feature scaffold_10991
+237	1040	CDS
+			EC_number	3.6.3.-
+			db_xref	COG:COG1135
+			gene	metN_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O32169
+			locus_tag	JJLONHNI_00756
+			product	Methionine import ATP-binding protein MetN
+>Feature scaffold_11025
+1014	103	CDS
+			db_xref	COG:COG0330
+			gene	qmcA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AA53
+			locus_tag	JJLONHNI_00757
+			product	Protein QmcA
+1689	1243	CDS
+			EC_number	3.1.3.10
+			gene	agp
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P19926
+			locus_tag	JJLONHNI_00758
+			product	Glucose-1-phosphatase
+>Feature scaffold_11026
+115	945	CDS
+			EC_number	3.6.4.13
+			db_xref	COG:COG0513
+			gene	rhlE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25888
+			locus_tag	JJLONHNI_00759
+			product	ATP-dependent RNA helicase RhlE
+>Feature scaffold_11031
+>Feature scaffold_11039
+57	539	CDS
+			EC_number	2.7.8.-
+			db_xref	COG:COG1502
+			gene	clsA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A6H8
+			locus_tag	JJLONHNI_00760
+			product	Cardiolipin synthase A
+1042	605	CDS
+			EC_number	3.1.4.53
+			db_xref	COG:COG1409
+			gene	cpdA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8DEI1
+			locus_tag	JJLONHNI_00761
+			product	3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+>Feature scaffold_11042
+>Feature scaffold_11066
+12	443	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00762
+			product	hypothetical protein
+>Feature scaffold_11086
+51	161	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00763
+			product	hypothetical protein
+900	400	CDS
+			db_xref	COG:COG0725
+			gene	modA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37329
+			locus_tag	JJLONHNI_00764
+			product	Molybdate-binding protein ModA
+>Feature scaffold_11090
+560	760	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00765
+			product	hypothetical protein
+>Feature scaffold_11109
+1021	665	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00766
+			product	hypothetical protein
+>Feature scaffold_11132
+885	328	CDS
+			EC_number	6.5.1.2
+			db_xref	COG:COG0272
+			gene	ligA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P43813
+			locus_tag	JJLONHNI_00767
+			product	DNA ligase
+>Feature scaffold_11140
+>Feature scaffold_11149
+908	684	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00768
+			product	hypothetical protein
+>Feature scaffold_11155
+>Feature scaffold_11170
+1028	819	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00769
+			product	hypothetical protein
+>Feature scaffold_11172
+>Feature scaffold_11203
+>Feature scaffold_11273
+>Feature scaffold_11275
+>Feature scaffold_11298
+156	359	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00770
+			product	hypothetical protein
+>Feature scaffold_11309
+>Feature scaffold_11317
+57	782	CDS
+			EC_number	5.6.2.2
+			db_xref	COG:COG0188
+			gene	gyrA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37411
+			locus_tag	JJLONHNI_00771
+			product	DNA gyrase subunit A
+>Feature scaffold_11319
+117	317	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00772
+			product	hypothetical protein
+>Feature scaffold_11320
+29	529	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00773
+			product	hypothetical protein
+>Feature scaffold_11322
+>Feature scaffold_11359
+12	470	CDS
+			EC_number	1.1.1.-
+			db_xref	COG:COG1064
+			gene	adhA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:C0SPA5
+			locus_tag	JJLONHNI_00774
+			product	putative formaldehyde dehydrogenase AdhA
+>Feature scaffold_11371
+202	756	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00775
+			product	hypothetical protein
+>Feature scaffold_11378
+711	313	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00776
+			product	hypothetical protein
+968	798	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00777
+			product	hypothetical protein
+>Feature scaffold_11380
+>Feature scaffold_11391
+>Feature scaffold_11392
+33	617	CDS
+			db_xref	COG:COG3058
+			gene	fdhE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13024
+			locus_tag	JJLONHNI_00778
+			product	Protein FdhE
+>Feature scaffold_11403
+1019	267	CDS
+			db_xref	COG:COG1012
+			gene	adhE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A9Q7
+			locus_tag	JJLONHNI_00779
+			product	Aldehyde-alcohol dehydrogenase
+>Feature scaffold_11432
+950	234	CDS
+			db_xref	COG:COG1811
+			gene	ydfK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P96689
+			locus_tag	JJLONHNI_00780
+			product	putative membrane protein YdfK
+>Feature scaffold_11437
+84	347	CDS
+			EC_number	2.8.1.8
+			db_xref	COG:COG0320
+			gene	lipA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P60716
+			locus_tag	JJLONHNI_00781
+			product	Lipoyl synthase
+978	520	CDS
+			db_xref	COG:COG2870
+			gene	hldE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P76658
+			locus_tag	JJLONHNI_00782
+			product	Bifunctional protein HldE
+>Feature scaffold_11445
+32	394	CDS
+			EC_number	2.3.2.6
+			db_xref	COG:COG2360
+			gene	aat
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A8P1
+			locus_tag	JJLONHNI_00783
+			product	Leucyl/phenylalanyl-tRNA--protein transferase
+>Feature scaffold_11451
+481	642	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00784
+			product	hypothetical protein
+>Feature scaffold_11470
+>Feature scaffold_11546
+25	897	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00785
+			product	hypothetical protein
+>Feature scaffold_11570
+>Feature scaffold_11596
+924	790	CDS
+			db_xref	COG:COG1464
+			gene	metQ_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P28635
+			locus_tag	JJLONHNI_00786
+			product	D-methionine-binding lipoprotein MetQ
+>Feature scaffold_11599
+128	706	CDS
+			EC_number	4.2.2.-
+			db_xref	COG:COG0741
+			gene	slt
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AGC3
+			locus_tag	JJLONHNI_00787
+			product	Soluble lytic murein transglycosylase
+>Feature scaffold_11625
+185	649	CDS
+			db_xref	COG:COG1426
+			gene	rodZ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27434
+			locus_tag	JJLONHNI_00788
+			product	Cytoskeleton protein RodZ
+>Feature scaffold_11673
+300	64	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00789
+			product	hypothetical protein
+900	310	CDS
+			EC_number	3.2.2.23
+			db_xref	COG:COG0266
+			gene	mutM
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P05523
+			locus_tag	JJLONHNI_00790
+			product	Formamidopyrimidine-DNA glycosylase
+>Feature scaffold_11680
+889	5	CDS
+			EC_number	2.7.1.15
+			gene	RBKS
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01987
+			locus_tag	JJLONHNI_00791
+			product	Ribokinase
+>Feature scaffold_11681
+822	466	CDS
+			gene	ompC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q48473
+			locus_tag	JJLONHNI_00792
+			product	Outer membrane porin C
+>Feature scaffold_11921
+88	321	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00793
+			product	hypothetical protein
+958	368	CDS
+			EC_number	3.6.4.12
+			db_xref	COG:COG1200
+			gene	recG_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24230
+			locus_tag	JJLONHNI_00794
+			product	ATP-dependent DNA helicase RecG
+1310	969	CDS
+			EC_number	3.6.4.12
+			db_xref	COG:COG1200
+			gene	recG_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24230
+			locus_tag	JJLONHNI_00795
+			product	ATP-dependent DNA helicase RecG
+>Feature scaffold_13197
+838	764	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00796
+			product	tRNA-Gln(ctg)
+1094	1020	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00797
+			product	tRNA-Gln(ttg)
+1391	1317	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00798
+			product	tRNA-Gln(ttg)
+>Feature scaffold_14374
+21	815	CDS
+			EC_number	3.6.3.-
+			db_xref	COG:COG3840
+			gene	thiQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P31548
+			locus_tag	JJLONHNI_00799
+			product	Thiamine import ATP-binding protein ThiQ
+1335	1186	CDS
+			db_xref	COG:COG1301
+			gene	gltP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21345
+			locus_tag	JJLONHNI_00800
+			product	Proton/glutamate-aspartate symporter
+>Feature scaffold_14511
+15	350	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00801
+			product	hypothetical protein
+>Feature scaffold_18469
+166	242	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00802
+			product	tRNA-Ile(gat)
+300	375	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JJLONHNI_00803
+			product	tRNA-Ala(tgc)
+>Feature scaffold_19849
+218	553	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JJLONHNI_00804
+			product	hypothetical protein
+>Feature scaffold_22400
+1002	547	CDS
+			db_xref	COG:COG4607
+			gene	yclQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P94421
+			locus_tag	JJLONHNI_00805
+			product	Petrobactin-binding protein YclQ

@@ -1,5 +1,5 @@
-"""kedromcbee file for ensuring the package is executable
-as `kedromcbee` and `python -m kedromcbee`
+"""space_working file for ensuring the package is executable
+as `space_working` and `python -m space_working`
 """
 import importlib
 from pathlib import Path
@@ -20,7 +20,7 @@ def _find_run_command(package_name):
         if run:
             # use run command from installed plugin if it exists
             return run
-        # use run command from `kedro.framework.cli.project`
+        # use run command from the framework project
         from kedro.framework.cli.project import run
 
         return run

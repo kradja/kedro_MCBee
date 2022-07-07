@@ -2,7 +2,61 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
-# ../../data/03_primary/
+#
+# We support interacting with a variety of data stores including local file systems, cloud, network and HDFS
+#
+# An example data set definition can look as follows:
+#
+#bikes:
+#  type: pandas.CSVDataSet
+#  filepath: "data/01_raw/bikes.csv"
+#
+#weather:
+#  type: spark.SparkDataSet
+#  filepath: s3a://your_bucket/data/01_raw/weather*
+#  file_format: csv
+#  credentials: dev_s3
+#  load_args:
+#    header: True
+#    inferSchema: True
+#  save_args:
+#    sep: '|'
+#    header: True
+#
+#scooters:
+#  type: pandas.SQLTableDataSet
+#  credentials: scooters_credentials
+#  table_name: scooters
+#  load_args:
+#    index_col: ['name']
+#    columns: ['name', 'gear']
+#  save_args:
+#    if_exists: 'replace'
+#    # if_exists: 'fail'
+#    # if_exists: 'append'
+#
+# The Data Catalog supports being able to reference the same file using two different DataSet implementations
+# (transcoding), templating and a way to reuse arguments that are frequently repeated. See more here:
+# https://kedro.readthedocs.io/en/stable/data/data_catalog.html
+
+
+companies:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/companies.csv
+  # more about layers in the Data Engineering Convention:
+  # https://kedro.readthedocs.io/en/stable/tutorial/visualise_pipeline.html#interact-with-data-engineering-convention
+  layer: raw
+
+reviews:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/reviews.csv
+  layer: raw
+
+shuttles:
+  type: pandas.ExcelDataSet
+  filepath: data/01_raw/shuttles.xlsx
+  layer: raw
+
 data_processing.gff_files:
     type: text.TextDataSet
     filepath: data/02_intermediate/gff_files.csv
@@ -13,38 +67,64 @@ data_processing.fasta_files:
     filepath: data/02_intermediate/fasta_files.csv
     layer: intermediate
 
-#merged_fasta:
-#    type: biosequence.BioSequenceDataSet
-#    filepath: data/02_intermediate/merged_prokka_bins.fasta
-#    load_args: {'format': 'fasta'}
-#    save_args: {'format': 'fasta'}
-#    layer: intermediate 
-#
-#data_processing.prokka_seq:
-#    type: biosequence.BioSequenceDataSet
-#    filepath: data/03_primary/unique_merged_prokka_bins.fasta
-#    load_args: {'format': 'fasta'}
-#    save_args: {'format': 'fasta'}
-#    layer: primary
-#
-#data_processing.merged_ids:
-#    type: pandas.CSVDataSet
-#    filepath: data/03_primary/unique_prokka_bins.csv
-#    layer: primary
-#
+
+data_processing.preprocessed_companies:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/preprocessed_companies.csv
+  layer: intermediate
+
+data_processing.preprocessed_shuttles:
+  type: pandas.ParquetDataSet
+  filepath: data/02_intermediate/preprocessed_shuttles.pq
+  layer: intermediate
+
 data_processing.prokka_gff:
-    type: pandas.CSVDataSet
-    filepath: data/03_primary/prokka_gff.csv
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/prokka_gff.csv
+  layer: primary
+
+data_processing.prokka_bins:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/prokka_bins.csv
+  layer: primary
+
+data_processing.merged_fasta:
+    type: biosequence.BioSequenceDataSet
+    filepath: data/03_primary/merged_prokka_bins.fasta
+    load_args: {'format': 'fasta'}
+    save_args: {'format': 'fasta'}
     layer: primary
-#
-#data_processing.prokka_bins:
-#    type: pandas.CSVDataSet
-#    filepath: data/02_intermediate/unique_prokka_bins.csv
-#    layer: intermediate
-#
-#data_processing.prokka_seq:
-#    type: biosequence.BioSequenceDataSet
-#    filepath: data/02_intermediate/prokka_sequences.fasta
-#    load_args: {'format': 'fasta'}
-#    save_args: {'format': 'fasta'}
-#
+
+data_processing.merged_ids:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/merged_ids.csv
+  layer: primary
+
+data_processing.prokka_seq:
+    type: biosequence.BioSequenceDataSet
+    filepath: data/03_primary/unique_merged_prokka_bins.fasta
+    load_args: {'format': 'fasta'}
+    save_args: {'format': 'fasta'}
+    layer: primary
+
+#data_processing.merged_fasta:
+#  type: biosequences.BioSeqDataSet
+#  filepath: data/03_primary/prokka_gff.csv
+#  layer: primary
+
+model_input_table:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/model_input_table.pq
+  layer: primary
+
+data_science.active_modelling_pipeline.regressor:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/regressor_active.pickle
+  versioned: true
+  layer: models
+
+data_science.candidate_modelling_pipeline.regressor:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/regressor_candidate.pickle
+  versioned: true
+  layer: models

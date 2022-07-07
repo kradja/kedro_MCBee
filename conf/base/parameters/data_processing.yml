@@ -1,13 +1,8 @@
-# This is a boilerplate parameters config generated for pipeline 'data_processing'
-# using Kedro 0.18.1.
-#
-# Documentation for this file format can be found in "Parameters"
-# Link: https://kedro.readthedocs.io/en/0.18.1/kedro_project_setup/configuration.html#parameters
-# /groups/mcbee/radja/kedro_MCBee/data/01_raw/
-prokka_dir: 'data/01_raw/prokka_output_nometa'
-gff_dir: 'data/02_intermediate/gff_files.csv'
-fasta_dir: 'data/02_intermediate/fasta_files.csv'
-inter_data: 'data/02_intermediate'
-prokka_bins_file: 'data/02_intermediate/unique_prokka_bins.csv'
-merged_fasta: 'data/02_intermediate/merged_prokka_bins.fasta'
-prokka_gff_file: 'data/02_intermediate/prokka_gff.csv'
+data_processing.prokka_dir: 'data/01_raw/prokka_output_nometa'
+data_processing.gff_dir: 'data/02_intermediate/gff_files.csv'
+data_processing.fasta_dir: 'data/02_intermediate/fasta_files.csv'
+data_processing.merged_fasta: 'data/03_primary/merged_prokka_bins.fasta'
+
+#inter_data: 'data/02_intermediate'
+#prokka_bins_file: 'data/02_intermediate/unique_prokka_bins.csv'
+#prokka_gff_file: 'data/02_intermediate/prokka_gff.csv'

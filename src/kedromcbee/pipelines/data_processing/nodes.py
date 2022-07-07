@@ -1,11 +1,17 @@
 import os
+from Bio import SeqIO
 import re
+import glob
+import subprocess
 import pdb
 from typing import Dict, Tuple, List
 from kedro.extras.datasets.biosequence import BioSequenceDataSet
 from kedro.extras.datasets.text import TextDataSet
 import pandas as pd
 #from kedro.extras.datasets.pandas import CSVDataSet
+
+def _write_dataframe(input_df: pd.DataFrame, file_location: str):
+    input_df.to_csv(file_location,sep = ',')
 
 def walkthrough_prokka_bins(prokka_dir: str, gff_dir: str, fasta_dir: str) -> [TextDataSet, TextDataSet]:
     gff_files = []
@@ -22,7 +28,7 @@ def walkthrough_prokka_bins(prokka_dir: str, gff_dir: str, fasta_dir: str) -> [T
     fastadataset.save(','.join(fasta_files))
     return gffdataset, fastadataset
 
-def parse_gff(gff_files: TextDataSet) -> [pd.DataFrame, pd.DataFrame]: 
+def parse_gff(gff_files: TextDataSet, prokka_bins_file: str) -> pd.DataFrame: 
     gff_cont = []
     unique_prokka_id = {}
     for gff in gff_files.load().split(','):
@@ -59,19 +65,45 @@ def parse_gff(gff_files: TextDataSet) -> [pd.DataFrame, pd.DataFrame]:
                     break
                 else:
                     continue
-    return pd.DataFrame(gff_cont,columns=['scaffold','gid','annot','ainfo','gene']), pd.DataFrame(unique_prokka_id.items())
+    prokka_gff = pd.DataFrame(gff_cont,columns=['scaffold','gid','annot','ainfo','gene'])
+    #_write_dataframe(prokka_gff,prokka_gff_file)
+    prokka_bins = pd.DataFrame(unique_prokka_id.items())
+    _write_dataframe(prokka_bins,prokka_bins_file)
+    return prokka_gff
 
-def _merge_fasta_files(fasta_files: TextDataSet, inter_data: str) -> str:
-    merged_file = os.path.join(inter_data,'merged_prokka_bins.fasta')
-    if not glob.glob(merged_file):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def merge_fasta_files(fasta_files: TextDataSet, merged_fasta: str) -> str:
+    if not glob.glob(merged_fasta):
         tmp = fasta_files.load()
-        cmd = f"cat {tmp.replace(',',' ')} > {merged_file}"
+        cmd = f"cat {tmp.replace(',',' ')} > {merged_fasta}"
         _ = subprocess.run(cmd,shell=True)
         print(cmd)
-    return merged_file
+    return cmd
 
-def parse_write_unique_fasta(fasta_files: TextDataSet, inter_data: str) -> [BioSequenceDataSet,Dict]:
-    merged_file = _merge_fasta_files(fasta_files, inter_data)
+def unique_seq_merged_ids(merged_fasta: BioSequenceDataSet) -> [BioSequenceDataSet, pd.DataFrame]:
     unique_merged = {}
     merged_ids = set()
     with open(merged_file) as f:
@@ -84,16 +116,18 @@ def parse_write_unique_fasta(fasta_files: TextDataSet, inter_data: str) -> [BioS
                 merged_ids.add(unique_merged[sequence].id)
             else:
                 unique_merged[sequence] = record
-    ftmp = os.path.join(inter_data,'unique_merged.fasta')
-    dataset = BioSequenceDataSet(filepath = ftmp,
-                                 load_args={'format':'fasta'},
-                                 save_args={'format':'fasta'})
-    dataset.save(list(unique_merged.values()))
+    #ftmp = os.path.join(inter_data,'prokka_sequences.fasta')
+    #prokka_seq = BioSequenceDataSet(filepath = ftmp,
+    #                                load_args={'format':'fasta'},
+    #                                save_args={'format':'fasta'})
+    #prokka_seq.save(list(unique_merged.values()))
     dict_merged_ids = {}
     for merged_id in merged_ids:
         for original_id in merged_id.split('/'):
             dict_merged_ids[original_id] = merged_id
-    return dataset, dict_merged_ids
+    tmp = pd.DataFrame(dict_merged_ids.items())
+    #_write_dataframe(tmp,'')
+    return list(unique_merged.values()), tmp
 
 def comparethings(umerged: BioSequenceDataSet, merged_ids: Dict, gff_cont: List[List[str]],inter_data: str) -> str:
     sequence_list = umerged.load()

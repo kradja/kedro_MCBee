@@ -3,7 +3,7 @@ from typing import Dict
 
 from kedro.pipeline import Pipeline
 
-from space_working.pipelines import data_processing as dp
+from kedromcbee.pipelines import data_processing as dp
 #from space_working.pipelines import data_science as ds
 
 

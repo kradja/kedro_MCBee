@@ -1,5 +1,5 @@
-"""space_working file for ensuring the package is executable
-as `space_working` and `python -m space_working`
+"""kedromcbee file for ensuring the package is executable
+as `kedromcbee` and `python -m kedromcbee`
 """
 import importlib
 from pathlib import Path

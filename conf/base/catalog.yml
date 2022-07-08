@@ -39,6 +39,41 @@
 # (transcoding), templating and a way to reuse arguments that are frequently repeated. See more here:
 # https://kedro.readthedocs.io/en/stable/data/data_catalog.html
 
+data_processing.partition_prokka_faa:
+    type: PartitionedDataSet
+    path: data/01_raw/prokka_output_nometa #control.001/
+    filename_suffix: ".faa"
+    dataset: 
+        type: biosequence.BioSequenceDataSet
+        load_args: {'format': 'fasta'}
+        save_args: {'format': 'fasta'}
+
+data_processing.partition_prokka_gff:
+    type: PartitionedDataSet
+    path: data/01_raw/prokka_output_nometa #control.001/
+    filename_suffix: ".gff"
+    dataset: 
+        type: kedromcbee.extras.dataset.gff_dataset.GffDataSet
+
+data_processing.fasta_prokka:
+    type: biosequence.BioSequenceDataSet
+    filepath: data/02_intermediate/fasta_prokka_bins.fasta
+    load_args: {'format': 'fasta'}
+    save_args: {'format': 'fasta'}
+    layer: intermediate
+
+data_processing.merged_ids:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/merged_ids.csv
+  load_args:
+      index_col: 'single'
+  save_args:
+      index: True
+
+data_processing.gff_prokka:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/gff_prokka.csv
+  layer: intermediate
 
 companies:
   type: pandas.CSVDataSet
@@ -57,16 +92,16 @@ shuttles:
   filepath: data/01_raw/shuttles.xlsx
   layer: raw
 
-data_processing.gff_files:
-    type: text.TextDataSet
-    filepath: data/02_intermediate/gff_files.csv
-    layer: intermediate
-
-data_processing.fasta_files:
-    type: text.TextDataSet
-    filepath: data/02_intermediate/fasta_files.csv
-    layer: intermediate
-
+#data_processing.gff_files:
+#    type: text.TextDataSet
+#    filepath: data/02_intermediate/gff_files.csv
+#    layer: intermediate
+#
+#data_processing.fasta_files:
+#    type: text.TextDataSet
+#    filepath: data/02_intermediate/fasta_files.csv
+#    layer: intermediate
+#
 
 data_processing.preprocessed_companies:
   type: pandas.CSVDataSet
@@ -78,39 +113,36 @@ data_processing.preprocessed_shuttles:
   filepath: data/02_intermediate/preprocessed_shuttles.pq
   layer: intermediate
 
-data_processing.prokka_gff:
-  type: pandas.CSVDataSet
-  filepath: data/03_primary/prokka_gff.csv
-  layer: primary
-
-data_processing.prokka_bins:
-  type: pandas.CSVDataSet
-  filepath: data/03_primary/prokka_bins.csv
-  layer: primary
-
-data_processing.merged_fasta:
-    type: biosequence.BioSequenceDataSet
-    filepath: data/03_primary/merged_prokka_bins.fasta
-    load_args: {'format': 'fasta'}
-    save_args: {'format': 'fasta'}
-    layer: primary
-
-data_processing.merged_ids:
-  type: pandas.CSVDataSet
-  filepath: data/03_primary/merged_ids.csv
-  layer: primary
-
-data_processing.prokka_seq:
-    type: biosequence.BioSequenceDataSet
-    filepath: data/03_primary/unique_merged_prokka_bins.fasta
-    load_args: {'format': 'fasta'}
-    save_args: {'format': 'fasta'}
-    layer: primary
-
-#data_processing.merged_fasta:
-#  type: biosequences.BioSeqDataSet
+#data_processing.prokka_gff:
+#  type: pandas.CSVDataSet
 #  filepath: data/03_primary/prokka_gff.csv
 #  layer: primary
+#
+#data_processing.prokka_bins:
+#  type: pandas.CSVDataSet
+#  filepath: data/03_primary/prokka_bins.csv
+#  layer: primary
+#
+#data_processing.merged_fasta:
+#    type: biosequence.BioSequenceDataSet
+#    filepath: data/03_primary/merged_prokka_bins.fasta
+#    load_args: {'format': 'fasta'}
+#    save_args: {'format': 'fasta'}
+#    layer: primary
+#
+#data_processing.prokka_seq:
+#    type: biosequence.BioSequenceDataSet
+#    filepath: data/03_primary/unique_merged_prokka_bins.fasta
+#    load_args: {'format': 'fasta'}
+#    save_args: {'format': 'fasta'}
+#    layer: primary
+#
+data_processing.hypo_prot:
+    type: biosequence.BioSequenceDataSet
+    filepath: data/03_primary/hypo_prot_seq.fasta
+    load_args: {'format': 'fasta'}
+    save_args: {'format': 'fasta'}
+    layer: primary
 
 model_input_table:
   type: pandas.ParquetDataSet

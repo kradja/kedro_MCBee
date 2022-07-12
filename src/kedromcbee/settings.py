@@ -3,9 +3,11 @@ from the Kedro defaults. For further information, including these default values
 https://kedro.readthedocs.io/en/stable/kedro_project_setup/settings.html."""
 
 # Instantiated project hooks.
-# from space_working.hooks import ProjectHooks
-# HOOKS = (ProjectHooks(),)
+#from kedromcbee.hooks import ProjectHooks 
+#HOOKS = (ProjectHooks(),)
+from kedromcbee.hooks import ProjectHooks, DataCatalogHooks
 
+HOOKS = (ProjectHooks(), DataCatalogHooks())
 # Installed plugins for which to disable hook auto-registration.
 # DISABLE_HOOKS_FOR_PLUGINS = ("kedro-viz",)
 

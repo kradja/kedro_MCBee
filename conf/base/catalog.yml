@@ -38,20 +38,24 @@
 # The Data Catalog supports being able to reference the same file using two different DataSet implementations
 # (transcoding), templating and a way to reuse arguments that are frequently repeated. See more here:
 # https://kedro.readthedocs.io/en/stable/data/data_catalog.html
+# src/kedromcbee/extras/dataset/clstr_dataset.py
+# data/03_primary/cdhit_prokka_nometa_allbins_allexp_global_0.9.clstr
 
-data_processing.partition_prokka_faa:
+partition_prokka_faa:
     type: PartitionedDataSet
     path: data/01_raw/prokka_output_nometa #control.001/
     filename_suffix: ".faa"
+    layer: raw
     dataset: 
         type: biosequence.BioSequenceDataSet
         load_args: {'format': 'fasta'}
         save_args: {'format': 'fasta'}
 
-data_processing.partition_prokka_gff:
+partition_prokka_gff:
     type: PartitionedDataSet
     path: data/01_raw/prokka_output_nometa #control.001/
     filename_suffix: ".gff"
+    layer: raw
     dataset: 
         type: kedromcbee.extras.dataset.gff_dataset.GffDataSet
 
@@ -63,35 +67,68 @@ data_processing.fasta_prokka:
     layer: intermediate
 
 data_processing.merged_ids:
-  type: pandas.CSVDataSet
-  filepath: data/02_intermediate/merged_ids.csv
-  load_args:
-      index_col: 'single'
-  save_args:
-      index: True
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/merged_ids.csv
+    layer: intermediate
+    load_args:
+        index_col: 'single'
+    save_args:
+        index: True
 
 data_processing.gff_prokka:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/gff_prokka.csv
+    layer: intermediate
+    #load_args:
+    #    index_col: 'prokka_unique'
+    #save_args:
+    #    index: True
+
+prokka_bins:
   type: pandas.CSVDataSet
-  filepath: data/02_intermediate/gff_prokka.csv
+  filepath: data/02_intermediate/prokka_bins.csv
   layer: intermediate
 
-companies:
+prokka_bins:
   type: pandas.CSVDataSet
-  filepath: data/01_raw/companies.csv
-  # more about layers in the Data Engineering Convention:
-  # https://kedro.readthedocs.io/en/stable/tutorial/visualise_pipeline.html#interact-with-data-engineering-convention
-  layer: raw
+  filepath: data/02_intermediate/prokka_bins.csv
+  layer: intermediate
 
-reviews:
+edge_processing.prokka_bins:
   type: pandas.CSVDataSet
-  filepath: data/01_raw/reviews.csv
-  layer: raw
+  filepath: data/02_intermediate/prokka_bins.csv
+  layer: intermediate
 
-shuttles:
-  type: pandas.ExcelDataSet
-  filepath: data/01_raw/shuttles.xlsx
-  layer: raw
+hypo_prot:
+    type: biosequence.BioSequenceDataSet
+    filepath: data/03_primary/hypo_prot_seq.fasta
+    load_args: {'format': 'fasta'}
+    save_args: {'format': 'fasta'}
+    layer: primary
 
+cdhit_cluster:
+    type: kedromcbee.extras.dataset.clstr_dataset.CDhitClusterDataSet
+    filepath: data/03_primary/cdhit_prokka_nometa_allbins_allexp_global_0.9.clstr
+    layer: primary
+
+cluster_df:
+    type: pandas.CSVDataSet
+    filepath: data/04_feature/cdhit_0.9.csv
+    layer: feature
+
+edge_processing.cdhit_edges:
+    type: pandas.CSVDataSet
+    filepath: data/04_feature/cdhit_edges.csv
+    layer: feature
+
+#edge_processing.filtered_cluster_df:
+#    type: pandas.CSVDataSet
+#    filepath: data/04_feature/filtered_cdhit_0.9.csv
+#    layer: feature
+#    load_args:
+#        index_col: [0]
+#    save_args:
+#        index: True
 #data_processing.gff_files:
 #    type: text.TextDataSet
 #    filepath: data/02_intermediate/gff_files.csv
@@ -102,16 +139,6 @@ shuttles:
 #    filepath: data/02_intermediate/fasta_files.csv
 #    layer: intermediate
 #
-
-data_processing.preprocessed_companies:
-  type: pandas.CSVDataSet
-  filepath: data/02_intermediate/preprocessed_companies.csv
-  layer: intermediate
-
-data_processing.preprocessed_shuttles:
-  type: pandas.ParquetDataSet
-  filepath: data/02_intermediate/preprocessed_shuttles.pq
-  layer: intermediate
 
 #data_processing.prokka_gff:
 #  type: pandas.CSVDataSet
@@ -137,26 +164,19 @@ data_processing.preprocessed_shuttles:
 #    save_args: {'format': 'fasta'}
 #    layer: primary
 #
-data_processing.hypo_prot:
-    type: biosequence.BioSequenceDataSet
-    filepath: data/03_primary/hypo_prot_seq.fasta
-    load_args: {'format': 'fasta'}
-    save_args: {'format': 'fasta'}
+model_input_table:
+    type: pandas.ParquetDataSet
+    filepath: data/03_primary/model_input_table.pq
     layer: primary
 
-model_input_table:
-  type: pandas.ParquetDataSet
-  filepath: data/03_primary/model_input_table.pq
-  layer: primary
-
-data_science.active_modelling_pipeline.regressor:
-  type: pickle.PickleDataSet
-  filepath: data/06_models/regressor_active.pickle
-  versioned: true
-  layer: models
-
-data_science.candidate_modelling_pipeline.regressor:
-  type: pickle.PickleDataSet
-  filepath: data/06_models/regressor_candidate.pickle
-  versioned: true
-  layer: models
+#data_science.active_modelling_pipeline.regressor:
+#  type: pickle.PickleDataSet
+#  filepath: data/06_models/regressor_active.pickle
+#  versioned: true
+#  layer: models
+#
+#data_science.candidate_modelling_pipeline.regressor:
+#  type: pickle.PickleDataSet
+#  filepath: data/06_models/regressor_candidate.pickle
+#  versioned: true
+#  layer: models

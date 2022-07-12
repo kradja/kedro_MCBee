@@ -12,6 +12,7 @@ conf/**/*credentials*
 data/**
 logs/**
 programs/**
+archive/**
 
 # except their sub-folders
 # !data/**/

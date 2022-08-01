@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 entry_point = (
-    "kedromcbeea"= "kedromcbee.__main__:main"
+    "kedromcbee"= "kedromcbee.__main__:main"
 )
 
 

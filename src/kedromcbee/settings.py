@@ -5,9 +5,9 @@ https://kedro.readthedocs.io/en/stable/kedro_project_setup/settings.html."""
 # Instantiated project hooks.
 #from kedromcbee.hooks import ProjectHooks 
 #HOOKS = (ProjectHooks(),)
-from kedromcbee.hooks import ProjectHooks, DataCatalogHooks
+from kedromcbee.hooks import ProjectHooks, DataCatalogHooks, MLNetworkHooks
 
-HOOKS = (ProjectHooks(), DataCatalogHooks())
+HOOKS = (ProjectHooks(), DataCatalogHooks(), MLNetworkHooks())
 # Installed plugins for which to disable hook auto-registration.
 # DISABLE_HOOKS_FOR_PLUGINS = ("kedro-viz",)
 

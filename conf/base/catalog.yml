@@ -84,6 +84,11 @@ data_processing.gff_prokka:
     #save_args:
     #    index: True
 
+edge_processing.gff_prokka:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/gff_prokka.csv
+    layer: intermediate
+
 prokka_bins:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/prokka_bins.csv
@@ -111,72 +116,24 @@ cdhit_cluster:
     filepath: data/03_primary/cdhit_prokka_nometa_allbins_allexp_global_0.9.clstr
     layer: primary
 
-cluster_df:
+edge_processing.cluster_df:
     type: pandas.CSVDataSet
     filepath: data/04_feature/cdhit_0.9.csv
     layer: feature
 
-edge_processing.cdhit_edges:
+cdhit_edges:
     type: pandas.CSVDataSet
     filepath: data/04_feature/cdhit_edges.csv
     layer: feature
 
-#edge_processing.filtered_cluster_df:
-#    type: pandas.CSVDataSet
-#    filepath: data/04_feature/filtered_cdhit_0.9.csv
-#    layer: feature
-#    load_args:
-#        index_col: [0]
-#    save_args:
-#        index: True
-#data_processing.gff_files:
-#    type: text.TextDataSet
-#    filepath: data/02_intermediate/gff_files.csv
-#    layer: intermediate
-#
-#data_processing.fasta_files:
-#    type: text.TextDataSet
-#    filepath: data/02_intermediate/fasta_files.csv
-#    layer: intermediate
-#
+prokka_edges:
+    type: pandas.CSVDataSet
+    filepath: data/04_feature/prokka_edges.csv
+    layer: feature
 
-#data_processing.prokka_gff:
-#  type: pandas.CSVDataSet
-#  filepath: data/03_primary/prokka_gff.csv
-#  layer: primary
-#
-#data_processing.prokka_bins:
-#  type: pandas.CSVDataSet
-#  filepath: data/03_primary/prokka_bins.csv
-#  layer: primary
-#
-#data_processing.merged_fasta:
-#    type: biosequence.BioSequenceDataSet
-#    filepath: data/03_primary/merged_prokka_bins.fasta
-#    load_args: {'format': 'fasta'}
-#    save_args: {'format': 'fasta'}
-#    layer: primary
-#
-#data_processing.prokka_seq:
-#    type: biosequence.BioSequenceDataSet
-#    filepath: data/03_primary/unique_merged_prokka_bins.fasta
-#    load_args: {'format': 'fasta'}
-#    save_args: {'format': 'fasta'}
-#    layer: primary
-#
-model_input_table:
-    type: pandas.ParquetDataSet
-    filepath: data/03_primary/model_input_table.pq
-    layer: primary
-
-#data_science.active_modelling_pipeline.regressor:
-#  type: pickle.PickleDataSet
-#  filepath: data/06_models/regressor_active.pickle
-#  versioned: true
-#  layer: models
-#
-#data_science.candidate_modelling_pipeline.regressor:
-#  type: pickle.PickleDataSet
-#  filepath: data/06_models/regressor_candidate.pickle
-#  versioned: true
-#  layer: models
+bee_mlnetwork:
+    #type: networkx.JSONDataSet
+    #type: pandas.CSVDataSet
+    type: kedromcbee.extras.dataset.mlnetwork_dataset.MLNetworkDataSet
+    filepath: data/04_feature/mbee_network.csv
+    layer: feature

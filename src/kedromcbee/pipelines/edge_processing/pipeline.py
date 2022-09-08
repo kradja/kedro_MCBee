@@ -9,8 +9,8 @@ def create_pipeline(**kwargs) -> Pipeline:
         [
             node(
                 func=filter_clusters,
-                inputs="cdhit_cluster",
-                outputs="cluster_df",
+                inputs=["cdhit_cluster", "gff_prokka"],
+                outputs=["cluster_df","merged_gff_prokka"],
                 name="filter_clusters_node",
             ),
             node(

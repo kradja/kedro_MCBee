@@ -2,6 +2,7 @@ import itertools
 import pdb
 
 import pandas as pd
+import numpy as np
 
 
 def _creating_edges_list_multilayer(elist, edge, prokka_bins):
@@ -49,7 +50,7 @@ def _creating_edges_list_multilayer(elist, edge, prokka_bins):
     return elist
 
 
-def filter_clusters(clusterdf: pd.DataFrame) -> pd.DataFrame:
+def filter_clusters(clusterdf: pd.DataFrame,gff_prokka: pd.DataFrame) -> pd.DataFrame:
     """remove clusters that are 99% remove sequences below 100"""
     print('Running')
     remove_rows = []
@@ -57,27 +58,35 @@ def filter_clusters(clusterdf: pd.DataFrame) -> pd.DataFrame:
     temp_merge_ids = []
     for main in set(clusterdf.index.get_level_values(0)):
         res = clusterdf.loc[main]
-        if float(res.length.values[0]) <= 100:  # 100 nucleotide base pairs
-            remove_rows.extend(res.index.tolist())
-            continue
+        # Edge case where only one 
+        # IF the smallest thing in the cluster is less than 300 delete cluster
+        # all the sequence lengths have to be within 90% length. It should be right.
         above_99 = res[res.percent.astype(float) >= 99]
         if not above_99.empty:
-            if len(res) - len(above_99) == 1:
+            # IS there at least one real edge. something within the cluster below 99
+            if len(res) - len(above_99) == 1: #Duplicate node with no connections, just delete it
                 remove_rows.extend(res.index.tolist())
             else:
                 temp_merge_ids.append(main)
                 temp_merge_ids.extend(above_99.gene_id.tolist())
-                joined_ids = "/".join(temp_merge_ids)
-                merged_ids.append((main, joined_ids))
+                #joined_ids = "/".join(temp_merge_ids)
+                merged_ids.append((main, temp_merge_ids))
                 remove_rows.extend(above_99.index.tolist())
                 clusterdf.rename(index={}, inplace=True)
                 temp_merge_ids = []
 
     cdf = clusterdf.drop(remove_rows, axis=0, level=1).reset_index("main")
     for ids in merged_ids:
-        cdf.replace(ids[0], ids[1], inplace=True)
-    return cdf
-
+        joined_ids = "/".join(ids[1])
+        cdf.replace(ids[0],joined_ids , inplace=True)
+        for gene in ids[1]:
+            gff_prokka.loc[gff_prokka.gid == gene, "gid"] = joined_ids
+    xx = gff_prokka.groupby('gid').agg(set)
+    prokka_gff_colnames = xx.columns.tolist()
+    for cname in prokka_gff_colnames:
+        xx[cname] = xx[cname].apply(lambda x: '|'.join(map(str,x)))
+    print(len(cdf))
+    return cdf, xx
 
 def clustered_hypo_prot_edges(
     clusterdf: pd.DataFrame, prokka_bins: pd.DataFrame
@@ -85,14 +94,15 @@ def clustered_hypo_prot_edges(
     """Creating edges based off the clusers from CD-hit and layers from the unique prokka ID given to each run"""
     cdhit_edges = []
     cdf = clusterdf.set_index("main")
-    cdf = cdf[cdf.length > 300]
     prokka_bins = prokka_bins.set_index("prokka_unique")["level"].T.to_dict()
     for main in set(cdf.index):
-        res = cdf.loc[main]
-        if len(res) > 2:
-            edges = list(itertools.combinations(res.gene_id.tolist(), 2))
+        res = cdf.loc[[main]]
+        edgelist = res.gene_id.tolist()
+        if len(edgelist) > 2: # and isinstance(res, pd.DataFrame):
+            pdb.set_trace()
+            edges = list(itertools.combinations(edgelist, 2))
         else:
-            edges = [res.gene_id.tolist()]
+            edges = [edgelist]
         for edge in edges:
             cdhit_edges = _creating_edges_list_multilayer(
                 cdhit_edges, edge, prokka_bins

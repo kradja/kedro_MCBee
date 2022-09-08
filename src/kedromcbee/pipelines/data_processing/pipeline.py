@@ -22,7 +22,7 @@ def create_pipeline(**kwargs) -> Pipeline:
             node(
                 func=hypo_prot_sequences,
                 inputs=["fasta_prokka", "merged_ids", "gff_prokka"],
-                outputs="hypo_prot",
+                outputs=["hypo_prot","updated_gff_prokka"],
                 name="hypo_prot_seq",
             ),
         ],

@@ -84,9 +84,19 @@ data_processing.gff_prokka:
     #save_args:
     #    index: True
 
+data_processing.updated_gff_prokka:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/updated_gff_prokka.csv
+    layer: intermediate
+
 edge_processing.gff_prokka:
     type: pandas.CSVDataSet
-    filepath: data/02_intermediate/gff_prokka.csv
+    filepath: data/02_intermediate/updated_gff_prokka.csv
+    layer: intermediate
+
+edge_processing.merged_gff_prokka:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/merged_gff_prokka.csv
     layer: intermediate
 
 prokka_bins:

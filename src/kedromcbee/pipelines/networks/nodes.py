@@ -13,6 +13,10 @@ from programs.py3plex.py3plex.core import multinet
 from kedromcbee.extras.dataset.mlnetwork_dataset import MLNetworkDataSet
 
 def build_multilayer_network(cdhit_edges: pd.DataFrame, prokka_edges: pd.DataFrame) -> MLNetworkDataSet:
+    #for subset_edge in cdhit_edges:
+    #    n1 = subset_edge[1]
+    #    n2 = subset_edge[3]
+    # try to subset the edges and remove layer info
     A = multinet.multi_layer_network(directed=False)
     A.add_edges(cdhit_edges.values.tolist(), input_type='list')
     A.add_edges(prokka_edges.values.tolist(),input_type='list')

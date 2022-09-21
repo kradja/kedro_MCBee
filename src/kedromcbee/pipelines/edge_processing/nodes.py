@@ -86,7 +86,7 @@ def filter_clusters(clusterdf: pd.DataFrame,gff_prokka: pd.DataFrame) -> pd.Data
     for cname in prokka_gff_colnames:
         xx[cname] = xx[cname].apply(lambda x: '|'.join(map(str,x)))
     print(len(cdf))
-    return cdf, xx
+    return cdf, xx.reset_index()
 
 def clustered_hypo_prot_edges(
     clusterdf: pd.DataFrame, prokka_bins: pd.DataFrame
@@ -99,7 +99,6 @@ def clustered_hypo_prot_edges(
         res = cdf.loc[[main]]
         edgelist = res.gene_id.tolist()
         if len(edgelist) > 2: # and isinstance(res, pd.DataFrame):
-            pdb.set_trace()
             edges = list(itertools.combinations(edgelist, 2))
         else:
             edges = [edgelist]
@@ -144,26 +143,3 @@ def prokka_annotation_edges(
     )
 
 
-# clusterdf = filter_clusters(clusterdf)
-# cdhit_edges = clustered_hypo_prot_edges(clusterdf, prokka_bin_id)
-# A = multinet.multi_layer_network(directed=False)
-# A.add_edges(cdhit_edges, input_type='list')
-# print(A.basic_stats())
-# annot_df = gff_df[gff_df.ainfo != 'hypothetical protein']
-# annot_groups = annot_df.groupby('annot')['gid'].apply(list)
-# annot_groups = annot_groups.drop([''])
-# pdb.set_trace()
-# prokka_annotation_edges = prokka_annotation_edges(annot_groups.to_dict(),prokka_bin_id)
-# A.add_edges(prokka_annotation_edges,input_type='list')
-# ledge,unodes = A.get_unique_entity()
-# core_net = A.core_network
-# Amat = A.get_supra_adjacency_matrix()
-# Anode_list = A.node_order_in_matrix
-# network_analysis(A)
-
-# test_data = pd.read_csv(os.path.join(datasets,'testing_3multilayer.csv'))
-# test_datamap = test_data.values.tolist()
-
-# dum = multinet.multi_layer_network(directed=False)
-# dum.add_edges(test_datamap, input_type='list')
-# print(dum.basic_stats())

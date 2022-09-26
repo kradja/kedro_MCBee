@@ -75,7 +75,7 @@ class MLNetworkHooks:
     def after_node_run(
         self, node: Node, catalog: DataCatalog, outputs: Dict[str, Any]
     ) -> None:
-        if node.short_name == "build_mlnetwork":
+        if node.short_name == "not_build_mlnetwork":
             input_net = outputs["bee_mlnetwork"]
             # What do I want to do? What do I want to check?
             mlnetwork = outputs["bee_mlnetwork"]
@@ -174,17 +174,17 @@ class MLNetworkHooks:
             edge_diff = edgedf2.n1_length - edgedf2.n2_length
             edge_diff = np.abs(edge_diff.to_numpy())
             large_outliers = np.where(edge_diff > np.quantile(edge_diff,0.75))[0]
-            pdb.set_trace()
-            scaf = []
+            #pdb.set_trace()
+            #scaf = []
             # I need to attach the high, low, and control information to the scaffold
             #  df[df.id == "ABJEJBNN_00204/NICNEPOM_00010/JKDGBJBC_00092"]
             # this node is in 3 different levels and has three scaffolds. I need to know which scaffold is which for the 
             # I only care about edges on the same layer
-            for edge in edges:
-                for node in edge: #Removing layer info
-                    res = G_degs.loc[node[0]]
-                    #res = xx[xx.gid == node[0]]
-                    scaf.append(res.scaf_level)
+            #for edge in edges:
+            #    for node in edge: #Removing layer info
+            #        res = G_degs.loc[node[0]]
+            #        #res = xx[xx.gid == node[0]]
+            #        scaf.append(res.scaf_level)
                 #if len(set(scaf)) == 1:
                 #else:
                 #scaf = []

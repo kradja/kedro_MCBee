@@ -7,34 +7,6 @@
 #
 # An example data set definition can look as follows:
 #
-#bikes:
-#  type: pandas.CSVDataSet
-#  filepath: "data/01_raw/bikes.csv"
-#
-#weather:
-#  type: spark.SparkDataSet
-#  filepath: s3a://your_bucket/data/01_raw/weather*
-#  file_format: csv
-#  credentials: dev_s3
-#  load_args:
-#    header: True
-#    inferSchema: True
-#  save_args:
-#    sep: '|'
-#    header: True
-#
-#scooters:
-#  type: pandas.SQLTableDataSet
-#  credentials: scooters_credentials
-#  table_name: scooters
-#  load_args:
-#    index_col: ['name']
-#    columns: ['name', 'gear']
-#  save_args:
-#    if_exists: 'replace'
-#    # if_exists: 'fail'
-#    # if_exists: 'append'
-#
 # The Data Catalog supports being able to reference the same file using two different DataSet implementations
 # (transcoding), templating and a way to reuse arguments that are frequently repeated. See more here:
 # https://kedro.readthedocs.io/en/stable/data/data_catalog.html
@@ -99,6 +71,11 @@ edge_processing.merged_gff_prokka:
     filepath: data/02_intermediate/merged_gff_prokka.csv
     layer: intermediate
 
+networks.merged_gff_prokka:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/merged_gff_prokka.csv
+    layer: intermediate
+
 prokka_bins:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/prokka_bins.csv
@@ -142,8 +119,16 @@ prokka_edges:
     layer: feature
 
 bee_mlnetwork:
-    #type: networkx.JSONDataSet
-    #type: pandas.CSVDataSet
     type: kedromcbee.extras.dataset.mlnetwork_dataset.MLNetworkDataSet
     filepath: data/04_feature/mbee_network.csv
+    layer: feature
+
+networks.bee_graph:
+    type: networkx.JSONDataSet
+    filepath: data/04_feature/bee_graph.json
+    layer: feature
+
+networks.edges_info:
+    type: pandas.CSVDataSet
+    filepath: data/04_feature/edges_info.csv
     layer: feature

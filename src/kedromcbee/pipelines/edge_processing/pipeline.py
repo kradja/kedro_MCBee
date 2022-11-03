@@ -1,7 +1,7 @@
 from kedro.pipeline import Pipeline, node
 from kedro.pipeline.modular_pipeline import pipeline
 
-from .nodes import clustered_hypo_prot_edges, filter_clusters, prokka_annotation_edges
+from .nodes import clustered_hypo_prot_edges, filter_clusters, prokka_annotation_edges, binned_edges
 
 
 def create_pipeline(**kwargs) -> Pipeline:
@@ -9,7 +9,7 @@ def create_pipeline(**kwargs) -> Pipeline:
         [
             node(
                 func=filter_clusters,
-                inputs=["cdhit_cluster", "gff_prokka"],
+                inputs=["cdhit_cluster", "updated_gff_prokka"],
                 outputs=["cluster_df","merged_gff_prokka"],
                 name="filter_clusters_node",
             ),
@@ -21,12 +21,18 @@ def create_pipeline(**kwargs) -> Pipeline:
             ),
             node(
                 func=prokka_annotation_edges,
-                inputs=["gff_prokka", "prokka_bins"],
+                inputs=["merged_gff_prokka", "prokka_bins"],
                 outputs="prokka_edges",
                 name="annotated_edges",
             ),
+            node(
+                func=binned_edges,
+                inputs=["merged_gff_prokka", "prokka_bins"],
+                outputs="bin_edges",
+                name="binned",
+            ),
         ],
         namespace="edge_processing",
-        inputs="cdhit_cluster",
-        outputs=["cdhit_edges","prokka_edges"],
+        inputs=["cdhit_cluster","updated_gff_prokka","prokka_bins"],
+        outputs=["cdhit_edges","prokka_edges","bin_edges","merged_gff_prokka"],
     )

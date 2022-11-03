@@ -23,7 +23,7 @@ def config_loader():
 @pytest.fixture
 def project_context(config_loader):
     return KedroContext(
-        package_name="space_working",
+        package_name="kedro_MCBee",
         project_path=Path.cwd(),
         config_loader=config_loader,
         hook_manager=_create_hook_manager(),
@@ -33,6 +33,6 @@ def project_context(config_loader):
 # The tests below are here for the demonstration purpose
 # and should be replaced with the ones testing the project
 # functionality
-class TestProjectContext:
-    def test_project_path(self, project_context):
-        assert project_context.project_path == Path.cwd()
+#class TestProjectContext:
+#    def test_project_path(self, project_context):
+#        assert project_context.project_path == Path.cwd()

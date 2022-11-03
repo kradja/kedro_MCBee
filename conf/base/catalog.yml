@@ -39,13 +39,13 @@ data_processing.fasta_prokka:
     layer: intermediate
 
 data_processing.merged_ids:
-    type: pandas.CSVDataSet
-    filepath: data/02_intermediate/merged_ids.csv
+    type: json.JSONDataSet
+    filepath: data/02_intermediate/merged_ids.json
     layer: intermediate
-    load_args:
-        index_col: 'single'
-    save_args:
-        index: True
+    #load_args:
+    #    index_col: 'single'
+    #save_args:
+    #    index: True
 
 data_processing.gff_prokka:
     type: pandas.CSVDataSet
@@ -56,41 +56,45 @@ data_processing.gff_prokka:
     #save_args:
     #    index: True
 
-data_processing.updated_gff_prokka:
+updated_gff_prokka:
     type: pandas.CSVDataSet
     filepath: data/02_intermediate/updated_gff_prokka.csv
     layer: intermediate
 
-edge_processing.gff_prokka:
-    type: pandas.CSVDataSet
-    filepath: data/02_intermediate/updated_gff_prokka.csv
-    layer: intermediate
-
-edge_processing.merged_gff_prokka:
-    type: pandas.CSVDataSet
-    filepath: data/02_intermediate/merged_gff_prokka.csv
-    layer: intermediate
-
-networks.merged_gff_prokka:
+#edge_processing.gff_prokka:
+#    type: pandas.CSVDataSet
+#    filepath: data/02_intermediate/updated_gff_prokka.csv
+#    layer: intermediate
+#
+merged_gff_prokka:
     type: pandas.CSVDataSet
     filepath: data/02_intermediate/merged_gff_prokka.csv
     layer: intermediate
+    load_args:
+        index_col: 'gid'
+    save_args:
+        index: True
 
+#networks.merged_gff_prokka:
+#    type: pandas.CSVDataSet
+#    filepath: data/02_intermediate/merged_gff_prokka.csv
+#    layer: intermediate
+#
 prokka_bins:
-  type: pandas.CSVDataSet
-  filepath: data/02_intermediate/prokka_bins.csv
+  type: json.JSONDataSet
+  filepath: data/02_intermediate/prokka_bins.json
   layer: intermediate
 
-prokka_bins:
-  type: pandas.CSVDataSet
-  filepath: data/02_intermediate/prokka_bins.csv
-  layer: intermediate
-
-edge_processing.prokka_bins:
-  type: pandas.CSVDataSet
-  filepath: data/02_intermediate/prokka_bins.csv
-  layer: intermediate
-
+#prokka_bins:
+#  type: pandas.CSVDataSet
+#  filepath: data/02_intermediate/prokka_bins.csv
+#  layer: intermediate
+#
+#edge_processing.prokka_bins:
+#  type: pandas.CSVDataSet
+#  filepath: data/02_intermediate/prokka_bins.csv
+#  layer: intermediate
+#
 hypo_prot:
     type: biosequence.BioSequenceDataSet
     filepath: data/03_primary/hypo_prot_seq.fasta
@@ -107,23 +111,43 @@ edge_processing.cluster_df:
     type: pandas.CSVDataSet
     filepath: data/04_feature/cdhit_0.9.csv
     layer: feature
+    load_args:
+        index_col: 'index'
+    save_args:
+        index: True
+
+#edge_processing.single:
+#    type: text.TextDataSet
+#    filepath: data/04_feature/single_clusters.csv
+#    layer: feature
 
 cdhit_edges:
     type: pandas.CSVDataSet
     filepath: data/04_feature/cdhit_edges.csv
     layer: feature
+    load_args:
+        dtype: {"node1":"object","layer1":"categorical","node2":"object","layer2":"categorical","weight":"np.int8"}
 
 prokka_edges:
     type: pandas.CSVDataSet
     filepath: data/04_feature/prokka_edges.csv
     layer: feature
+    load_args:
+        dtype: {"node1":"object","layer1":"categorical","node2":"object","layer2":"categorical","weight":"np.int8"}
 
-bee_mlnetwork:
-    type: kedromcbee.extras.dataset.mlnetwork_dataset.MLNetworkDataSet
-    filepath: data/04_feature/mbee_network.csv
+bin_edges:
+    type: pandas.CSVDataSet
+    filepath: data/04_feature/bin_edges.csv
     layer: feature
+    load_args:
+        dtype: {"node1":"object","layer1":"categorical","node2":"object","layer2":"categorical","weight":"np.int8"}
 
-networks.bee_graph:
+#bee_mlnetwork:
+#    type: kedromcbee.extras.dataset.mlnetwork_dataset.MLNetworkDataSet
+#    filepath: data/04_feature/mbee_network.csv
+#    layer: feature
+
+bee_graph: #networks.b
     type: networkx.JSONDataSet
     filepath: data/04_feature/bee_graph.json
     layer: feature

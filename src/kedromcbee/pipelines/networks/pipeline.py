@@ -9,18 +9,18 @@ def create_pipeline(**kwargs) -> Pipeline:
         [
             node(
                 func=build_multilayer_network,
-                inputs=["cdhit_edges","prokka_edges","merged_gff_prokka"],
-                outputs=["bee_mlnetwork","bee_graph"],
+                inputs=["cdhit_edges","prokka_edges","bin_edges","merged_gff_prokka"],
+                outputs="bee_graph",#["bee_mlnetwork","bee_graph"],
                 name="build_mlnetwork",
             ),
             node(
                 func=analyze_networks,
-                inputs=["bee_mlnetwork","bee_graph","merged_gff_prokka"],
+                inputs=["bee_graph","merged_gff_prokka"],
                 outputs="edges_info",
                 name="analyze_networks",
             ),
         ],
         namespace="networks",
-        inputs=["cdhit_edges", "prokka_edges"],
-        outputs="bee_mlnetwork",
+        inputs=["cdhit_edges", "prokka_edges","bin_edges","merged_gff_prokka"],
+        outputs="bee_graph",
     )

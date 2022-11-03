@@ -28,5 +28,5 @@ def create_pipeline(**kwargs) -> Pipeline:
         ],
         namespace="data_processing",
         inputs=["partition_prokka_faa", "partition_prokka_gff"],
-        outputs=["hypo_prot", "prokka_bins"],
+        outputs=["updated_gff_prokka", "prokka_bins"],
     )

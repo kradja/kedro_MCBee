@@ -192,7 +192,7 @@ def binned_edges(
             groups[key].append(merged)
     #tmp = annot_df.annot.reset_index()
     #annot_groups = tmp.groupby('annot')['gid'].apply(list)
-    # There is no zero. Write a unit test for this
+    # There is no zero Write a unit test for this
     for val in groups.values():
         if len(val) == 1:
             continue

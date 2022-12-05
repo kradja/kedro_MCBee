@@ -116,7 +116,7 @@ def filter_clusters(clusterdf: pd.DataFrame,gff_prokka: pd.DataFrame) -> [pd.Dat
     return cluster, gp #xx.reset_index()#,','.join(single.index)
 
 def clustered_hypo_prot_edges(
-    clusterdf: pd.DataFrame, prokka_bins: JSONDataSet
+    clusterdf: pd.DataFrame, prokka_bins: JSONDataSet, gff_prokka: pd.DataFrame
 ) -> pd.DataFrame:
     """Creating edges based off the clusers from CD-hit and layers from the unique prokka ID given to each run"""
     cdhit_edges = []

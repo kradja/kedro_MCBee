@@ -126,21 +126,21 @@ cdhit_edges:
     filepath: data/04_feature/cdhit_edges.csv
     layer: feature
     load_args:
-        dtype: {"node1":"object","layer1":"categorical","node2":"object","layer2":"categorical","weight":"np.int8"}
+        dtype: {"node1":"object","layer1":"category","node2":"object","layer2":"category"} #,"weight":np.int8}
 
 prokka_edges:
     type: pandas.CSVDataSet
     filepath: data/04_feature/prokka_edges.csv
     layer: feature
     load_args:
-        dtype: {"node1":"object","layer1":"categorical","node2":"object","layer2":"categorical","weight":"np.int8"}
+        dtype: {"node1":"object","layer1":"category","node2":"object","layer2":"category"} # ,"weight":np.int8}
 
 bin_edges:
     type: pandas.CSVDataSet
     filepath: data/04_feature/bin_edges.csv
     layer: feature
     load_args:
-        dtype: {"node1":"object","layer1":"categorical","node2":"object","layer2":"categorical","weight":"np.int8"}
+        dtype: {"node1":"object","layer1":"category","node2":"object","layer2":"category","weight":"int8"}
 
 #bee_mlnetwork:
 #    type: kedromcbee.extras.dataset.mlnetwork_dataset.MLNetworkDataSet

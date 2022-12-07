@@ -56,84 +56,31 @@ data_processing.gff_prokka:
     #save_args:
     #    index: True
 
+data_processing.annots_gff_prokka:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/other_annotations_gff_prokka.csv
+    layer: intermediate
+
+data_processing.prokka_bins:
+  type: json.JSONDataSet
+  filepath: data/02_intermediate/prokka_bins.json
+  layer: intermediate
+
 updated_gff_prokka:
     type: pandas.CSVDataSet
     filepath: data/02_intermediate/updated_gff_prokka.csv
-    layer: intermediate
-
-#edge_processing.gff_prokka:
-#    type: pandas.CSVDataSet
-#    filepath: data/02_intermediate/updated_gff_prokka.csv
-#    layer: intermediate
-#
-merged_gff_prokka:
-    type: pandas.CSVDataSet
-    filepath: data/02_intermediate/merged_gff_prokka.csv
     layer: intermediate
     load_args:
         index_col: 'gid'
     save_args:
         index: True
 
-#networks.merged_gff_prokka:
-#    type: pandas.CSVDataSet
-#    filepath: data/02_intermediate/merged_gff_prokka.csv
-#    layer: intermediate
-#
-prokka_bins:
-  type: json.JSONDataSet
-  filepath: data/02_intermediate/prokka_bins.json
-  layer: intermediate
-
-#prokka_bins:
-#  type: pandas.CSVDataSet
-#  filepath: data/02_intermediate/prokka_bins.csv
-#  layer: intermediate
-#
-#edge_processing.prokka_bins:
-#  type: pandas.CSVDataSet
-#  filepath: data/02_intermediate/prokka_bins.csv
-#  layer: intermediate
-#
-hypo_prot:
-    type: biosequence.BioSequenceDataSet
-    filepath: data/03_primary/hypo_prot_seq.fasta
-    load_args: {'format': 'fasta'}
-    save_args: {'format': 'fasta'}
-    layer: primary
-
-cdhit_cluster:
-    type: kedromcbee.extras.dataset.clstr_dataset.CDhitClusterDataSet
-    filepath: data/03_primary/cdhit_prokka_nometa_allbins_allexp_global_0.9.clstr
-    layer: primary
-
-edge_processing.cluster_df:
-    type: pandas.CSVDataSet
-    filepath: data/04_feature/cdhit_0.9.csv
-    layer: feature
-    load_args:
-        index_col: 'index'
-    save_args:
-        index: True
-
-#edge_processing.single:
-#    type: text.TextDataSet
-#    filepath: data/04_feature/single_clusters.csv
-#    layer: feature
-
-cdhit_edges:
-    type: pandas.CSVDataSet
-    filepath: data/04_feature/cdhit_edges.csv
-    layer: feature
-    load_args:
-        dtype: {"node1":"object","layer1":"category","node2":"object","layer2":"category"} #,"weight":np.int8}
-
 prokka_edges:
     type: pandas.CSVDataSet
-    filepath: data/04_feature/prokka_edges.csv
-    layer: feature
+    filepath: data/03_primary/prokka_edges.csv
+    layer: primary
     load_args:
-        dtype: {"node1":"object","layer1":"category","node2":"object","layer2":"category"} # ,"weight":np.int8}
+            dtype: {"node1":"object","node2":"object","weight":"int8","edge_length":"int8","edge_scaf":"object","edge_annot":"object"} # "layer2":"category"} # ,
 
 bin_edges:
     type: pandas.CSVDataSet

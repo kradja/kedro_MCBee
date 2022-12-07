@@ -1,5 +1,21 @@
 # test_kedromcbee
 
+This project is running on python 3.10.8
+
+requires Kedro, pandas,
+
+conda install -c conda-forge kedro
+conda install -c anaconda pandas
+
+pip install -r requirements.txt
+
+Inside requirements.txt
+kedro[pandas.CSVDataSet, pandas.ParquetDataSet,networkx.JSONDataSet,json.JSONDataSet,biosequence.BioSequenceDataSet]==0.18.3
+kedro-telemetry~=0.2.2
+kedro-viz~=5.1.1
+pytest-cov~=4.0
+pytest~=7.2
+
 ## Overview
 
 This is your new Kedro project, which was generated using `Kedro 0.18.1`.

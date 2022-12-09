@@ -1,7 +1,7 @@
 from kedro.pipeline import Pipeline, node
 from kedro.pipeline.modular_pipeline import pipeline
 
-from .nodes import build_multilayer_network, analyze_networks
+from .nodes import analyze_networks, build_multilayer_network
 
 
 def create_pipeline(**kwargs) -> Pipeline:
@@ -9,18 +9,18 @@ def create_pipeline(**kwargs) -> Pipeline:
         [
             node(
                 func=build_multilayer_network,
-                inputs=["cdhit_edges","prokka_edges","bin_edges","merged_gff_prokka"],
-                outputs="bee_graph",#["bee_mlnetwork","bee_graph"],
+                inputs=["prokka_edges", "updated_gff_prokka"],
+                outputs="bee_graph",  # ["bee_mlnetwork","bee_graph"],
                 name="build_mlnetwork",
             ),
             node(
                 func=analyze_networks,
-                inputs=["bee_graph","merged_gff_prokka"],
+                inputs=["bee_graph", "updated_gff_prokka"],
                 outputs="edges_info",
                 name="analyze_networks",
             ),
         ],
         namespace="networks",
-        inputs=["cdhit_edges", "prokka_edges","bin_edges","merged_gff_prokka"],
+        inputs=["prokka_edges", "updated_gff_prokka"],
         outputs="bee_graph",
     )

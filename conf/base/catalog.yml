@@ -66,9 +66,27 @@ data_processing.prokka_bins:
   filepath: data/02_intermediate/prokka_bins.json
   layer: intermediate
 
-updated_gff_prokka:
+data_processing.updated_gff_prokka:
     type: pandas.CSVDataSet
     filepath: data/02_intermediate/updated_gff_prokka.csv
+    layer: intermediate
+    load_args:
+        index_col: 'gid'
+    save_args:
+        index: True
+
+data_processing.go_gff_prokka:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/go_gff_prokka.csv
+    layer: intermediate
+    load_args:
+        index_col: 'gid'
+    save_args:
+        index: True
+
+hierarchy_gff_prokka:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/go_gff_prokka.csv
     layer: intermediate
     load_args:
         index_col: 'gid'
@@ -80,7 +98,7 @@ prokka_edges:
     filepath: data/03_primary/prokka_edges.csv
     layer: primary
     load_args:
-            dtype: {"node1":"object","node2":"object","weight":"int8","edge_length":"int8","edge_scaf":"object","edge_annot":"object"} # "layer2":"category"} # ,
+            dtype: {"node1":"object","node2":"object","weight":"int8","edge_length":"float64","edge_scaf":"object","edge_annot":"object"} # "layer2":"category"} # ,
 
 bin_edges:
     type: pandas.CSVDataSet

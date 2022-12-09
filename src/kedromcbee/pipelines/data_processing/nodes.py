@@ -1,11 +1,16 @@
 import itertools
+import pdb
+from collections import Counter
 
+import networkx as nx
 import numpy as np
+import obonet
 import pandas as pd
 from Bio import SeqIO
 from kedro.extras.datasets.biosequence import BioSequenceDataSet
 from kedro.extras.datasets.json import JSONDataSet
 from kedro.io import PartitionedDataSet
+from SPARQLWrapper import JSON, SPARQLWrapper
 
 
 class ReturnDict(dict):
@@ -111,7 +116,7 @@ def hypo_prot_sequences(
     """
     merged_ids = ReturnDict(merged_ids)
     prokka_seq_dict = SeqIO.to_dict(prokka_seq)
-    prokka_gff.gid = prokka_gff.gid.map(merged_ids)
+    prokka_gff["gid"] = prokka_gff.gid.map(merged_ids)
     prokka_dups = prokka_gff[prokka_gff.gid.duplicated(keep=False)]
     prokka_gff = prokka_gff[~prokka_gff.gid.duplicated(keep=False)]
     tmp = prokka_dups.groupby("gid").agg(set)
@@ -122,16 +127,14 @@ def hypo_prot_sequences(
     prokka_gff = prokka_gff.set_index("gid")
     fres = pd.concat([prokka_gff, df], axis=0)
     fres["length"] = [len(prokka_seq_dict[x]) for x in fres.index]
+    fres["annot"] = fres.annot.str.split(":").str[1]
     return fres
 
 
 def prokka_edges(prokka_gff: pd.DataFrame, prokka_bins: JSONDataSet) -> pd.DataFrame:
     prokka_edges = []
-    prokka_gff = prokka_gff[prokka_gff.length > 300].copy()
-    prokka_gff["uni_annot"] = prokka_gff.annot.str.split(":").str[1]
-    annot_groups = (
-        prokka_gff.uni_annot.reset_index().groupby("uni_annot").gid.apply(list)
-    )
+    prokka_gff = prokka_gff[prokka_gff.length > 300].copy() # Change to 100 50% of the mean of Archae
+    annot_groups = prokka_gff.annot.reset_index().groupby("annot").gid.apply(list)
     for uni_annot in annot_groups.keys():
         val = annot_groups[uni_annot]
         if len(val) == 1:
@@ -150,3 +153,96 @@ def prokka_edges(prokka_gff: pd.DataFrame, prokka_bins: JSONDataSet) -> pd.DataF
         prokka_edges,
         columns=["node1", "node2", "weight", "edge_length", "edge_scaf", "edge_annot"],
     )
+
+
+def _sparql_uniprot_query(sparql, prot_list: list[str]):
+    # Filter out the uniprot keywords
+    prot_list = '("' + '") ("'.join(prot_list) + '")'
+    sparql.setQuery(
+        f"""
+    PREFIX up: <http://purl.uniprot.org/core/>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    SELECT
+        ?ac
+        ?goterm_id
+    WHERE \u007b
+        VALUES (?ac) \u007b{prot_list}\u007d
+        BIND (IRI(CONCAT("http://purl.uniprot.org/uniprot/",?ac)) AS ?protein)
+        ?protein a up:Protein .
+        ?protein up:classifiedWith ?goTerm .
+        BIND (REPLACE(STR(?goTerm), "^.*/([^/]*)$","$1") as ?goterm_id)
+        OPTIONAL \u007b
+        ?goTerm rdfs:subClassOf <http://purl.obolibrary.org/obo/GO_0003674> .
+        ?goTerm rdfs:label ?moltype .
+        \u007d
+        FILTER(?moltype)
+
+    \u007d ORDER BY DESC(?ac)
+    """
+    )
+    return sparql.query().convert()
+
+
+def _chunks(lst, n):
+    for i in range(0, len(lst), n):
+        yield lst[i : i + n]
+
+
+def go_annotations(prokka_gff: pd.DataFrame) -> pd.DataFrame:
+    sparql = SPARQLWrapper("https://sparql.uniprot.org/sparql/")
+    sparql.setReturnFormat(JSON)
+    uni_annots = set(prokka_gff.annot)
+    xres = []
+    for annot_bin in _chunks(list(uni_annots), 350):
+        res = _sparql_uniprot_query(sparql, annot_bin)
+        xx = res["head"]["vars"]
+        rbinds = res["results"]["bindings"]
+        xres.extend([[s["value"] for s in x.values()] for x in rbinds])
+    df = pd.DataFrame(xres, columns=xx)
+    tmp = df.groupby("ac").agg(set)
+    res = [",".join(map(str, x)) for x in tmp["goterm_id"]]
+    df2 = pd.DataFrame(res, index=tmp.index, columns=tmp.columns)
+    dict_df = df2.goterm_id.to_dict()
+    prokka_gff["go"] = prokka_gff.annot.map(dict_df)
+    return prokka_gff
+
+
+def _flat_func(x):
+    return [item for sublist in x for item in sublist]
+
+
+def go_ontology(go_prokka: pd.DataFrame) -> pd.DataFrame:
+    # Read the taxrank ontology
+    url = "http://purl.obolibrary.org/obo/go/go-basic.obo"
+    graph = obonet.read_obo(url)
+    id_to_name = {id_: data["name"] for id_, data in graph.nodes(data=True)}
+    nx.descendants(graph, "GO:0000036")
+    nx.ancestors(graph, "GO:0003677")
+
+    # Analysis of go_prokka
+    goh_prokka = go_prokka[~go_prokka.go.isnull()].copy()
+    goh_prokka["go"] = goh_prokka.go.str.split(",")
+    res = goh_prokka.groupby("annot").go.agg(list)
+    # dictionary of uniprot mapped to go
+    flat_res = {key: set(_flat_func(val)) for key, val in res.items()}
+    df = pd.DataFrame.from_dict(flat_res, orient="index").reset_index()
+    go_df = df.melt(id_vars=["index"], value_name="go_term").dropna()
+    # go mapped to uniprot
+    go_annots = go_df.groupby("go_term").index.agg(set)
+    total_annots = [x for x in go_annots.values]
+    shared_go = Counter(_flat_func(total_annots))
+    go_shared = {}
+    for key, val in shared_go.items():
+        go_shared[val] = go_shared.get(val, []) + [key]
+    shared_go_counts = Counter(list(shared_go.values()))
+    count_lengths = Counter([len(x) for x in flat_res.values()])
+    go_annots = go_annots.reset_index()
+    go_annots["go_term"] = go_annots.go_term.str.replace("_", ":")
+    go_annots["name"] = go_annots.go_term.map(id_to_name)
+    sources = [
+        x for x in graph.nodes() if graph.out_degree(x) == 1 and graph.in_degree(x) == 0
+    ]
+    sour = set(go_annots.go_term) & set(sources)
+    pdb.set_trace()
+    print("her")
+    return go_prokka

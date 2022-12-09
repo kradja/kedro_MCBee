@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 # import psutil
 from kedro.extras.datasets.networkx import JSONDataSet
+from SPARQLWrapper import SPARQLWrapper
 
 # from SPARQLWrapper import JSON, N3, SPARQLWrapper
 
@@ -21,139 +22,9 @@ from kedro.extras.datasets.networkx import JSONDataSet
 #    print(sys.path)
 
 
-def _merge_node_layer(edges_df: pd.DataFrame, gff_prokka: pd.DataFrame):
-    """There is no / in annotations in gff_prokka. No annotations were merged"""
-    l1 = edges_df.node1.map(gff_prokka["length"])
-    s1 = edges_df.node1.map(gff_prokka["scaf_level"])
-    a1 = edges_df.node1.map(gff_prokka["annot"])
-
-    l2 = edges_df.node2.map(gff_prokka["length"])
-    s2 = edges_df.node2.map(gff_prokka["scaf_level"])
-    a2 = edges_df.node2.map(gff_prokka["annot"])
-
-    # start = time.time()
-    # Takes a long long time
-    # tmpl1 = edges_df.node1.apply(lambda x: gff_prokka.loc[x][['length','scaf_level','annot']])
-    # tmpl2 = edges_df.node2.apply(lambda x: gff_prokka.loc[x][['length','scaf_level','annot']])
-    # end = time.time()
-    # print(end - start)
-
-    # start = time.time()
-    # one_merged = edges_df[['node1','layer1']].apply(tuple,axis=1)
-    # two_merged = edges_df[['node2','layer2']].apply(tuple,axis=1)
-    # end = time.time()
-    # print(end - start)
-
-    # start = time.time()
-    # one_merged = pd.Series(zip(edges_df.node1,edges_df.layer1)).str.join("|")
-    # two_merged = pd.Series(zip(edges_df.node2,edges_df.layer2)).str.join("|")
-    # end = time.time()
-    # print(end - start)
-
-    start = time.time()
-    tmp1 = zip(edges_df.node1, edges_df.layer1)
-    tmp2 = zip(edges_df.node2, edges_df.layer2)
-    one_merged = pd.Series(["|".join(x) for x in tmp1])
-    two_merged = pd.Series(["|".join(x) for x in tmp2])
-    end = time.time()
-    print(end - start)
-
-    # tmp = pd.concat([l1,s1,a1,l2,s2,a2],axis=1)
-    # tmp.columns = ['length1','scaf1','annot1','length2','scaf2','annot2']
-    # start = time.time()
-    # edge_length = tmp[['length1','length2']].agg(np.mean,axis=1)
-    # end = time.time()
-    # print(f"edge length {end - start}")
-
-    start = time.time()
-    edge_length = pd.Series(np.mean(np.stack((l1, l2)), axis=0))
-    end = time.time()
-    print(f"faster numpy {end - start}")
-
-    # start = time.time()
-    # edge_scaf = []
-    # for ind, scaf in enumerate(s1.values):
-    #    edge_scaf.append(set(scaf.split('|')).intersection(set(s2.loc[2].split('|'))))
-
-    # edge_scaf = pd.Series(edge_scaf)
-    # s1 = s1.str.split('|').agg(set)
-    # s2 = s2.str.split('|').agg(set)
-
-    # end = time.time()
-    # print(f"faster for loop {end - start}")
-
-    start = time.time()
-    edge_scaf = []
-    edge_annot = []
-    for ind, scaf in enumerate(s1.values):
-        scaf2 = s2.loc[ind]
-        if "/" in scaf or "/" in scaf2:
-            inter = "|".join(set(scaf.split("|")).intersection(set(scaf2.split("|"))))
-        elif scaf == scaf2:
-            inter = scaf
-        else:
-            inter = ""
-        edge_scaf.append(inter)
-        if a1.loc[ind] == a2.loc[ind]:
-            edge_annot = a1.loc[ind]
-        else:
-            # pdb.set_trace()
-            edge_annot = ""
-
-    edge_scaf = pd.Series(edge_scaf)
-    edge_annot = pd.Series(edge_annot)
-    end = time.time()
-    print(f"more code faster for loop {end - start}")
-
-    # start = time.time()
-    # tmp['set_scaf1'] = tmp.scaf1.str.split('|').agg(set)
-    # tmp['set_scaf2'] = tmp.scaf2.str.split('|').agg(set)
-    # edge_scaf = tmp.apply(lambda x: x['set_scaf1'].intersection(x['set_scaf2']), axis=1)
-    # end = time.time()
-    # print(f"pandas {end - start}")
-
-    # print(process.memory_info().rss)
-    # print('after tmp contents')
-    # process = psutil.Process(os.getpid())
-    # print(process.memory_info().rss)
-
-    # edge_annot = tmp.annot1 == tmp.annot2
-    # edge_annot.loc[tmp[edge_annot].index] = tmp[edge_annot].annot1
-    # edge_annot = edge_annot.replace(False,"")
-    # edge_annot = tmp.apply(lambda x: x['annot1'].intersection(x['annot2']), axis=1)
-
-    df = pd.concat(
-        [one_merged, two_merged, edges_df.weight, edge_length, edge_scaf, edge_annot],
-        axis=1,
-    )
-    df.columns = ["n1", "n2", "weight", "edge_length", "edge_scaf", "edge_annot"]
-    # df.edge_scaf = df.edge_scaf.agg('|'.join)
-
-    # end = time.time()
-    # print(end - start)
-    # print("old way")
-
-    # start = time.time()
-    # output_df = []
-    # for row in edges_df.values:
-    #    l1,s1,a1 = gff_prokka.loc[row[0]][['length','scaf_level','annot']].values
-    #    l2,s2,a2 = gff_prokka.loc[row[2]][['length','scaf_level','annot']].values
-    #    node1_merged = tuple(row[0:2])
-    #    node2_merged = tuple(row[2:4])
-    #    avg_length = np.mean([l1,l2])
-    #    scaf_inter = set(s1.split('|')) & set(s2.split('|'))
-    #    output_df.append([node1_merged,node2_merged,row[-1],avg_length,scaf_inter])
-    # fdf = pd.DataFrame(output_df)
-    # end = time.time()
-    # print(end - start)
-    return df
-
-
 def build_multilayer_network(
-    cdhit_edges: pd.DataFrame,
     prokka_edges: pd.DataFrame,
-    bin_edges: pd.DataFrame,
-    gff_prokka: pd.DataFrame,
+    prokka_gff: pd.DataFrame,
 ) -> JSONDataSet:
     # gff_prokka = gff_prokka.set_index('gid')
     # xx = gff_prokka[gff_prokka.length.str.contains(r'\|')].length.str.split(r'\|').apply(lambda x: np.mean(list(map(int,x))))
@@ -169,13 +40,15 @@ def build_multilayer_network(
     # The hypothetical proteins that even have annotations, have some bad annotations
     # I don't care about the genes labelled hypothetical proteins. As isolated vertices they provide no information or usefulness
 
-    prokka_edges2 = _merge_node_layer(prokka_edges, gff_prokka)
     print("Starting bin")
     # bin_edges = _merge_node_layer(bin_edges, gff_prokka)
 
     # graph_edges = pd.concat([cdhit_edges2, prokka_edges2])  # ,bin_edges])
     G = nx.from_pandas_edgelist(
-        prokka_edges2, "n1", "n2", ["weight", "edge_length", "edge_scaf", "edge_annot"]
+        prokka_edges,
+        "node1",
+        "node2",
+        ["weight", "edge_length", "edge_scaf", "edge_annot"],
     )
     print(G.size())
     print(G.order())

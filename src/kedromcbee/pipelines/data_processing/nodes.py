@@ -1,6 +1,6 @@
 import itertools
 import pdb
-from collections import Counter
+from collections import Counter, defaultdict
 
 import networkx as nx
 import numpy as np
@@ -16,6 +16,27 @@ from SPARQLWrapper import JSON, SPARQLWrapper
 class ReturnDict(dict):
     def __missing__(self, key):
         return key
+
+
+def _parse_annotation_id(x):
+    return x.str.split(":").str[1]
+
+
+def _parse_protein_length(prot_sequences, x):
+    prot_sequences = SeqIO.to_dict(prot_sequences)
+    return [len(prot_sequences[gid]) for gid in x]
+
+
+def _merge_duplicate_info(df):
+    unique_df = df[~df.gid.duplicated(keep=False)]
+    unique_df = unique_df.set_index("gid")
+    duplicated_df = df[df.gid.duplicated(keep=False)]
+    tmp = duplicated_df.groupby("gid").agg(set)
+    res = [[",".join(map(str, x)) for x in tmp[col]] for col in tmp.columns]
+    joined_duplicates = pd.DataFrame(res).T.set_index(tmp.index)
+    joined_duplicates.columns = tmp.columns
+    final = pd.concat([unique_df, joined_duplicates], axis=0)
+    return final
 
 
 def _creating_edges_list_multilayer(annot, elist, edge, prokka_gff, prokka_bins):
@@ -49,42 +70,45 @@ def _creating_edges_list_multilayer(annot, elist, edge, prokka_gff, prokka_bins)
     return elist
 
 
-def prokka_bins_faa(
-    partition_prokka_faa: PartitionedDataSet,
-) -> [BioSequenceDataSet, JSONDataSet]:
-    """
-    Reading each of the prokka faa files split into each of the maxbin clusters and merging duplicate genes
-    inputs:
-    outputs:
-        1. All unique protein sequences
-        2. Merged genes
-    """
-    unique_merge_seq = {}
-    merged_ids = set()
-    for fasta_file in partition_prokka_faa:
-        record_list = partition_prokka_faa[fasta_file]()
-        for record in record_list:
-            sequence = str(record.seq)
-            if sequence in unique_merge_seq:
-                if (
-                    unique_merge_seq[sequence].id in merged_ids
-                ):  # Checking if sequence has already been added
-                    merged_ids.remove(unique_merge_seq[sequence].id)
-                unique_merge_seq[sequence].id = (
-                    unique_merge_seq[sequence].id + "/" + record.id
-                )
-                merged_ids.add(unique_merge_seq[sequence].id)
-            else:
-                unique_merge_seq[sequence] = record
+def _merge_duplicate_seqrecords(seqrecords):
+    unique_records = {}
+    for rec in seqrecords:
+        if rec.seq in unique_records:
+            merged_rec = unique_records[rec.seq].id + "/" + rec.id
+            unique_records[rec.seq].id = merged_rec
+        else:
+            unique_records[rec.seq] = rec
+    return unique_records
 
+
+def _find_merged_ids(records):
+    list_merged_id = [x.id for x in records.values() if "/" in x.id]
     dict_merged_ids = {}
-    for merged_id in merged_ids:
+    for merged_id in list_merged_id:
         for original_id in merged_id.split("/"):
             dict_merged_ids[original_id] = merged_id
-    # df_merged_ids = pd.DataFrame(
-    #    dict_merged_ids.items(), columns=["single", "merged"]
-    # ).set_index("single")
-    return list(unique_merge_seq.values()), dict_merged_ids
+    return dict_merged_ids
+
+
+def preprocess_prokka_sequences(
+    partition_prokka_faa: PartitionedDataSet,
+) -> [BioSequenceDataSet, JSONDataSet]:
+    """Merging duplicate protein sequence from various partitions of prokka.
+
+    partition_prokka_faa: A list of biopython sequence records from various partitions
+
+    Returns:
+    1. Biosequence dataset which loads fasta file
+    2. JSON file of merged ids
+    """
+    combine_all = []
+    for partition_id, partition_load_func in partition_prokka_faa.items():
+        partition_data = partition_load_func()
+        combine_all.extend(partition_data)
+
+    unique_records = _merge_duplicate_seqrecords(combine_all)
+    merged_ids = _find_merged_ids(unique_records)
+    return list(unique_records.values()), merged_ids
 
 
 def prokka_bins_gff(
@@ -107,33 +131,36 @@ def prokka_bins_gff(
     return uni_prokka_gff, rest_prokka_gff, prokka_bins
 
 
-def hypo_prot_sequences(
-    prokka_seq: BioSequenceDataSet, merged_ids: JSONDataSet, prokka_gff: pd.DataFrame
+def preprocess_prokka_annotations(
+    prot_sequences: BioSequenceDataSet,
+    merged_gene_ids: JSONDataSet,
+    annotations: pd.DataFrame,
 ) -> pd.DataFrame:
-    """There are more sequences than what's in the gff file
-     Creates sequences of proteins annotated as hypothetical by prokka
-    Would be a good idea to update prokka_gff with the merged_ids
+    """Preprocesses data for prokka annotations pulled from the gff files
+
+    prot_sequences: A BioSequence dataset containing protein sequences
+    merged_gene_ids: A JSON file containing a mapping of duplicated gene ids to a merged id
+    annotations: A pandas dataframe containing information pulled from prokka's gff files
+
+    Returns:
+    A pandas dataframe containing processed prokka annotations, including gene id,
     """
-    merged_ids = ReturnDict(merged_ids)
-    prokka_seq_dict = SeqIO.to_dict(prokka_seq)
-    prokka_gff["gid"] = prokka_gff.gid.map(merged_ids)
-    prokka_dups = prokka_gff[prokka_gff.gid.duplicated(keep=False)]
-    prokka_gff = prokka_gff[~prokka_gff.gid.duplicated(keep=False)]
-    tmp = prokka_dups.groupby("gid").agg(set)
-    res = [[",".join(map(str, x)) for x in tmp[col]] for col in tmp.columns]
-    df = pd.DataFrame(res).T
-    df = df.set_index(tmp.index)
-    df.columns = tmp.columns
-    prokka_gff = prokka_gff.set_index("gid")
-    fres = pd.concat([prokka_gff, df], axis=0)
-    fres["length"] = [len(prokka_seq_dict[x]) for x in fres.index]
-    fres["annot"] = fres.annot.str.split(":").str[1]
-    return fres
+    merged_gene_ids = ReturnDict(merged_gene_ids)
+    annotations["gid"] = annotations.gid.map(merged_gene_ids)  # Duplicates
+
+    fixed_annotations = _merge_duplicate_info(annotations)
+    fixed_annotations["length"] = _parse_protein_length(
+        prot_sequences, fixed_annotations.index
+    )
+    fixed_annotations["annot"] = _parse_annotation_id(fixed_annotations["annot"])
+    return fixed_annotations
 
 
 def prokka_edges(prokka_gff: pd.DataFrame, prokka_bins: JSONDataSet) -> pd.DataFrame:
     prokka_edges = []
-    prokka_gff = prokka_gff[prokka_gff.length > 300].copy() # Change to 100 50% of the mean of Archae
+    prokka_gff = prokka_gff[
+        prokka_gff.length > 300
+    ].copy()  # Change to 100 50% of the mean of Archae
     annot_groups = prokka_gff.annot.reset_index().groupby("annot").gid.apply(list)
     for uni_annot in annot_groups.keys():
         val = annot_groups[uni_annot]
@@ -243,6 +270,9 @@ def go_ontology(go_prokka: pd.DataFrame) -> pd.DataFrame:
         x for x in graph.nodes() if graph.out_degree(x) == 1 and graph.in_degree(x) == 0
     ]
     sour = set(go_annots.go_term) & set(sources)
+    print(shared_go_counts)
+    print(count_lengths)
+    print(sour)
     pdb.set_trace()
     print("her")
     return go_prokka

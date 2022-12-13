@@ -4,8 +4,8 @@ from kedro.pipeline.modular_pipeline import pipeline
 from .nodes import (
     go_annotations,
     go_ontology,
-    hypo_prot_sequences,
-    prokka_bins_faa,
+    preprocess_prokka_annotations,
+    preprocess_prokka_sequences,
     prokka_bins_gff,
     prokka_edges,
 )
@@ -15,10 +15,10 @@ def create_pipeline(**kwargs) -> Pipeline:
     return pipeline(
         [
             node(
-                func=prokka_bins_faa,
+                func=preprocess_prokka_sequences,
                 inputs="partition_prokka_faa",
                 outputs=["fasta_prokka", "merged_ids"],
-                name="prokka_bins_faa_node",
+                name="preprocess_prokka_seq",
             ),
             node(
                 func=prokka_bins_gff,
@@ -27,10 +27,10 @@ def create_pipeline(**kwargs) -> Pipeline:
                 name="prokka_bins_gff_node",
             ),
             node(
-                func=hypo_prot_sequences,
+                func=preprocess_prokka_annotations,
                 inputs=["fasta_prokka", "merged_ids", "gff_prokka"],
                 outputs="updated_gff_prokka",
-                name="hypo_prot_seq",
+                name="preprocess_prokka_annots",
             ),
             node(
                 func=prokka_edges,

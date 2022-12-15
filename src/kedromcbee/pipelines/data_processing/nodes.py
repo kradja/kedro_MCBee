@@ -1,6 +1,7 @@
 import itertools
 import pdb
-from collections import Counter, defaultdict
+import time
+from collections import Counter
 
 import networkx as nx
 import numpy as np
@@ -9,6 +10,7 @@ import pandas as pd
 from Bio import SeqIO
 from kedro.extras.datasets.biosequence import BioSequenceDataSet
 from kedro.extras.datasets.json import JSONDataSet
+from kedro.extras.datasets.networkx import JSONDataSet as nxJSONDataSet
 from kedro.io import PartitionedDataSet
 from SPARQLWrapper import JSON, SPARQLWrapper
 
@@ -39,7 +41,7 @@ def _merge_duplicate_info(df):
     return final
 
 
-def _creating_edges_list_multilayer(annot, elist, edge, prokka_gff, prokka_bins):
+def _creating_edges_list_multilayer(annot, elist, edge, prokka_gff):
     """creating edges for multilayer networks using the list method
     [node1 layer1 node2 layer2 weight]
 
@@ -101,10 +103,14 @@ def preprocess_prokka_sequences(
     1. Biosequence dataset which loads fasta file
     2. JSON file of merged ids
     """
+    start = time.time()
     combine_all = []
-    for partition_id, partition_load_func in partition_prokka_faa.items():
+    for partition_load_func in partition_prokka_faa.values():
         partition_data = partition_load_func()
         combine_all.extend(partition_data)
+    print(f"For loop {time.time() - start}")
+
+    pdb.set_trace()
 
     unique_records = _merge_duplicate_seqrecords(combine_all)
     merged_ids = _find_merged_ids(unique_records)
@@ -116,18 +122,15 @@ def prokka_bins_gff(
 ) -> [pd.DataFrame, JSONDataSet]:
     """Parsing prokka annotation information from the multiple runs"""
     list_gff_df = []
-    for gff_file in partition_prokka_gff:
-        list_gff_df.append(partition_prokka_gff[gff_file]())
-    concat_gff = pd.concat(list_gff_df).reset_index(drop=True)
-    prokka_bins = dict(concat_gff[["prokka_unique", "level"]].values)
+    for partition_load_func in partition_prokka_gff.values():
+        list_gff_df.append(partition_load_func())
+    concat_gff = pd.concat(list_gff_df, ignore_index=True)
     concat_gff["scaf_level"] = concat_gff["scaffold"] + ":" + concat_gff["level"]
+    prokka_bins = dict(concat_gff[["prokka_unique", "level"]].values)
     prokka_gff = concat_gff.drop(["prokka_unique", "scaffold"], axis=1)
+
     uni_prokka_gff = prokka_gff[prokka_gff.annot.str.contains("UniProtKB")]
     rest_prokka_gff = prokka_gff[~prokka_gff.annot.str.contains("UniProtKB")]
-    """I should just merge the merged rows right here!
-    wasn't there some difference between the gff and fasta files?
-    Why do I not remember that difference
-    """
     return uni_prokka_gff, rest_prokka_gff, prokka_bins
 
 
@@ -156,25 +159,24 @@ def preprocess_prokka_annotations(
     return fixed_annotations
 
 
-def prokka_edges(prokka_gff: pd.DataFrame, prokka_bins: JSONDataSet) -> pd.DataFrame:
+def prokka_edges(prokka_gff: pd.DataFrame) -> pd.DataFrame:
     prokka_edges = []
-    prokka_gff = prokka_gff[
-        prokka_gff.length > 300
-    ].copy()  # Change to 100 50% of the mean of Archae
-    annot_groups = prokka_gff.annot.reset_index().groupby("annot").gid.apply(list)
+    # Change to 100 50% of the mean of Archae
+    prokka_gff = prokka_gff[prokka_gff.length > 100].copy()
+    annot_groups = prokka_gff.annot.reset_index().groupby("annot").gid.agg(list)
     for uni_annot in annot_groups.keys():
         val = annot_groups[uni_annot]
         if len(val) == 1:
             continue
         elif len(val) == 2:
             prokka_edges = _creating_edges_list_multilayer(
-                uni_annot, prokka_edges, val, prokka_gff, prokka_bins
+                uni_annot, prokka_edges, val, prokka_gff
             )
         else:
             edges = list(itertools.combinations(val, 2))
             for edge in edges:
                 prokka_edges = _creating_edges_list_multilayer(
-                    uni_annot, prokka_edges, edge, prokka_gff, prokka_bins
+                    uni_annot, prokka_edges, edge, prokka_gff
                 )
     return pd.DataFrame(
         prokka_edges,
@@ -189,7 +191,7 @@ def _sparql_uniprot_query(sparql, prot_list: list[str]):
         f"""
     PREFIX up: <http://purl.uniprot.org/core/>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    SELECT
+    SELECT DISTINCT
         ?ac
         ?goterm_id
     WHERE \u007b
@@ -238,7 +240,7 @@ def _flat_func(x):
     return [item for sublist in x for item in sublist]
 
 
-def go_ontology(go_prokka: pd.DataFrame) -> pd.DataFrame:
+def go_ontology(go_prokka: pd.DataFrame) -> nxJSONDataSet:
     # Read the taxrank ontology
     url = "http://purl.obolibrary.org/obo/go/go-basic.obo"
     graph = obonet.read_obo(url)
@@ -273,6 +275,6 @@ def go_ontology(go_prokka: pd.DataFrame) -> pd.DataFrame:
     print(shared_go_counts)
     print(count_lengths)
     print(sour)
-    pdb.set_trace()
-    print("her")
-    return go_prokka
+    xx = go_annots.go_term.to_list()
+    sub = graph.subgraph(xx)
+    return sub

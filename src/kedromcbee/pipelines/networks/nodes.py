@@ -1,15 +1,16 @@
-import os
+# import os
 import pdb
-import sys
-import time
-from collections import Counter, OrderedDict
 
 import networkx as nx
 import numpy as np
 import pandas as pd
 # import psutil
 from kedro.extras.datasets.networkx import JSONDataSet
-from SPARQLWrapper import SPARQLWrapper
+
+# import sys
+# import time
+# from collections import Counter, OrderedDict
+
 
 # from SPARQLWrapper import JSON, N3, SPARQLWrapper
 
@@ -24,10 +25,11 @@ from SPARQLWrapper import SPARQLWrapper
 
 def build_multilayer_network(
     prokka_edges: pd.DataFrame,
-    prokka_gff: pd.DataFrame,
+    hierarchy_go: JSONDataSet,
 ) -> JSONDataSet:
     # gff_prokka = gff_prokka.set_index('gid')
-    # xx = gff_prokka[gff_prokka.length.str.contains(r'\|')].length.str.split(r'\|').apply(lambda x: np.mean(list(map(int,x))))
+    # xx = gff_prokka[gff_prokka.length.str.contains(r'\|')]
+    # .length.str.split(r'\|').apply(lambda x: np.mean(list(map(int,x))))
     # gff_prokka.loc[xx.index,'length'] = xx
     # gff_prokka["length"] = gff_prokka.length.astype(float)
     # A = multinet.multi_layer_network(directed=False)
@@ -38,7 +40,8 @@ def build_multilayer_network(
     # Remove cdhit_edges2 only 3% of the total number of edges in the graph
     # We don't need cdhit since it looks like prokka does a good job
     # The hypothetical proteins that even have annotations, have some bad annotations
-    # I don't care about the genes labelled hypothetical proteins. As isolated vertices they provide no information or usefulness
+    # I don't care about the genes labelled hypothetical proteins.
+    # As isolated vertices they provide no information or usefulness
 
     print("Starting bin")
     # bin_edges = _merge_node_layer(bin_edges, gff_prokka)
@@ -53,20 +56,6 @@ def build_multilayer_network(
     print(G.size())
     print(G.order())
     pdb.set_trace()
-    sparql = SPARQLWrapper(
-        "http://rdf.geneontology.org/blazegraph/sparql"
-    )  # ../../../../data/01_raw/sparql')
-    sparql.setReturnFormat(JSON)
-    sparql.setQuery(
-        """
-    SELECT * WHERE {
-        ?sub ?pred ?obj .
-    }
-    LIMIT 100
-    OFFSET 0
-    """
-    )
-    results = sparql.query().convert()
     res = [
         G.subgraph(x) for x in sorted(nx.connected_components(G), key=len, reverse=True)
     ]
@@ -77,6 +66,7 @@ def build_multilayer_network(
         tmp = cc.nodes()
     node_cc = list(res[0].nodes())
     print(len(node_cc))
+    print(tmp)
     print(len(res[0].edges()))
     print((240 * 241) / 2)
     # Every cc is strongly connected

@@ -1,5 +1,5 @@
 import itertools
-import pdb
+# import pdb
 import time
 from collections import Counter
 
@@ -55,7 +55,9 @@ def _creating_edges_list_multilayer(annot, elist, edge, prokka_gff):
         length, level, scaf_level = prokka_gff.loc[node][
             ["length", "level", "scaf_level"]
         ]
-        tmp.append(f"{node}|{level}")
+        # tmp.append(f"{node}|{level}")
+        tmp.append(node)
+        tmp.append(level)
         edge_length.append(length)
         edge_scaf.add(scaf_level)
     if "low" in tmp[0] or "low" in tmp[1]:
@@ -109,8 +111,6 @@ def preprocess_prokka_sequences(
         partition_data = partition_load_func()
         combine_all.extend(partition_data)
     print(f"For loop {time.time() - start}")
-
-    pdb.set_trace()
 
     unique_records = _merge_duplicate_seqrecords(combine_all)
     merged_ids = _find_merged_ids(unique_records)
@@ -180,7 +180,16 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> pd.DataFrame:
                 )
     return pd.DataFrame(
         prokka_edges,
-        columns=["node1", "node2", "weight", "edge_length", "edge_scaf", "edge_annot"],
+        columns=[
+            "node1",
+            "level1",
+            "node2",
+            "level2",
+            "weight",
+            "edge_length",
+            "edge_scaf",
+            "edge_annot",
+        ],
     )
 
 
@@ -244,9 +253,12 @@ def go_ontology(go_prokka: pd.DataFrame) -> nxJSONDataSet:
     # Read the taxrank ontology
     url = "http://purl.obolibrary.org/obo/go/go-basic.obo"
     graph = obonet.read_obo(url)
+    mapping = dict(
+        zip(graph.nodes.keys(), [x.replace(":", "_") for x in graph.nodes.keys()])
+    )
+    graph = nx.relabel_nodes(graph, mapping)
     id_to_name = {id_: data["name"] for id_, data in graph.nodes(data=True)}
-    nx.descendants(graph, "GO:0000036")
-    nx.ancestors(graph, "GO:0003677")
+    # nx.descendants(graph, "GO:0000036")
 
     # Analysis of go_prokka
     goh_prokka = go_prokka[~go_prokka.go.isnull()].copy()
@@ -254,10 +266,14 @@ def go_ontology(go_prokka: pd.DataFrame) -> nxJSONDataSet:
     res = goh_prokka.groupby("annot").go.agg(list)
     # dictionary of uniprot mapped to go
     flat_res = {key: set(_flat_func(val)) for key, val in res.items()}
-    df = pd.DataFrame.from_dict(flat_res, orient="index").reset_index()
-    go_df = df.melt(id_vars=["index"], value_name="go_term").dropna()
+    df = (
+        pd.DataFrame.from_dict(flat_res, orient="index")
+        .rename_axis("uniprots")
+        .reset_index()
+    )
+    go_df = df.melt(id_vars=["uniprots"], value_name="go_term").dropna()
     # go mapped to uniprot
-    go_annots = go_df.groupby("go_term").index.agg(set)
+    go_annots = go_df.groupby("go_term").uniprots.agg(set)
     total_annots = [x for x in go_annots.values]
     shared_go = Counter(_flat_func(total_annots))
     go_shared = {}
@@ -266,8 +282,8 @@ def go_ontology(go_prokka: pd.DataFrame) -> nxJSONDataSet:
     shared_go_counts = Counter(list(shared_go.values()))
     count_lengths = Counter([len(x) for x in flat_res.values()])
     go_annots = go_annots.reset_index()
-    go_annots["go_term"] = go_annots.go_term.str.replace("_", ":")
     go_annots["name"] = go_annots.go_term.map(id_to_name)
+    go_annots.uniprots = go_annots.uniprots.map(list)
     sources = [
         x for x in graph.nodes() if graph.out_degree(x) == 1 and graph.in_degree(x) == 0
     ]
@@ -277,4 +293,8 @@ def go_ontology(go_prokka: pd.DataFrame) -> nxJSONDataSet:
     print(sour)
     xx = go_annots.go_term.to_list()
     sub = graph.subgraph(xx)
-    return sub
+    return (
+        dict(zip(go_df.uniprots, go_df.go_term)),
+        dict(zip(go_annots.go_term, go_annots.uniprots)),
+        sub,
+    )

@@ -9,7 +9,13 @@ def create_pipeline(**kwargs) -> Pipeline:
         [
             node(
                 func=build_multilayer_network,
-                inputs=["prokka_edges", "hierarchy_go"],
+                inputs=[
+                    "prokka_edges",
+                    "hierarchy_go",
+                    "uni_go",
+                    "go_uni",
+                    "go_gff_prokka",
+                ],
                 outputs="bee_graph",  # ["bee_mlnetwork","bee_graph"],
                 name="build_mlnetwork",
             ),
@@ -21,6 +27,6 @@ def create_pipeline(**kwargs) -> Pipeline:
             ),
         ],
         namespace="networks",
-        inputs=["prokka_edges", "hierarchy_go", "go_gff_prokka"],
+        inputs=["prokka_edges", "hierarchy_go", "uni_go", "go_uni", "go_gff_prokka"],
         outputs="bee_graph",
     )

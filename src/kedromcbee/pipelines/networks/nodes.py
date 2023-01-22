@@ -1,11 +1,15 @@
 # import os
+import itertools
 import pdb
+from collections import Counter
 
 import networkx as nx
 import numpy as np
 import pandas as pd
+from kedro.extras.datasets.json import JSONDataSet
 # import psutil
-from kedro.extras.datasets.networkx import JSONDataSet
+from kedro.extras.datasets.networkx import JSONDataSet as nxJSONDataSet
+from node2vec import Node2Vec
 
 # import sys
 # import time
@@ -25,7 +29,10 @@ from kedro.extras.datasets.networkx import JSONDataSet
 
 def build_multilayer_network(
     prokka_edges: pd.DataFrame,
-    hierarchy_go: JSONDataSet,
+    hierarchy_go: nxJSONDataSet,
+    uni_go: JSONDataSet,
+    go_uni: JSONDataSet,
+    gff_prokka: pd.DataFrame,
 ) -> JSONDataSet:
     # gff_prokka = gff_prokka.set_index('gid')
     # xx = gff_prokka[gff_prokka.length.str.contains(r'\|')]
@@ -55,11 +62,38 @@ def build_multilayer_network(
     )
     print(G.size())
     print(G.order())
-    pdb.set_trace()
+    attrs = {k: {"apiary": v} for k, v in gff_prokka.level.items()}
+    nx.set_node_attributes(G, attrs)
     res = [
         G.subgraph(x) for x in sorted(nx.connected_components(G), key=len, reverse=True)
     ]
-    # print(G.get_edge_data(*list(G.edges(res[0][0]))[0]))
+    print(sum([x.order() for x in res]))
+    total_num = [x.order() for x in res]
+    print(Counter(total_num))
+    edge_info = G.get_edge_data(*list(G.edges(res[-10]))[0])
+    prokka_annot = set(
+        [G.get_edge_data(*x)["edge_annot"] for x in list(G.edges(res[4]))]
+    )
+    roots = [n for n, d in hierarchy_go.in_degree() if d == 0]
+    leafs = [n for n, d in hierarchy_go.out_degree() if d == 0]
+    annot_nogo = list(set(gff_prokka.annot) - set(uni_go))
+    go_list = go_uni.values()
+    flat_go_list = [i for subitem in go_list for i in subitem]
+    print(len(set(flat_go_list)))
+    edge_combos = [list(itertools.combinations(go_uni[x], 2)) for x in leafs]
+    res2 = [i for subitem in edge_combos for i in subitem]
+    annot_G = nx.from_edgelist(res2)
+    node2vec = Node2Vec(res[0], dimensions=64, walk_length=30, num_walks=200, workers=4)
+    model = node2vec.fit(window=10, min_count=1, batch_words=4)
+    pdb.set_trace()
+    # nx.descendants(hierarchy_go,uni_go['P25762'].replace('_',':')
+    print(edge_info)
+    print(prokka_annot)
+    print(roots)
+    print(leafs)
+    print(annot_nogo)
+    print(annot_G)
+    print(dir(model))
     # eee = list(G.edges(res[0][0]))
     # G.get_edge_data(eee[0])
     for cc in res:
@@ -125,6 +159,7 @@ def analyze_networks(bee_graph: JSONDataSet, gff_prokka: pd.DataFrame) -> pd.Dat
     nodes = bee_graph.nodes
     edges = bee_graph.edges
     adj = bee_graph.edges._adjdict
+    print(adj)
     pdb.set_trace()
     node_list = []
     for x in nodes:
@@ -148,14 +183,15 @@ def analyze_networks(bee_graph: JSONDataSet, gff_prokka: pd.DataFrame) -> pd.Dat
     # print(f"Number of edges in low {len(c2edge)}")
     # print(f"Number of edges in control {len(c3edge)}")
 
-    ## There was edge stuff here
+    # There was edge stuff here
 
     # gff_prokka = gff_prokka.set_index('gid')
     # node_df = pd.DataFrame(nodes.data(),columns = ['infos','empty'])
     # node_df['gene'], node_df['level'] = zip(*node_df.infos)
     # node_df = node_df.drop(["infos","empty","level"],axis=1)
     # node_df['length'] = node_df.gene.map(gff_prokka['length'])
-    # test = node_df[node_df.length.str.contains(r'\|')].length.str.split(r'\|').apply(lambda x: np.mean(list(map(int,x))))
+    # test = node_df[node_df.length.str.contains(r'\|')].
+    # length.str.split(r'\|').apply(lambda x: np.mean(list(map(int,x))))
     # node_df.loc[test.index, 'length'] = test
     # node_length_vec = node_df.length.to_numpy()
     # nlv = node_length_vec.astype(float)
@@ -216,7 +252,7 @@ def analyze_networks(bee_graph: JSONDataSet, gff_prokka: pd.DataFrame) -> pd.Dat
         edata = [bee_graph.get_edge_data(*x)["annot"] for x in tt]
         # print(set(edata))
         cc_info.append([len(cc), len(tt), edata])
-    cc_infodf = pd.DataFrame(cc_info)
+    # cc_infodf = pd.DataFrame(cc_info)
 
     def total_num_possedges(n: int) -> int:
         return (n * (n - 1)) / 2

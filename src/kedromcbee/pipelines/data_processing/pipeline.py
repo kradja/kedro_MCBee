@@ -47,11 +47,11 @@ def create_pipeline(**kwargs) -> Pipeline:
             node(
                 func=go_ontology,
                 inputs="go_gff_prokka",
-                outputs="hierarchy_go",
+                outputs=["uni_go", "go_uni", "hierarchy_go"],
                 name="go_onts",
             ),
         ],
         namespace="data_processing",
         inputs=["partition_prokka_faa", "partition_prokka_gff"],
-        outputs=["hierarchy_go", "prokka_edges", "go_gff_prokka"],
+        outputs=["hierarchy_go", "uni_go", "go_uni", "prokka_edges", "go_gff_prokka"],
     )

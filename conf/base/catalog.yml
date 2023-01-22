@@ -89,6 +89,16 @@ hierarchy_go:
     filepath: data/04_feature/go_hierarchy.json
     layer: feature
 
+uni_go:
+  type: json.JSONDataSet
+  filepath: data/04_feature/uniprot_go.json
+  layer: feature
+
+go_uni:
+  type: json.JSONDataSet
+  filepath: data/04_feature/go_uniprot.json
+  layer: feature
+
 prokka_edges:
     type: pandas.CSVDataSet
     filepath: data/03_primary/prokka_edges.csv

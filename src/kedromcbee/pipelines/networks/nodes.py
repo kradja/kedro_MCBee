@@ -34,26 +34,6 @@ def build_multilayer_network(
     go_uni: JSONDataSet,
     gff_prokka: pd.DataFrame,
 ) -> JSONDataSet:
-    # gff_prokka = gff_prokka.set_index('gid')
-    # xx = gff_prokka[gff_prokka.length.str.contains(r'\|')]
-    # .length.str.split(r'\|').apply(lambda x: np.mean(list(map(int,x))))
-    # gff_prokka.loc[xx.index,'length'] = xx
-    # gff_prokka["length"] = gff_prokka.length.astype(float)
-    # A = multinet.multi_layer_network(directed=False)
-    # A.add_edges(cdhit_edges.values.tolist(), input_type='list')
-    # A.add_edges(prokka_edges.values.tolist(),input_type='list')
-    # print(A.basic_stats())
-    G = nx.Graph()
-    # Remove cdhit_edges2 only 3% of the total number of edges in the graph
-    # We don't need cdhit since it looks like prokka does a good job
-    # The hypothetical proteins that even have annotations, have some bad annotations
-    # I don't care about the genes labelled hypothetical proteins.
-    # As isolated vertices they provide no information or usefulness
-
-    print("Starting bin")
-    # bin_edges = _merge_node_layer(bin_edges, gff_prokka)
-
-    # graph_edges = pd.concat([cdhit_edges2, prokka_edges2])  # ,bin_edges])
     G = nx.from_pandas_edgelist(
         prokka_edges,
         "node1",
@@ -71,10 +51,11 @@ def build_multilayer_network(
     total_num = [x.order() for x in res]
     print(Counter(total_num))
     edge_info = G.get_edge_data(*list(G.edges(res[-10]))[0])
-    prokka_annot = set(
-        [G.get_edge_data(*x)["edge_annot"] for x in list(G.edges(res[4]))]
-    )
+    #prokka_annot = set(
+    #    [G.get_edge_data(*x)["edge_annot"] for x in list(G.edges(res[4]))]
+    #)
     roots = [n for n, d in hierarchy_go.in_degree() if d == 0]
+    # I just want to take the leaves because they are the most specific annotation that I know for sure and there is no duplication between leaves.
     leafs = [n for n, d in hierarchy_go.out_degree() if d == 0]
     annot_nogo = list(set(gff_prokka.annot) - set(uni_go))
     go_list = go_uni.values()
@@ -83,79 +64,29 @@ def build_multilayer_network(
     edge_combos = [list(itertools.combinations(go_uni[x], 2)) for x in leafs]
     res2 = [i for subitem in edge_combos for i in subitem]
     annot_G = nx.from_edgelist(res2)
-    node2vec = Node2Vec(res[0], dimensions=64, walk_length=30, num_walks=200, workers=4)
-    model = node2vec.fit(window=10, min_count=1, batch_words=4)
-    pdb.set_trace()
+    #node2vec = Node2Vec(res[0], dimensions=64, walk_length=30, num_walks=200, workers=4)
+    #model = node2vec.fit(window=10, min_count=1, batch_words=4)
     # nx.descendants(hierarchy_go,uni_go['P25762'].replace('_',':')
-    print(edge_info)
-    print(prokka_annot)
-    print(roots)
-    print(leafs)
-    print(annot_nogo)
-    print(annot_G)
-    print(dir(model))
+    #print(edge_info)
+    #print(prokka_annot)
+    # print(roots)
+    #print(annot_nogo)
+    #print(dir(model))
     # eee = list(G.edges(res[0][0]))
     # G.get_edge_data(eee[0])
-    for cc in res:
-        tmp = cc.nodes()
-    node_cc = list(res[0].nodes())
-    print(len(node_cc))
-    print(tmp)
-    print(len(res[0].edges()))
-    print((240 * 241) / 2)
+    #for cc in res:
+    #    tmp = cc.nodes()
+    #node_cc = list(res[0].nodes())
+    #print(len(node_cc))
+    #print(tmp)
+    #print(len(res[0].edges()))
+    #print((240 * 241) / 2)
     # Every cc is strongly connected
 
-    pdb.set_trace()
-    # one = list(zip(cdhit_edges.node1,cdhit_edges.layer1))
-    # two = list(zip(cdhit_edges.node2,cdhit_edges.layer2))
-    # cweights = cdhit_edges.weight.tolist()
-    # scaf_match = ''
-    # for row_num in range(len(cdhit_edges)):
-    #    slice_prokka = gff_prokka.loc[[one[row_num][0],two[row_num][0]]]
-    #    length_arr = slice_prokka.length.to_numpy()
-    #    edge_length = np.abs(np.diff(length_arr))[0]
-    #    check = slice_prokka.scaffold.str.contains(r'\|').any()
-    #    if check:
-    #        scaf_match = list(set.intersection(*slice_prokka.scaf_level.str.split('|').apply(set).to_list()))
-    #    else:
-    #        set_scafs = set(slice_prokka.scaffold)
-    #        if len(set_scafs) ==1:
-    #            scaf_match = list(set_scafs)
-    #        else:
-    #            scaf_match = ''
-    #    G.add_edge(
-    #        one[row_num],two[row_num],
-    #        weight = cweights[row_num],
-    #        annot = 'cdhit',
-    #        length = edge_length,
-    #        scaffold_match = scaf_match)
-
-    # one = list(zip(prokka_edges.node1,prokka_edges.layer1))
-    # two = list(zip(prokka_edges.node2,prokka_edges.layer2))
-    # pweights = prokka_edges.weight.tolist()
-    # for row_num in range(len(prokka_edges)):
-    #    slice_prokka = gff_prokka.loc[[one[row_num][0],two[row_num][0]]]
-    #    length_arr = slice_prokka.length.to_numpy()
-    #    edge_length = np.abs(np.diff(length_arr))[0]
-    #    check = slice_prokka.scaffold.str.contains(r'\|').any()
-    #    if check:
-    #        scaf_match = list(set.intersection(*slice_prokka.scaf_level.str.split('|').apply(set).to_list()))
-    #    else:
-    #        set_scafs = set(slice_prokka.scaffold)
-    #        if len(set_scafs) ==1:
-    #            scaf_match = list(set_scafs)
-    #        else:
-    #            scaf_match = ''
-    #    G.add_edge(
-    #        one[row_num],two[row_num],
-    #        weight = pweights[row_num],
-    #        annot = gff_prokka.loc[one[row_num][0]].annot,
-    #        length = edge_length,
-    #        scaffold_match = scaf_match)
-    return G
+    return G, annot_G
 
 
-def analyze_networks(bee_graph: JSONDataSet, gff_prokka: pd.DataFrame) -> pd.DataFrame:
+def analyze_networks(bee_graph: JSONDataSet,annot_graph: JSONDataSet, gff_prokka: pd.DataFrame) -> pd.DataFrame:
     nodes = bee_graph.nodes
     edges = bee_graph.edges
     adj = bee_graph.edges._adjdict

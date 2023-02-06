@@ -14,6 +14,9 @@ from kedro.extras.datasets.networkx import JSONDataSet as nxJSONDataSet
 from kedro.io import PartitionedDataSet
 from SPARQLWrapper import JSON, SPARQLWrapper
 
+pd.set_option("display.max_rows", 500)
+pd.set_option("display.max_columns", 500)
+
 
 class ReturnDict(dict):
     def __missing__(self, key):
@@ -30,6 +33,9 @@ def _parse_protein_length(prot_sequences, x):
 
 
 def _merge_duplicate_info(df):
+    """This function merges duplicate information in a dataframe and then merges based on
+    a comma. It had some hardcoded column for index and groupby
+    """
     unique_df = df[~df.gid.duplicated(keep=False)]
     unique_df = unique_df.set_index("gid")
     duplicated_df = df[df.gid.duplicated(keep=False)]
@@ -52,18 +58,20 @@ def _creating_edges_list_multilayer(annot, elist, edge, prokka_gff):
     edge_length = []
     edge_scaf = set()
     for node in edge:
-        length, level, scaf_level = prokka_gff.loc[node][
-            ["length", "level", "scaf_level"]
-        ]
+        length, level, scaf_level = prokka_gff.loc[node][["length", "bin", "scaffold"]]
         # tmp.append(f"{node}|{level}")
+        if "," in length:
+            length = np.mean(np.array(length.split(",")).astype(np.int32))
+        else:
+            length = int(length)
         tmp.append(node)
         tmp.append(level)
         edge_length.append(length)
         edge_scaf.add(scaf_level)
-    if "low" in tmp[0] or "low" in tmp[1]:
-        tmp.append(1)
-    else:
-        tmp.append(-1)
+    # if "low" in tmp[0] or "low" in tmp[1]:
+    #    tmp.append(1)
+    # else:
+    #    tmp.append(-1)
     tmp.append(np.mean(edge_length))
     if len(edge_scaf) == 1:
         tmp.append(edge_scaf.pop())
@@ -119,15 +127,17 @@ def preprocess_prokka_sequences(
 
 def prokka_bins_gff(
     partition_prokka_gff: PartitionedDataSet,
-) -> [pd.DataFrame, JSONDataSet]:
-    """Parsing prokka annotation information from the multiple runs"""
+) -> [pd.DataFrame, pd.DataFrame, JSONDataSet]:
+    """Parsing prokka annotation information from the multiple runs
+    I don't need to keep most of the information like gene or annotation info
+    """
     list_gff_df = []
     for partition_load_func in partition_prokka_gff.values():
         list_gff_df.append(partition_load_func())
     concat_gff = pd.concat(list_gff_df, ignore_index=True)
-    concat_gff["scaf_level"] = concat_gff["scaffold"] + ":" + concat_gff["level"]
-    prokka_bins = dict(concat_gff[["prokka_unique", "level"]].values)
-    prokka_gff = concat_gff.drop(["prokka_unique", "scaffold"], axis=1)
+    # concat_gff["scaf_level"] = concat_gff["scaffold"] + ":" + concat_gff["level"]
+    prokka_bins = dict(concat_gff[["prokka_unique", "bin"]].values)
+    prokka_gff = concat_gff.drop(["prokka_unique"], axis=1)
 
     uni_prokka_gff = prokka_gff[prokka_gff.annot.str.contains("UniProtKB")]
     rest_prokka_gff = prokka_gff[~prokka_gff.annot.str.contains("UniProtKB")]
@@ -150,34 +160,69 @@ def preprocess_prokka_annotations(
     """
     merged_gene_ids = ReturnDict(merged_gene_ids)
     annotations["gid"] = annotations.gid.map(merged_gene_ids)  # Duplicates
-
+    # Why do a lot of the merged ids not show up in annnotations
+    # pdb.set_trace()
+    # all_bins = set(annotations.bin)
     fixed_annotations = _merge_duplicate_info(annotations)
     fixed_annotations["length"] = _parse_protein_length(
         prot_sequences, fixed_annotations.index
     )
     fixed_annotations["annot"] = _parse_annotation_id(fixed_annotations["annot"])
+    # fixed_annotations["test"] = range(len(fixed_annotations))
+    # fixed_annotations["test"] = fixed_annotations.test.astype(str)
     return fixed_annotations
 
 
-def prokka_edges(prokka_gff: pd.DataFrame) -> pd.DataFrame:
+def prokka_edges(prokka_gff: pd.DataFrame) -> [pd.DataFrame, pd.DataFrame]:
+    """I need to add the nosema intensity here. I need to implement multiprocessing here. It is taking wayyyyy too long
+    I need to also take into account what's being not included in prokka_gff
+    """
     prokka_edges = []
     # Change to 100 50% of the mean of Archae
     prokka_gff = prokka_gff[prokka_gff.length > 100].copy()
-    annot_groups = prokka_gff.annot.reset_index().groupby("annot").gid.agg(list)
-    for uni_annot in annot_groups.keys():
-        val = annot_groups[uni_annot]
-        if len(val) == 1:
+    prokka_gff["length"] = prokka_gff.length.astype(str)
+    prokka_gff = prokka_gff.fillna("")
+    annot_groups = prokka_gff.reset_index().groupby(["annot", "bin"]).gid.agg(list)
+    print(prokka_gff.tail())
+    for annot_bin, gids in annot_groups.items():
+        if len(gids) > 1:
+            annot_groups[annot_bin] = ",".join(gids)
+            tmp = prokka_gff.loc[gids]
+            res = [",".join(set(tmp[col])) for col in tmp.columns]
+            prokka_gff.drop(gids, axis=0)
+            prokka_gff.loc[",".join(gids)] = res
+        else:
+            annot_groups[annot_bin] = gids[0]
+
+    print(prokka_gff.tail())
+    for uniprot_annots in set(annot_groups.index.get_level_values("annot")):
+        vals = annot_groups[uniprot_annots].to_list()
+        if len(vals) == 1:
             continue
-        elif len(val) == 2:
+        elif len(vals) == 2:
             prokka_edges = _creating_edges_list_multilayer(
-                uni_annot, prokka_edges, val, prokka_gff
+                uniprot_annots, prokka_edges, vals, prokka_gff
             )
         else:
-            edges = list(itertools.combinations(val, 2))
+            edges = list(itertools.combinations(vals, 2))
             for edge in edges:
                 prokka_edges = _creating_edges_list_multilayer(
-                    uni_annot, prokka_edges, edge, prokka_gff
+                    uniprot_annots, prokka_edges, edge, prokka_gff
                 )
+    # tmp = prokka_gff.copy()
+    test = prokka_gff[prokka_gff.bin.str.contains(",")]
+    print(test)
+    prokka2 = prokka_gff.copy(deep=True)
+    prokka2["bin"] = prokka2.bin.str.split(",")
+    prokka2 = prokka2.explode("bin")
+    bin_gids = prokka2.reset_index().groupby("bin").gid.agg(list)
+    print(len(prokka_edges))
+    for bins, gids in bin_gids.items():
+        edges = list(itertools.combinations(gids, 2))
+        for edge in edges:
+            prokka_edges = _creating_edges_list_multilayer(
+                bins, prokka_edges, edge, prokka_gff
+            )
     return pd.DataFrame(
         prokka_edges,
         columns=[
@@ -185,7 +230,6 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> pd.DataFrame:
             "level1",
             "node2",
             "level2",
-            "weight",
             "edge_length",
             "edge_scaf",
             "edge_annot",
@@ -227,6 +271,10 @@ def _chunks(lst, n):
 
 
 def go_annotations(prokka_gff: pd.DataFrame) -> pd.DataFrame:
+    """I need to add asyncio here so that I can send all the requests all at once instead of waiting for the
+    computation to be done and then requesting again
+    This will improve the speed of performance
+    """
     sparql = SPARQLWrapper("https://sparql.uniprot.org/sparql/")
     sparql.setReturnFormat(JSON)
     uni_annots = set(prokka_gff.annot)

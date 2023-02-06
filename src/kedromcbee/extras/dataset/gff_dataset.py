@@ -21,7 +21,7 @@ class GffDataSet(AbstractDataSet):
             "ainfo",
             "gene",
             "prokka_unique",
-            "level",
+            "bin",
         ]
 
     def _load(self) -> pd.DataFrame:
@@ -37,7 +37,7 @@ class GffDataSet(AbstractDataSet):
         gene_pattern = re.compile(r"gene=(.+?);")
         with self._fs.open(load_path, mode="r") as f:
             level = self._filepath.stem
-            level = level[: level.find(".")]
+            # level = level[: level.find(".")]
             for line in f:
                 if "ID=" in line:
                     unique_id = id_pattern.search(line)[1]

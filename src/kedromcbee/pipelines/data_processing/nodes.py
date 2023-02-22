@@ -1,5 +1,7 @@
+import asyncio
 import itertools
-# import pdb
+# import multiprocessing as mp
+import pdb
 import time
 from collections import Counter
 
@@ -7,6 +9,7 @@ import networkx as nx
 import numpy as np
 import obonet
 import pandas as pd
+from aiosparql.client import SPARQLClient
 from Bio import SeqIO
 from kedro.extras.datasets.biosequence import BioSequenceDataSet
 from kedro.extras.datasets.json import JSONDataSet
@@ -49,7 +52,7 @@ def _merge_duplicate_info(df):
 
 def _creating_edges_list_multilayer(annot, elist, edge, prokka_gff):
     """creating edges for multilayer networks using the list method
-    [node1 layer1 node2 layer2 weight]
+    [node1 layer1 node2 layer2 length, edge_scaf, annotation]
 
     What if a node comes from multiple bins. I need to check
     if both nodes have / then I am not accounting the types for both of them!
@@ -195,6 +198,7 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> [pd.DataFrame, pd.DataFrame]:
             annot_groups[annot_bin] = gids[0]
 
     print(prokka_gff.tail())
+    pdb.set_trace()
     for uniprot_annots in set(annot_groups.index.get_level_values("annot")):
         vals = annot_groups[uniprot_annots].to_list()
         if len(vals) == 1:
@@ -223,22 +227,29 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> [pd.DataFrame, pd.DataFrame]:
             prokka_edges = _creating_edges_list_multilayer(
                 bins, prokka_edges, edge, prokka_gff
             )
-    return pd.DataFrame(
-        prokka_edges,
-        columns=[
-            "node1",
-            "level1",
-            "node2",
-            "level2",
-            "edge_length",
-            "edge_scaf",
-            "edge_annot",
-        ],
+    print(len(prokka_edges))
+    return (
+        pd.DataFrame(
+            prokka_edges,
+            columns=[
+                "node1",
+                "level1",
+                "node2",
+                "level2",
+                "edge_length",
+                "edge_scaf",
+                "edge_annot",
+            ],
+        ),
+        prokka_gff,
     )
 
 
-def _sparql_uniprot_query(sparql, prot_list: list[str]):
+async def _sparql_uniprot_query(sparql, prot_list: list[str]):
     # Filter out the uniprot keywords
+    # async with session.get(url) as response:
+    #    sparql_response = await response.json()
+    # return sparql_response
     prot_list = '("' + '") ("'.join(prot_list) + '")'
     sparql.setQuery(
         f"""
@@ -270,20 +281,34 @@ def _chunks(lst, n):
         yield lst[i : i + n]
 
 
+async def _func(sparql, uni_annots):
+    sparql = SPARQLClient("https://sparql.uniprot.org/sparql/")
+    # sparql.setReturnFormat(JSON)
+    # async with aiohttp.ClientSession() as session:
+    tasks = [
+        _sparql_uniprot_query(sparql, annot_bin)
+        for annot_bin in _chunks(list(uni_annots), 350)
+    ]
+    results = await sparql.gather(*tasks)
+    return results
+
+
 def go_annotations(prokka_gff: pd.DataFrame) -> pd.DataFrame:
     """I need to add asyncio here so that I can send all the requests all at once instead of waiting for the
     computation to be done and then requesting again
     This will improve the speed of performance
     """
-    sparql = SPARQLWrapper("https://sparql.uniprot.org/sparql/")
-    sparql.setReturnFormat(JSON)
     uni_annots = set(prokka_gff.annot)
     xres = []
     for annot_bin in _chunks(list(uni_annots), 350):
         res = _sparql_uniprot_query(sparql, annot_bin)
+        # res = asyncio.run(_sparql_uniprot_query(sparql, annot_bin))
         xx = res["head"]["vars"]
         rbinds = res["results"]["bindings"]
         xres.extend([[s["value"] for s in x.values()] for x in rbinds])
+
+    results = _func(sparql, uni_annots)
+    print(results)
     df = pd.DataFrame(xres, columns=xx)
     tmp = df.groupby("ac").agg(set)
     res = [",".join(map(str, x)) for x in tmp["goterm_id"]]

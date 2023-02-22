@@ -33,12 +33,6 @@ def create_pipeline(**kwargs) -> Pipeline:
                 name="preprocess_prokka_annots",
             ),
             node(
-                func=prokka_edges,
-                inputs="updated_gff_prokka",
-                outputs=["prokka_edges", "updated2_gff_prokka"],
-                name="prokka_edges",
-            ),
-            node(
                 func=go_annotations,
                 inputs="updated_gff_prokka",
                 outputs="go_gff_prokka",
@@ -50,8 +44,14 @@ def create_pipeline(**kwargs) -> Pipeline:
                 outputs=["uni_go", "go_uni", "hierarchy_go"],
                 name="go_onts",
             ),
+            node(
+                func=prokka_edges,
+                inputs="go_gff_prokka",
+                outputs=["prokka_edges", "updated2_gff_prokka"],
+                name="prokka_edges",
+            ),
         ],
         namespace="data_processing",
         inputs=["partition_prokka_faa", "partition_prokka_gff"],
-        outputs=["hierarchy_go", "uni_go", "go_uni", "prokka_edges", "go_gff_prokka"],
+        outputs=["hierarchy_go", "uni_go", "go_uni", "prokka_edges", "updated2_gff_prokka"],
     )

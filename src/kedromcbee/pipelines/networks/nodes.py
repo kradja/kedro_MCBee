@@ -9,7 +9,8 @@ import pandas as pd
 from kedro.extras.datasets.json import JSONDataSet
 # import psutil
 from kedro.extras.datasets.networkx import JSONDataSet as nxJSONDataSet
-from node2vec import Node2Vec
+
+# from node2vec import Node2Vec
 
 # import sys
 # import time
@@ -34,6 +35,11 @@ def build_multilayer_network(
     go_uni: JSONDataSet,
     gff_prokka: pd.DataFrame,
 ) -> JSONDataSet:
+    print("Start")
+    pdb.set_trace()
+    xx = prokka_edges.to_numpy()
+    prokka_nodes = xx.flatten()
+    print(prokka_nodes)
     G = nx.from_pandas_edgelist(
         prokka_edges,
         "node1",
@@ -51,9 +57,9 @@ def build_multilayer_network(
     total_num = [x.order() for x in res]
     print(Counter(total_num))
     edge_info = G.get_edge_data(*list(G.edges(res[-10]))[0])
-    #prokka_annot = set(
+    # prokka_annot = set(
     #    [G.get_edge_data(*x)["edge_annot"] for x in list(G.edges(res[4]))]
-    #)
+    # )
     roots = [n for n, d in hierarchy_go.in_degree() if d == 0]
     # I just want to take the leaves because they are the most specific annotation that I know for sure and there is no duplication between leaves.
     leafs = [n for n, d in hierarchy_go.out_degree() if d == 0]
@@ -64,29 +70,31 @@ def build_multilayer_network(
     edge_combos = [list(itertools.combinations(go_uni[x], 2)) for x in leafs]
     res2 = [i for subitem in edge_combos for i in subitem]
     annot_G = nx.from_edgelist(res2)
-    #node2vec = Node2Vec(res[0], dimensions=64, walk_length=30, num_walks=200, workers=4)
-    #model = node2vec.fit(window=10, min_count=1, batch_words=4)
+    # node2vec = Node2Vec(res[0], dimensions=64, walk_length=30, num_walks=200, workers=4)
+    # model = node2vec.fit(window=10, min_count=1, batch_words=4)
     # nx.descendants(hierarchy_go,uni_go['P25762'].replace('_',':')
-    #print(edge_info)
-    #print(prokka_annot)
+    # print(edge_info)
+    # print(prokka_annot)
     # print(roots)
-    #print(annot_nogo)
-    #print(dir(model))
+    # print(annot_nogo)
+    # print(dir(model))
     # eee = list(G.edges(res[0][0]))
     # G.get_edge_data(eee[0])
-    #for cc in res:
+    # for cc in res:
     #    tmp = cc.nodes()
-    #node_cc = list(res[0].nodes())
-    #print(len(node_cc))
-    #print(tmp)
-    #print(len(res[0].edges()))
-    #print((240 * 241) / 2)
+    # node_cc = list(res[0].nodes())
+    # print(len(node_cc))
+    # print(tmp)
+    # print(len(res[0].edges()))
+    # print((240 * 241) / 2)
     # Every cc is strongly connected
 
     return G, annot_G
 
 
-def analyze_networks(bee_graph: JSONDataSet,annot_graph: JSONDataSet, gff_prokka: pd.DataFrame) -> pd.DataFrame:
+def analyze_networks(
+    bee_graph: JSONDataSet, annot_graph: JSONDataSet, gff_prokka: pd.DataFrame
+) -> pd.DataFrame:
     nodes = bee_graph.nodes
     edges = bee_graph.edges
     adj = bee_graph.edges._adjdict

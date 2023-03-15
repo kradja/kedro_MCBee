@@ -75,9 +75,18 @@ data_processing.updated_gff_prokka:
     save_args:
         index: True
 
-go_gff_prokka:
+data_processing.go_gff_prokka:
     type: pandas.CSVDataSet
     filepath: data/02_intermediate/go_gff_prokka.csv
+    layer: intermediate
+    load_args:
+        index_col: 'gid'
+    save_args:
+        index: True
+
+updated2_gff_prokka:
+    type: pandas.CSVDataSet
+    filepath: data/02_intermediate/updated2_gff_prokka.csv
     layer: intermediate
     load_args:
         index_col: 'gid'

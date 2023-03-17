@@ -1,5 +1,5 @@
 import itertools
-# import pdb
+import pdb
 import time
 import urllib
 from collections import Counter
@@ -25,12 +25,15 @@ class ReturnDict(dict):
 
 
 def _parse_annotation_id(x):
+    """Removing identifier for each identification.
+    ex: UniProtKB:P25762
+    """
     return x.str.split(":").str[1]
 
 
-def _parse_protein_length(prot_sequences, x):
+def _parse_protein_length(prot_sequences, unique_gids):
     prot_sequences = SeqIO.to_dict(prot_sequences)
-    return [len(prot_sequences[gid]) for gid in x]
+    return {gid: len(prot_sequences[gid]) for gid in unique_gids}
 
 
 def _merge_duplicate_info(df):
@@ -84,18 +87,21 @@ def _creating_edges_list_multilayer(annot, elist, edge, prokka_gff):
 
 
 def _merge_duplicate_seqrecords(seqrecords):
+    """Removing protein sequences that are have the description and annotation of hypothetical protein"""
     unique_records = {}
     for rec in seqrecords:
+        if "hypothetical protein" in rec.description:
+            continue
         if rec.seq in unique_records:
             merged_rec = unique_records[rec.seq].id + "/" + rec.id
             unique_records[rec.seq].id = merged_rec
         else:
             unique_records[rec.seq] = rec
-    return unique_records
+    return unique_records.values()
 
 
 def _find_merged_ids(records):
-    list_merged_id = [x.id for x in records.values() if "/" in x.id]
+    list_merged_id = [x.id for x in records if "/" in x.id]
     dict_merged_ids = {}
     for merged_id in list_merged_id:
         for original_id in merged_id.split("/"):
@@ -120,10 +126,9 @@ def preprocess_prokka_sequences(
         partition_data = partition_load_func()
         combine_all.extend(partition_data)
     print(f"For loop {time.time() - start}")
-
     unique_records = _merge_duplicate_seqrecords(combine_all)
     merged_ids = _find_merged_ids(unique_records)
-    return list(unique_records.values()), merged_ids
+    return list(unique_records), merged_ids
 
 
 def prokka_bins_gff(
@@ -164,91 +169,15 @@ def preprocess_prokka_annotations(
     # Why do a lot of the merged ids not show up in annnotations
     # pdb.set_trace()
     # all_bins = set(annotations.bin)
-    fixed_annotations = _merge_duplicate_info(annotations)
-    fixed_annotations["length"] = _parse_protein_length(
-        prot_sequences, fixed_annotations.index
+    # fixed_annotations = _merge_duplicate_info(annotations)
+    annotations["length"] = annotations.gid.map(
+        _parse_protein_length(prot_sequences, set(annotations.gid))
     )
-    fixed_annotations["annot"] = _parse_annotation_id(fixed_annotations["annot"])
+    annotations = annotations[annotations.length > 100].copy()
+    annotations["annot"] = _parse_annotation_id(annotations["annot"])
     # fixed_annotations["test"] = range(len(fixed_annotations))
     # fixed_annotations["test"] = fixed_annotations.test.astype(str)
-    return fixed_annotations
-
-
-def prokka_edges(prokka_gff: pd.DataFrame) -> [pd.DataFrame, pd.DataFrame]:
-    """I need to add the nosema intensity here. I need to implement multiprocessing here. It is taking wayyyyy too long
-    I need to also take into account what's being not included in prokka_gff
-    If two proteins are in the same bin with the same annotation then they are the same!
-    """
-    prokka_edges = []
-    # Change to 100 50% of the mean of Archae
-    prokka_gff = prokka_gff[prokka_gff.length > 100].copy()
-    prokka_gff["length"] = prokka_gff.length.astype(str)
-    prokka_gff = prokka_gff.fillna("")
-    prokka_gff["bin"] = ["b" + str(b) for b in prokka_gff.bin]
-    prokka_gff.index = ["g" + str(g) for g in prokka_gff.index]
-    prokka_gff.index.name = "gid"
-    annot_groups = prokka_gff.reset_index().groupby(["annot", "bin"]).gid.agg(list)
-    print(prokka_gff.tail())
-    for annot_bin, gids in annot_groups.items():
-        if len(gids) > 1:
-            annot_groups[annot_bin] = ",".join(gids)
-            tmp = prokka_gff.loc[gids]
-            res = [",".join(set(tmp[col])) for col in tmp.columns]
-            prokka_gff.drop(gids, axis=0)
-            prokka_gff.loc[",".join(gids)] = res
-        else:
-            annot_groups[annot_bin] = gids[0]
-
-    for uniprot_annots in set(annot_groups.index.get_level_values("annot")):
-        vals = annot_groups[uniprot_annots].to_list()
-        bin_gene = zip(annot_groups[uniprot_annots].index, annot_groups[uniprot_annots])
-        prokka_edges.extend(list(bin_gene))
-        if len(vals) == 1:
-            continue
-        elif len(vals) == 2:
-            prokka_edges.append(tuple(vals))
-            # prokka_edges = _creating_edges_list_multilayer(
-            #    uniprot_annots, prokka_edges, vals, prokka_gff
-            # )
-        else:
-            edges = list(itertools.combinations(vals, 2))
-            prokka_edges.extend(edges)
-            # for edge in edges:
-            #    prokka_edges = _creating_edges_list_multilayer(
-            #        uniprot_annots, prokka_edges, edge, prokka_gff
-            #    )
-    # tt = zip(annot_groups['A0A031WDE4'].index,annot_groups['A0A031WDE4'])
-    # tmp = prokka_gff.copy()
-    # test = prokka_gff[prokka_gff.bin.str.contains(",")]
-    # print(test)
-    # prokka2 = prokka_gff.copy(deep=True)
-    # prokka2["bin"] = prokka2.bin.str.split(",")
-    # prokka2 = prokka2.explode("bin")
-    # bin_gids = prokka2.reset_index().groupby("bin").gid.agg(list)
-    # print(len(prokka_edges))
-    # for bins, gids in bin_gids.items():
-    #    edges = list(itertools.combinations(gids, 2))
-    #    for edge in edges:
-    #        prokka_edges = _creating_edges_list_multilayer(
-    #            bins, prokka_edges, edge, prokka_gff
-    #        )
-    # pdb.set_trace()
-    # xx = prokka_gff.reset_index().groupby('go').gid.agg(list)
-    return (
-        pd.DataFrame(
-            prokka_edges,
-            columns=[
-                "node1",
-                # "level1",
-                "node2"  # ,
-                # "level2",
-                # "edge_length",
-                # "edge_scaf",
-                # "edge_annot",
-            ],
-        ),
-        prokka_gff,
-    )
+    return annotations
 
 
 def _sparql_uniprot_query(sparql, prot_list: list[str]):
@@ -321,6 +250,84 @@ def go_annotations(prokka_gff: pd.DataFrame) -> pd.DataFrame:
     dict_df = df2.goterm_id.to_dict()
     prokka_gff["go"] = prokka_gff.annot.map(dict_df)
     return prokka_gff
+
+
+def prokka_edges(prokka_gff: pd.DataFrame) -> [pd.DataFrame, pd.DataFrame]:
+    """I need to add the nosema intensity here. I need to implement multiprocessing here. It is taking wayyyyy too long
+    I need to also take into account what's being not included in prokka_gff
+    If two proteins are in the same bin with the same annotation then they are the same!
+    """
+    prokka_edges = []
+    # Change to 100 50% of the mean of Archae
+    # prokka_gff = prokka_gff[prokka_gff.length > 100].copy()
+    pdb.set_trace()
+    prokka_gff["length"] = prokka_gff.length.astype(str)
+    prokka_gff = prokka_gff.fillna("")
+    prokka_gff["bin"] = ["b" + str(b) for b in prokka_gff.bin]
+    prokka_gff.index = ["g" + str(g) for g in prokka_gff.index]
+    prokka_gff.index.name = "gid"
+    annot_groups = prokka_gff.reset_index().groupby(["annot", "bin"]).gid.agg(list)
+    print(prokka_gff.tail())
+    for annot_bin, gids in annot_groups.items():
+        if len(gids) > 1:
+            annot_groups[annot_bin] = ",".join(gids)
+            tmp = prokka_gff.loc[gids]
+            res = [",".join(set(tmp[col])) for col in tmp.columns]
+            prokka_gff.drop(gids, axis=0)
+            prokka_gff.loc[",".join(gids)] = res
+        else:
+            annot_groups[annot_bin] = gids[0]
+
+    for uniprot_annots in set(annot_groups.index.get_level_values("annot")):
+        vals = annot_groups[uniprot_annots].to_list()
+        bin_gene = zip(annot_groups[uniprot_annots].index, annot_groups[uniprot_annots])
+        prokka_edges.extend(list(bin_gene))
+        if len(vals) == 1:
+            continue
+        elif len(vals) == 2:
+            prokka_edges.append(tuple(vals))
+            # prokka_edges = _creating_edges_list_multilayer(
+            #    uniprot_annots, prokka_edges, vals, prokka_gff
+            # )
+        else:
+            edges = list(itertools.combinations(vals, 2))
+            prokka_edges.extend(edges)
+            # for edge in edges:
+            #    prokka_edges = _creating_edges_list_multilayer(
+            #        uniprot_annots, prokka_edges, edge, prokka_gff
+            #    )
+    # tt = zip(annot_groups['A0A031WDE4'].index,annot_groups['A0A031WDE4'])
+    # tmp = prokka_gff.copy()
+    # test = prokka_gff[prokka_gff.bin.str.contains(",")]
+    # print(test)
+    # prokka2 = prokka_gff.copy(deep=True)
+    # prokka2["bin"] = prokka2.bin.str.split(",")
+    # prokka2 = prokka2.explode("bin")
+    # bin_gids = prokka2.reset_index().groupby("bin").gid.agg(list)
+    # print(len(prokka_edges))
+    # for bins, gids in bin_gids.items():
+    #    edges = list(itertools.combinations(gids, 2))
+    #    for edge in edges:
+    #        prokka_edges = _creating_edges_list_multilayer(
+    #            bins, prokka_edges, edge, prokka_gff
+    #        )
+    # pdb.set_trace()
+    # xx = prokka_gff.reset_index().groupby('go').gid.agg(list)
+    return (
+        pd.DataFrame(
+            prokka_edges,
+            columns=[
+                "node1",
+                # "level1",
+                "node2"  # ,
+                # "level2",
+                # "edge_length",
+                # "edge_scaf",
+                # "edge_annot",
+            ],
+        ),
+        prokka_gff,
+    )
 
 
 def _flat_func(x):

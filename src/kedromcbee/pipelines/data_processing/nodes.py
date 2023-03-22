@@ -3,6 +3,7 @@ import pdb
 import time
 import urllib
 from collections import Counter
+from typing import Union
 
 import networkx as nx
 import numpy as np
@@ -111,7 +112,7 @@ def _find_merged_ids(records):
 
 def preprocess_prokka_sequences(
     partition_prokka_faa: PartitionedDataSet,
-) -> [BioSequenceDataSet, JSONDataSet]:
+) -> Union[BioSequenceDataSet, JSONDataSet]:
     """Merging duplicate protein sequence from various partitions of prokka.
 
     partition_prokka_faa: A list of biopython sequence records from various partitions
@@ -133,7 +134,7 @@ def preprocess_prokka_sequences(
 
 def prokka_bins_gff(
     partition_prokka_gff: PartitionedDataSet,
-) -> [pd.DataFrame, pd.DataFrame, JSONDataSet]:
+) -> Union[pd.DataFrame, pd.DataFrame, JSONDataSet]:
     """Parsing prokka annotation information from the multiple runs
     I don't need to keep most of the information like gene or annotation info
     """
@@ -252,7 +253,7 @@ def go_annotations(prokka_gff: pd.DataFrame) -> pd.DataFrame:
     return prokka_gff
 
 
-def prokka_edges(prokka_gff: pd.DataFrame) -> [pd.DataFrame, pd.DataFrame]:
+def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     """I need to add the nosema intensity here. I need to implement multiprocessing here. It is taking wayyyyy too long
     I need to also take into account what's being not included in prokka_gff
     If two proteins are in the same bin with the same annotation then they are the same!

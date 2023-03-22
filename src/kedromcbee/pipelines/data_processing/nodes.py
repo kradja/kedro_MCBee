@@ -27,7 +27,7 @@ class ReturnDict(dict):
 
 def _parse_annotation_id(x):
     """Removing identifier for each identification.
-    ex: UniProtKB:P25762
+    ex: UniProtKB:P25762; parsing
     """
     return x.str.split(":").str[1]
 

@@ -88,7 +88,10 @@ def _creating_edges_list_multilayer(annot, elist, edge, prokka_gff):
 
 
 def _merge_duplicate_seqrecords(seqrecords):
-    """Removing protein sequences that are have the description and annotation of hypothetical protein"""
+    """Removing protein sequences that are have the description and annotation of hypothetical protein
+        If I merge two sequences that are the same, I need to merge the ids as well
+        But if I merge those ids what will I do with the Nosema annotation for the gene?
+    """
     unique_records = {}
     for rec in seqrecords:
         if "hypothetical protein" in rec.description:
@@ -258,26 +261,30 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     I need to also take into account what's being not included in prokka_gff
     If two proteins are in the same bin with the same annotation then they are the same!
     """
+    prokka_gff = prokka_gff.fillna("")
     prokka_edges = []
     # Change to 100 50% of the mean of Archae
     # prokka_gff = prokka_gff[prokka_gff.length > 100].copy()
-    pdb.set_trace()
-    prokka_gff["length"] = prokka_gff.length.astype(str)
-    prokka_gff = prokka_gff.fillna("")
+    # prokka_gff["length"] = prokka_gff.length.astype(str)
     prokka_gff["bin"] = ["b" + str(b) for b in prokka_gff.bin]
-    prokka_gff.index = ["g" + str(g) for g in prokka_gff.index]
-    prokka_gff.index.name = "gid"
-    annot_groups = prokka_gff.reset_index().groupby(["annot", "bin"]).gid.agg(list)
+    prokka_gff["gid"] = ["g" + str(g) for g in prokka_gff.gid]
+    # prokka_gff.index.name = "gid"
+    annot_groups = prokka_gff.groupby(["annot", "bin"]).gid.agg(list)
     print(prokka_gff.tail())
+    merged_prokka_gff_rows = []
     for annot_bin, gids in annot_groups.items():
         if len(gids) > 1:
-            annot_groups[annot_bin] = ",".join(gids)
-            tmp = prokka_gff.loc[gids]
-            res = [",".join(set(tmp[col])) for col in tmp.columns]
-            prokka_gff.drop(gids, axis=0)
-            prokka_gff.loc[",".join(gids)] = res
+            annot_groups[annot_bin] = "/".join(gids)
+            tmp = prokka_gff[prokka_gff.gid.isin(gids)].index
+            merged_prokka_gff_rows.append(tmp)
         else:
             annot_groups[annot_bin] = gids[0]
+
+    for duplicate_rows in merged_prokka_gff_rows:
+        tmp = prokka_gff.loc[duplicate_rows]
+        res = [",".join(set(tmp[col])) for col in tmp.columns]
+        prokka_gff.drop(duplicate_rows, axis=0)
+        prokka_gff.loc[len(prokka_gff)] = res
 
     for uniprot_annots in set(annot_groups.index.get_level_values("annot")):
         vals = annot_groups[uniprot_annots].to_list()

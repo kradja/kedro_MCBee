@@ -262,16 +262,13 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     If two proteins are in the same bin with the same annotation then they are the same!
     """
     prokka_gff = prokka_gff.fillna("")
+    prokka_gff['length'] = prokka_gff.length.astype(str)
     prokka_edges = []
-    # Change to 100 50% of the mean of Archae
-    # prokka_gff = prokka_gff[prokka_gff.length > 100].copy()
-    # prokka_gff["length"] = prokka_gff.length.astype(str)
     prokka_gff["bin"] = ["b" + str(b) for b in prokka_gff.bin]
     prokka_gff["gid"] = ["g" + str(g) for g in prokka_gff.gid]
-    # prokka_gff.index.name = "gid"
-    annot_groups = prokka_gff.groupby(["annot", "bin"]).gid.agg(list)
-    print(prokka_gff.tail())
     merged_prokka_gff_rows = []
+    annot_groups = prokka_gff.groupby(["annot", "bin"]).gid.agg(list)
+    # Merging genes whose annotation and bin are the same, thus they are effectively the same
     for annot_bin, gids in annot_groups.items():
         if len(gids) > 1:
             annot_groups[annot_bin] = "/".join(gids)
@@ -279,13 +276,13 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
             merged_prokka_gff_rows.append(tmp)
         else:
             annot_groups[annot_bin] = gids[0]
-
+    # Removing the merged rows
     for duplicate_rows in merged_prokka_gff_rows:
         tmp = prokka_gff.loc[duplicate_rows]
         res = [",".join(set(tmp[col])) for col in tmp.columns]
         prokka_gff.drop(duplicate_rows, axis=0)
         prokka_gff.loc[len(prokka_gff)] = res
-
+    # Creating the gene-gene edges and bin-gene edges
     for uniprot_annots in set(annot_groups.index.get_level_values("annot")):
         vals = annot_groups[uniprot_annots].to_list()
         bin_gene = zip(annot_groups[uniprot_annots].index, annot_groups[uniprot_annots])
@@ -294,44 +291,15 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
             continue
         elif len(vals) == 2:
             prokka_edges.append(tuple(vals))
-            # prokka_edges = _creating_edges_list_multilayer(
-            #    uniprot_annots, prokka_edges, vals, prokka_gff
-            # )
         else:
             edges = list(itertools.combinations(vals, 2))
             prokka_edges.extend(edges)
-            # for edge in edges:
-            #    prokka_edges = _creating_edges_list_multilayer(
-            #        uniprot_annots, prokka_edges, edge, prokka_gff
-            #    )
-    # tt = zip(annot_groups['A0A031WDE4'].index,annot_groups['A0A031WDE4'])
-    # tmp = prokka_gff.copy()
-    # test = prokka_gff[prokka_gff.bin.str.contains(",")]
-    # print(test)
-    # prokka2 = prokka_gff.copy(deep=True)
-    # prokka2["bin"] = prokka2.bin.str.split(",")
-    # prokka2 = prokka2.explode("bin")
-    # bin_gids = prokka2.reset_index().groupby("bin").gid.agg(list)
-    # print(len(prokka_edges))
-    # for bins, gids in bin_gids.items():
-    #    edges = list(itertools.combinations(gids, 2))
-    #    for edge in edges:
-    #        prokka_edges = _creating_edges_list_multilayer(
-    #            bins, prokka_edges, edge, prokka_gff
-    #        )
-    # pdb.set_trace()
-    # xx = prokka_gff.reset_index().groupby('go').gid.agg(list)
     return (
         pd.DataFrame(
             prokka_edges,
             columns=[
                 "node1",
-                # "level1",
                 "node2"  # ,
-                # "level2",
-                # "edge_length",
-                # "edge_scaf",
-                # "edge_annot",
             ],
         ),
         prokka_gff,

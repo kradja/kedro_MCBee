@@ -89,8 +89,8 @@ def _creating_edges_list_multilayer(annot, elist, edge, prokka_gff):
 
 def _merge_duplicate_seqrecords(seqrecords):
     """Removing protein sequences that are have the description and annotation of hypothetical protein
-        If I merge two sequences that are the same, I need to merge the ids as well
-        But if I merge those ids what will I do with the Nosema annotation for the gene?
+    If I merge two sequences that are the same, I need to merge the ids as well
+    But if I merge those ids what will I do with the Nosema annotation for the gene?
     """
     unique_records = {}
     for rec in seqrecords:
@@ -262,7 +262,7 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     If two proteins are in the same bin with the same annotation then they are the same!
     """
     prokka_gff = prokka_gff.fillna("")
-    prokka_gff['length'] = prokka_gff.length.astype(str)
+    prokka_gff["length"] = prokka_gff.length.astype(str)
     prokka_edges = []
     prokka_gff["bin"] = ["b" + str(b) for b in prokka_gff.bin]
     prokka_gff["gid"] = ["g" + str(g) for g in prokka_gff.gid]
@@ -272,16 +272,30 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     for annot_bin, gids in annot_groups.items():
         if len(gids) > 1:
             annot_groups[annot_bin] = "/".join(gids)
-            tmp = prokka_gff[prokka_gff.gid.isin(gids)].index
-            merged_prokka_gff_rows.append(tmp)
+            tmp = prokka_gff[
+                (prokka_gff.annot == annot_bin[0]) & (prokka_gff.bin == annot_bin[1])
+            ]
+            merged_prokka_gff_rows.extend(tmp.index.tolist())
+            res = ["/".join(set(tmp[col])) for col in tmp.columns]
+            prokka_gff.loc[len(prokka_gff)] = res
         else:
             annot_groups[annot_bin] = gids[0]
     # Removing the merged rows
-    for duplicate_rows in merged_prokka_gff_rows:
-        tmp = prokka_gff.loc[duplicate_rows]
-        res = [",".join(set(tmp[col])) for col in tmp.columns]
-        prokka_gff.drop(duplicate_rows, axis=0)
-        prokka_gff.loc[len(prokka_gff)] = res
+    prokka_gff = prokka_gff.drop(merged_prokka_gff_rows, axis=0)
+    # for duplicate_rows in merged_prokka_gff_rows:
+    #    tmp = prokka_gff.loc[duplicate_rows]
+    #    res = [",".join(set(tmp[col])) for col in tmp.columns]
+    #    # prokka_gff.drop(duplicate_rows, axis=0)
+    #    prokka_gff.loc[len(prokka_gff)] = res
+
+    id_bin = prokka_gff.bin.unique()
+    print(id_bin)
+    xx = prokka_gff.groupby("gid")[["scaffold", "go"]].agg(set)
+    res = [[",".join(map(str, x)) for x in xx[col]] for col in xx.columns]
+    df = pd.DataFrame(res).T.set_index(xx.index)
+    df.columns = xx.columns
+    print(df.head())
+    pdb.set_trace()
     # Creating the gene-gene edges and bin-gene edges
     for uniprot_annots in set(annot_groups.index.get_level_values("annot")):
         vals = annot_groups[uniprot_annots].to_list()
@@ -297,10 +311,7 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     return (
         pd.DataFrame(
             prokka_edges,
-            columns=[
-                "node1",
-                "node2"  # ,
-            ],
+            columns=["node1", "node2"],  # ,
         ),
         prokka_gff,
     )

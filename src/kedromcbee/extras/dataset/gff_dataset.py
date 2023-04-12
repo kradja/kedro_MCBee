@@ -65,6 +65,7 @@ class GffDataSet(AbstractDataSet):
                         gene_id = ""
 
                     scaf = line[: line.find("\t")]
+                    scaf = f"{scaf}_{level}"
                     gff_cont.append(
                         [
                             scaf,

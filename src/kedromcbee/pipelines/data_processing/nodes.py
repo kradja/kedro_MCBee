@@ -264,8 +264,8 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     prokka_gff = prokka_gff.fillna("")
     prokka_gff["length"] = prokka_gff.length.astype(str)
     prokka_edges = []
-    prokka_gff["bin"] = ["b" + str(b) for b in prokka_gff.bin]
-    prokka_gff["gid"] = ["g" + str(g) for g in prokka_gff.gid]
+    # prokka_gff["bin"] = ["b" + str(b) for b in prokka_gff.bin]
+    # prokka_gff["gid"] = ["g" + str(g) for g in prokka_gff.gid]
     merged_prokka_gff_rows = []
     annot_groups = prokka_gff.groupby(["annot", "bin"]).gid.agg(list)
     # Merging genes whose annotation and bin are the same, thus they are effectively the same
@@ -275,23 +275,34 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
             tmp = prokka_gff[
                 (prokka_gff.annot == annot_bin[0]) & (prokka_gff.bin == annot_bin[1])
             ]
-            merged_prokka_gff_rows.extend(tmp.index.tolist())
-            res = ["/".join(set(tmp[col])) for col in tmp.columns]
-            prokka_gff.loc[len(prokka_gff)] = res
+            prokka_gff.loc[tmp.index,'gid'] = "/".join(gids)
+            # From preprocess 
+            #merged_gene_ids = ReturnDict(merged_gene_ids)
+            #annotations["gid"] = annotations.gid.map(merged_gene_ids)  # Duplicates
+            # merged_prokka_gff_rows.extend(tmp.index.tolist())
+            # res = ["/".join(set(tmp[col])) for col in tmp.columns]
+            # prokka_gff.loc[len(prokka_gff)] = res
         else:
             annot_groups[annot_bin] = gids[0]
     # Removing the merged rows
-    prokka_gff = prokka_gff.drop(merged_prokka_gff_rows, axis=0)
+    # prokka_gff = prokka_gff.drop(merged_prokka_gff_rows, axis=0)
     # for duplicate_rows in merged_prokka_gff_rows:
     #    tmp = prokka_gff.loc[duplicate_rows]
     #    res = [",".join(set(tmp[col])) for col in tmp.columns]
     #    # prokka_gff.drop(duplicate_rows, axis=0)
     #    prokka_gff.loc[len(prokka_gff)] = res
 
-    id_bin = prokka_gff.bin.unique()
-    print(id_bin)
+    id_bin = prokka_gff.bin.unique().astype('U')
+    bin_types = set([x[:x.rfind('.')] for x in id_bin])
+    # bin_types_dict = {} # dict.fromkeys(bin_types,[])
+    for btypes in bin_types:
+        # bin_types_dict[btypes] = 
+        sbin = id_bin[np.where(np.char.find(id_bin,btypes) == 0)]
+        edges = list(itertools.combinations(sbin,2))
+        prokka_edges.extend(edges)
     xx = prokka_gff.groupby("gid")[["scaffold", "go"]].agg(set)
-    res = [[",".join(map(str, x)) for x in xx[col]] for col in xx.columns]
+    # go columns is always the same. I must have sorted it
+    res = [["/".join(map(str, x)) for x in xx[col]] for col in xx.columns]
     df = pd.DataFrame(res).T.set_index(xx.index)
     df.columns = xx.columns
     print(df.head())
@@ -313,7 +324,7 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
             prokka_edges,
             columns=["node1", "node2"],  # ,
         ),
-        prokka_gff,
+        df,
     )
 
 

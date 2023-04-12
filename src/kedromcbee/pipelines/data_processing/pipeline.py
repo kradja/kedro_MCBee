@@ -41,7 +41,7 @@ def create_pipeline(**kwargs) -> Pipeline:
             node(
                 func=prokka_edges,
                 inputs="go_gff_prokka",
-                outputs=["prokka_edges", "updated2_gff_prokka"],
+                outputs=["prokka_edges", "updated2_gff_prokka","node_features"],
                 name="prokka_edges",
             ),
             node(

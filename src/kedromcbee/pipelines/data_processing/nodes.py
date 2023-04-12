@@ -272,10 +272,11 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     for annot_bin, gids in annot_groups.items():
         if len(gids) > 1:
             annot_groups[annot_bin] = "/".join(gids)
-            tmp = prokka_gff[
-                (prokka_gff.annot == annot_bin[0]) & (prokka_gff.bin == annot_bin[1])
-            ]
-            prokka_gff.loc[tmp.index,'gid'] = "/".join(gids)
+            tmp = prokka_gff[prokka_gff.gid.isin(gids)].index
+            #tmp = prokka_gff[
+            #    (prokka_gff.annot == annot_bin[0]) & (prokka_gff.bin == annot_bin[1])
+            #]
+            prokka_gff.loc[tmp,'gid'] = "/".join(gids)
             # From preprocess 
             #merged_gene_ids = ReturnDict(merged_gene_ids)
             #annotations["gid"] = annotations.gid.map(merged_gene_ids)  # Duplicates
@@ -302,11 +303,9 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
         prokka_edges.extend(edges)
     xx = prokka_gff.groupby("gid")[["scaffold", "go"]].agg(set)
     # go columns is always the same. I must have sorted it
-    res = [["/".join(map(str, x)) for x in xx[col]] for col in xx.columns]
-    df = pd.DataFrame(res).T.set_index(xx.index)
-    df.columns = xx.columns
-    print(df.head())
-    pdb.set_trace()
+    res = [[",".join(set(x)) for x in xx[col]] for col in xx.columns]
+    node_features = pd.DataFrame(res).T.set_index(xx.index)
+    node_features.columns = xx.columns
     # Creating the gene-gene edges and bin-gene edges
     for uniprot_annots in set(annot_groups.index.get_level_values("annot")):
         vals = annot_groups[uniprot_annots].to_list()
@@ -324,7 +323,7 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
             prokka_edges,
             columns=["node1", "node2"],  # ,
         ),
-        df,
+        prokka_gff, node_features
     )
 
 

@@ -271,7 +271,12 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     # Merging genes whose annotation and bin are the same, thus they are effectively the same
     for annot_bin, gids in annot_groups.items():
         if len(gids) > 1:
-            annot_groups[annot_bin] = "/".join(gids)
+            if "CHMOIKBA_00524" in gids:
+                print(prokka_gff[prokka_gff.gid.str.contains('CHMOIKBA_00535')])
+                # What's happening is that there is a gid merge in high.012 which also affects
+                # low.015. This
+                pdb.set_trace()
+            # annot_groups[annot_bin] = "/".join(gids)
             tmp = prokka_gff[prokka_gff.gid.isin(gids)].index
             #tmp = prokka_gff[
             #    (prokka_gff.annot == annot_bin[0]) & (prokka_gff.bin == annot_bin[1])
@@ -283,8 +288,9 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
             # merged_prokka_gff_rows.extend(tmp.index.tolist())
             # res = ["/".join(set(tmp[col])) for col in tmp.columns]
             # prokka_gff.loc[len(prokka_gff)] = res
-        else:
-            annot_groups[annot_bin] = gids[0]
+        #else:
+        #    annot_groups[annot_bin] = gids[0]
+    annot_groups = prokka_gff.groupby(['annot','bin']).gid.apply(lambda x: '/'.join(set(x)))
     # Removing the merged rows
     # prokka_gff = prokka_gff.drop(merged_prokka_gff_rows, axis=0)
     # for duplicate_rows in merged_prokka_gff_rows:
@@ -294,23 +300,38 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     #    prokka_gff.loc[len(prokka_gff)] = res
 
     id_bin = prokka_gff.bin.unique().astype('U')
-    bin_types = set([x[:x.rfind('.')] for x in id_bin])
     # bin_types_dict = {} # dict.fromkeys(bin_types,[])
-    for btypes in bin_types:
-        # bin_types_dict[btypes] = 
-        sbin = id_bin[np.where(np.char.find(id_bin,btypes) == 0)]
-        edges = list(itertools.combinations(sbin,2))
-        prokka_edges.extend(edges)
     xx = prokka_gff.groupby("gid")[["scaffold", "go"]].agg(set)
     # go columns is always the same. I must have sorted it
     res = [[",".join(set(x)) for x in xx[col]] for col in xx.columns]
     node_features = pd.DataFrame(res).T.set_index(xx.index)
     node_features.columns = xx.columns
+    node_list = list(node_features.index)
+    node_list.extend(list(id_bin))
+    node_id_conversion = dict(zip(node_list,range(len(node_list))))
     # Creating the gene-gene edges and bin-gene edges
-    for uniprot_annots in set(annot_groups.index.get_level_values("annot")):
-        vals = annot_groups[uniprot_annots].to_list()
-        bin_gene = zip(annot_groups[uniprot_annots].index, annot_groups[uniprot_annots])
-        prokka_edges.extend(list(bin_gene))
+    bin_types = set([x[:x.rfind('.')] for x in id_bin])
+    for btypes in bin_types:
+        # bin_types_dict[btypes] = 
+        sbin = id_bin[np.where(np.char.find(id_bin,btypes) == 0)]
+        # convert from bin to id
+        convert_sbin = np.vectorize(node_id_conversion.__getitem__)(sbin)
+        edges = list(itertools.combinations(convert_sbin,2))
+        prokka_edges.extend(edges)
+    annot_groups2 = annot_groups.map(node_id_conversion)#.astype(int)
+    pdb.set_trace()
+    annot_conversion = annot_groups.droplevel(0)
+    annot_conversion.index = annot_conversion.index.map(node_id_conversion).astype(int)
+    bin_genes = list(annot_conversion.items())
+    prokka_edges.extend(bin_genes)
+    xp = annot_groups.droplevel(1)
+    values = xp.groupby('annot').agg(list)
+    # annot_groups.index.get_level_values(1).map(node_id_conversion)
+    #for uniprot_annots in set(annot_groups.index.get_level_values("annot")):
+        #vals = annot_groups[uniprot_annots].to_list()
+    for vals in values:
+        # bin_gene = list(annot_groups[uniprot_annots].items())
+        # prokka_edges.extend(bin_gene)
         if len(vals) == 1:
             continue
         elif len(vals) == 2:
@@ -318,6 +339,7 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
         else:
             edges = list(itertools.combinations(vals, 2))
             prokka_edges.extend(edges)
+    pdb.set_trace()
     return (
         pd.DataFrame(
             prokka_edges,

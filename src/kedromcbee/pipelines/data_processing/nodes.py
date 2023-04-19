@@ -277,10 +277,10 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
                 # low.015. This
                 pdb.set_trace()
             # annot_groups[annot_bin] = "/".join(gids)
-            tmp = prokka_gff[prokka_gff.gid.isin(gids)].index
-            #tmp = prokka_gff[
-            #    (prokka_gff.annot == annot_bin[0]) & (prokka_gff.bin == annot_bin[1])
-            #]
+            #tmp = prokka_gff[prokka_gff.gid.isin(gids)].index
+            tmp = prokka_gff[
+                (prokka_gff.annot == annot_bin[0]) & (prokka_gff.bin == annot_bin[1])
+            ].index
             prokka_gff.loc[tmp,'gid'] = "/".join(gids)
             # From preprocess 
             #merged_gene_ids = ReturnDict(merged_gene_ids)

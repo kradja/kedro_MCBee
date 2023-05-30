@@ -387,10 +387,7 @@ def prokka_edges(prokka_gff: pd.DataFrame, nosema_conc: pd.DataFrame) -> Union[p
     #    else:
     #        edges = list(itertools.combinations(vals, 2))
     #        prokka_edges.extend(edges)
-    return (
-        prokka_gff,
-        node_features,
-    )
+    return prokka_gff
 
 
 def _flat_func(x):

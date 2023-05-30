@@ -18,7 +18,7 @@ partition_prokka_faa:
     path: data/01_raw/prokka_output_nometa #control.001/
     filename_suffix: ".faa"
     layer: raw
-    dataset: 
+    dataset:
         type: biosequence.BioSequenceDataSet
         load_args: {'format': 'fasta'}
         save_args: {'format': 'fasta'}
@@ -28,8 +28,13 @@ partition_prokka_gff:
     path: data/01_raw/prokka_output_nometa #control.001/
     filename_suffix: ".gff"
     layer: raw
-    dataset: 
+    dataset:
         type: kedromcbee.extras.dataset.gff_dataset.GffDataSet
+
+nosema_concentrations:
+    type: pandas.CSVDataSet
+    filepath: data/01_raw/nosema_concentrations_lvl.csv
+    layer: raw
 
 data_processing.fasta_prokka:
     type: biosequence.BioSequenceDataSet
@@ -136,7 +141,7 @@ bee_graph: #networks.b
     filepath: data/04_feature/bee_graph.json
     layer: feature
 
-annot_graph: 
+annot_graph:
     type: networkx.JSONDataSet
     filepath: data/04_feature/annot_graph.json
     layer: feature

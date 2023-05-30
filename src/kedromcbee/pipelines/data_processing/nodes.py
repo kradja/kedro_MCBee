@@ -37,6 +37,15 @@ def _parse_protein_length(prot_sequences, unique_gids):
     return {gid: len(prot_sequences[gid]) for gid in unique_gids}
 
 
+def _merge_rows(df):
+    df = df.groupby("gid").agg(set)
+    res = [[",".join(map(str, x)) for x in df[col]] for col in df.columns]
+    fdf = pd.DataFrame(res).T.set_index(df.index)
+    fdf.columns = df.columns
+    print("End")
+    return fdf
+
+
 def _merge_duplicate_info(df):
     """This function merges duplicate information in a dataframe and then merges based on
     a comma. It had some hardcoded column for index and groupby
@@ -256,7 +265,7 @@ def go_annotations(prokka_gff: pd.DataFrame) -> pd.DataFrame:
     return prokka_gff
 
 
-def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
+def prokka_edges(prokka_gff: pd.DataFrame, nosema_conc: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     """I need to add the nosema intensity here. I need to implement multiprocessing here. It is taking wayyyyy too long
     I need to also take into account what's being not included in prokka_gff
     If two proteins are in the same bin with the same annotation then they are the same!
@@ -266,31 +275,71 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     prokka_edges = []
     # prokka_gff["bin"] = ["b" + str(b) for b in prokka_gff.bin]
     # prokka_gff["gid"] = ["g" + str(g) for g in prokka_gff.gid]
-    merged_prokka_gff_rows = []
+    merged_prokka_gff_rows = {}
     annot_groups = prokka_gff.groupby(["annot", "bin"]).gid.agg(list)
+    # annot_groups = prokka_gff.groupby("annot")["bin","gid"].agg(list)
     # Merging genes whose annotation and bin are the same, thus they are effectively the same
-    for annot_bin, gids in annot_groups.items():
-        if len(gids) > 1:
-            if "CHMOIKBA_00524" in gids:
-                print(prokka_gff[prokka_gff.gid.str.contains('CHMOIKBA_00535')])
-                # What's happening is that there is a gid merge in high.012 which also affects
-                # low.015. This
-                pdb.set_trace()
-            # annot_groups[annot_bin] = "/".join(gids)
-            #tmp = prokka_gff[prokka_gff.gid.isin(gids)].index
-            tmp = prokka_gff[
-                (prokka_gff.annot == annot_bin[0]) & (prokka_gff.bin == annot_bin[1])
-            ].index
-            prokka_gff.loc[tmp,'gid'] = "/".join(gids)
-            # From preprocess 
-            #merged_gene_ids = ReturnDict(merged_gene_ids)
-            #annotations["gid"] = annotations.gid.map(merged_gene_ids)  # Duplicates
-            # merged_prokka_gff_rows.extend(tmp.index.tolist())
-            # res = ["/".join(set(tmp[col])) for col in tmp.columns]
-            # prokka_gff.loc[len(prokka_gff)] = res
-        #else:
-        #    annot_groups[annot_bin] = gids[0]
-    annot_groups = prokka_gff.groupby(['annot','bin']).gid.apply(lambda x: '/'.join(set(x)))
+    for annot in set(annot_groups.index.get_level_values("annot")):
+        annot_gids = annot_groups.loc[annot].explode()
+        merged_bins = annot_gids[annot_gids.duplicated(keep=False)].reset_index()
+        if not merged_bins.empty:
+            merged_bins = merged_bins.groupby("gid").bin.agg(set)
+            cra = {
+                element: "/".join(sublist)
+                for sublist in merged_bins
+                for element in sublist
+            }
+            annot_gids.index = annot_gids.index.map(cra)
+            res7 = annot_gids.groupby(level=0).agg(set).to_dict()
+            for mbins, mgids in res7.items():
+                mask = prokka_gff.gid.isin(mgids)
+                mind = np.where(mask == True)[0]
+                prokka_gff.loc[mind, "gid"] = "/".join(mgids)
+
+    prokka_gff = _merge_rows(prokka_gff)
+    # for ind, (annot_bin, gids) in enumerate(annot_groups.items()):
+    #    if len(gids) > 1:
+    #        annot_gids = annot_groups.loc[annot_bin[0]].explode()
+    #        merged_bins = annot_gids[annot_gids.duplicated(keep=False)].reset_index()
+    #        if not merged_bins.empty:
+    #            merged_bins = merged_bins.groupby("gid").bin.agg(set)
+    #            cra = {
+    #                element: "/".join(sublist)
+    #                for sublist in merged_bins
+    #                for element in sublist
+    #            }
+    #            cra = ReturnDict(cra)
+    #            annot_gids.index = annot_gids.index.map(cra)
+    #            res7 = annot_gids.groupby(level=0).agg(set)
+
+    #        tt = prokka_gff[prokka_gff.annot == "A0A0H2VDN9"]
+    #        pdb.set_trace()
+    #        if "CHMOIKBA_00524" in gids:
+    #            print(prokka_gff[prokka_gff.gid.str.contains("CHMOIKBA_00535")])
+    #            # What's happening is that there is a gid merge in high.012 which also affects
+    #            # low.015. This
+    #        # annot_groups[annot_bin] = "/".join(gids)
+    #        # Does a gid exist in multiple bins?
+    #        tmp = prokka_gff[prokka_gff.gid.isin(gids)].index
+    #        if len(tmp) > len(gids):
+    #            # merged_prokka_gff_rows[annot_bin] "/".join(gids)
+    #            pdb.set_trace()
+    #        merged_prokka_gff_rows[annot_bin] = "/".join(gids)
+    #        # tmp = prokka_gff[
+    #        #    (prokka_gff.annot == annot_bin[0]) & (prokka_gff.bin == annot_bin[1])
+    #        # ].index
+    #        prokka_gff.loc[tmp, "gid"] = "/".join(gids)
+    #        # From preprocess
+    #        # merged_gene_ids = ReturnDict(merged_gene_ids)
+    #        # annotations["gid"] = annotations.gid.map(merged_gene_ids)  # Duplicates
+    #        # merged_prokka_gff_rows.extend(tmp.index.tolist())
+    #        # res = ["/".join(set(tmp[col])) for col in tmp.columns]
+    #        # prokka_gff.loc[len(prokka_gff)] = res
+    #    # else:
+    #    #    annot_groups[annot_bin] = gids[0]
+    # annot_groups = prokka_gff.groupby(["annot", "bin"]).gid.apply(
+    #    lambda x: "/".join(set(x))
+    # )
     # Removing the merged rows
     # prokka_gff = prokka_gff.drop(merged_prokka_gff_rows, axis=0)
     # for duplicate_rows in merged_prokka_gff_rows:
@@ -299,53 +348,48 @@ def prokka_edges(prokka_gff: pd.DataFrame) -> Union[pd.DataFrame, pd.DataFrame]:
     #    # prokka_gff.drop(duplicate_rows, axis=0)
     #    prokka_gff.loc[len(prokka_gff)] = res
 
-    id_bin = prokka_gff.bin.unique().astype('U')
-    # bin_types_dict = {} # dict.fromkeys(bin_types,[])
-    xx = prokka_gff.groupby("gid")[["scaffold", "go"]].agg(set)
-    # go columns is always the same. I must have sorted it
-    res = [[",".join(set(x)) for x in xx[col]] for col in xx.columns]
-    node_features = pd.DataFrame(res).T.set_index(xx.index)
-    node_features.columns = xx.columns
-    node_list = list(node_features.index)
-    node_list.extend(list(id_bin))
-    node_id_conversion = dict(zip(node_list,range(len(node_list))))
-    # Creating the gene-gene edges and bin-gene edges
-    bin_types = set([x[:x.rfind('.')] for x in id_bin])
-    for btypes in bin_types:
-        # bin_types_dict[btypes] = 
-        sbin = id_bin[np.where(np.char.find(id_bin,btypes) == 0)]
-        # convert from bin to id
-        convert_sbin = np.vectorize(node_id_conversion.__getitem__)(sbin)
-        edges = list(itertools.combinations(convert_sbin,2))
-        prokka_edges.extend(edges)
-    annot_groups2 = annot_groups.map(node_id_conversion)#.astype(int)
-    pdb.set_trace()
-    annot_conversion = annot_groups.droplevel(0)
-    annot_conversion.index = annot_conversion.index.map(node_id_conversion).astype(int)
-    bin_genes = list(annot_conversion.items())
-    prokka_edges.extend(bin_genes)
-    xp = annot_groups.droplevel(1)
-    values = xp.groupby('annot').agg(list)
+    ## Creates a unique list of nodes if I were to create a network of bins and genes
+    #id_bin = prokka_gff.bin.unique().astype("U")
+    #xx = prokka_gff.groupby("gid")[["scaffold", "go"]].agg(set)
+    #res = [[",".join(set(x)) for x in xx[col]] for col in xx.columns]
+    #node_features = pd.DataFrame(res).T.set_index(xx.index)
+    #node_features.columns = xx.columns
+    #node_list = list(node_features.index)
+    #node_list.extend(list(id_bin))
+    #node_id_conversion = dict(zip(node_list, range(len(node_list))))
+
+    ## Creating the gene-gene edges and bin-gene edges
+    #bin_types = set([x[: x.rfind(".")] for x in id_bin])
+    #for btypes in bin_types:
+    #    # bin_types_dict[btypes] =
+    #    sbin = id_bin[np.where(np.char.find(id_bin, btypes) == 0)]
+    #    # convert from bin to id
+    #    convert_sbin = np.vectorize(node_id_conversion.__getitem__)(sbin)
+    #    edges = list(itertools.combinations(convert_sbin, 2))
+    #    prokka_edges.extend(edges)
+    #annot_groups2 = annot_groups.map(node_id_conversion)  # .astype(int)
+    #annot_conversion = annot_groups.droplevel(0)
+    #annot_conversion.index = annot_conversion.index.map(node_id_conversion).astype(int)
+    #bin_genes = list(annot_conversion.items())
+    #prokka_edges.extend(bin_genes)
+    #xp = annot_groups.droplevel(1)
+    #values = xp.groupby("annot").agg(list)
     # annot_groups.index.get_level_values(1).map(node_id_conversion)
-    #for uniprot_annots in set(annot_groups.index.get_level_values("annot")):
-        #vals = annot_groups[uniprot_annots].to_list()
-    for vals in values:
-        # bin_gene = list(annot_groups[uniprot_annots].items())
-        # prokka_edges.extend(bin_gene)
-        if len(vals) == 1:
-            continue
-        elif len(vals) == 2:
-            prokka_edges.append(tuple(vals))
-        else:
-            edges = list(itertools.combinations(vals, 2))
-            prokka_edges.extend(edges)
-    pdb.set_trace()
+    # for uniprot_annots in set(annot_groups.index.get_level_values("annot")):
+    # vals = annot_groups[uniprot_annots].to_list()
+    #for vals in values:
+    #    # bin_gene = list(annot_groups[uniprot_annots].items())
+    #    # prokka_edges.extend(bin_gene)
+    #    if len(vals) == 1:
+    #        continue
+    #    elif len(vals) == 2:
+    #        prokka_edges.append(tuple(vals))
+    #    else:
+    #        edges = list(itertools.combinations(vals, 2))
+    #        prokka_edges.extend(edges)
     return (
-        pd.DataFrame(
-            prokka_edges,
-            columns=["node1", "node2"],  # ,
-        ),
-        prokka_gff, node_features
+        prokka_gff,
+        node_features,
     )
 
 

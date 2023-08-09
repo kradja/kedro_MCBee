@@ -1,4 +1,14 @@
-# test_kedromcbee
+# test\_kedromcbee
+
+main branch
+This branch focuses on just merging genes with identical sequences but not accounting for anything else.
+
+merged\_genes
+This branch aims to merge genes who have the same annotation and are placed in the same Bin by MaxBin. These
+genes must be the same even if their sequence isn't identical. Could be due to some sequencing error
+
+gene\_network
+Gene network aims to build a graph instead of a table
 
 This project is running on python 3.10.8
 

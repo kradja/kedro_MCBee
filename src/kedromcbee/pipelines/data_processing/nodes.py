@@ -34,7 +34,6 @@ def _parse_annotation_id(x):
 
 def _parse_protein_length(prot_sequences, unique_gids):
     prot_sequences_dict = SeqIO.to_dict(prot_sequences)
-    pdb.set_trace()
     return {gid: len(prot_sequences_dict[gid]) for gid in unique_gids}
 
 

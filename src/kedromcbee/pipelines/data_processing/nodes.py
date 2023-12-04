@@ -158,9 +158,10 @@ def prokka_bins_gff(
     prokka_bins = dict(concat_gff[["prokka_unique", "bin"]].values)
     prokka_gff = concat_gff.drop(["prokka_unique"], axis=1)
 
-    uni_prokka_gff = prokka_gff[prokka_gff.annot.str.contains("UniProtKB")]
-    rest_prokka_gff = prokka_gff[~prokka_gff.annot.str.contains("UniProtKB")]
-    pdb.set_trace()
+    uni_prokka_gff = prokka_gff[prokka_gff.annot.str.contains("UniProtKB")].copy(deep=True)
+    rest_prokka_gff = prokka_gff[~prokka_gff.annot.str.contains("UniProtKB")].copy(deep=True)
+    nosema_levels = nosema_conc[["level","concentration"]].groupby('level').agg(np.mean)['concentration'].to_dict()
+    uni_prokka_gff['nosema'] = uni_prokka_gff.bin.str[:-4].map(nosema_levels)
     return uni_prokka_gff, rest_prokka_gff, prokka_bins
 
 
@@ -282,12 +283,11 @@ def prokka_edges(
     # Merging genes whose annotation and bin are the same, thus they are effectively the same
 
     prokka_gff2 = _merge_rows(prokka_gff)
-    pdb.set_trace()
     pg = prokka_gff.reset_index()
     res = pg.groupby(["annot", "bin"]).gid.agg(list)
     g1 = res[res.map(len) > 1]
     print(g1.head())
-    return prokka_gff, g1
+    return prokka_gff2, g1
 
 
 def _flat_func(x):

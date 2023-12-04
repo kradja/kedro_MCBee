@@ -22,7 +22,7 @@ def create_pipeline(**kwargs) -> Pipeline:
             ),
             node(
                 func=prokka_bins_gff,
-                inputs="partition_prokka_gff",
+                inputs=["partition_prokka_gff","nosema_concentrations"],
                 outputs=["gff_prokka", "annots_gff_prokka", "prokka_bins"],
                 name="prokka_bins_gff_node",
             ),

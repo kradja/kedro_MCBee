@@ -145,7 +145,7 @@ def preprocess_prokka_sequences(
 
 
 def prokka_bins_gff(
-    partition_prokka_gff: PartitionedDataSet,
+		partition_prokka_gff: PartitionedDataSet, nosema_conc: pd.DataFrame
 ) -> Union[pd.DataFrame, pd.DataFrame, JSONDataSet]:
     """Parsing prokka annotation information from the multiple runs
     I don't need to keep most of the information like gene or annotation info
@@ -160,6 +160,7 @@ def prokka_bins_gff(
 
     uni_prokka_gff = prokka_gff[prokka_gff.annot.str.contains("UniProtKB")]
     rest_prokka_gff = prokka_gff[~prokka_gff.annot.str.contains("UniProtKB")]
+    pdb.set_trace()
     return uni_prokka_gff, rest_prokka_gff, prokka_bins
 
 

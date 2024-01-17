@@ -113,12 +113,6 @@ go_uni:
   filepath: data/04_feature/go_uniprot.json
   layer: feature
 
-prokka_edges:
-    type: pandas.CSVDataSet
-    filepath: data/03_primary/prokka_edges.csv
-    layer: primary
-    load_args:
-            dtype: {"node1":"object","node2":"object","weight":"int8","edge_length":"float64","edge_scaf":"object","edge_annot":"object"} # "layer2":"category"} # ,
 node_features:
     type: pandas.CSVDataSet
     filepath: data/03_primary/node_features.csv

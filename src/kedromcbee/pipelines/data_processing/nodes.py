@@ -302,6 +302,9 @@ def go_ontology(go_prokka: pd.DataFrame) -> nxJSONDataSet:
     print(sour)
     xx = go_annots.go_term.to_list()
     sub = graph.subgraph(xx)
+    # children_1level = [n for n, _ in graph.in_edges('GO_0046872')]
+    # children 1 level down
+    # [print(x) for x in sub.predecessors('GO_0016209')]
     return (
         dict(zip(go_df.uniprots, go_df.go_term)),
         dict(zip(go_annots.go_term, go_annots.uniprots)),

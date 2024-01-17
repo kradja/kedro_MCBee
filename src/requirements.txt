@@ -1,7 +1,13 @@
-kedro[pandas.CSVDataSet, pandas.ParquetDataSet,networkx.JSONDataSet,json.JSONDataSet,biosequence.BioSequenceDataSet]==0.18.3
-kedro-telemetry~=0.2.2
-kedro-viz~=5.1.1
-pytest-cov~=4.0
-pytest~=7.2
-SPARQLWrapper~=2.0.0
-obonet~=0.2.2
+python=3.11
+pandas
+networkx
+biopython
+kedro
+kedro-telemetry
+kedro-viz
+pytest-cov
+pytest
+SPARQLWrapper
+obonet
+python-json-logger
+

@@ -60,42 +60,6 @@ def _merge_duplicate_info(df):
     final = pd.concat([unique_df, joined_duplicates], axis=0)
     return final
 
-
-def _creating_edges_list_multilayer(annot, elist, edge, prokka_gff):
-    """creating edges for multilayer networks using the list method
-    [node1 layer1 node2 layer2 weight]
-
-    What if a node comes from multiple bins. I need to check
-    if both nodes have / then I am not accounting the types for both of them!
-    """
-    tmp = []
-    edge_length = []
-    edge_scaf = set()
-    for node in edge:
-        length, level, scaf_level = prokka_gff.loc[node][["length", "bin", "scaffold"]]
-        # tmp.append(f"{node}|{level}")
-        if "," in length:
-            length = np.mean(np.array(length.split(",")).astype(np.int32))
-        else:
-            length = int(length)
-        tmp.append(node)
-        tmp.append(level)
-        edge_length.append(length)
-        edge_scaf.add(scaf_level)
-    # if "low" in tmp[0] or "low" in tmp[1]:
-    #    tmp.append(1)
-    # else:
-    #    tmp.append(-1)
-    tmp.append(np.mean(edge_length))
-    if len(edge_scaf) == 1:
-        tmp.append(edge_scaf.pop())
-    else:
-        tmp.append("")
-    tmp.append(annot)
-    elist.append(tmp[:])
-    return elist
-
-
 def _merge_duplicate_seqrecords(seqrecords):
     """Removing protein sequences that are have the description and annotation of hypothetical protein
     If I merge two sequences that are the same, I need to merge the ids as well

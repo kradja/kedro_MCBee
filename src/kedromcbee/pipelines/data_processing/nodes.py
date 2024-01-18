@@ -39,7 +39,7 @@ def _parse_protein_length(prot_sequences, unique_gids):
 
 def _merge_rows(df):
     df = df.groupby("gid").agg(set)
-    res = [[",".join(map(str, x)) for x in df[col]] for col in df.columns]
+    res = [["|".join(map(str, x)) if col != 'nosema' else np.mean(list(x)) for x in df[col]] for col in df.columns]
     fdf = pd.DataFrame(res).T.set_index(df.index)
     fdf.columns = df.columns
     print("End")
@@ -230,30 +230,6 @@ def go_annotations(prokka_gff: pd.DataFrame) -> pd.DataFrame:
     prokka_gff["go"] = prokka_gff.annot.map(dict_df)
     return prokka_gff
 
-
-def prokka_edges(
-    prokka_gff: pd.DataFrame, nosema_conc: pd.DataFrame, prot_sequences: BioSequenceDataSet
-) -> Union[pd.DataFrame, pd.DataFrame]:
-    """I need to add the nosema intensity here. I need to implement multiprocessing here. It is taking wayyyyy too long
-    I need to also take into account what's being not included in prokka_gff
-    If two proteins are in the same bin with the same annotation then they are the same!
-    """
-    prokka_gff = prokka_gff.fillna("")
-    prokka_gff["length"] = prokka_gff.length.astype(str)
-    # prokka_edges = []
-    # prokka_gff["bin"] = ["b" + str(b) for b in prokka_gff.bin]
-    # prokka_gff["gid"] = ["g" + str(g) for g in prokka_gff.gid]
-    # annot_groups = prokka_gff.groupby("annot")["bin","gid"].agg(list)
-    # Merging genes whose annotation and bin are the same, thus they are effectively the same
-
-    prokka_gff2 = _merge_rows(prokka_gff)
-    pg = prokka_gff.reset_index()
-    res = pg.groupby(["annot", "bin"]).gid.agg(list)
-    g1 = res[res.map(len) > 1]
-    print(g1.head())
-    return prokka_gff2, g1
-
-
 def _flat_func(x):
     return [item for sublist in x for item in sublist]
 
@@ -310,3 +286,26 @@ def go_ontology(go_prokka: pd.DataFrame) -> nxJSONDataSet:
         dict(zip(go_annots.go_term, go_annots.uniprots)),
         sub,
     )
+
+def prokka_edges(
+    prokka_gff: pd.DataFrame, nosema_conc: pd.DataFrame, prot_sequences: BioSequenceDataSet
+) -> Union[pd.DataFrame, pd.DataFrame]:
+    """I need to add the nosema intensity here. I need to implement multiprocessing here. It is taking wayyyyy too long
+    I need to also take into account what's being not included in prokka_gff
+    If two proteins are in the same bin with the same annotation then they are the same!
+    """
+    prokka_gff = prokka_gff.fillna("")
+    prokka_gff["length"] = prokka_gff.length.astype(str)
+    # prokka_edges = []
+    # prokka_gff["bin"] = ["b" + str(b) for b in prokka_gff.bin]
+    # prokka_gff["gid"] = ["g" + str(g) for g in prokka_gff.gid]
+    # annot_groups = prokka_gff.groupby("annot")["bin","gid"].agg(list)
+    # Merging genes whose annotation and bin are the same, thus they are effectively the same
+
+    prokka_gff2 = _merge_rows(prokka_gff)
+    pg = prokka_gff2.reset_index()
+    res = pg.groupby(["annot", "bin"]).gid.agg(list)
+    g1 = res[res.map(len) > 1]
+    pdb.set_trace()
+    print(g1.head())
+    return pg, g1
